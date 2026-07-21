@@ -1,0 +1,150 @@
+{
+  "date": "2026-07-21",
+  "title": "동료 묘사 4스텝 전략 (Description 질문)",
+  "source": "https://www.youtube.com/watch?v=7S_b7O64B5c",
+  "summary": [
+    "OPIC 체점 기준 4가지: Function(핵심), Text Type(다양성), Content & Context(집중), Accuracy — 4스텝 전략이 이 순서를 자연스럽게 커버한다",
+    "Step 1: 핵심 메인 포인트를 한 문장으로 명확하게 — '나는 ~를 존경한다, 왜냐면 항상 긍정적이기 때문'",
+    "Step 2: 다양성 — 핵심 외 다른 좋은 특성 2가지를 예시로 보여줘 텍스트 타입 점수 확보",
+    "Step 3: Step 1 핵심으로 돌아오며 더 깊이 — 반전(and yet / but)으로 구체적 상황 추가",
+    "Step 4: 깔끔한 마무리 — 'in a nutshell'처럼 요약 표현으로 끝내기",
+    "한국인 자주 실수: 'she looks hard(X)' → 'going through a hard time(O)', 'my condition is bad(X)' → 'I'm feeling pretty bad(O)'",
+    "'I want to talk about' 대신 'Let me tell you about'가 훨씬 자연스럽고, one of my seniors처럼 집단 속 한 명임을 표현하면 더 정확"
+  ],
+  "keyExpressions": [
+    {
+      "en": "Let me tell you about one of my seniors at work",
+      "ko": "직장 선배 중 한 명에 대해 얘기해 볼게요",
+      "note": "'I want to talk about'보다 훨씬 자연스러운 시작"
+    },
+    {
+      "en": "I really admire her because she's always so positive",
+      "ko": "항상 너무 긍정적이라서 정말 존경한다",
+      "note": "admire = respect와 유사, so로 감정 강조"
+    },
+    {
+      "en": "Of course, she has other great qualities as well",
+      "ko": "물론 다른 좋은 점들도 있다",
+      "note": "Step 2 시작 전환 표현, of course가 자연스러운 연결"
+    },
+    {
+      "en": "For example, she's never late for work",
+      "ko": "예를 들어, 절대 지각하지 않는다",
+      "note": "첫 번째 예시"
+    },
+    {
+      "en": "She also buys coffee for the team almost every day, which I think is awesome",
+      "ko": "거의 매일 팀한테 커피를 사준다, 그게 정말 좋다고 생각한다",
+      "note": "which + 의견으로 자연스럽게 감정 추가"
+    },
+    {
+      "en": "The one thing I love about her the most is that she's never negative",
+      "ko": "내가 그녀에 대해 제일 좋아하는 한 가지는 절대 부정적이지 않다는 것이다",
+      "note": "Step 3 핵심 복귀 패턴, 강력한 문장 구조"
+    },
+    {
+      "en": "She's actually pregnant now, and yet she never complains",
+      "ko": "사실 지금 임신 중인데, 그럼에도 불구하고 절대 불평하지 않는다",
+      "note": "and yet = 역접 접속사, 훨씬 부드럽고 세련된 표현"
+    },
+    {
+      "en": "She's always hard-working, which I truly respect",
+      "ko": "항상 열심히 일한다, 그게 정말 존경스럽다",
+      "note": "which I truly respect — 의견/감정을 which로 붙이는 패턴"
+    },
+    {
+      "en": "So yeah, that's my senior in a nutshell",
+      "ko": "그러니까, 한마디로 내 선배는 그런 사람이다",
+      "note": "Step 4 마무리, in a nutshell = 요약하자면"
+    },
+    {
+      "en": "She is going through a hard time",
+      "ko": "힘든 시간을 보내고 있다",
+      "note": "'she looks hard(X)' 대신 쓸 자연스러운 표현"
+    },
+    {
+      "en": "I'm feeling pretty bad",
+      "ko": "컨디션이 안 좋다",
+      "note": "'My condition is bad(X)' 대신 — condition은 사물에 쓰는 게 자연스러움"
+    },
+    {
+      "en": "She's great in every way",
+      "ko": "모든 면에서 훌륭하다",
+      "note": "마무리 한 문장 추가용"
+    }
+  ],
+  "cards": [
+    {
+      "id": "2026-07-21-1",
+      "front": "~에 대해 얘기해 볼게요 (자연스럽게)",
+      "back": "Let me tell you about...",
+      "example": "Let me tell you about one of my seniors at work."
+    },
+    {
+      "id": "2026-07-21-2",
+      "front": "직장 선배 중 한 명 (집단 속 한 명 표현)",
+      "back": "one of my seniors at work",
+      "example": "Let me tell you about one of my seniors at work."
+    },
+    {
+      "id": "2026-07-21-3",
+      "front": "~라서 정말 존경한다/감탄한다",
+      "back": "I really admire her because...",
+      "example": "I really admire her because she's always so positive."
+    },
+    {
+      "id": "2026-07-21-4",
+      "front": "항상 너무 긍정적이다 (감정 강조 포함)",
+      "back": "she's always so positive",
+      "example": "I really admire her because she's always so positive."
+    },
+    {
+      "id": "2026-07-21-5",
+      "front": "물론 다른 좋은 점들도 있다 (Step 2 시작)",
+      "back": "Of course, she has other great qualities as well.",
+      "example": "Of course, she has other great qualities as well."
+    },
+    {
+      "id": "2026-07-21-6",
+      "front": "~라고 생각한다를 문장 끝에 자연스럽게 붙이기",
+      "back": "...which I think is awesome",
+      "example": "She also buys coffee for the team almost every day, which I think is awesome."
+    },
+    {
+      "id": "2026-07-21-7",
+      "front": "내가 ~에 대해 제일 좋아하는 한 가지는 ~이다 (Step 3 핵심 복귀)",
+      "back": "The one thing I love about [her] the most is that...",
+      "example": "The one thing I love about her the most is that she's never negative."
+    },
+    {
+      "id": "2026-07-21-8",
+      "front": "사실 지금 임신 중인데, 그럼에도 불구하고 절대 불평하지 않는다",
+      "back": "She's actually pregnant now, and yet she never complains.",
+      "example": "She's actually pregnant now, and yet she never complains."
+    },
+    {
+      "id": "2026-07-21-9",
+      "front": "항상 열심히 일한다 — 그게 정말 존경스럽다 (which 패턴)",
+      "back": "She's always hard-working, which I truly respect.",
+      "example": "She's always hard-working, which I truly respect."
+    },
+    {
+      "id": "2026-07-21-10",
+      "front": "한마디로 말하면 / 요약하자면 (마무리)",
+      "back": "in a nutshell",
+      "example": "So yeah, that's my senior in a nutshell."
+    },
+    {
+      "id": "2026-07-21-11",
+      "front": "힘든 시간을 보내고 있다 (she looks hard 대신)",
+      "back": "She is going through a hard time.",
+      "example": "She is going through a hard time, but she never gives up."
+    },
+    {
+      "id": "2026-07-21-12",
+      "front": "컨디션이 안 좋다 (my condition is bad 대신)",
+      "back": "I'm feeling pretty bad.",
+      "example": "I'm feeling pretty bad today, but I'll manage."
+    }
+  ]
+}
