@@ -1,0 +1,22 @@
+{
+  "date": "2026-07-21",
+  "title": "자기소개 - 직업과 일상 묘사",
+  "source": "OPIC 샘플",
+  "summary": [
+    "자기소개 시 직업, 근무 환경, 일상 루틴 순서로 말하면 자연스럽다",
+    "현재 진행형(I'm currently ~ing)을 활용하면 생동감 있게 들린다",
+    "숫자와 구체적 세부사항을 넣으면 답변이 풍부해 보인다"
+  ],
+  "keyExpressions": [
+    { "en": "I work for a mid-sized company", "ko": "중소기업에 다니다", "note": "work for + 회사명/규모" },
+    { "en": "I'm currently in charge of", "ko": "~을 담당하고 있다", "note": "담당 업무 설명할 때" },
+    { "en": "I usually get to work around 9", "ko": "보통 9시쯤 출근한다", "note": "get to work = 직장에 도착하다" },
+    { "en": "I've been working there for about", "ko": "약 ~ 동안 거기서 일하고 있다", "note": "현재완료 진행형으로 경력 표현" }
+  ],
+  "cards": [
+    { "id": "2026-07-21-1", "front": "중소기업에 다니다", "back": "I work for a mid-sized company", "example": "I work for a mid-sized IT company in Seoul." },
+    { "id": "2026-07-21-2", "front": "~을 담당하고 있다", "back": "I'm currently in charge of", "example": "I'm currently in charge of the marketing team." },
+    { "id": "2026-07-21-3", "front": "보통 9시쯤 출근한다", "back": "I usually get to work around 9", "example": "I usually get to work around 9 in the morning." },
+    { "id": "2026-07-21-4", "front": "약 3년 동안 거기서 일하고 있다", "back": "I've been working there for about 3 years", "example": "I've been working there for about 3 years now." }
+  ]
+}

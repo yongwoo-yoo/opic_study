@@ -1,0 +1,15 @@
+{
+  "name": "OPIC 스터디",
+  "short_name": "OPIC",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#f9f9f7",
+  "theme_color": "#2563eb",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
