@@ -1,5 +1,5 @@
-const SHELL_CACHE = 'opic-shell-v1';
-const SHELL = ['/', '/index.html', '/app.js', '/style.css', '/manifest.json'];
+const SHELL_CACHE = 'opic-shell-v2';
+const SHELL = ['./', 'index.html', 'app.js', 'style.css', 'manifest.json'];
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(SHELL_CACHE).then(c => c.addAll(SHELL)));
