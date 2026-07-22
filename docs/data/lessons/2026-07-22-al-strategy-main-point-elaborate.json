@@ -1,0 +1,150 @@
+{
+  "date": "2026-07-22",
+  "title": "AL 전략: 메인 포인트 하나를 크게 만들기 + Q&A",
+  "source": "오픽노잼 YouTube Q&A",
+  "summary": [
+    "level / mark / grade / score — 모두 같은 뜻으로 혼용 가능. '점수 뭐 받았어?' = What level/mark/grade/score did you get?",
+    "유명인 언급 금지 — 채점자가 나보다 훨씬 많이 알 수 있고, 내가 조금만 틀려도 크게 감점. 모르는 사람 이야기하는 게 안전",
+    "이해 못 한 질문은 스킵 가능 — 콤보셋 3문제 전체를 스킵하고도 IH 받은 학생 있음",
+    "시제 규칙: 질문이 과거 경험을 묻는다면 과거 시제로, 현재 묘사를 묻는다면 현재 시제로",
+    "핵심 전략 (AL 시범): 메인 포인트 하나만 잡고 그것을 계속 '크게' 만들어라 — 다른 랜덤한 포인트 추가 X",
+    "스크립트는 길을 보여줄 수 있지만 결국 우리가 직접 걸어야 한다 — 스크립트 의존에서 벗어나야 진짜 실력 향상",
+    "Simile(비유)는 묘사(description) 질문에만 써라 — 행동 기반 질문(재활용 방법 등)에는 부자연스럽다"
+  ],
+  "keyExpressions": [
+    {
+      "en": "kill two birds with one stone",
+      "ko": "일석이조 / 한 번에 두 가지를 해결하다",
+      "note": "매우 자주 쓰이는 숙어"
+    },
+    {
+      "en": "a spontaneous trip",
+      "ko": "즉흥 여행",
+      "note": "미리 계획하지 않은 여행 묘사에 활용"
+    },
+    {
+      "en": "as soon as we set foot on its soil",
+      "ko": "그 땅에 발을 딛자마자",
+      "note": "도착 순간을 생생하게 묘사하는 표현"
+    },
+    {
+      "en": "it felt like a freezer",
+      "ko": "냉동고 같았다",
+      "note": "날씨/온도를 비유로 강렬하게 묘사"
+    },
+    {
+      "en": "there was snow literally everywhere",
+      "ko": "말 그대로 사방에 눈이 있었다",
+      "note": "literally = 말 그대로, 강조에 매우 유용"
+    },
+    {
+      "en": "the air itself was just so crisp",
+      "ko": "공기 자체가 정말 상쾌했다",
+      "note": "추운 날씨의 긍정적 면을 자연스럽게 추가하는 표현"
+    },
+    {
+      "en": "they were not cold-hearted",
+      "ko": "그들은 냉정하지 않았다",
+      "note": "cold(추운) → cold-hearted(냉정한) — 단어 유희(word play)로 답변에 깊이 추가"
+    },
+    {
+      "en": "they even held doors for us",
+      "ko": "우리를 위해 문을 잡아줬다",
+      "note": "친절함을 구체적 예시로 보여주는 표현"
+    },
+    {
+      "en": "we were not accustomed to that",
+      "ko": "우리는 그것에 익숙하지 않았다",
+      "note": "be accustomed to = ~에 익숙하다"
+    },
+    {
+      "en": "overall, even though this trip was so cold, the people made it so warm",
+      "ko": "전반적으로, 여행이 너무 추웠지만 사람들이 따뜻하게 만들어줬다",
+      "note": "'Overall, even though...' 결론 패턴 + 메인 포인트 되감기"
+    },
+    {
+      "en": "A script can show you the road, but we have to ultimately walk on it",
+      "ko": "스크립트는 길을 보여줄 수 있지만 결국 우리가 직접 걸어야 한다",
+      "note": "스크립트 의존 경고 — 표현 자체도 멋진 문장"
+    },
+    {
+      "en": "make that main point bigger",
+      "ko": "메인 포인트를 더 크게 만들다 (elaboration)",
+      "note": "OPIC 핵심 전략 — 새 포인트 추가가 아니라 하나를 깊이 파기"
+    }
+  ],
+  "cards": [
+    {
+      "id": "2026-07-22-17",
+      "front": "일석이조 / 한 번에 두 가지를 해결하다",
+      "back": "kill two birds with one stone",
+      "example": "I want to kill two birds with one stone by studying English and preparing for OPIC at the same time."
+    },
+    {
+      "id": "2026-07-22-18",
+      "front": "즉흥 여행 (미리 계획 안 한)",
+      "back": "a spontaneous trip",
+      "example": "My wife and I decided to go on a spontaneous trip to Canada."
+    },
+    {
+      "id": "2026-07-22-19",
+      "front": "그 땅에 발을 딛자마자 (도착 순간 묘사)",
+      "back": "as soon as we set foot on its soil",
+      "example": "As soon as we set foot on its soil, we could feel how cold it was."
+    },
+    {
+      "id": "2026-07-22-20",
+      "front": "냉동고 같았다 (날씨 비유 묘사)",
+      "back": "It felt like a freezer.",
+      "example": "The moment we stepped outside, it felt like a freezer."
+    },
+    {
+      "id": "2026-07-22-21",
+      "front": "말 그대로 사방에 눈이 있었다",
+      "back": "There was snow literally everywhere.",
+      "example": "There was snow literally everywhere — on the streets, the cars, the trees."
+    },
+    {
+      "id": "2026-07-22-22",
+      "front": "공기 자체가 정말 상쾌했다",
+      "back": "The air itself was just so crisp.",
+      "example": "Even though it was freezing, the air itself was just so crisp and fresh."
+    },
+    {
+      "id": "2026-07-22-23",
+      "front": "냉정하지 않았다 (cold 단어 유희)",
+      "back": "They were not cold-hearted.",
+      "example": "Even though the city was cold, the people were definitely not cold-hearted."
+    },
+    {
+      "id": "2026-07-22-24",
+      "front": "우리를 위해 문을 잡아줬다",
+      "back": "They even held doors for us.",
+      "example": "They were so kind — they even held doors for us, which we weren't used to."
+    },
+    {
+      "id": "2026-07-22-25",
+      "front": "~에 익숙하지 않았다",
+      "back": "We were not accustomed to that.",
+      "example": "They held doors for us, and that was something we were not accustomed to."
+    },
+    {
+      "id": "2026-07-22-26",
+      "front": "전반적으로, ~이었지만 결국 ~해줬다 (결론 패턴)",
+      "back": "Overall, even though it was so [cold], the [people] made it so [warm].",
+      "example": "Overall, even though this trip was so cold, the people there made it so warm."
+    },
+    {
+      "id": "2026-07-22-27",
+      "front": "메인 포인트를 더 크게 만들다 (새 포인트 추가 X)",
+      "back": "make that main point bigger",
+      "example": "Don't add random points. Just practice making that one main point bigger."
+    },
+    {
+      "id": "2026-07-22-28",
+      "front": "스크립트는 길을 보여주지만 결국 우리가 걸어야 한다",
+      "back": "A script can show you the road, but we have to ultimately walk on it.",
+      "example": "A script can show you the road, but we have to ultimately walk on it ourselves."
+    }
+  ]
+}
