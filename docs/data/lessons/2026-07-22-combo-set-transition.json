@@ -1,0 +1,163 @@
+{
+  "date": "2026-07-22",
+  "title": "콤보세트 연결: LEGO 전략으로 Q1→Q2→Q3 이어가기",
+  "source": "오픽노잼 1:1 가이드 005 (https://www.youtube.com/watch?v=LVdRo-aaOzg)",
+  "summary": [
+    "콤보세트 3문항(묘사→습관→과거경험)을 각각 따로 대답하지 말고, Q1의 내용을 Q2에서 언급하고 Q3에도 이어서 연결 — '하나의 큰 LEGO 세트'처럼 만들기",
+    "전환(Transition) 예시: Q1에서 '겨울을 좋아한다'고 했으면, Q2 오늘 날씨 묘사에서 '오늘도 겨울인데, 제가 겨울을 좋아한다고 했잖아요, 근데 오늘은 너무 추워서 싫어요' 식으로 연결",
+    "첫 30초가 핵심: 메인포인트(무엇에 대해 말할지 + 좋은지 싫은지 + 이유 한 줄)가 처음 30초에 crystal clear하게 나와야 함. 첫 30초가 강하면 나머지도 강함",
+    "비교 문항(14번)은 pure present(현재)로만 시작 — 과거/현재 교차가 대비를 만든다. 연습할 때 pure present 30초만 먼저 완성하기",
+    "사계절 질문에서 네 계절을 하나씩 설명하면 10초 낭비 — '한국은 사계절이지만 제 최애 계절은 가을이에요' 2초면 충분, OPIC 채점관은 사계절을 아는지가 아니라 메시지가 명확한지를 봄"
+  ],
+  "keyExpressions": [
+    {
+      "en": "on the fly",
+      "ko": "즉흥적으로, 준비 없이",
+      "note": "스크립트 없이 자연스럽게 대답한다는 느낌을 줄 때"
+    },
+    {
+      "en": "out of the blue",
+      "ko": "갑자기, 즉흥적으로",
+      "note": "on the fly와 유사, 예상치 못한 상황에서도 자연스럽게"
+    },
+    {
+      "en": "right from the get-go",
+      "ko": "처음부터, 시작부터",
+      "note": "= right from the beginning/start"
+    },
+    {
+      "en": "crystal clear",
+      "ko": "완전히 명확한",
+      "note": "메인포인트가 crystal clear해야 한다고 강조할 때"
+    },
+    {
+      "en": "I'm a people person",
+      "ko": "나는 사람을 좋아하는 사람이야 (외향적)",
+      "note": "I'm a [X] person 패턴 — I'm a winter person, I'm a sweat person 등 응용 가능"
+    },
+    {
+      "en": "I'm a sweat person",
+      "ko": "나는 땀이 많이 나는 체질이야",
+      "note": "더위에 약한 이유를 자연스럽게 설명할 때"
+    },
+    {
+      "en": "We had such a blast",
+      "ko": "정말 즐거운 시간을 보냈다",
+      "note": "과거 경험 표현, have a blast = have a great time"
+    },
+    {
+      "en": "I'm not feeling like myself today",
+      "ko": "오늘 컨디션이 평소 같지 않아",
+      "note": "'컨디션이 안 좋다'는 자연스러운 표현. I'm sick보다 훨씬 자연스러움"
+    },
+    {
+      "en": "I came down with something",
+      "ko": "뭔가에 걸렸어 (감기 등)",
+      "note": "come down with + 병명: I came down with the flu"
+    },
+    {
+      "en": "I blanked out",
+      "ko": "머리가 새하얘졌다, 기억이 안 났다",
+      "note": "blank out = 갑자기 생각이 안 나다"
+    },
+    {
+      "en": "It is what it is",
+      "ko": "어쩔 수 없지, 그런 거지",
+      "note": "상황을 받아들일 때 쓰는 캐주얼 표현"
+    },
+    {
+      "en": "wear layers upon layers",
+      "ko": "겹겹이 옷을 껴입다",
+      "note": "추운 날씨 묘사에 유용"
+    },
+    {
+      "en": "it's a breeze",
+      "ko": "식은 죽 먹기야, 아주 쉬워",
+      "note": "날씨 토픽 같이 쉬운 토픽에 자신감을 표현할 때"
+    },
+    {
+      "en": "unforgivable",
+      "ko": "용납할 수 없을 만큼 (극단적 강조)",
+      "note": "Today's cold is unforgivable — 과장 표현으로 강한 감정 전달"
+    },
+    {
+      "en": "it took me by surprise",
+      "ko": "깜짝 놀랐다, 예상 못 했다",
+      "note": "과거경험에서 예상치 못한 상황을 묘사할 때"
+    }
+  ],
+  "cards": [
+    {
+      "id": "2026-07-22-10",
+      "front": "콤보세트 3문항을 하나처럼 이어가는 핵심 전략은?",
+      "back": "Treat the combo set as ONE big question, not three separate ones. Link each answer back to the previous one like LEGO pieces.",
+      "example": "Q1: I love winter → Q2: Today is winter, and you know I love cold weather, but today is just unforgivable cold → Q3: Speaking of winter, I have a story..."
+    },
+    {
+      "id": "2026-07-22-11",
+      "front": "즉흥적으로 대답하는 것처럼 (준비 안 한 것처럼) 영어로?",
+      "back": "on the fly / out of the blue / impromptu",
+      "example": "I want to show that I'm answering on the fly, right out of the blue — no script, no prep."
+    },
+    {
+      "id": "2026-07-22-12",
+      "front": "처음부터, 시작부터 바로 영어로?",
+      "back": "right from the get-go",
+      "example": "Your main point should be crystal clear right from the get-go."
+    },
+    {
+      "id": "2026-07-22-13",
+      "front": "나는 땀이 많은 체질이라 여름이 힘들어 — 영어로?",
+      "back": "I'm a sweat person, so I really can't stand summer.",
+      "example": "I'm a sweat person. I hate summer. So even though winter is freezing cold, I love it."
+    },
+    {
+      "id": "2026-07-22-14",
+      "front": "나는 사람을 좋아하는 외향적인 사람이야 — 영어로?",
+      "back": "I'm a people person.",
+      "example": "I'm a people person. I love going out and meeting new people."
+    },
+    {
+      "id": "2026-07-22-15",
+      "front": "오늘 컨디션이 평소 같지 않아 / 뭔가에 걸린 것 같아 — 영어로?",
+      "back": "I'm not feeling like myself today. / I think I came down with something.",
+      "example": "I'm not feeling like myself today — I think I came down with a cold."
+    },
+    {
+      "id": "2026-07-22-16",
+      "front": "갑자기 머리가 새하얘졌다 (기억이 안 났다) — 영어로?",
+      "back": "I blanked out.",
+      "example": "I blanked out in the middle of my answer and couldn't remember what I was going to say."
+    },
+    {
+      "id": "2026-07-22-17",
+      "front": "겹겹이 옷을 껴입어야 해 — 영어로?",
+      "back": "I have to wear layers upon layers.",
+      "example": "It's so cold that I have to wear layers upon layers just to go outside."
+    },
+    {
+      "id": "2026-07-22-18",
+      "front": "정말 즐거운 시간을 보냈다 (과거 경험에서) — 영어로?",
+      "back": "We had such a blast.",
+      "example": "My friends and I made snowmen and we had such a blast doing that."
+    },
+    {
+      "id": "2026-07-22-19",
+      "front": "오늘 추위는 정말 용납이 안 돼 (과장 표현) — 영어로?",
+      "back": "Today's cold is unforgivable. / It's criminal.",
+      "example": "I love cold weather, but today? Today is a different kind of cold. It's unforgivable."
+    },
+    {
+      "id": "2026-07-22-20",
+      "front": "사계절 질문에서 메인포인트를 2초 만에 말하는 방법은?",
+      "back": "Skip listing all four seasons. Just say: 'Korea has four seasons, but my favorite is fall.'",
+      "example": "Don't say: Korea has spring, summer, fall, winter... (10 seconds wasted). Just say: Korea has four seasons, but honestly my favorite is fall. Done."
+    },
+    {
+      "id": "2026-07-22-21",
+      "front": "어쩔 수 없지, 그런 거지 — 영어로?",
+      "back": "It is what it is.",
+      "example": "I couldn't do anything about it — it's mother nature. It is what it is."
+    }
+  ]
+}
