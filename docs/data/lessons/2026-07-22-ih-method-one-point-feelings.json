@@ -1,0 +1,128 @@
+{
+  "date": "2026-07-22",
+  "title": "IH 핵심 전략: 한 포인트 + 감정으로 밀기",
+  "source": "오픽노잼 YouTube",
+  "summary": [
+    "IH 비결: 여러 포인트를 나열하지 말고 한 가지 포인트에 집중하고 그것에 대한 느낌을 최대한 표현하라",
+    "람보르기니 vs KIA 모닝 비유 — 포인트 5개 짧게(KIA 5대)보다 포인트 1개 깊고 풍부하게(람보르기니 1대)가 훨씬 좋은 답변",
+    "필러(filler)를 적극 활용하라: 'you know', 'oh', 'um' — 자연스럽게 말하는 느낌. 단, 'mmm'은 콩글리쉬라 NG",
+    "생각할 때 침묵(silence)은 감점 요인 — 침묵 대신 필러로 채워라",
+    "감정 단어는 길게 늘여서: 'I LOOVE... SOOO much' — 빠르게 지나치지 말고 감정에 무게를 실어라",
+    "결론은 'Overall'로 시작하면 자연스럽고 OPIC 점수에 도움이 된다",
+    "'when' 대신 'whenever'를 쓰면 더 IH스러운 표현이 된다"
+  ],
+  "keyExpressions": [
+    {
+      "en": "wind down and relax",
+      "ko": "스트레스를 풀고 긴장을 풀다",
+      "note": "장소 묘사에 감정 실을 때 — 'I can wind down and relax in my bedroom'"
+    },
+    {
+      "en": "whenever I need to concentrate on something",
+      "ko": "뭔가에 집중해야 할 때마다",
+      "note": "'when' 대신 'whenever' — 더 자연스럽고 IH스럽다"
+    },
+    {
+      "en": "My room is the best place in my house",
+      "ko": "내 방이 집에서 가장 좋은 장소다",
+      "note": "포인트 하나를 명확히 선언하는 문장"
+    },
+    {
+      "en": "Overall, ...",
+      "ko": "전반적으로 / 결론적으로",
+      "note": "OPIC 답변 마무리에 항상 쓰기 좋은 결론 표현"
+    },
+    {
+      "en": "I LOVE my own bedroom SO much",
+      "ko": "내 침실이 너무너무 좋다",
+      "note": "love, so를 길게 늘여서 감정에 무게감을 실어라"
+    },
+    {
+      "en": "You know, ...",
+      "ko": "있잖아요 / 그러니까 (필러)",
+      "note": "스크립트 없이 자연스럽게 말하는 느낌을 주는 핵심 필러"
+    },
+    {
+      "en": "Um, ...",
+      "ko": "어... (생각할 때 필러)",
+      "note": "'mmm'은 콩글리쉬 — 반드시 'um'으로"
+    },
+    {
+      "en": "I totally feel him",
+      "ko": "완전 공감한다 (감정적으로)",
+      "note": "feel + 사람 = 감정적으로 공감한다"
+    },
+    {
+      "en": "There's a lot of energy there",
+      "ko": "거기엔 에너지가 넘친다",
+      "note": "장소 묘사에 분위기/감정을 더하는 표현"
+    },
+    {
+      "en": "Lots of energy there",
+      "ko": "에너지가 넘쳐 (짧은 버전)",
+      "note": "주어 없이 짧게 — 대화체에서 자연스럽다"
+    }
+  ],
+  "cards": [
+    {
+      "id": "2026-07-22-1",
+      "front": "스트레스 풀고 긴장 풀다",
+      "back": "wind down and relax",
+      "example": "You know, I can really wind down and relax in my bedroom."
+    },
+    {
+      "id": "2026-07-22-2",
+      "front": "뭔가에 집중해야 할 때마다 (whenever 활용)",
+      "back": "whenever I need to concentrate on something",
+      "example": "Whenever I need to concentrate on something, my bedroom is the best place."
+    },
+    {
+      "id": "2026-07-22-3",
+      "front": "결론 시작 표현 (OPIC 마무리)",
+      "back": "Overall, ...",
+      "example": "Overall, my bedroom is my favorite place in the whole apartment."
+    },
+    {
+      "id": "2026-07-22-4",
+      "front": "내 침실이 너무너무 좋다 (감정 늘리기)",
+      "back": "I LOVE my own bedroom SO much.",
+      "example": "I LOOVE my own bedroom SOOO much."
+    },
+    {
+      "id": "2026-07-22-5",
+      "front": "생각할 때 쓰는 자연스러운 필러 (mmm 아님)",
+      "back": "Um, ...",
+      "example": "Um, I think my favorite room is definitely my bedroom."
+    },
+    {
+      "id": "2026-07-22-6",
+      "front": "완전 공감한다 / 감정적으로 이해한다",
+      "back": "I totally feel him.",
+      "example": "I totally feel him — I love staying in my room too."
+    },
+    {
+      "id": "2026-07-22-7",
+      "front": "거기엔 에너지가 넘친다 (장소 분위기 묘사)",
+      "back": "There's a lot of energy there.",
+      "example": "Whenever I'm in my bedroom, there's just a lot of energy there."
+    },
+    {
+      "id": "2026-07-22-8",
+      "front": "집에서 가장 좋은 장소 (핵심 포인트 선언)",
+      "back": "My room is the best place in my house.",
+      "example": "My room is definitely the best place in my house. I love everything about it."
+    },
+    {
+      "id": "2026-07-22-9",
+      "front": "자연스러운 말하기 필러 (스크립트 없는 느낌)",
+      "back": "You know, ...",
+      "example": "You know, among everything in my apartment, my bedroom is my favorite."
+    },
+    {
+      "id": "2026-07-22-10",
+      "front": "한 포인트에 집중해서 계속 깊이 얘기하다",
+      "back": "Focus on one point and keep talking about it as much as you can.",
+      "example": "Don't list random things. Focus on one point and keep talking about it as much as you can."
+    }
+  ]
+}
