@@ -1,0 +1,127 @@
+{
+  "date": "2026-08-03",
+  "title": "롤플레이 Q11: 4단계 전략으로 자연스러운 대화 만들기",
+  "source": "오픽노잼 (Role-Play #11 전략)",
+  "summary": [
+    "RP 세트(Q11·12·13)는 대화 실력을 보여주는 구간 — 채점관에게 '실제 대화'를 보여주는 것이 핵심. 자동응답기처럼 말하지 말 것",
+    "Q11 4단계: ①상황 짧게 설명 → ②질문 → ③상대방 답변 반응(Reaction + Repeat + Feeling) → ④나머지 질문 반복 (총 3문항, 1분 이내)",
+    "3단계 '반응' 공식: 감탄사(Reaction) + 답변 반복(Repeat) + 감정 마무리(Feeling). 예) 'Oh, that cheap?! / Only $1,000? / That's great!'",
+    "마지막 질문 전 'Oh, I almost forgot!' 를 쓰면 즉흥적이고 자연스럽게 들림. 'Oh, oh, I almost forgot!'처럼 두 번 써도 OK",
+    "3개 질문은 모두 '예스'로 받기 — 부정 답변을 상상하면 흐름이 꼬임. 모두 긍정으로 설정하고 연습",
+    "색상 물을 때는 'Do you have a pink one?' 보다 'Does it come in pink?'가 훨씬 자연스러운 표현"
+  ],
+  "keyExpressions": [
+    {
+      "en": "Hi there",
+      "ko": "여보세요 / 안녕하세요 (전화 특화)",
+      "note": "전화 통화 시작에 특히 좋음. 대면이라면 그냥 'Hi'"
+    },
+    {
+      "en": "short and sweet",
+      "ko": "짧고 간결하게",
+      "note": "상황 설명은 짧고 간결하게. 길게 설명하려 하지 말 것"
+    },
+    {
+      "en": "Does it come in pink?",
+      "ko": "핑크 색상으로 나오나요?",
+      "note": "색상 물을 때 원어민 표현. 'Do you have a pink one?'보다 자연스러움"
+    },
+    {
+      "en": "I was wondering if...",
+      "ko": "~인지 궁금한데요 (정중한 질문)",
+      "note": "직접 질문보다 부드럽고 자연스러움. I was wondering if the iPhone comes with nice speakers?"
+    },
+    {
+      "en": "Oh, I almost forgot!",
+      "ko": "아, 깜빡할 뻔했다!",
+      "note": "마지막 질문 전에 쓰면 즉흥적·자연스럽게 들림. 'Oh, oh, I almost forgot!'도 OK"
+    },
+    {
+      "en": "pull the trigger",
+      "ko": "결정을 내리다, 구매를 결정하다",
+      "note": "She wants to buy it, but she hasn't pulled the trigger yet."
+    },
+    {
+      "en": "I really appreciate the help.",
+      "ko": "도움 주셔서 정말 감사합니다.",
+      "note": "RP 마무리 표현. 'Thank you so much for your help.'와 함께"
+    },
+    {
+      "en": "I was wondering if...",
+      "ko": "그냥 궁금한데요...",
+      "note": "질문 앞에 붙이면 부드러운 느낌"
+    },
+    {
+      "en": "I don't have that much of a budget.",
+      "ko": "예산이 넉넉하지 않아요.",
+      "note": "가격 질문 앞에 배경 설명으로 쓸 수 있음"
+    },
+    {
+      "en": "That's awesome! / That's great!",
+      "ko": "대박이다! / 좋아요!",
+      "note": "Reaction + Repeat 뒤 Feeling 마무리 표현"
+    }
+  ],
+  "cards": [
+    {
+      "id": "2026-08-03-1",
+      "front": "롤플레이 Q11의 4단계 전략은?",
+      "back": "①Situation (상황 짧게) → ②Question (질문) → ③React+Repeat+Feel (반응) → ④Next questions (반복)",
+      "example": "Hi there! I'd like to buy an iPhone X. / How much is it? / Oh, that cheap?! Only $1,000? That's great! / Actually, does it come in pink?"
+    },
+    {
+      "id": "2026-08-03-2",
+      "front": "전화 통화 RP에서 첫 인사는?",
+      "back": "Hi there!",
+      "example": "Hi there! I'm calling because I'd like to buy a new phone."
+    },
+    {
+      "id": "2026-08-03-3",
+      "front": "RP에서 상황 설명은 어떻게?",
+      "back": "Keep it short and sweet. 딱 한 문장으로.",
+      "example": "Hi there! I'd like to buy an iPhone X. (끝, 바로 질문으로)"
+    },
+    {
+      "id": "2026-08-03-4",
+      "front": "질문 후 상대방 답변에 반응하는 3단계 공식은?",
+      "back": "Reaction + Repeat the response + Feeling",
+      "example": "Oh, that cheap?! (reaction) Only $1,000? (repeat) That's great! (feeling)"
+    },
+    {
+      "id": "2026-08-03-5",
+      "front": "핑크 색상으로 나오나요? — 자연스러운 영어로?",
+      "back": "Does it come in pink?",
+      "example": "Oh nice! So it does come in pink? That's great!"
+    },
+    {
+      "id": "2026-08-03-6",
+      "front": "마지막 질문 전에 즉흥적으로 보이게 하는 표현은?",
+      "back": "Oh, I almost forgot! / Oh, oh, I almost forgot!",
+      "example": "Oh, I almost forgot! I really love listening to music — I was wondering if the iPhone comes with good speakers?"
+    },
+    {
+      "id": "2026-08-03-7",
+      "front": "정중하게 '~인지 궁금한데요' — 영어로?",
+      "back": "I was wondering if...",
+      "example": "I was wondering if the iPhone X comes with nice speakers?"
+    },
+    {
+      "id": "2026-08-03-8",
+      "front": "아직 구매를 결정 안 했다 (결정을 내리다) — 영어로?",
+      "back": "She hasn't pulled the trigger yet.",
+      "example": "I want to buy it, but I haven't pulled the trigger yet."
+    },
+    {
+      "id": "2026-08-03-9",
+      "front": "RP 마무리 감사 인사 두 가지는?",
+      "back": "Thank you so much for your help! / I really appreciate the help.",
+      "example": "I really appreciate the help. I'll stop by tomorrow!"
+    },
+    {
+      "id": "2026-08-03-10",
+      "front": "예산이 넉넉하지 않아요 — 영어로?",
+      "back": "I don't have that much of a budget.",
+      "example": "I don't have that much of a budget, so I was wondering how much the iPhone X is."
+    }
+  ]
+}
