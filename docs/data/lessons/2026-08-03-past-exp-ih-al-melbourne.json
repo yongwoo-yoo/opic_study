@@ -1,0 +1,137 @@
+{
+  "date": "2026-08-03",
+  "title": "과거경험 IH→AL: 멜버른 날씨 피드백으로 배우는 핵심 업그레이드",
+  "source": "오픽노잼 IH vs AL 날씨 콤보세트 피드백 (과거경험편)",
+  "summary": [
+    "IH 최소 조건 두 가지: ①하나의 메시지(one clear topic) + ②필러로 끊임없이 말하기(constant speaking). 빠른 속도가 아니라 '멈춤 없이'가 핵심",
+    "AL 보장 조건: ①메인포인트를 20초 이내에 완성(좋음/나쁨 명확히 포함) + ②직접화법(direct quotations) 활용 — 직접화법은 과거/현재 시제를 자연스럽게 섞어서 문법 실력까지 보여줌",
+    "'솔직히 경험이 없는데...'는 결론에 배치하기 — 앞에 너무 길게 설명하면 메인포인트가 늦어짐. 대신 결론에서 'I never really experienced anything all that crazy, but I hope this was good enough!'",
+    "재시작 공식: 'What am I trying to say?' → 짧은 pause → 'Anyway, ...' → 새 문장. 'is'로 이어가면 재시작이 아니라 문장 연결이 되어버림",
+    "결론 업그레이드: 'just in case the weather changed suddenly'(IH) → 'I hated how unpredictable the weather was, but luckily I had my light jacket to save the day'(AL+)"
+  ],
+  "keyExpressions": [
+    {
+      "en": "during the summer",
+      "ko": "여름 동안에",
+      "note": "in summer(X) → during the summer(O). 계절 표현은 during the + 계절이 훨씬 자연스러움"
+    },
+    {
+      "en": "in a single day",
+      "ko": "단 하루 만에",
+      "note": "only in one day(IH) → in a single day(AL). 'single'이 디테일을 살려줌"
+    },
+    {
+      "en": "The weather was fluctuating constantly.",
+      "ko": "날씨가 끊임없이 변했어요.",
+      "note": "fluctuate = 계속 변동하다. 'broken'은 날씨에 쓰면 어색함, fluctuating은 AL급"
+    },
+    {
+      "en": "What am I trying to say? Anyway, ...",
+      "ko": "제가 무슨 말을 하려고 했냐면요... 어쨌든,",
+      "note": "재시작 AL 공식. 'What am I trying to say?' 뒤에는 반드시 pause + anyway로 새 문장 시작"
+    },
+    {
+      "en": "just in case the weather changed suddenly",
+      "ko": "혹시라도 날씨가 갑자기 바뀔 경우를 대비해서",
+      "note": "just in case = ~할 경우를 대비해서. 매우 자연스러운 표현"
+    },
+    {
+      "en": "I hated how unpredictable the weather was.",
+      "ko": "날씨가 얼마나 예측 불가능한지 정말 싫었어요.",
+      "note": "I hated how + 형용사 + the + 명사 + was — 강한 감정 표현 AL 패턴"
+    },
+    {
+      "en": "luckily I had my light jacket to save the day",
+      "ko": "다행히 재킷이 있어서 살았어요",
+      "note": "save the day = 위기를 구하다. 유머러스하고 자연스러운 AL+ 결론"
+    },
+    {
+      "en": "I would just have to say that + 구체적 내용",
+      "ko": "굳이 말하자면 ~라고 해야 할 것 같아요",
+      "note": "뒤에 반드시 구체적인 내용이 와야 함. '...about my experience'처럼 일반적이면 어색"
+    },
+    {
+      "en": "I never really experienced anything all that crazy about weather.",
+      "ko": "날씨로 딱히 크게 황당한 경험은 없었어요.",
+      "note": "솔직한 경험 부재 표현. 결론이나 마무리에 배치하면 자연스러움"
+    },
+    {
+      "en": "I hope this experience is good enough for what you just asked me.",
+      "ko": "방금 질문에 이 정도면 충분하길 바라요.",
+      "note": "경험이 빈약할 때 유머러스하게 마무리하는 AL 결론 표현"
+    },
+    {
+      "en": "this phone is in very good condition",
+      "ko": "이 폰은 상태가 아주 좋아요",
+      "note": "condition은 물건 상태에만 씀. 날씨(X), 몸 상태(X) → I'm not feeling well(O)"
+    }
+  ],
+  "cards": [
+    {
+      "id": "2026-08-03-23",
+      "front": "IH 최소 조건 두 가지는?",
+      "back": "① One clear message (하나의 주제) ② Constant speaking with fillers (필러로 멈추지 않기)",
+      "example": "빠른 속도가 아니라 pause가 적어야 함 — 필러(um, you know, uh)가 없으면 pause처럼 들림"
+    },
+    {
+      "id": "2026-08-03-24",
+      "front": "AL 보장 조건 두 가지는?",
+      "back": "① 메인포인트 20초 이내 완성 (좋음/나쁨 포함) ② 직접화법(direct quotations) 활용",
+      "example": "직접화법은 과거/현재 시제를 자연스럽게 섞어 문법 실력까지 보여줌"
+    },
+    {
+      "id": "2026-08-03-25",
+      "front": "여름 동안에 — 자연스러운 영어 표현은?",
+      "back": "during the summer",
+      "example": "in summer(X) → during the summer(O). Even though I was there during the summer, I experienced all four seasons."
+    },
+    {
+      "id": "2026-08-03-26",
+      "front": "단 하루 만에 — AL 업그레이드 표현은?",
+      "back": "in a single day",
+      "example": "only in one day(IH) → in a single day(AL). I experienced all four seasons in a single day."
+    },
+    {
+      "id": "2026-08-03-27",
+      "front": "날씨가 끊임없이 변했어요 — 영어로?",
+      "back": "The weather was fluctuating constantly.",
+      "example": "fluctuate = 계속 변동하다. 'broken'은 날씨에 어색함. fluctuating constantly = AL"
+    },
+    {
+      "id": "2026-08-03-28",
+      "front": "말이 막혀 재시작할 때 AL 공식은?",
+      "back": "What am I trying to say? (pause) Anyway, ... (새 문장)",
+      "example": "'is'로 이어가면 재시작이 안 됨. 반드시 anyway + 새 문장으로 완전히 리셋"
+    },
+    {
+      "id": "2026-08-03-29",
+      "front": "혹시 날씨가 갑자기 바뀔 경우를 대비해서 — 영어로?",
+      "back": "just in case the weather changed suddenly",
+      "example": "just in case = ~할 경우를 대비해서. 과거경험이니 changed(과거형)!"
+    },
+    {
+      "id": "2026-08-03-30",
+      "front": "날씨가 얼마나 예측 불가능한지 정말 싫었다 — AL 감정 표현은?",
+      "back": "I hated how unpredictable the weather was.",
+      "example": "I hated how + 형용사 + 주어 + was 패턴. 강한 감정을 세련되게 표현"
+    },
+    {
+      "id": "2026-08-03-31",
+      "front": "다행히 재킷 덕분에 살았다 (유머러스한 AL+ 결론) — 영어로?",
+      "back": "Luckily, I had my light jacket to save the day.",
+      "example": "save the day = 위기를 구하다. 유머러스하고 자연스러운 마무리 = AL+"
+    },
+    {
+      "id": "2026-08-03-32",
+      "front": "'솔직히 그런 경험이 없었다'를 어디에 배치해야 하나?",
+      "back": "결론(conclusion)에 배치. 앞에 쓰면 메인포인트가 늦어짐",
+      "example": "결론 예시: I never really experienced anything all that crazy, but I hope this experience is good enough for what you just asked me!"
+    },
+    {
+      "id": "2026-08-03-33",
+      "front": "'condition' 을 쓸 수 있는 경우 vs 쓰면 안 되는 경우는?",
+      "back": "쓸 수 있음: 물건 상태 (This phone is in good condition) / 쓰면 안 됨: 날씨(X), 몸 상태(X)",
+      "example": "날씨: the weather in Melbourne(O) / 몸: I'm not feeling well(O), I'm not in good condition(X)"
+    }
+  ]
+}
