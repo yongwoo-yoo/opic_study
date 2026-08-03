@@ -1,0 +1,133 @@
+{
+  "date": "2026-08-03",
+  "title": "IH/AL 체크리스트 & 날씨 묘사 피드백: 봄·한국 날씨 예시",
+  "source": "오픽노잼 IH vs AL 날씨 콤보세트 피드백",
+  "summary": [
+    "IH 체크리스트: ①메인포인트 30초 이내 ②끊임없이 말하기(필러) ③감정 표현 ④한국어 금지 ⑤뻣뻣한 영어 금지(moreover/furthermore/in addition) ⑥스크립트 금지",
+    "AL 추가 조건: ①메인포인트 20초 이내 ②필러 콤보(and um / and so / so you know) ③한 가지만 집중 ④감정·느낌 위주로 말하기. 이 리스트 중 하나라도 빠지면 AL 확률 감소",
+    "사계절 나열 금지: 'spring, summer, fall, winter' 하나씩 말하면 시간 낭비. 'Korea has 4 seasons'만 하고 바로 좋아하는 계절로. '4 seasons'라는 말에 봄·여름·가을·겨울이 이미 내포됨",
+    "'Guess what?' = 상대방이 예상 못 할 놀라운 정보에만 사용. 사계절처럼 뻔한 내용엔 어색. 예) 'Guess what? Korea actually has only 2 seasons — winter and summer!' 처럼 반전이 있어야 자연스러움",
+    "두 주제를 연결하는 법: 하나를 메인(big), 다른 하나를 서브(연결)로. 예) 메인=따뜻한 날씨 → 'Since it's so warm, the flowers start to blossom — and I think that's just beautiful'",
+    "한국어 이름 처리 전략: '...it's called [한국어 이름] in Korean... anyway...' 로 자연스럽게 넘어가기. 채점관에게 보너스 포인트"
+  ],
+  "keyExpressions": [
+    {
+      "en": "and um / and so / so you know",
+      "ko": "AL 필러 콤보 — 단어 조합으로 더 자연스럽게",
+      "note": "IH는 단어 하나(um/uh/you know), AL은 이것들을 조합해서 씀"
+    },
+    {
+      "en": "built-up stress from work",
+      "ko": "일에서 쌓인 스트레스",
+      "note": "stress from work(IH) → built-up stress from work(AL). 점점 쌓인다는 뉘앙스 추가"
+    },
+    {
+      "en": "I have many chances to see flowers.",
+      "ko": "꽃을 볼 기회가 많아요.",
+      "note": "many chances to = 자연스러운 기회 표현. 두 단어로 세밀한 디테일 전달"
+    },
+    {
+      "en": "The flowers start to blossom.",
+      "ko": "꽃들이 피기 시작해요.",
+      "note": "blossom = (꽃이) 피다. 봄 날씨 묘사에 자주 쓸 수 있는 AL 표현"
+    },
+    {
+      "en": "I love how the warm weather makes the flowers blossom.",
+      "ko": "날씨가 따뜻해서 꽃이 피는 게 너무 좋아요.",
+      "note": "I love how + 주어 + 동사 — 두 가지를 자연스럽게 연결하는 AL 패턴"
+    },
+    {
+      "en": "Guess what? Korea actually has only 2 seasons.",
+      "ko": "있잖아요? 사실 한국은 계절이 2개뿐이에요.",
+      "note": "'Guess what?'은 반전·놀라움이 있을 때만. 뻔한 내용(4계절)엔 어색"
+    },
+    {
+      "en": "you name it",
+      "ko": "기타 등등, 그 밖에 뭐든지",
+      "note": "끝없이 이어지는 리스트 끝에 사용. 고정된 숫자(사계절 등) 뒤에 쓰면 어색"
+    },
+    {
+      "en": "throwing money down the drain",
+      "ko": "돈을 허비하다, 낭비하다",
+      "note": "wasting money(IH) → throwing money down the drain(AL+). 관용어"
+    },
+    {
+      "en": "It's called [이름] in Korean... anyway,",
+      "ko": "한국말로 [이름]이라고 해요... 어쨌든,",
+      "note": "한국어 고유명사를 자연스럽게 처리하는 전략. 채점관에게 보너스"
+    },
+    {
+      "en": "If you must come to Korea, come during the Spring — or else, you're just throwing money down the drain.",
+      "ko": "한국에 와야 한다면 봄에 오세요 — 아니면 돈 낭비예요.",
+      "note": "유머 결론 AL 예시. 채점관을 웃기는 결론 = AL 확률 상승"
+    }
+  ],
+  "cards": [
+    {
+      "id": "2026-08-03-34",
+      "front": "IH 체크리스트 6가지는?",
+      "back": "①MP 30초 이내 ②끊임없이 말하기(필러) ③감정 표현 ④한국어 금지 ⑤뻣뻣한 영어 금지 ⑥스크립트 금지",
+      "example": "이 중 하나라도 빠지면 IH 확률 감소. AL은 여기에 MP 20초 이내 + 필러 콤보 추가"
+    },
+    {
+      "id": "2026-08-03-35",
+      "front": "IH 필러 vs AL 필러 차이는?",
+      "back": "IH: 단어 하나 (um / uh / you know) / AL: 콤보 조합 (and um / and so / so you know)",
+      "example": "IH: '...um... you know...' → AL: '...and um, so you know, and so...'"
+    },
+    {
+      "id": "2026-08-03-36",
+      "front": "날씨 질문에서 사계절을 나열하면 안 되는 이유와 대안은?",
+      "back": "'Korea has 4 seasons' 하고 끝. 바로 좋아하는 계절로 넘어가기.",
+      "example": "Korea has 4 seasons, and you know what? I really love spring here. → BOOM, 메인포인트 완성"
+    },
+    {
+      "id": "2026-08-03-37",
+      "front": "'Guess what?'을 자연스럽게 쓸 수 있는 상황은?",
+      "back": "상대방이 예상 못 할 반전·놀라운 정보를 말할 때만.",
+      "example": "Guess what? Korea actually only has 2 seasons — winter and summer. Spring and fall are so short we can pretty much say they don't exist."
+    },
+    {
+      "id": "2026-08-03-38",
+      "front": "'you name it'을 올바르게 쓰는 상황은?",
+      "back": "끝없이 이어지는 리스트의 마지막에. 고정된 숫자 리스트(사계절 등) 뒤에는 어색.",
+      "example": "I love spring because of the warm weather, the blossoming flowers, the ability to go outside more... you name it."
+    },
+    {
+      "id": "2026-08-03-39",
+      "front": "두 가지 주제(날씨 + 꽃)를 하나로 연결하는 AL 방법은?",
+      "back": "하나를 메인으로, 다른 하나를 서브로 연결.",
+      "example": "메인=날씨: 'I love spring because of its warm weather. And since it's so warm, the flowers start to blossom — I think that's just beautiful.'"
+    },
+    {
+      "id": "2026-08-03-40",
+      "front": "일에서 쌓인 스트레스 — AL 표현은?",
+      "back": "built-up stress from work",
+      "example": "Seeing the flowers everywhere really helps relieve my built-up stress from work."
+    },
+    {
+      "id": "2026-08-03-41",
+      "front": "꽃이 피기 시작한다 — 영어로?",
+      "back": "The flowers start to blossom.",
+      "example": "I love how the warm weather makes the flowers blossom in just the most beautiful way."
+    },
+    {
+      "id": "2026-08-03-42",
+      "front": "한국어 고유명사를 자연스럽게 처리하는 방법은?",
+      "back": "'It's called [이름] in Korean... anyway,' 하고 바로 다음 문장으로",
+      "example": "I went to a Korean restaurant — it's called Kimbab Chunkook in Korean... anyway, the food was just amazing."
+    },
+    {
+      "id": "2026-08-03-43",
+      "front": "돈을 낭비하다 — AL+ 관용어는?",
+      "back": "throwing money down the drain",
+      "example": "If you must come to Korea, come during the spring — or else, you're just throwing money down the drain."
+    },
+    {
+      "id": "2026-08-03-44",
+      "front": "뻣뻣한 비즈니스 영어 표현 쓰면 안 되는 예시 세 가지는?",
+      "back": "moreover / furthermore / in addition",
+      "example": "이런 표현들은 이메일·발표문용. 오픽 대화에선 어색. 대신 'and', 'also', 'plus' 등 캐주얼하게"
+    }
+  ]
+}
