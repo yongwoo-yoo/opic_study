@@ -1,0 +1,144 @@
+{
+  "date": "2026-08-03",
+  "title": "IH vs AL 날씨 콤보세트: 표현 업그레이드 & 비교 문항 구조",
+  "source": "오픽노잼 IH vs AL 날씨 콤보세트 피드백",
+  "summary": [
+    "'I watched the news this morning'으로 시작하면 즉흥적으로 생각하는 것처럼 들림 — 15번(뉴스) 질문이 아니어도 쓸 수 있는 AL 오프닝 전략",
+    "비교 문항 구조: Pure Present(현재 상황) → Past(과거) 순서로만 가도 '자동 대조' 완성 — 'similarity/difference'라는 단어를 직접 쓸 필요 없음",
+    "AL 업그레이드 핵심: IH는 사실 나열, AL은 감정·세부묘사·뉘앙스를 얹음. 특히 'just'를 붙이면 강도가 확 올라감 (This is just awful / just amazing)",
+    "같은 단어를 연속 두 문장에서 다르게 쓰면 AL+ — 예) 'We never had to worry about air quality. We went outside pretty much worry-free.'",
+    "결론에 유머를 넣으면 채점관이 웃음 → 점수 상승 기대. 예) 'If this keeps up, I'm gonna be forced to move out of this country.'",
+    "말이 막혔을 때 자기수정법: 'you know...' 필러로 자연스럽게 재시작 — 멈추고 다시 말하는 것 자체가 자연스러운 대화처럼 들림"
+  ],
+  "keyExpressions": [
+    {
+      "en": "We are starting to have a serious fine dust issue.",
+      "ko": "심각한 미세먼지 문제가 생기기 시작하고 있어요.",
+      "note": "starting to have = 점진적 변화 표현. IH '미세먼지 많아요'보다 훨씬 AL"
+    },
+    {
+      "en": "How am I supposed to live with this?",
+      "ko": "이러면서 어떻게 살라는 거야?",
+      "note": "How can I...보다 강한 불만 표현. be supposed to = ~해야 하는데 (현실 불만족 뉘앙스)"
+    },
+    {
+      "en": "We never really had to worry about air quality.",
+      "ko": "공기 질 걱정을 할 필요가 없었어요.",
+      "note": "air condition(X) → air quality(O). 과거 이야기이므로 didn't have to / never had to"
+    },
+    {
+      "en": "We went outside pretty much worry-free.",
+      "ko": "우리는 걱정 없이 밖에 나갔어요.",
+      "note": "worry → worry-free: 같은 단어 변형 반복 = AL+. 'pretty much'도 자연스러운 강조"
+    },
+    {
+      "en": "freely go outside without having to wear a mask",
+      "ko": "마스크 없이 자유롭게 밖에 나가다",
+      "note": "마스크 언급으로 미세먼지를 직접 말하지 않고도 메시지 전달 — 간접 표현이 더 세련됨"
+    },
+    {
+      "en": "You can sort of feel the dust accumulating in your lungs.",
+      "ko": "폐에 먼지가 쌓이는 게 느껴지는 것 같아요.",
+      "note": "sort of = 약간, 어느 정도. accumulate = 쌓이다. 생생한 신체 묘사로 AL"
+    },
+    {
+      "en": "This is just awful. / This is just a disaster.",
+      "ko": "이건 정말 끔찍해요 / 완전 재앙이에요.",
+      "note": "'just'는 감정 강도를 높이는 AL 단어. just awful / just amazing / just terrible 모두 활용"
+    },
+    {
+      "en": "Can you imagine?",
+      "ko": "상상이 돼요? (수사적 질문)",
+      "note": "채점관을 대화에 끌어들이는 효과. 단독으로 써도 강력한 감정 표현"
+    },
+    {
+      "en": "I'm getting sick and tired of wearing masks all the time.",
+      "ko": "항상 마스크 쓰는 게 진절머리 나요.",
+      "note": "be sick and tired of = ~에 완전히 질리다. 강한 불만을 유머러스하게 전달할 때"
+    },
+    {
+      "en": "If this keeps up, I'm gonna be forced to move out of this country.",
+      "ko": "이게 계속되면 나 이 나라 떠날 것 같아요.",
+      "note": "과장된 유머 결론. 채점관을 웃길 수 있으면 AL 확률 상승"
+    },
+    {
+      "en": "I watched the news this morning.",
+      "ko": "오늘 아침에 뉴스를 봤어요.",
+      "note": "어떤 토픽이든 쓸 수 있는 즉흥적 오프닝 — 15번 뉴스 질문에도 똑같이 재사용 가능"
+    }
+  ],
+  "cards": [
+    {
+      "id": "2026-08-03-11",
+      "front": "즉흥적으로 생각하는 것처럼 들리는 오프닝 전략은?",
+      "back": "I watched the news this morning. It said we are starting to have a serious fine dust issue.",
+      "example": "어떤 날씨 토픽이든 써먹을 수 있고, 15번(뉴스) 질문에도 동일하게 재사용 가능"
+    },
+    {
+      "id": "2026-08-03-12",
+      "front": "비교 문항 구조 — 자동 대조를 만드는 방법은?",
+      "back": "Pure Present(현재 나쁜 상황) → Past(과거엔 달랐어) → Contrast 자동 완성",
+      "example": "Now: We have a serious fine dust problem. → Past: 3 years ago, it wasn't like that at all."
+    },
+    {
+      "id": "2026-08-03-13",
+      "front": "심각한 미세먼지 문제가 시작되고 있다 — AL 표현으로?",
+      "back": "We are starting to have a serious fine dust issue.",
+      "example": "IH: We have tons of fine dust. → AL: We are starting to have a serious fine dust issue."
+    },
+    {
+      "id": "2026-08-03-14",
+      "front": "이러면서 어떻게 살라는 거야? (강한 불만) — AL 표현은?",
+      "back": "How am I supposed to live with this much fine dust?",
+      "example": "IH: How can I live with this? → AL: How am I supposed to live with this?"
+    },
+    {
+      "id": "2026-08-03-15",
+      "front": "과거에는 공기 질 걱정을 할 필요가 없었어요 — 영어로?",
+      "back": "We never really had to worry about air quality.",
+      "example": "air condition(X) → air quality(O). 과거니까 didn't/never had to"
+    },
+    {
+      "id": "2026-08-03-16",
+      "front": "같은 단어를 두 문장에서 다르게 써서 AL+ 만들기 예시는?",
+      "back": "We never had to worry about air quality. / We went outside pretty much worry-free.",
+      "example": "worry → worry-free: 같은 어근을 연속으로 다르게 활용하면 AL+"
+    },
+    {
+      "id": "2026-08-03-17",
+      "front": "마스크 없이 자유롭게 밖에 나갈 수 있었다 — 영어로?",
+      "back": "We were able to freely go outside without having to wear a mask.",
+      "example": "'마스크'를 언급해 미세먼지를 직접 말하지 않고도 메시지 전달 — 간접 표현이 더 세련됨"
+    },
+    {
+      "id": "2026-08-03-18",
+      "front": "폐에 먼지가 쌓이는 게 느껴진다 — 생생한 묘사 영어로?",
+      "back": "You can sort of feel the dust accumulating in your lungs.",
+      "example": "sort of = 어느 정도, 약간. accumulate = 쌓이다"
+    },
+    {
+      "id": "2026-08-03-19",
+      "front": "'just'를 붙여서 감정 강도 올리기 — 예시 세 가지는?",
+      "back": "This is just awful. / This is just a disaster. / That was just amazing.",
+      "example": "'just'는 강조어로 IH→AL 격상. 감정 표현에 꼭 붙이기"
+    },
+    {
+      "id": "2026-08-03-20",
+      "front": "채점관을 대화에 끌어들이는 수사적 질문은?",
+      "back": "Can you imagine?",
+      "example": "Can you imagine? How am I supposed to live with this much fine dust?"
+    },
+    {
+      "id": "2026-08-03-21",
+      "front": "결론에 유머 넣어 채점관 웃기기 — 예시 문장은?",
+      "back": "I'm getting sick and tired of wearing masks. If this keeps up, I'm gonna be forced to move out of this country.",
+      "example": "be sick and tired of = 완전히 질리다. 과장된 유머로 마무리 = AL 확률 상승"
+    },
+    {
+      "id": "2026-08-03-22",
+      "front": "말이 막혔을 때 자기수정하는 자연스러운 방법은?",
+      "back": "멈추지 말고 'you know...' 필러 후 재시작",
+      "example": "We just... you know, if you just stand outside for only a few minutes, you can feel the dust."
+    }
+  ]
+}
