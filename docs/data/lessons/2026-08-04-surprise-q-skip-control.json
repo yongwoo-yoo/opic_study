@@ -1,0 +1,77 @@
+{
+  "date": "2026-08-04",
+  "title": "돌발질문 대처 — 스킵 vs 주제 컨트롤 전략",
+  "source": "오픽노잼 1:1 가이드 014",
+  "summary": [
+    "돌발질문 대처법 2가지: ① 스킵 (99%에게 추천) ② 질문 컨트롤 (준비된 주제로 유도)",
+    "핑계로 넘어가기(excuses)는 금물 — 어색하게 들리고 스크립트처럼 들림. 원어민이 아니라면 리스크가 너무 큼",
+    "질문 컨트롤 전략: 어려운 질문을 내가 자신 있는 주제로 연결해서 대답 (e.g. 인터넷 질문 → 음악/카페로 피벗)",
+    "준비 최소값: 3가지 주제를 완벽하게. 3가지도 안 되면 시험을 아직 볼 준비가 안 된 것",
+    "스킵과 컨트롤 중 하나만 선택 — 어설픈 핑계로 다음 질문 넘어가기는 두 방법 다 아님"
+  ],
+  "keyExpressions": [
+    {
+      "en": "My first recommendation is for you to skip.",
+      "ko": "첫 번째 추천은 그냥 스킵하는 거예요.",
+      "note": "돌발질문 원칙 1 — 준비 안 됐으면 깔끔하게 스킵"
+    },
+    {
+      "en": "What I'm going to show you now is how to control the question.",
+      "ko": "지금 보여드릴 건 질문을 컨트롤하는 방법이에요.",
+      "note": "돌발질문 원칙 2 — 내가 아는 주제로 유도"
+    },
+    {
+      "en": "I think people of different age groups stream music differently using the Internet.",
+      "ko": "나이대마다 인터넷으로 음악을 듣는 방식이 다른 것 같아요.",
+      "note": "'인터넷 사용' 돌발질문 → 음악 주제로 피벗하는 예시 문장"
+    },
+    {
+      "en": "I think people of different age groups go to coffee shops for different reasons.",
+      "ko": "나이대마다 카페에 가는 이유가 다른 것 같아요.",
+      "note": "'인터넷/트렌드' 돌발질문 → 카페 주제로 피벗하는 예시 문장"
+    },
+    {
+      "en": "No matter how little time you have, you should have at least three topics ready.",
+      "ko": "시간이 아무리 없어도 최소 3가지 주제는 완벽하게 준비해야 해요.",
+      "note": "시험 준비 최소 기준"
+    }
+  ],
+  "cards": [
+    {
+      "id": "2026-08-04-33",
+      "front": "돌발질문이 왔을 때 두 가지 대처법",
+      "back": "Option 1: Skip. Option 2: Control the question — redirect to a topic you're confident about.",
+      "example": "Never make excuses. Either skip cleanly, or pivot to your prepared topic."
+    },
+    {
+      "id": "2026-08-04-34",
+      "front": "핑계로 돌발질문 넘어가기가 왜 안 좋은가?",
+      "back": "It sounds scripted and awkward. It's risky unless your vocabulary, grammar, and intonation are all perfect.",
+      "example": "Making excuses sounds natural only if you're a near-native speaker. Otherwise, just skip."
+    },
+    {
+      "id": "2026-08-04-35",
+      "front": "'인터넷 사용' 돌발질문을 음악 주제로 피벗하기",
+      "back": "I think people of different age groups stream music differently using the Internet.",
+      "example": "Q: How do people use the internet differently? → I think people of different age groups stream music differently using the Internet."
+    },
+    {
+      "id": "2026-08-04-36",
+      "front": "'인터넷/트렌드' 돌발질문을 카페 주제로 피벗하기",
+      "back": "I think people of different age groups go to coffee shops for different reasons.",
+      "example": "Q: How do they use the internet differently? → I think people of different age groups go to coffee shops for different reasons."
+    },
+    {
+      "id": "2026-08-04-37",
+      "front": "OPIC 시험 준비 최소 기준은?",
+      "back": "No matter how little time you have, you should have at least three topics ready.",
+      "example": "If you can't even prepare three topics perfectly, you're not ready to take the test yet."
+    },
+    {
+      "id": "2026-08-04-38",
+      "front": "질문 컨트롤 전략의 핵심 원리",
+      "back": "Take the difficult question, find a link to one of your prepared topics, and answer that topic instead.",
+      "example": "The key is the connection — make the pivot feel natural, not forced."
+    }
+  ]
+}

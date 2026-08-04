@@ -1,6 +1,12 @@
 {
   "lessons": [
     {
+      "file": "2026-08-04-surprise-q-skip-control.json",
+      "date": "2026-08-04",
+      "title": "돌발질문 대처 — 스킵 vs 주제 컨트롤 전략",
+      "cardCount": 6
+    },
+    {
       "file": "2026-08-04-opic-communication-feeling-focused.json",
       "date": "2026-08-04",
       "title": "OPIC은 커뮤니케이션 테스트 — Feeling-focused 전략",
