@@ -1,0 +1,122 @@
+{
+  "date": "2026-08-04",
+  "title": "복잡한 질문 전략 — 1가지만 선택, 카페 표현",
+  "source": "오픽노잼 1:1 가이드 013",
+  "summary": [
+    "질문이 여러 가지를 물어봐도 딱 1가지만 골라서 집중 — 다 대답하려다 3배 어려워지고 메시지가 흐려짐",
+    "첫 30초 메인포인트가 전체 답변의 질을 결정. MP가 나쁘면 나머지도 나쁠 가능성이 매우 높음",
+    "필러를 문장 사이에 끼워 자연스럽게: 'These days, the coffee shops are not just for coffee.' → 'Well, these days, you know, the coffee shops are not just for coffee.'",
+    "'and for me, ...' — people에서 나의 감정으로 자연스럽게 전환하는 핵심 표현",
+    "'I go to coffee shops to meet my friends' (go to + 동사원형), 'or sometimes go by myself to study English'",
+    "결론: 'Yeah, that's pretty much all I have to say.' / 'I think that's why we go to coffee shops these days.' — people 대신 we 사용"
+  ],
+  "keyExpressions": [
+    {
+      "en": "The reason why people go to coffee shops has changed quite a bit.",
+      "ko": "사람들이 카페에 가는 이유가 꽤 많이 바뀌었어요.",
+      "note": "'the reason why... has changed' + 'quite a bit' — 둘 다 다양한 주제에 쓸 수 있는 범용 표현"
+    },
+    {
+      "en": "Well, these days, you know, the coffee shops are not just for coffee.",
+      "ko": "있잖아요, 요즘은, 카페가 그냥 커피 마시는 곳만은 아니잖아요.",
+      "note": "Well + these days + you know 필러 삽입으로 훨씬 자연스러운 오프너"
+    },
+    {
+      "en": "The coffee shops are not just for coffee.",
+      "ko": "카페는 커피만을 위한 곳이 아니에요.",
+      "note": "깔끔하고 임팩트 있는 메인포인트 문장"
+    },
+    {
+      "en": "And for me, I go to coffee shops to meet my friends.",
+      "ko": "그리고 저 같은 경우엔, 친구들을 만나러 카페에 가요.",
+      "note": "'and for me'로 people → 나의 개인 감정으로 자연스럽게 전환"
+    },
+    {
+      "en": "Or sometimes go by myself to study English.",
+      "ko": "아니면 혼자 영어 공부하러 가기도 해요.",
+      "note": "'go by myself to + 동사원형' 구조"
+    },
+    {
+      "en": "I think that's why we go to coffee shops these days.",
+      "ko": "그게 요즘 우리가 카페에 가는 이유인 것 같아요.",
+      "note": "'why' (왜) 사용. 'how' 아님. 'people' 대신 'we'로 공감대"
+    },
+    {
+      "en": "Yeah, that's pretty much all I have to say.",
+      "ko": "네, 그게 제가 할 말의 전부예요.",
+      "note": "자연스러운 마무리 결론 표현"
+    },
+    {
+      "en": "They go for the same reasons I do.",
+      "ko": "사람들도 저처럼 같은 이유로 가요.",
+      "note": "다른 사람들과 나를 연결할 때. 'like me'보다 훨씬 명확"
+    },
+    {
+      "en": "Let's go grab some coffee.",
+      "ko": "커피 한 잔 하러 가자.",
+      "note": "'grab some coffee'는 대화체로는 자연스럽지만 OPIC 설명 중엔 어색. 그냥 'go get coffee'나 'go to a coffee shop'으로"
+    }
+  ],
+  "cards": [
+    {
+      "id": "2026-08-04-23",
+      "front": "질문이 여러 가지를 물어볼 때 전략",
+      "back": "Just pick one thing and focus on that. The question doesn't matter — your one clear message does.",
+      "example": "Even if the question asks about multiple reasons, just pick one and go deep."
+    },
+    {
+      "id": "2026-08-04-24",
+      "front": "카페에 가는 이유가 변했다고 말하기 (범용 표현)",
+      "back": "The reason why people go to coffee shops has changed quite a bit.",
+      "example": "The reason why people go to coffee shops has changed quite a bit over the years."
+    },
+    {
+      "id": "2026-08-04-25",
+      "front": "카페 오프너 — 필러 삽입해서 자연스럽게",
+      "back": "Well, these days, you know, the coffee shops are not just for coffee.",
+      "example": "Well, these days, you know, the coffee shops are not just for coffee. The reason why has changed quite a bit."
+    },
+    {
+      "id": "2026-08-04-26",
+      "front": "people에서 나의 감정으로 자연스럽게 전환하기",
+      "back": "And for me, I go to coffee shops to meet my friends.",
+      "example": "People go for all kinds of reasons. And for me, I go to coffee shops to meet my friends."
+    },
+    {
+      "id": "2026-08-04-27",
+      "front": "혼자 공부하러 카페에 간다고 말하기",
+      "back": "Or sometimes go by myself to study English.",
+      "example": "And for me, I go to coffee shops to meet my friends, or sometimes go by myself to study English."
+    },
+    {
+      "id": "2026-08-04-28",
+      "front": "카페 결론 문장 — why, we 사용",
+      "back": "I think that's why we go to coffee shops these days.",
+      "example": "It's not just about the coffee anymore. I think that's why we go to coffee shops these days."
+    },
+    {
+      "id": "2026-08-04-29",
+      "front": "자연스러운 답변 마무리 표현",
+      "back": "Yeah, that's pretty much all I have to say.",
+      "example": "I love how the atmosphere feels like a library. Yeah, that's pretty much all I have to say."
+    },
+    {
+      "id": "2026-08-04-30",
+      "front": "사람들도 나처럼 같은 이유로 카페에 간다고 표현",
+      "back": "They go for the same reasons I do.",
+      "example": "I go to study, and honestly, they go for the same reasons I do."
+    },
+    {
+      "id": "2026-08-04-31",
+      "front": "3가지 이유를 나열하면 왜 안 좋은가?",
+      "back": "If you talk about 3 things, you've made your answer 3 times harder. One topic = clearer message, higher score.",
+      "example": "Don't list 3 reasons. Pick one and go deep — it's easier for you and clearer for the grader."
+    },
+    {
+      "id": "2026-08-04-32",
+      "front": "첫 30초가 왜 중요한가?",
+      "back": "There is a very high chance that the rest of your answer will also be of poor quality if your first 30 seconds is not so good.",
+      "example": "Always nail your main point in the first 30 seconds."
+    }
+  ]
+}
