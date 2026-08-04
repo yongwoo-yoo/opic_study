@@ -1,0 +1,93 @@
+{
+  "date": "2026-08-04",
+  "title": "인다이렉트 쿼테이션 (간접화법) — 오픽노잼 016",
+  "source": "오픽노잼 1:1 가이드 016",
+  "summary": [
+    "인다이렉트 쿼테이션(간접화법)은 다이렉트 쿼테이션(직접화법)보다 어렵지만 익히면 영어가 훨씬 자연스러워진다",
+    "다이렉트: 'Tie your shoelaces,' he said. → 인다이렉트: My brother told me to tie my shoelaces.",
+    "간접화법에서는 tense가 과거로 이동한다 (현재→과거, 과거→과거완료)",
+    "먼저 다이렉트 쿼테이션부터 연습하고, 익숙해지면 인다이렉트로 업그레이드",
+    "다이렉트 + 인다이렉트를 섞어서 답하면 교포처럼 자연스러운 느낌이 난다"
+  ],
+  "keyExpressions": [
+    {
+      "en": "told me to + 동사원형",
+      "ko": "~하라고 말했다 (간접명령문)",
+      "note": "'My brother told me to study harder.' — 명령문의 간접화법"
+    },
+    {
+      "en": "said that + 절 (tense shift)",
+      "ko": "~라고 말했다 (간접평서문)",
+      "note": "현재→과거: 'I am tired' → He said that he was tired."
+    },
+    {
+      "en": "My younger brother told me to tie my shoelaces.",
+      "ko": "남동생이 나한테 신발 끈 묶으라고 했다",
+      "note": "직접화법 '신발 끈 묶어!'의 간접화법 전환 예시"
+    },
+    {
+      "en": "asked me to + 동사원형",
+      "ko": "~해달라고 부탁했다",
+      "note": "told보다 부드러운 간접 요청"
+    },
+    {
+      "en": "wondered if / whether",
+      "ko": "~인지 궁금해했다 (간접의문문)",
+      "note": "직접의문문 'Is it good?' → She wondered if it was good."
+    },
+    {
+      "en": "She said she was tired.",
+      "ko": "그녀가 피곤하다고 했다",
+      "note": "am→was 시제 이동"
+    },
+    {
+      "en": "He told me he had already eaten.",
+      "ko": "그가 이미 먹었다고 했다",
+      "note": "과거→과거완료 시제 이동"
+    }
+  ],
+  "cards": [
+    {
+      "id": "2026-08-04-39",
+      "front": "남동생이 나한테 신발 끈 묶으라고 했다 (간접화법)",
+      "back": "My younger brother told me to tie my shoelaces.",
+      "example": "Direct: 'Tie your shoelaces!' → Indirect: My brother told me to tie my shoelaces."
+    },
+    {
+      "id": "2026-08-04-40",
+      "front": "그녀가 피곤하다고 했다 (간접화법)",
+      "back": "She said that she was tired.",
+      "example": "Direct: 'I am tired.' → Indirect: She said that she was tired."
+    },
+    {
+      "id": "2026-08-04-41",
+      "front": "그가 이미 먹었다고 했다 (간접화법)",
+      "back": "He told me he had already eaten.",
+      "example": "Direct: 'I already ate.' → Indirect: He told me he had already eaten."
+    },
+    {
+      "id": "2026-08-04-42",
+      "front": "~하라고 말했다 (간접명령문 공식)",
+      "back": "told + 목적어 + to + 동사원형",
+      "example": "She told me to wait. / He told her to be quiet."
+    },
+    {
+      "id": "2026-08-04-43",
+      "front": "~해달라고 부탁했다 (부드러운 간접 요청)",
+      "back": "asked + 목적어 + to + 동사원형",
+      "example": "My boss asked me to finish the report by Friday."
+    },
+    {
+      "id": "2026-08-04-44",
+      "front": "그것이 맛있는지 물어봤다 (간접의문문)",
+      "back": "She asked if / whether it was good.",
+      "example": "Direct: 'Is it good?' → Indirect: She asked if it was good."
+    },
+    {
+      "id": "2026-08-04-45",
+      "front": "다이렉트 vs 인다이렉트 쿼테이션 — 오픽 전략",
+      "back": "Start with direct quotation, then upgrade to indirect. Mix both for a natural Korean-American vibe.",
+      "example": "Direct: She said, 'I love coffee.' / Indirect: She said she loved coffee."
+    }
+  ]
+}
