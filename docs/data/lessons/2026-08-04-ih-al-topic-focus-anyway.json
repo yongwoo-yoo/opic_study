@@ -1,0 +1,117 @@
+{
+  "date": "2026-08-04",
+  "title": "IH→AL 전환 전략 — 주제 명확화, 99-1, anyway",
+  "source": "오픽노잼 1:1 가이드 012",
+  "summary": [
+    "모르는 단어는 설명으로 대체 가능: 'studio'를 모르면 'I live in a small place with no rooms'처럼 아는 단어로 묘사",
+    "외국인이 모를 수 있는 지명엔 국가 추가: 'Seoul' → 'Seoul, South Korea's capital city'",
+    "'anyway'를 적극 활용 — 막혔을 때 흐름 재시작, 한국어 단어 후 자연스럽게 이어가기 ('...김밥집, anyway, ...')",
+    "필러 콤보는 다양하게 섞기: 'and um' + 'and' + 'so' — 한 종류만 반복하면 어색",
+    "99-1 전략: 주제의 99%는 긍정, 1%만 부정(또는 반대). 긍/부정 50-50이면 메시지가 흐려져 AL 불가",
+    "AL의 핵심: 하나의 주제만 → 메인포인트를 먼저 crystal clear하게 → 이유·감정 순. 이유를 끝에 묻으면 안 됨"
+  ],
+  "keyExpressions": [
+    {
+      "en": "I live in a tiny little studio.",
+      "ko": "저는 아주 작은 원룸에 살아요.",
+      "note": "tiny + little 두 형용사 조합으로 강조 — 둘 중 하나만 쓰는 IH보다 훨씬 자연스럽고 인상적"
+    },
+    {
+      "en": "I live in a small place with no rooms.",
+      "ko": "방이 없는 작은 곳에 살아요.",
+      "note": "모르는 단어(studio 등)가 있을 때 아는 단어로 묘사하는 전략"
+    },
+    {
+      "en": "which is located in Seoul, South Korea's capital city",
+      "ko": "한국의 수도 서울에 위치한",
+      "note": "채점자가 서울을 모를 수 있으므로 항상 나라 추가"
+    },
+    {
+      "en": "Anyway, ...",
+      "ko": "아무튼, ... (흐름 재시작)",
+      "note": "막혔을 때, 한국어 단어 뒤에, 주제를 전환할 때 — 항상 쓸 수 있는 만능 흐름 유지 단어"
+    },
+    {
+      "en": "Make it crystal crystal clear.",
+      "ko": "완전히 명확하게 말하기.",
+      "note": "'crystal clear'에 crystal을 하나 더 붙여 강조. AL 핵심 원칙"
+    },
+    {
+      "en": "I just love how comfortable it is at home.",
+      "ko": "집이 이렇게 편하다는 게 너무 좋아요.",
+      "note": "메인포인트(편함)를 feeling으로 표현하는 패턴"
+    },
+    {
+      "en": "On weekends, I mostly just stay at home. I have nowhere to be.",
+      "ko": "주말엔 주로 집에 있어요. 딱히 갈 곳이 없거든요.",
+      "note": "메인포인트를 먼저 crystal clear하게, 이유는 그 다음"
+    },
+    {
+      "en": "Honestly, it's the one place where I can finally relax.",
+      "ko": "솔직히, 거기서 마침내 쉴 수 있는 유일한 곳이에요.",
+      "note": "'finally relax'로 감정 강조. 99% 긍정 전략의 핵심 표현"
+    }
+  ],
+  "cards": [
+    {
+      "id": "2026-08-04-13",
+      "front": "원룸(studio)을 모를 때 묘사로 대체하기",
+      "back": "I live in a small place with no rooms.",
+      "example": "I don't know the exact word, but I live in a small place with no rooms — basically just one space."
+    },
+    {
+      "id": "2026-08-04-14",
+      "front": "아주 작은 원룸에 산다고 강조해서 표현하기 (형용사 2개 조합)",
+      "back": "I live in a tiny little studio.",
+      "example": "I live in a tiny little studio which is located in Seoul, South Korea's capital city."
+    },
+    {
+      "id": "2026-08-04-15",
+      "front": "서울에 위치해 있다고 표현할 때 (채점자 배려)",
+      "back": "which is located in Seoul, South Korea's capital city",
+      "example": "I live in a tiny little studio which is located in Seoul, South Korea's capital city."
+    },
+    {
+      "id": "2026-08-04-16",
+      "front": "막혔을 때 또는 한국어 단어 후 자연스럽게 이어가기",
+      "back": "Anyway, ...",
+      "example": "The restaurant, it's called... 김밥천국... anyway, it was absolutely amazing."
+    },
+    {
+      "id": "2026-08-04-17",
+      "front": "AL의 핵심 원칙: 메인포인트를 어떻게 전달해야 하나?",
+      "back": "Make it crystal crystal clear.",
+      "example": "Don't bury your reason at the end — make it crystal crystal clear from the start."
+    },
+    {
+      "id": "2026-08-04-18",
+      "front": "집의 편안함을 feeling으로 표현하기",
+      "back": "I just love how comfortable it is at home.",
+      "example": "On weekends, I mostly stay home. I just love how comfortable it is — I can finally relax."
+    },
+    {
+      "id": "2026-08-04-19",
+      "front": "주말에 집에 있다는 걸 메인포인트 먼저 명확하게 말하기",
+      "back": "On weekends, I mostly just stay at home. I have nowhere to be.",
+      "example": "On weekends, I mostly just stay at home. I have nowhere to be, and honestly, I love it that way."
+    },
+    {
+      "id": "2026-08-04-20",
+      "front": "집이 마침내 쉴 수 있는 유일한 곳이라고 표현하기",
+      "back": "Honestly, it's the one place where I can finally relax.",
+      "example": "After a long week of work, honestly, it's the one place where I can finally relax."
+    },
+    {
+      "id": "2026-08-04-21",
+      "front": "99-1 전략이란? (긍/부정 균형 전략)",
+      "back": "99% positive, 1% negative — or vice versa. Never 50/50.",
+      "example": "I love my studio. It's so cozy and easy to clean. The only downside? It's right next to a train station."
+    },
+    {
+      "id": "2026-08-04-22",
+      "front": "집이 작아서 오히려 좋은 이유 — 유지 관리 관점",
+      "back": "Since it's so small, it's really easy to keep clean. It takes me maybe 10 minutes to tidy up.",
+      "example": "I don't need a big place. Since it's so small, it's really easy to keep clean — maybe 10 minutes."
+    }
+  ]
+}
