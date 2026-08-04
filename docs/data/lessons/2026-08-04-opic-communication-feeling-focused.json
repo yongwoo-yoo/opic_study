@@ -1,0 +1,139 @@
+{
+  "date": "2026-08-04",
+  "title": "OPIC은 커뮤니케이션 테스트 — Feeling-focused 전략",
+  "source": "오픽노잼",
+  "summary": [
+    "OPIC은 영어 시험이 아니라 커뮤니케이션 시험 — 완벽한 문법보다 '메시지가 상대방에게 명확히 전달되는가'가 핵심",
+    "AL을 위해서는 사실(fact) 나열이 아닌 감정(feeling) 중심으로 말해야. 사람에 관한 질문도 1~2문장만 언급 후 나의 감정으로 전환",
+    "AL 필러 콤보 필수: 'and um', 'and so', 'so you know' — 단독 필러(um/uh)보다 훨씬 자연스럽게 들림",
+    "문법 실수 시 자기수정(self-correction) 금지 — 메시지가 불명확해짐. 필러로 리셋하고 다시 말하기 ('I mean...' / 'what I'm trying to say is...')",
+    "'in these days' → 'these days' (in 빼기). 주어도 'their' 대신 'our'/'us'로 공감대 형성",
+    "같은 문장 안에서 같은 단어 반복 금지. 반복하려면 다른 문장에서 하는 게 훨씬 효과적"
+  ],
+  "keyExpressions": [
+    {
+      "en": "When it comes to music, I think people prefer using their smartphones.",
+      "ko": "음악에 관해서라면, 스마트폰을 선호하는 것 같아요.",
+      "note": "'when it comes to'로 자연스럽게 주제 도입. 'Well actually I think...'보다 훨씬 자연스러움"
+    },
+    {
+      "en": "It's pretty much the only way to go.",
+      "ko": "그게 거의 최선의 선택이죠.",
+      "note": "당연하거나 가장 좋은 선택임을 표현할 때"
+    },
+    {
+      "en": "It's just so convenient.",
+      "ko": "너무 편하거든요.",
+      "note": "이유를 간단히 감정으로 정리할 때"
+    },
+    {
+      "en": "The bottom line is, these days people usually use their own smartphones to listen to music.",
+      "ko": "결론적으로, 요즘 사람들은 주로 스마트폰으로 음악을 들어요.",
+      "note": "'the bottom line is'로 자연스러운 결론"
+    },
+    {
+      "en": "I think we always end up using our smartphones to listen to music.",
+      "ko": "결국 우리는 다들 스마트폰으로 음악을 듣게 되는 것 같아요.",
+      "note": "'we'를 써서 나 + 다른 사람 동시에 포함 → 더 자연스럽고 feeling-focused"
+    },
+    {
+      "en": "I love how my smartphone makes it so easy to listen to music and find the lyrics all at the same time.",
+      "ko": "스마트폰이 음악 듣기와 가사 찾기를 동시에 이렇게 쉽게 해준다는 게 너무 좋아요.",
+      "note": "'I love how...' 구조로 감정 표현. 'all at the same time'으로 마무리"
+    },
+    {
+      "en": "I mean, what I'm trying to say is, you really don't need any other devices.",
+      "ko": "제 말은, 정말 다른 기기가 필요 없다는 거예요.",
+      "note": "문법 실수 후 자연스럽게 리셋하는 필러 조합. 자기수정 대신 사용"
+    },
+    {
+      "en": "What am I trying to say? Anyway, the bottom line is...",
+      "ko": "제가 뭘 말하려는 거냐면... 아무튼, 결론은...",
+      "note": "막혔을 때 자연스럽게 결론으로 넘어가는 패턴"
+    },
+    {
+      "en": "And um, also you can use applications like Melon or YouTube.",
+      "ko": "그리고 또, 멜론이나 유튜브 같은 앱도 쓸 수 있어요.",
+      "note": "'and um'은 AL 핵심 필러 콤보 — 단독 'also'보다 훨씬 자연스럽게 들림"
+    },
+    {
+      "en": "It's really really easy for us to use our own smartphones to listen to music.",
+      "ko": "우리가 스마트폰으로 음악 듣는 게 정말 정말 쉬워요.",
+      "note": "'their'보다 'our/us'가 자연스러움. 'really really'로 강조도 OK"
+    }
+  ],
+  "cards": [
+    {
+      "id": "2026-08-04-1",
+      "front": "OPIC이 영어 시험과 다른 이유를 한 문장으로",
+      "back": "It's not about how perfect your grammar is — it's about whether the listener can fully understand what you're trying to say.",
+      "example": "OPIC is a communication test, not an English test."
+    },
+    {
+      "id": "2026-08-04-2",
+      "front": "음악 주제를 자연스럽게 열 때 (when it comes to 활용)",
+      "back": "When it comes to music, I think people prefer using their smartphones.",
+      "example": "When it comes to listening to music, I think people prefer using their own smartphones these days."
+    },
+    {
+      "id": "2026-08-04-3",
+      "front": "스마트폰이 음악 듣기에 가장 당연한 선택이라고 표현하기",
+      "back": "It's pretty much the only way to go.",
+      "example": "As it's just so convenient, it's pretty much the only way to go."
+    },
+    {
+      "id": "2026-08-04-4",
+      "front": "나 + 다른 사람 모두 포함해서 공감대 형성 (스마트폰으로 음악)",
+      "back": "I think we always end up using our smartphones to listen to music.",
+      "example": "I think we always end up using our smartphones to listen to music — it's pretty much the only way to go."
+    },
+    {
+      "id": "2026-08-04-5",
+      "front": "스마트폰으로 음악 듣고 가사 찾는 걸 감정으로 표현하기",
+      "back": "I love how my smartphone makes it so easy to listen to music and find the lyrics all at the same time.",
+      "example": "I love how my smartphone makes it so easy to listen to music and find the lyrics of that song all at the same time."
+    },
+    {
+      "id": "2026-08-04-6",
+      "front": "말하다가 문법 실수했을 때 메시지를 유지하며 리셋하는 표현",
+      "back": "I mean, what I'm trying to say is...",
+      "example": "Um, without any other devices — I mean, what I'm trying to say is, you really don't need anything else."
+    },
+    {
+      "id": "2026-08-04-7",
+      "front": "막혔을 때 자연스럽게 결론으로 넘어가는 패턴",
+      "back": "What am I trying to say? Anyway, the bottom line is...",
+      "example": "What am I trying to say? Anyway, the bottom line is, these days people usually use their own smartphones."
+    },
+    {
+      "id": "2026-08-04-8",
+      "front": "결론적으로 / 핵심은 (자연스러운 마무리 표현)",
+      "back": "The bottom line is...",
+      "example": "The bottom line is, it's just so convenient."
+    },
+    {
+      "id": "2026-08-04-9",
+      "front": "AL 필러 콤보로 추가 정보 연결하기 ('그리고 또')",
+      "back": "And um, also you can use applications like Melon or YouTube.",
+      "example": "And um, also you can use applications like Melon or YouTube — I personally love Melon."
+    },
+    {
+      "id": "2026-08-04-10",
+      "front": "'요즘 사람들은 스마트폰을 씀' — 주어를 우리 공감대로 표현",
+      "back": "It's really really easy for us to use our own smartphones to listen to music.",
+      "example": "These days, it's really really easy for us to use our own smartphones to listen to music."
+    },
+    {
+      "id": "2026-08-04-11",
+      "front": "people 관련 질문에서 feeling으로 전환하는 전략",
+      "back": "Talk about people just once or twice, then go right to how you feel about that.",
+      "example": "I think we always end up using our smartphones — I just love how convenient it is."
+    },
+    {
+      "id": "2026-08-04-12",
+      "front": "'in these days'는 어색한 표현. 올바른 표현은?",
+      "back": "these days",
+      "example": "These days, people usually use their own smartphones to listen to music."
+    }
+  ]
+}
