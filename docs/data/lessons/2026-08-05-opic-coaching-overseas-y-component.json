@@ -1,0 +1,99 @@
+{
+  "date": "2026-08-05",
+  "title": "OPIC 실전 코칭 — 해외경험 답변 & Y-component 전략",
+  "source": "오픽노잼 1:1 가이드 017",
+  "summary": [
+    "메인 포인트는 20초 안에 끝내야 한다 — 무슨 일이 있었는지(what) + 왜 기억에 남는지(why: Y-component)를 함께 말해야 crystal clear해진다",
+    "'I don't really remember my first overseas experience, but New York was definitely one of my first.' — 정확히 기억 안 날 때 쓰는 전략",
+    "감정(emotion)을 먼저 드러내면 채점관이 더 듣고 싶어진다 — 'I had a terrible experience because I got lost and was very scared'",
+    "무서웠다는 표현 업그레이드: scary → intimidating ('He was a little bit intimidating.')",
+    "스크립트처럼 안 들리고 'truly from your heart'처럼 들리는 자연스러운 흐름이 고득점 포인트"
+  ],
+  "keyExpressions": [
+    {
+      "en": "I had a terrible experience because ...",
+      "ko": "~때문에 끔찍한 경험을 했다",
+      "note": "감정 + Y-component를 한 문장에 담는 메인 포인트 공식"
+    },
+    {
+      "en": "I don't really remember my first ___, but it was definitely one of my first.",
+      "ko": "첫 ___가 정확히 기억 안 나지만, 분명 처음 중 하나였다",
+      "note": "기억이 불확실할 때 자연스럽게 넘어가는 전략"
+    },
+    {
+      "en": "He was a little bit intimidating.",
+      "ko": "그가 약간 위압적/겁나는 느낌이었다",
+      "note": "scared/scary의 업그레이드 표현"
+    },
+    {
+      "en": "Please don't get me wrong.",
+      "ko": "오해하지 마세요",
+      "note": "민감한 발언 전 완충 표현 — 채점관 집중도 올라감"
+    },
+    {
+      "en": "Make sure your main point is crystal clear.",
+      "ko": "메인 포인트를 완전히 명확하게 해야 한다",
+      "note": "오픽 고득점 핵심 원칙"
+    },
+    {
+      "en": "It's truly from your heart.",
+      "ko": "진심에서 우러나오는 것처럼 들린다",
+      "note": "스크립트처럼 안 들리는 자연스러운 답변의 칭찬 표현"
+    },
+    {
+      "en": "I got lost and I was very scared.",
+      "ko": "길을 잃어서 너무 무서웠다",
+      "note": "Y-component 예시 — 왜 terrible했는지 구체적 이유 제시"
+    }
+  ],
+  "cards": [
+    {
+      "id": "2026-08-05-1",
+      "front": "메인 포인트 공식: 감정 + 이유(Y)",
+      "back": "I had a terrible experience because I got lost and I was very scared.",
+      "example": "What + Why in one sentence → crystal clear main point under 20 seconds"
+    },
+    {
+      "id": "2026-08-05-2",
+      "front": "첫 해외경험이 정확히 기억 안 날 때",
+      "back": "I don't really remember my first overseas experience, but New York was definitely one of my first.",
+      "example": "뒤에 덧붙여도 OK: '...but it was definitely one of my first.'"
+    },
+    {
+      "id": "2026-08-05-3",
+      "front": "scary/무섭다의 업그레이드 표현",
+      "back": "He was a little bit intimidating.",
+      "example": "A police officer is intimidating because they seem powerful."
+    },
+    {
+      "id": "2026-08-05-4",
+      "front": "민감한 발언 전 완충 표현",
+      "back": "Please don't get me wrong.",
+      "example": "Please don't get me wrong, I'm not trying to be racist, but he was a really big guy and a little bit intimidating."
+    },
+    {
+      "id": "2026-08-05-5",
+      "front": "길을 잃었다 (과거)",
+      "back": "I got lost.",
+      "example": "I took the wrong subway line and I got lost in Harlem."
+    },
+    {
+      "id": "2026-08-05-6",
+      "front": "나를 쳐다보는 것 같았다",
+      "back": "Someone was looking at me.",
+      "example": "After about 15 minutes, I heard something weird. Someone was looking at me."
+    },
+    {
+      "id": "2026-08-05-7",
+      "front": "덕분에 집에 안전하게 갈 수 있었다",
+      "back": "They helped me get home safe.",
+      "example": "I explained my situation and those people helped me get home safe."
+    },
+    {
+      "id": "2026-08-05-8",
+      "front": "두 가지를 한 번에 해결하다",
+      "back": "You're essentially killing two birds with one stone.",
+      "example": "Mentioning emotion and Y-component in your main point — you're killing two birds with one stone."
+    }
+  ]
+}
