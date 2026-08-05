@@ -1,0 +1,98 @@
+{
+  "date": "2026-08-05",
+  "title": "Habit 카테고리 전략 & Quick Comparison — 오픽노잼 018",
+  "source": "오픽노잼 1:1 가이드 018",
+  "summary": [
+    "Habit 카테고리 메인 포인트는 what/how/why 중 하나만 있으면 충분 — 경험 카테고리와 다르게 감정+이유 모두 필요 없다",
+    "Quick Comparison 전략: 할 말이 떨어질 때 과거 vs 현재를 1~2문장으로 빠르게 비교 — 단, 과거 경험 스토리로 빠지면 안 된다",
+    "Y-component는 Habit에서도 필수: 'Food makes me happy'에서 끝내지 말고 왜 행복한지까지 설명해야 답변 품질이 올라간다",
+    "'I'm such a foodie' / 'I'm a super foodie' — 'I'm super foodie'는 어색, 관사 'a' 필수",
+    "필러로 생각 중임을 표현하되 'mmm...'처럼 길게 끄는 건 약해 보임 — 'you know', 'like' 등이 더 자연스럽다"
+  ],
+  "keyExpressions": [
+    {
+      "en": "I'm such a foodie.",
+      "ko": "나는 정말 식도락가야.",
+      "note": "'I'm super foodie'는 틀림 — 'a' 필수. 'I'm a super foodie.'도 OK"
+    },
+    {
+      "en": "I always try to find a good restaurant.",
+      "ko": "나는 항상 맛집을 찾으려고 한다.",
+      "note": "Habit 답변 시작: always/frequently로 습관임을 명시"
+    },
+    {
+      "en": "When I was younger, I didn't really care about it, but these days...",
+      "ko": "어렸을 때는 별로 신경 안 썼는데, 요즘은...",
+      "note": "Quick Comparison 전략 공식 — 과거 경험 스토리 아닌 습관 비교"
+    },
+    {
+      "en": "I don't know why food makes me so happy, but it does.",
+      "ko": "왜 음식이 나를 이렇게 행복하게 하는지 모르겠지만, 그냥 그렇다.",
+      "note": "Y-component가 막힐 때 쓸 수 있는 자연스러운 표현"
+    },
+    {
+      "en": "It's kind of like a private cafe or bar.",
+      "ko": "마치 개인 카페나 바 같은 느낌이야.",
+      "note": "장소 묘사 비유 표현 — 'kind of like'로 자연스럽게"
+    },
+    {
+      "en": "We can be as loud as we want.",
+      "ko": "우리가 원하는 만큼 시끄럽게 할 수 있다.",
+      "note": "집/공간 자유로움 묘사에 유용"
+    },
+    {
+      "en": "I never worry about space.",
+      "ko": "공간 걱정은 전혀 없다.",
+      "note": "집이 넓다는 걸 묘사할 때 — never worry about ~"
+    },
+    {
+      "en": "I love my home. Why? Because it's so big.",
+      "ko": "우리 집이 좋아. 왜? 너무 넓거든.",
+      "note": "Why? 로 스스로 질문하고 답하는 구조 — 채점관 집중도 상승"
+    }
+  ],
+  "cards": [
+    {
+      "id": "2026-08-05-9",
+      "front": "나는 정말 식도락가야 (자연스럽게)",
+      "back": "I'm such a foodie. / I'm a super foodie.",
+      "example": "Whenever I go overseas, I always try to find a good restaurant because I'm such a foodie."
+    },
+    {
+      "id": "2026-08-05-10",
+      "front": "Quick Comparison 전략: 과거엔 안 그랬는데 요즘은...",
+      "back": "When I was younger, I didn't really care about it, but these days it's so important to me.",
+      "example": "Habit 답변에서 할 말 떨어질 때 1~2문장으로 빠르게 과거↔현재 비교"
+    },
+    {
+      "id": "2026-08-05-11",
+      "front": "왜 그런지 모르겠지만, 그냥 그렇다",
+      "back": "I don't know why it makes me so happy, but it does.",
+      "example": "Y-component 막힐 때: I don't know why food makes me so happy, but it does."
+    },
+    {
+      "id": "2026-08-05-12",
+      "front": "마치 개인 카페나 바 같은 느낌",
+      "back": "It's kind of like a private cafe or bar.",
+      "example": "I love my home. It's kind of like a private cafe or bar — we can be as loud as we want."
+    },
+    {
+      "id": "2026-08-05-13",
+      "front": "원하는 만큼 시끄럽게 할 수 있다",
+      "back": "We can be as loud as we want.",
+      "example": "We can be as loud as we want and even lie down if we want to."
+    },
+    {
+      "id": "2026-08-05-14",
+      "front": "공간 걱정 전혀 없다",
+      "back": "I never worry about space.",
+      "example": "Whenever I bring my friends over, I never worry about space."
+    },
+    {
+      "id": "2026-08-05-15",
+      "front": "Habit 메인 포인트 공식 (음식 버전)",
+      "back": "Whenever I go overseas, I always try to find a good restaurant because I'm such a foodie.",
+      "example": "Habit = what you do + one of (feeling / why). 감정+이유 둘 다 불필요."
+    }
+  ]
+}
