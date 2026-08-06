@@ -1,0 +1,93 @@
+{
+  "date": "2026-08-06",
+  "title": "과거경험 메인 포인트 3요소 & embarrassed 오용 — 오픽노잼 019",
+  "source": "오픽노잼 1:1 가이드 019",
+  "summary": [
+    "과거경험 카테고리 메인 포인트 3요소: ① 무슨 일(what) ② 기분(good/bad) ③ 왜 그런 기분(why) — 셋 다 있어야 crystal clear",
+    "주제는 첫 문장에서 바로 명확하게 — 마지막에 갑자기 'beach'를 던지면 채점관이 메인 포인트를 못 잡는다",
+    "'embarrassed'는 창피한/부끄러운(쪽팔리다)의 뜻 — 한국인이 자주 shocked/flustered 상황에 잘못 사용함",
+    "메인 포인트 연습법: 과거경험 질문 10개에 메인 포인트만 답하고, 3요소 다 있는지 확인 — 6번째에 빠지면 처음부터 다시",
+    "Habit 카테고리와 달리 과거경험은 3요소 모두 필요 — Habit은 하나로 충분"
+  ],
+  "keyExpressions": [
+    {
+      "en": "I was shocked because we hadn't seen each other for two or three years.",
+      "ko": "2~3년 동안 못 봤기 때문에 충격이었다",
+      "note": "메인 포인트 3요소 완성형: what(saw ex) + feeling(shocked) + why(2-3 years)"
+    },
+    {
+      "en": "I didn't know what to do.",
+      "ko": "어떻게 해야 할지 몰랐다",
+      "note": "당황·혼란 상황 묘사"
+    },
+    {
+      "en": "He approached me and said hello, and it was so awkward.",
+      "ko": "그가 다가와서 인사했고 너무 어색했다",
+      "note": "approached = 다가왔다"
+    },
+    {
+      "en": "I was embarrassed.",
+      "ko": "창피했다/부끄러웠다 (≠ 당황·충격)",
+      "note": "주의: shocked/flustered를 embarrassed로 쓰는 건 오류 — embarrassed는 쪽팔리다"
+    },
+    {
+      "en": "It was so awkward.",
+      "ko": "너무 어색했다",
+      "note": "민망하고 어색한 상황에 사용"
+    },
+    {
+      "en": "Be crystal clear about it right from the beginning.",
+      "ko": "처음부터 바로 명확하게 말해야 한다",
+      "note": "메인 포인트 원칙 — 주제를 마지막에 던지면 채점관이 놓침"
+    },
+    {
+      "en": "Even though it was cold, we felt warm anyway.",
+      "ko": "춥긴 했지만 그래도 따뜻하게 느껴졌다",
+      "note": "대조 표현: even though A, B anyway — 감정 묘사에 효과적"
+    }
+  ],
+  "cards": [
+    {
+      "id": "2026-08-06-1",
+      "front": "과거경험 메인 포인트 3요소",
+      "back": "① What happened ② How I felt (good/bad) ③ Why I felt that way",
+      "example": "I saw my ex at the bar → I was shocked → because we hadn't seen each other for years"
+    },
+    {
+      "id": "2026-08-06-2",
+      "front": "2~3년 동안 못 봤기 때문에 충격이었다",
+      "back": "I was shocked because we hadn't seen each other for two or three years.",
+      "example": "Past experience main point: saw ex-boyfriend + shocked + why"
+    },
+    {
+      "id": "2026-08-06-3",
+      "front": "어떻게 해야 할지 몰랐다",
+      "back": "I didn't know what to do.",
+      "example": "I saw my ex sitting with my current boyfriend and I didn't know what to do."
+    },
+    {
+      "id": "2026-08-06-4",
+      "front": "그가 다가와서 인사했다",
+      "back": "He approached me and said hello.",
+      "example": "He approached me and said hello, and it was so awkward."
+    },
+    {
+      "id": "2026-08-06-5",
+      "front": "embarrassed vs shocked 차이",
+      "back": "embarrassed = 창피한/쪽팔린 (joke palida) ≠ shocked/flustered",
+      "example": "Wrong: I was embarrassed when I saw my ex. → Right: I was shocked / I didn't know what to do."
+    },
+    {
+      "id": "2026-08-06-6",
+      "front": "춥긴 했지만 그래도 따뜻했다 (대조 표현)",
+      "back": "Even though it was cold, we felt warm anyway.",
+      "example": "Central Park was in winter — even though it was cold, we felt warm anyway because we loved each other."
+    },
+    {
+      "id": "2026-08-06-7",
+      "front": "처음부터 바로 주제를 명확하게",
+      "back": "Be crystal clear about your main point right from the beginning.",
+      "example": "Don't throw 'beach' at the end — say it in the first sentence so the grader knows what you're talking about."
+    }
+  ]
+}
