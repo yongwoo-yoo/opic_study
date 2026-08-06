@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#2D4A8A">
+  <title>OPIC 핵심 가이드</title>
+<style>
+  :root {
+    --bg: #F4F2EE;
+    --surface: #FDFCFA;
+    --surface2: #ECEAE5;
+    --border: #D8D5CE;
+    --text: #1C1A17;
+    --text2: #6B6357;
+    --text3: #9C9188;
+    --accent: #2D4A8A;
+    --accent-bg: #E8EDF8;
+    --accent2: #B5620F;
+    --accent2-bg: #FDF0E6;
+    --green: #1F6B4A;
+    --green-bg: #E4F4EC;
+    --purple: #5B3F8A;
+    --purple-bg: #EFE9F8;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #141210;
+      --surface: #1E1C19;
+      --surface2: #272420;
+      --border: #353028;
+      --text: #EDE9E2;
+      --text2: #9C9188;
+      --text3: #6B6357;
+      --accent: #7A9FE0;
+      --accent-bg: #1A2540;
+      --accent2: #E08040;
+      --accent2-bg: #2A1A0A;
+      --green: #5DB88A;
+      --green-bg: #0F2A1E;
+      --purple: #A080D0;
+      --purple-bg: #1E1530;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #141210;
+    --surface: #1E1C19;
+    --surface2: #272420;
+    --border: #353028;
+    --text: #EDE9E2;
+    --text2: #9C9188;
+    --text3: #6B6357;
+    --accent: #7A9FE0;
+    --accent-bg: #1A2540;
+    --accent2: #E08040;
+    --accent2-bg: #2A1A0A;
+    --green: #5DB88A;
+    --green-bg: #0F2A1E;
+    --purple: #A080D0;
+    --purple-bg: #1E1530;
+  }
+  :root[data-theme="light"] {
+    --bg: #F4F2EE;
+    --surface: #FDFCFA;
+    --surface2: #ECEAE5;
+    --border: #D8D5CE;
+    --text: #1C1A17;
+    --text2: #6B6357;
+    --text3: #9C9188;
+    --accent: #2D4A8A;
+    --accent-bg: #E8EDF8;
+    --accent2: #B5620F;
+    --accent2-bg: #FDF0E6;
+    --green: #1F6B4A;
+    --green-bg: #E4F4EC;
+    --purple: #5B3F8A;
+    --purple-bg: #EFE9F8;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    min-height: 100vh;
+  }
+
+  .site-header {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 14px 16px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  .site-title {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 13px;
+    letter-spacing: 0.06em;
+    color: var(--text2);
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header-actions { display: flex; gap: 8px; align-items: center; }
+  .back-link {
+    background: none;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    color: var(--text2);
+    cursor: pointer;
+    font-size: 12px;
+    padding: 2px 8px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  .theme-toggle {
+    background: none;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    color: var(--text2);
+    cursor: pointer;
+    font-size: 12px;
+    padding: 2px 8px;
+  }
+  .tabs {
+    display: flex;
+    gap: 0;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+  .tabs::-webkit-scrollbar { display: none; }
+  .tab-btn {
+    background: none;
+    border: none;
+    border-bottom: 2px solid transparent;
+    color: var(--text2);
+    cursor: pointer;
+    font-size: 14px;
+    font-family: inherit;
+    padding: 8px 14px 10px;
+    white-space: nowrap;
+    transition: color 0.15s, border-color 0.15s;
+    font-weight: 500;
+  }
+  .tab-btn:hover { color: var(--text); }
+  .tab-btn.active {
+    color: var(--accent);
+    border-bottom-color: var(--accent);
+    font-weight: 600;
+  }
+
+  .tab-panel { display: none; padding: 20px 16px 60px; max-width: 720px; margin: 0 auto; }
+  .tab-panel.active { display: block; }
+
+  .section { margin-bottom: 32px; }
+  .section-title {
+    font-family: Georgia, serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: var(--text);
+    margin-bottom: 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--border);
+    text-wrap: balance;
+  }
+  .section-title span {
+    font-size: 12px;
+    font-family: -apple-system, sans-serif;
+    color: var(--text3);
+    font-weight: normal;
+    margin-left: 8px;
+  }
+
+  .strategy-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 14px 16px;
+    margin-bottom: 8px;
+  }
+  .strategy-card .rule { font-weight: 600; font-size: 14px; color: var(--text); margin-bottom: 4px; }
+  .strategy-card .desc { font-size: 13px; color: var(--text2); line-height: 1.5; }
+  .strategy-card .tag {
+    display: inline-block;
+    font-size: 11px;
+    border-radius: 3px;
+    padding: 1px 6px;
+    margin-top: 6px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+  }
+  .tag-al { background: var(--purple-bg); color: var(--purple); }
+  .tag-ih { background: var(--accent-bg); color: var(--accent); }
+  .tag-warn { background: var(--accent2-bg); color: var(--accent2); }
+  .tag-tip { background: var(--green-bg); color: var(--green); }
+
+  .filler-group { margin-bottom: 20px; }
+  .filler-label {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text3);
+    margin-bottom: 8px;
+  }
+  .filler-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+  .filler-chip {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 5px 12px;
+    font-size: 13px;
+    line-height: 1.3;
+  }
+  .filler-chip .en { font-family: "Courier New", Courier, monospace; font-size: 13px; color: var(--text); font-weight: 600; }
+  .filler-chip .ko { font-size: 11px; color: var(--text2); margin-left: 4px; }
+
+  .expr-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 12px 14px;
+    margin-bottom: 6px;
+  }
+  .expr-card .en { font-family: "Courier New", Courier, monospace; font-size: 14px; color: var(--text); font-weight: 700; line-height: 1.4; }
+  .expr-card .ko { font-size: 12px; color: var(--text2); margin-top: 3px; }
+  .expr-card .note { font-size: 11.5px; color: var(--text3); margin-top: 4px; font-style: italic; }
+  .expr-card .example { font-size: 12px; color: var(--accent); margin-top: 6px; padding-top: 6px; border-top: 1px solid var(--border); font-family: "Courier New", Courier, monospace; line-height: 1.45; }
+
+  .step-row { display: flex; gap: 12px; align-items: flex-start; padding: 10px 14px; background: var(--surface); border: 1px solid var(--border); border-radius: 8px; margin-bottom: 6px; }
+  .step-num { flex-shrink: 0; width: 26px; height: 26px; border-radius: 50%; background: var(--accent-bg); color: var(--accent); font-size: 13px; font-weight: 700; display: flex; align-items: center; justify-content: center; }
+  .step-body .step-title { font-size: 14px; font-weight: 600; margin-bottom: 2px; }
+  .step-body .step-desc { font-size: 13px; color: var(--text2); }
+  .step-body .step-example { font-family: "Courier New", monospace; font-size: 12px; color: var(--accent); margin-top: 4px; }
+
+  .formula-box { background: var(--accent-bg); border: 1px solid var(--accent); border-left: 4px solid var(--accent); border-radius: 0 8px 8px 0; padding: 12px 16px; margin-bottom: 16px; }
+  .formula-box .formula-label { font-size: 10px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent); margin-bottom: 4px; }
+  .formula-box .formula-text { font-size: 15px; font-weight: 600; color: var(--text); }
+  .formula-box .formula-sub { font-size: 12px; color: var(--text2); margin-top: 4px; }
+
+  .warn-box { background: var(--accent2-bg); border-left: 4px solid var(--accent2); border-radius: 0 8px 8px 0; padding: 10px 14px; margin-bottom: 16px; font-size: 13px; color: var(--text2); }
+  .warn-box strong { color: var(--accent2); }
+
+  .divider { height: 1px; background: var(--border); margin: 24px 0; }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="site-title">
+    OPIC 핵심 가이드 · 30강 정리
+    <div class="header-actions">
+      <a href="index.html" class="back-link">← 앱</a>
+      <button class="theme-toggle" onclick="toggleTheme()">◐</button>
+    </div>
+  </div>
+  <nav class="tabs" role="tablist">
+    <button class="tab-btn active" onclick="switchTab('strategy', this)">전략</button>
+    <button class="tab-btn" onclick="switchTab('mp', this)">MP 만들기</button>
+    <button class="tab-btn" onclick="switchTab('fillers', this)">필러</button>
+    <button class="tab-btn" onclick="switchTab('expressions', this)">표현</button>
+  </nav>
+</header>
+
+<!-- ============ TAB: 전략 ============ -->
+<section id="tab-strategy" class="tab-panel active">
+
+  <div class="section">
+    <h2 class="section-title">레벨 전략 <span>IM → IH → AL</span></h2>
+    <div class="strategy-card">
+      <div class="rule">난이도는 항상 6-6(최고)로 선택</div>
+      <div class="desc">난이도 = 내 실력이 아니라 고점수를 받을 수 있는 확률. 낮게 고르면 어려운 질문이 안 나와서 AL 영구 불가. 중간 재조정 질문이 나와도 "same"으로 유지.</div>
+      <span class="tag tag-tip">시험 운영</span>
+    </div>
+    <div class="strategy-card">
+      <div class="rule">IM↔IH↔AL 차이 = 어휘력이 아니라 질문 컨트롤</div>
+      <div class="desc">IM2까지는 바로 하나의 주제로 답. IH 이상은 질문 전체 범위를 먼저 acknowledge한 뒤 하나로 통제. "There are so many things I could talk about, but I'm going to focus on..."</div>
+      <span class="tag tag-ih">IH→AL</span>
+    </div>
+    <div class="strategy-card">
+      <div class="rule">표현 다양화 — 같은 단어 반복이 AL을 막는다</div>
+      <div class="desc">IH 학생이 AL 못 받는 가장 큰 이유. "delicious food... happy... delicious food... happy" 패턴 금지. 같은 감정/상황을 최소 2~3가지 다른 표현으로.</div>
+      <span class="tag tag-al">AL 핵심</span>
+    </div>
+    <div class="strategy-card">
+      <div class="rule">AL은 타인의 감정도 묘사한다</div>
+      <div class="desc">IH는 내 감정만, AL은 주변 사람의 감정까지. "My friend didn't enjoy it as much as I did." / "I could tell she was a little disappointed."</div>
+      <span class="tag tag-al">AL 차별화</span>
+    </div>
+    <div class="strategy-card">
+      <div class="rule">서베이 토픽은 pets(반려동물) 선택 추천</div>
+      <div class="desc">미국 채점자의 65~68%가 개를 키운다 → 공감대 최대. 공감이 높으면 채점자가 더 관대해진다.</div>
+      <span class="tag tag-tip">토픽 전략</span>
+    </div>
+    <div class="strategy-card">
+      <div class="rule">유명인 언급 금지</div>
+      <div class="desc">채점자가 나보다 훨씬 잘 알 수 있다. 조금만 틀려도 크게 감점. 아는 사람 이야기가 훨씬 안전.</div>
+      <span class="tag tag-warn">주의</span>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="section-title">답변 구조 전략</h2>
+    <div class="strategy-card">
+      <div class="rule">99-1 전략 — 하나의 메인포인트에 99% 집중</div>
+      <div class="desc">메인포인트(99%) + 작은 대조(1%)만. 완전히 다른 주제로 넘어가면 채점관이 연결고리를 잃는다. 결론에서 해결책 반드시 언급.</div>
+      <span class="tag tag-ih">답변 구조</span>
+    </div>
+    <div class="strategy-card">
+      <div class="rule">LEGO 전략 — 콤보셋 Q1→Q2→Q3 연결</div>
+      <div class="desc">3문항을 따로 대답하지 말고 Q1 내용을 Q2·Q3에서 연결. Q1: "I love winter" → Q2: "오늘도 겨울인데, 제가 겨울 좋아한다고 했잖아요..." 첫 30초가 핵심.</div>
+      <span class="tag tag-ih">콤보셋</span>
+    </div>
+    <div class="strategy-card">
+      <div class="rule">4스텝 전략 (Description 답변)</div>
+      <div class="desc">① 핵심 메인포인트 선언 → ② 다른 좋은 점 2가지 → ③ 핵심으로 복귀+깊이(and yet) → ④ 마무리 (in a nutshell)</div>
+      <span class="tag tag-ih">Description</span>
+    </div>
+    <div class="strategy-card">
+      <div class="rule">Feelings-first — Detail보다 감정 위주</div>
+      <div class="desc">AL의 핵심은 세부사항 나열이 아니라 감정의 깊이. 람보르기니 1대 &gt; KIA 5대. 감정 단어는 길게 늘여서: "I LOOVE it SOOO much"</div>
+      <span class="tag tag-al">AL 핵심</span>
+    </div>
+    <div class="strategy-card">
+      <div class="rule">메인포인트 하나를 Elaborate(크게 만들기)</div>
+      <div class="desc">새로운 포인트 추가 X. 기존 메인포인트를 더 깊이, 더 구체적으로, 더 감정적으로 파고든다. "Don't add random points. Just make that one main point bigger."</div>
+      <span class="tag tag-al">AL 전략</span>
+    </div>
+    <div class="strategy-card">
+      <div class="rule">Connection 기법 — 인트로 내용을 다른 토픽과 연결</div>
+      <div class="desc">인트로에서 말한 것(예: 커피 좋아함)을 나중 토픽 답변 중에 짧게 연결. 1~2번이면 충분. "By the way, the hotel had amazing coffee too."</div>
+      <span class="tag tag-al">점수 상승</span>
+    </div>
+    <div class="strategy-card">
+      <div class="rule">시제 규칙 — 질문 유형에 맞춰</div>
+      <div class="desc">과거경험 질문 → 전부 과거시제 ("it was my fault", not "is"). 현재 묘사 질문 → 현재시제. 비교 문항(14번)은 pure present로만 시작.</div>
+      <span class="tag tag-warn">자주 실수</span>
+    </div>
+    <div class="strategy-card">
+      <div class="rule">직접화법 vs 간접화법 활용</div>
+      <div class="desc">직접화법: she was like "..." / I thought to myself "..." / I was like "..." → 답변이 드라마틱하게 들림. 간접화법: told me to / said that / asked me to.</div>
+      <span class="tag tag-al">생동감</span>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="section-title">어려운 질문 대처</h2>
+    <div class="strategy-card">
+      <div class="rule">돌발질문: 스킵 vs 주제 컨트롤</div>
+      <div class="desc">핑계 대면서 넘어가는 건 리스키 (어색하게 들린다). 99% 학생은 바로 스킵이 낫다. 3개 주제를 완벽히 준비한 경우에만 컨트롤 전략 사용.</div>
+      <span class="tag tag-tip">돌발 대처</span>
+    </div>
+    <div class="strategy-card">
+      <div class="rule">뉴스/시사 관련 질문은 스킵 추천</div>
+      <div class="desc">"I hate you set" — 준비 어렵고, 외운 것처럼 들리기 쉬워서 역효과. IH를 받다가 뉴스 질문만 스킵했더니 AL 받은 학생 사례 다수.</div>
+      <span class="tag tag-tip">스킵 전략</span>
+    </div>
+    <div class="strategy-card">
+      <div class="rule">복잡한 질문 → 하나만 선택해서 집중</div>
+      <div class="desc">여러 요소를 물어봐도 하나만 뽑아서 깊이 답한다. "이 질문을 보고 내가 가장 잘할 수 있는 주제 하나로 컨트롤."</div>
+      <span class="tag tag-ih">질문 컨트롤</span>
+    </div>
+    <div class="strategy-card">
+      <div class="rule">리사이클링 — 강점 소재를 다른 질문에 이식</div>
+      <div class="desc">준비한 답변의 재료(소재·표현)를 다른 질문에 재활용. 예: 카페 경험 → 해외경험 질문에서 카페 이야기로. "This reminds me of something that happened to me..."</div>
+      <span class="tag tag-tip">시험 전략</span>
+    </div>
+    <div class="strategy-card">
+      <div class="rule">롤플레이 Q11 — 4단계 전략</div>
+      <div class="desc">① 상황 인식 표현 → ② 핵심 요청/문제 → ③ 구체적 질문 2~3가지 → ④ 자연스러운 마무리. 실생활 대화처럼 자연스럽게.</div>
+      <span class="tag tag-ih">롤플레이</span>
+    </div>
+  </div>
+
+</section>
+
+<!-- ============ TAB: MP 만들기 ============ -->
+<section id="tab-mp" class="tab-panel">
+
+  <div class="section">
+    <h2 class="section-title">MP 공식</h2>
+    <div class="formula-box">
+      <div class="formula-label">기본 공식</div>
+      <div class="formula-text">[주제] + [좋은지 / 싫은지] + [이유 한 줄]</div>
+      <div class="formula-sub">첫 30초 안에 crystal clear하게 — 첫 30초가 강하면 나머지도 강하다</div>
+    </div>
+    <div class="warn-box">
+      <strong>사계절 함정:</strong> 네 계절을 하나씩 설명하면 10초 낭비. "Korea has four seasons, but my favorite is fall." — 2초면 충분. OPIC 채점관은 메시지가 명확한지를 본다.
+    </div>
+    <div class="warn-box">
+      <strong>embarrassed ≠ shocked:</strong> 당황함 = embarrassed. shocked는 충격. 한국 학생이 자주 혼동.
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="section-title">과거경험 MP 3요소</h2>
+    <div class="formula-box">
+      <div class="formula-label">과거경험 구조</div>
+      <div class="formula-text">사건(What) + 감정(How I felt) + 이유(Why)</div>
+      <div class="formula-sub">→ 상세 디테일 → 결론(그 경험의 의미)</div>
+    </div>
+    <div class="step-row">
+      <div class="step-num">1</div>
+      <div class="step-body">
+        <div class="step-title">메인 포인트 선언</div>
+        <div class="step-desc">무슨 일이 있었는지 + 어떤 감정이었는지 한 문장으로</div>
+        <div class="step-example">"He approached me and said hello, which was really embarrassing."</div>
+      </div>
+    </div>
+    <div class="step-row">
+      <div class="step-num">2</div>
+      <div class="step-body">
+        <div class="step-title">감정의 이유 설명</div>
+        <div class="step-desc">왜 그 감정이었는지 구체적으로 — IH와 IM을 가르는 지점</div>
+        <div class="step-example">"I felt embarrassed because I didn't know what to say."</div>
+      </div>
+    </div>
+    <div class="step-row">
+      <div class="step-num">3</div>
+      <div class="step-body">
+        <div class="step-title">구체적 디테일</div>
+        <div class="step-desc">직접화법 활용해서 생동감 추가</div>
+        <div class="step-example">"I thought to myself, 'holy cow, what do I do now?'"</div>
+      </div>
+    </div>
+    <div class="step-row">
+      <div class="step-num">4</div>
+      <div class="step-body">
+        <div class="step-title">결론 — 경험의 의미</div>
+        <div class="step-desc">Overall로 시작해서 그 경험이 나에게 어떤 의미인지</div>
+        <div class="step-example">"Overall, it was embarrassing, but it made me realize how important small talk is."</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="section-title">Description 4스텝</h2>
+    <div class="step-row">
+      <div class="step-num">1</div>
+      <div class="step-body">
+        <div class="step-title">핵심 메인포인트 선언</div>
+        <div class="step-desc">나는 ~를 존경한다, 왜냐면 항상 ~하기 때문</div>
+        <div class="step-example">"Let me tell you about one of my seniors. I really admire her because she's always so positive."</div>
+      </div>
+    </div>
+    <div class="step-row">
+      <div class="step-num">2</div>
+      <div class="step-body">
+        <div class="step-title">다른 좋은 점 2가지</div>
+        <div class="step-desc">Text Type 다양성 확보 — 예시로 보여주기</div>
+        <div class="step-example">"Of course, she has other great qualities as well. For example, she's never late for work."</div>
+      </div>
+    </div>
+    <div class="step-row">
+      <div class="step-num">3</div>
+      <div class="step-body">
+        <div class="step-title">핵심으로 복귀 + 깊이</div>
+        <div class="step-desc">and yet / but으로 반전하면서 구체적 상황 추가</div>
+        <div class="step-example">"The one thing I love about her the most is... She's actually pregnant now, and yet she never complains."</div>
+      </div>
+    </div>
+    <div class="step-row">
+      <div class="step-num">4</div>
+      <div class="step-body">
+        <div class="step-title">마무리</div>
+        <div class="step-desc">in a nutshell / Overall로 깔끔하게 끝내기</div>
+        <div class="step-example">"So yeah, that's my senior in a nutshell."</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="section-title">Habit MP 구조</h2>
+    <div class="formula-box">
+      <div class="formula-label">Habit 카테고리</div>
+      <div class="formula-text">I'm such a [X]. → 습관 묘사 → Quick Comparison → 결론</div>
+      <div class="formula-sub">Quick Comparison: "It's kind of like a private cafe or bar, but..." — X는 Y와 비슷한데 다른 점은 Z다</div>
+    </div>
+    <div class="strategy-card">
+      <div class="rule">I'm such a foodie.</div>
+      <div class="desc">Habit 카테고리 메인포인트 선언 패턴. "I'm such a + 명사" → 나는 정말 ~인 사람이다. I'm such a coffee person. / I'm such a homebody.</div>
+    </div>
+    <div class="strategy-card">
+      <div class="rule">I'm a [X] person. 패턴</div>
+      <div class="desc">나의 성향/체질을 한 단어로: I'm a winter person. / I'm a people person. / I'm a sweat person (땀이 많은 체질).</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="section-title">Y-component — 해외경험</h2>
+    <div class="formula-box">
+      <div class="formula-label">Y-component</div>
+      <div class="formula-text">왜 이 경험이 내 삶에 의미 있는지 설명</div>
+      <div class="formula-sub">단순 사건 나열이 아니라 나에게 어떤 영향을 줬는지까지 — AL 차별화 포인트</div>
+    </div>
+    <div class="strategy-card">
+      <div class="rule">"I don't really remember the exact details, but..."</div>
+      <div class="desc">해외경험에서 세부사항이 기억 안 날 때 자연스럽게 쓰는 표현. 이후 감정/의미로 연결.</div>
+    </div>
+    <div class="strategy-card">
+      <div class="rule">자연 장소는 mountain 또는 beach 중 하나만</div>
+      <div class="desc">여러 장소 나열 금지. 하나를 선택해서 집중. 채점관이 메인 포인트를 잃지 않게.</div>
+    </div>
+  </div>
+
+</section>
+
+<!-- ============ TAB: 필러 ============ -->
+<section id="tab-fillers" class="tab-panel">
+
+  <div class="section">
+    <h2 class="section-title">생각할 때 버티는 필러</h2>
+    <div class="warn-box">
+      <strong>침묵(silence)은 감점 요인.</strong> 막히면 바로 필러로 채워라. <strong>mmm은 콩글리쉬</strong> — 반드시 um으로.
+    </div>
+    <div class="filler-group">
+      <div class="filler-label">즉각 쓸 수 있는 필러</div>
+      <div class="filler-chips">
+        <div class="filler-chip"><span class="en">You know,</span><span class="ko">있잖아요</span></div>
+        <div class="filler-chip"><span class="en">Um,</span><span class="ko">어... (mmm 아님)</span></div>
+        <div class="filler-chip"><span class="en">I mean,</span><span class="ko">그러니까</span></div>
+        <div class="filler-chip"><span class="en">Like,</span><span class="ko">이렇게</span></div>
+        <div class="filler-chip"><span class="en">Well,</span><span class="ko">음...</span></div>
+        <div class="filler-chip"><span class="en">Oh,</span><span class="ko">오 (자연스러운 반응)</span></div>
+        <div class="filler-chip"><span class="en">So,</span><span class="ko">그래서</span></div>
+      </div>
+    </div>
+    <div class="filler-group">
+      <div class="filler-label">조합해서 쓰기</div>
+      <div class="filler-chips">
+        <div class="filler-chip"><span class="en">Well, you know,</span><span class="ko">있잖아요, 그게</span></div>
+        <div class="filler-chip"><span class="en">You know, I mean,</span><span class="ko">그러니까 있잖아</span></div>
+        <div class="filler-chip"><span class="en">Well, you know, first things first.</span><span class="ko">우선 먼저</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="section-title">답변 시작 필러</h2>
+    <div class="filler-group">
+      <div class="filler-label">자연스러운 시작 표현</div>
+      <div class="filler-chips">
+        <div class="filler-chip"><span class="en">Let me tell you about...</span><span class="ko">~에 대해 얘기해볼게요</span></div>
+        <div class="filler-chip"><span class="en">Here's the thing.</span><span class="ko">이게 바로 그건데요</span></div>
+        <div class="filler-chip"><span class="en">Here's the deal.</span><span class="ko">이렇게 된 거예요</span></div>
+        <div class="filler-chip"><span class="en">I know this might sound random, but...</span><span class="ko">뜬금없이 들릴 수도 있는데</span></div>
+        <div class="filler-chip"><span class="en">Honestly,</span><span class="ko">솔직히 말해서</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="section-title">결론 & 전환 필러</h2>
+    <div class="filler-group">
+      <div class="filler-label">결론 시작</div>
+      <div class="filler-chips">
+        <div class="filler-chip"><span class="en">Overall,</span><span class="ko">전반적으로 / 결론은</span></div>
+        <div class="filler-chip"><span class="en">Here's the bottom line.</span><span class="ko">결론은 이거예요</span></div>
+        <div class="filler-chip"><span class="en">In a nutshell,</span><span class="ko">한마디로</span></div>
+        <div class="filler-chip"><span class="en">So yeah,</span><span class="ko">그러니까요</span></div>
+        <div class="filler-chip"><span class="en">Long story short,</span><span class="ko">짧게 말하면</span></div>
+        <div class="filler-chip"><span class="en">The bottom line is...</span><span class="ko">핵심은...</span></div>
+      </div>
+    </div>
+    <div class="filler-group">
+      <div class="filler-label">메인포인트로 복귀</div>
+      <div class="filler-chips">
+        <div class="filler-chip"><span class="en">Anyway,</span><span class="ko">어쨌든 (주제 복귀)</span></div>
+        <div class="filler-chip"><span class="en">But yeah,</span><span class="ko">하지만 결국</span></div>
+        <div class="filler-chip"><span class="en">I guess what I'm trying to say is...</span><span class="ko">제가 말하려는 건...</span></div>
+      </div>
+    </div>
+    <div class="filler-group">
+      <div class="filler-label">연결 & 리사이클링</div>
+      <div class="filler-chips">
+        <div class="filler-chip"><span class="en">By the way,</span><span class="ko">그러고 보니</span></div>
+        <div class="filler-chip"><span class="en">Speaking of which,</span><span class="ko">그 말이 나왔으니</span></div>
+        <div class="filler-chip"><span class="en">That reminds me of...</span><span class="ko">그게 생각나는데</span></div>
+        <div class="filler-chip"><span class="en">As I mentioned earlier,</span><span class="ko">아까 말했듯이</span></div>
+        <div class="filler-chip"><span class="en">This reminds me of something that happened...</span><span class="ko">이게 제게 있었던 일이 생각나는데</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="section-title">질문 컨트롤 필러</h2>
+    <div class="filler-group">
+      <div class="filler-label">복잡한 질문을 하나로 좁힐 때</div>
+      <div class="filler-chips">
+        <div class="filler-chip"><span class="en">There are so many things I could talk about, but I'm going to focus on...</span></div>
+        <div class="filler-chip"><span class="en">When it comes to [X], the one thing that really stands out to me is...</span></div>
+        <div class="filler-chip"><span class="en">Honestly, I could go on and on about this, but...</span></div>
+        <div class="filler-chip"><span class="en">I think the most important thing here is...</span></div>
+      </div>
+    </div>
+    <div class="filler-group">
+      <div class="filler-label">뉴스·어려운 질문 회피</div>
+      <div class="filler-chips">
+        <div class="filler-chip"><span class="en">I'm not really up to date on current events.</span><span class="ko">최근 뉴스에 잘 모른다</span></div>
+        <div class="filler-chip"><span class="en">I have to be honest, I don't follow the news that much.</span></div>
+        <div class="filler-chip"><span class="en">That's a topic I'm not very familiar with.</span></div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- ============ TAB: 표현 ============ -->
+<section id="tab-expressions" class="tab-panel">
+
+  <div class="section">
+    <h2 class="section-title">자기소개 & 시작</h2>
+    <div class="expr-card">
+      <div class="en">Let me tell you about one of my seniors at work.</div>
+      <div class="ko">직장 선배 중 한 명에 대해 얘기해볼게요</div>
+      <div class="note">"I want to talk about"보다 훨씬 자연스러운 시작</div>
+    </div>
+    <div class="expr-card">
+      <div class="en">Let me tell you a little bit about myself.</div>
+      <div class="ko">제 자신에 대해 조금 말씀드리겠습니다</div>
+      <div class="note">자기소개 시작 표현</div>
+    </div>
+    <div class="expr-card">
+      <div class="en">I'm the kind of person who...</div>
+      <div class="ko">저는 ~하는 타입이에요</div>
+      <div class="example">I'm the kind of person who can't start the day without coffee.</div>
+    </div>
+    <div class="expr-card">
+      <div class="en">One thing that people always notice about me is...</div>
+      <div class="ko">사람들이 항상 나에 대해 알아채는 한 가지는</div>
+      <div class="note">인상적인 자기소개 방식</div>
+    </div>
+    <div class="expr-card">
+      <div class="en">I work for a mid-sized company. / I'm currently in charge of...</div>
+      <div class="ko">중소기업에 다닌다 / ~을 담당하고 있다</div>
+    </div>
+    <div class="expr-card">
+      <div class="en">I've been working there for about [X] years.</div>
+      <div class="ko">약 X년 동안 거기서 일하고 있다 (현재완료 진행)</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="section-title">감정 표현</h2>
+    <div class="expr-card">
+      <div class="en">I couldn't believe how wonderful it tasted.</div>
+      <div class="ko">맛이 얼마나 훌륭한지 믿을 수가 없었다</div>
+      <div class="note">I couldn't believe how + 형용사 — 강한 감탄 패턴</div>
+    </div>
+    <div class="expr-card">
+      <div class="en">Holy cow, this is amazing!</div>
+      <div class="ko">와 대박이다 (wow보다 더 생동감)</div>
+      <div class="example">When I got there, I thought to myself, 'holy cow, this is amazing.'</div>
+    </div>
+    <div class="expr-card">
+      <div class="en">I was overly worried about that.</div>
+      <div class="ko">그것 때문에 너무 걱정이 됐다 (overly = 지나치게)</div>
+    </div>
+    <div class="expr-card">
+      <div class="en">It was absolutely breathtaking.</div>
+      <div class="ko">숨막히게 아름다웠다</div>
+      <div class="example">The view from the top was absolutely breathtaking — totally worth it.</div>
+    </div>
+    <div class="expr-card">
+      <div class="en">It took me by surprise.</div>
+      <div class="ko">깜짝 놀랐다, 예상 못 했다</div>
+    </div>
+    <div class="expr-card">
+      <div class="en">It felt like a freezer. / Today's cold is unforgivable.</div>
+      <div class="ko">냉동고 같았다 / 오늘 추위는 용납이 안 돼 (과장 표현)</div>
+      <div class="note">날씨 묘사 강한 감정 표현</div>
+    </div>
+    <div class="expr-card">
+      <div class="en">I felt completely at peace.</div>
+      <div class="ko">완전히 평온한 느낌이었다</div>
+      <div class="example">Standing at the top of the mountain, I felt completely at peace.</div>
+    </div>
+    <div class="expr-card">
+      <div class="en">I'm not feeling like myself today. / I came down with something.</div>
+      <div class="ko">오늘 컨디션이 평소 같지 않아 / 뭔가에 걸린 것 같아</div>
+      <div class="note">"my condition is bad" 대신</div>
+    </div>
+    <div class="expr-card">
+      <div class="en">I blanked out.</div>
+      <div class="ko">머리가 새하얘졌다, 갑자기 생각이 안 났다</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="section-title">직접화법 & 간접화법</h2>
+    <div class="expr-card">
+      <div class="en">She was like, "Sam, make sure to separate everything."</div>
+      <div class="ko">엄마가 ~라고 했다 (다른 사람 말 인용)</div>
+      <div class="note">패턴: [사람] was like, "..."</div>
+    </div>
+    <div class="expr-card">
+      <div class="en">I thought to myself, "holy cow, this is amazing."</div>
+      <div class="ko">속으로 ~라고 생각했다 (내 생각 인용)</div>
+      <div class="note">패턴: I thought to myself, "..."</div>
+    </div>
+    <div class="expr-card">
+      <div class="en">I was like, "I can't believe how good this is."</div>
+      <div class="ko">나는 ~라고 했다 (내 반응 인용)</div>
+      <div class="note">패턴: I was like, "..."</div>
+    </div>
+    <div class="divider"></div>
+    <div class="expr-card">
+      <div class="en">She told me to clean my room.</div>
+      <div class="ko">그녀가 방을 청소하라고 했다 (간접화법)</div>
+      <div class="note">told + 사람 + to + 동사원형</div>
+    </div>
+    <div class="expr-card">
+      <div class="en">He said that he was tired. / She asked me to help her.</div>
+      <div class="ko">그가 피곤하다고 했다 / 그녀가 도와달라고 했다</div>
+    </div>
+    <div class="expr-card">
+      <div class="en">My younger brother told me to tie my shoelaces.</div>
+      <div class="ko">남동생이 신발끈을 묶으라고 했다 (reversing roles)</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="section-title">교통 & 문제 상황</h2>
+    <div class="expr-card">
+      <div class="en">I got stuck in traffic for over an hour.</div>
+      <div class="ko">한 시간 넘게 교통 체증에 걸렸다</div>
+      <div class="note">get stuck in traffic = 교통 체증에 갇히다</div>
+    </div>
+    <div class="expr-card">
+      <div class="en">I ended up missing my bus.</div>
+      <div class="ko">결국 버스를 놓쳤다</div>
+      <div class="note">end up ~ing: 결국 ~하게 됐다 (핵심 패턴)</div>
+    </div>
+    <div class="expr-card">
+      <div class="en">I had no choice but to call the mechanic.</div>
+      <div class="ko">정비사를 부를 수밖에 없었다</div>
+      <div class="note">I had no choice but to + 동사원형</div>
+    </div>
+    <div class="expr-card">
+      <div class="en">The subway was completely packed.</div>
+      <div class="ko">지하철이 완전히 꽉 찼다 (packed = 매우 붐비는)</div>
+    </div>
+    <div class="expr-card">
+      <div class="en">Luckily, I managed to catch the last train.</div>
+      <div class="ko">다행히 막차를 간신히 탔다 (managed to = 간신히)</div>
+    </div>
+    <div class="expr-card">
+      <div class="en">I ended up blaming the train.</div>
+      <div class="ko">결국 전철 탓을 했다 (유머 포인트)</div>
+      <div class="example">It was my fault for missing the train, but I ended up blaming the train because I didn't want to blame myself.</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="section-title">장소 & 자연 묘사</h2>
+    <div class="expr-card">
+      <div class="en">It was one of those experiences that I'll never forget.</div>
+      <div class="ko">절대 잊지 못할 경험 중 하나였다</div>
+    </div>
+    <div class="expr-card">
+      <div class="en">I didn't want to leave.</div>
+      <div class="ko">떠나고 싶지 않았다 (강한 선호를 간결하게)</div>
+    </div>
+    <div class="expr-card">
+      <div class="en">It made me realize how much I needed a break.</div>
+      <div class="ko">얼마나 쉬어야 했는지 깨닫게 해줬다</div>
+      <div class="note">경험의 의미 설명 — IH 차별화 포인트</div>
+    </div>
+    <div class="expr-card">
+      <div class="en">As soon as we set foot on its soil, we could feel how cold it was.</div>
+      <div class="ko">그 땅에 발을 딛자마자 얼마나 추운지 느꼈다</div>
+    </div>
+    <div class="expr-card">
+      <div class="en">There was snow literally everywhere.</div>
+      <div class="ko">말 그대로 사방에 눈이 있었다 (literally = 강조)</div>
+    </div>
+    <div class="expr-card">
+      <div class="en">What makes it stand out is...</div>
+      <div class="ko">그것을 특별하게 만드는 건...</div>
+      <div class="note">장소/물건 묘사 시 차별점 강조</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="section-title">비교 & 대조 (AL 타인 감정)</h2>
+    <div class="expr-card">
+      <div class="en">My friend didn't enjoy it as much as I did.</div>
+      <div class="ko">친구는 나만큼 즐기지 않았다</div>
+      <div class="note">AL 차별화 — 타인 감정 묘사 필수</div>
+    </div>
+    <div class="expr-card">
+      <div class="en">I could tell she was a little disappointed.</div>
+      <div class="ko">그녀가 약간 실망한 게 느껴졌다</div>
+    </div>
+    <div class="expr-card">
+      <div class="en">For me it was amazing, but for her it was just okay.</div>
+      <div class="ko">나에겐 놀라웠지만, 그녀에겐 그냥 괜찮은 정도</div>
+    </div>
+    <div class="expr-card">
+      <div class="en">It's kind of like a private cafe or bar, but...</div>
+      <div class="ko">마치 개인 카페나 바 같은 느낌인데 (Quick Comparison)</div>
+      <div class="note">Quick Comparison 패턴: X is kind of like Y, but...</div>
+    </div>
+    <div class="expr-card">
+      <div class="en">Overall, even though it was so cold, the people made it so warm.</div>
+      <div class="ko">전반적으로, 여행이 추웠지만 사람들이 따뜻하게 만들어줬다</div>
+      <div class="note">결론 패턴: Overall, even though [A], the [B] made it so [C]</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="section-title">표현 다양화 (AL — 반복 탈출)</h2>
+    <div class="expr-card">
+      <div class="en">I could eat there every single day. / It never gets old.</div>
+      <div class="ko">"delicious / I love it" 다양화 — 절대 질리지 않는다</div>
+    </div>
+    <div class="expr-card">
+      <div class="en">I can't get enough of it.</div>
+      <div class="ko">아무리 해도 질리지 않는다</div>
+    </div>
+    <div class="expr-card">
+      <div class="en">That place has a special place in my heart.</div>
+      <div class="ko">그 장소는 나에게 특별하다 (I love it 업그레이드)</div>
+    </div>
+    <div class="expr-card">
+      <div class="en">It's hard to put into words.</div>
+      <div class="ko">말로 표현하기 어렵다 — 이후 구체적 묘사로 연결</div>
+    </div>
+    <div class="expr-card">
+      <div class="en">I need my morning coffee to function.</div>
+      <div class="ko">아침 커피 없이는 기능을 못 한다</div>
+      <div class="note">I need X to function/survive — 강한 의존감 패턴</div>
+    </div>
+    <div class="expr-card">
+      <div class="en">I can't imagine coming home to an empty house without her.</div>
+      <div class="ko">그녀 없이 텅 빈 집에 오는 건 상상도 못 한다</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 class="section-title">결론 & 마무리</h2>
+    <div class="expr-card">
+      <div class="en">So yeah, that's [X] in a nutshell.</div>
+      <div class="ko">그러니까, 한마디로 [X]는 그런 거예요</div>
+      <div class="note">Description 4스텝 마무리</div>
+    </div>
+    <div class="expr-card">
+      <div class="en">Something good did come out of it, but overall...</div>
+      <div class="ko">좋은 것도 있긴 했지만, 전체적으로는 (99-1 패턴)</div>
+    </div>
+    <div class="expr-card">
+      <div class="en">Taking care of a pet teaches you a lot about responsibility.</div>
+      <div class="ko">경험의 의미 설명 — IH 차별화 패턴</div>
+      <div class="note">It made me realize... / It taught me... / I learned that... 패턴으로 응용</div>
+    </div>
+    <div class="expr-card">
+      <div class="en">It is what it is.</div>
+      <div class="ko">어쩔 수 없지, 그런 거지</div>
+    </div>
+  </div>
+
+</section>
+
+<script>
+  function switchTab(id, btn) {
+    document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+    document.getElementById('tab-' + id).classList.add('active');
+    btn.classList.add('active');
+    window.scrollTo(0, 0);
+  }
+
+  function toggleTheme() {
+    const root = document.documentElement;
+    const current = root.getAttribute('data-theme');
+    const isDark = current === 'dark' || (!current && window.matchMedia('(prefers-color-scheme: dark)').matches);
+    root.setAttribute('data-theme', isDark ? 'light' : 'dark');
+  }
+</script>
+</body>
+</html>
