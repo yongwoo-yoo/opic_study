@@ -219,3 +219,18 @@ header h1 { font-size: 1.1rem; font-weight: 700; }
 
 .empty { text-align: center; padding: 60px 20px; color: var(--text-muted); }
 .empty p { margin-top: 8px; font-size: 0.9rem; }
+
+.guide-btn {
+  display: block;
+  text-align: center;
+  background: var(--surface);
+  border: 1.5px solid var(--border);
+  border-radius: 10px;
+  color: var(--primary);
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 12px;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+.guide-btn:hover { background: var(--primary); color: #fff; }
