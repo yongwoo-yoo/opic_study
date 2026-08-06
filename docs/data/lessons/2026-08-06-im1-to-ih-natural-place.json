@@ -1,0 +1,70 @@
+{
+  "date": "2026-08-06",
+  "title": "IM1 → IH 올라가기 — 자연 장소 답변 | 오픽노잼 028",
+  "source": "오픽노잼 1:1 가이드 028",
+  "summary": [
+    "과거경험 자연 장소 질문(산/해변)은 mountain 또는 beach 중 하나를 선택해서 집중 — 여러 개 나열하면 채점관이 메인 포인트를 잃는다",
+    "IM1 → IH 핵심: 넘버 5(감정의 깊이) — 단순 사실 나열에서 감정의 구체적인 이유까지 설명하는 것이 IH를 가름",
+    "IH 답변 구조: 사실 → 감정 → 왜 그 감정인지 → 구체적 디테일 → 결론(그 경험의 의미)",
+    "바쁜 사람도 집중적으로 공부하면 단기간에 IM1 → IH 가능 (실제 학생 사례)"
+  ],
+  "keyExpressions": [
+    {
+      "en": "It was one of those experiences that I'll never forget.",
+      "ko": "절대 잊지 못할 경험 중 하나였다",
+      "note": "강한 인상을 남긴 경험 묘사"
+    },
+    {
+      "en": "I felt completely at peace.",
+      "ko": "완전히 평온한 느낌이었다",
+      "note": "자연에서의 감정 묘사 표현"
+    },
+    {
+      "en": "It made me realize how much I needed a break.",
+      "ko": "얼마나 쉬어야 했는지 깨닫게 해줬다",
+      "note": "경험의 의미 설명 — IH 차별화"
+    },
+    {
+      "en": "The view from the top was absolutely breathtaking.",
+      "ko": "꼭대기에서의 경치는 정말 숨막히게 아름다웠다",
+      "note": "breathtaking = 숨이 막힐 정도로 아름다운"
+    },
+    {
+      "en": "I didn't want to leave.",
+      "ko": "떠나고 싶지 않았다",
+      "note": "장소가 정말 좋았음을 간결하게 표현"
+    }
+  ],
+  "cards": [
+    {
+      "id": "2026-08-06-45",
+      "front": "절대 잊지 못할 경험 중 하나였다",
+      "back": "It was one of those experiences that I'll never forget.",
+      "example": "Hiking that mountain was one of those experiences that I'll never forget."
+    },
+    {
+      "id": "2026-08-06-46",
+      "front": "완전히 평온한 느낌이었다",
+      "back": "I felt completely at peace.",
+      "example": "Standing at the top of the mountain, I felt completely at peace."
+    },
+    {
+      "id": "2026-08-06-47",
+      "front": "꼭대기에서의 경치는 숨막히게 아름다웠다",
+      "back": "The view from the top was absolutely breathtaking.",
+      "example": "We climbed for 3 hours, but the view from the top was absolutely breathtaking — totally worth it."
+    },
+    {
+      "id": "2026-08-06-48",
+      "front": "얼마나 쉬어야 했는지 깨닫게 해줬다",
+      "back": "It made me realize how much I needed a break.",
+      "example": "Being surrounded by nature made me realize how much I needed a break from my daily routine."
+    },
+    {
+      "id": "2026-08-06-49",
+      "front": "떠나고 싶지 않았다",
+      "back": "I didn't want to leave.",
+      "example": "The beach was so beautiful and peaceful — I didn't want to leave."
+    }
+  ]
+}

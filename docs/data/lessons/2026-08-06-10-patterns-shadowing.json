@@ -1,0 +1,71 @@
+{
+  "date": "2026-08-06",
+  "title": "IH 필수 패턴 10개 + 쉐도잉 연습 | 오픽노잼 029",
+  "source": "오픽노잼 1:1 가이드 029",
+  "summary": [
+    "쉐도잉(shadowing): 문장을 반복해서 따라 말하며 자연스러운 발음·리듬·억양을 몸에 배게 하는 연습법",
+    "'Here's the bottom line.' — 결론을 말하기 전 채점관의 집중을 끌어모으는 핵심 표현",
+    "'I need my morning coffee to function.' — 일상 habit 묘사의 자연스러운 패턴 (I need X to Y)",
+    "쉐도잉은 같은 문장을 여러 번 반복하면서 속도·억양·연음을 따라가는 게 핵심",
+    "Well, okay. / Well, you know, / Here's the thing. — 생각 정리 후 시작하는 자연스러운 필러"
+  ],
+  "keyExpressions": [
+    {
+      "en": "Here's the bottom line.",
+      "ko": "결론은 이거예요.",
+      "note": "결론 직전 채점관 집중을 끌어모으는 표현 — 자주 써도 자연스러움"
+    },
+    {
+      "en": "I need my morning coffee to function.",
+      "ko": "아침 커피 없이는 기능을 못 한다",
+      "note": "I need X to function/survive — 강한 의존감 표현 패턴"
+    },
+    {
+      "en": "Here's the thing.",
+      "ko": "이게 바로 그건데요.",
+      "note": "중요한 포인트 말하기 직전 전환 표현"
+    },
+    {
+      "en": "Well, you know, first things first.",
+      "ko": "있잖아요, 우선 먼저.",
+      "note": "자연스러운 이야기 시작 필러"
+    },
+    {
+      "en": "The bottom line is that I can't imagine my life without it.",
+      "ko": "결론은 그것 없는 내 삶을 상상할 수 없다는 거예요",
+      "note": "강한 결론 표현 — habit/preference 답변 마무리"
+    }
+  ],
+  "cards": [
+    {
+      "id": "2026-08-06-50",
+      "front": "결론은 이거예요 (채점관 집중 표현)",
+      "back": "Here's the bottom line.",
+      "example": "Here's the bottom line — I can't start my day without coffee."
+    },
+    {
+      "id": "2026-08-06-51",
+      "front": "아침 커피 없이는 기능을 못 한다",
+      "back": "I need my morning coffee to function.",
+      "example": "I need my morning coffee to function. Without it, I'm basically useless until noon."
+    },
+    {
+      "id": "2026-08-06-52",
+      "front": "이게 바로 그건데요 (중요 포인트 전환)",
+      "back": "Here's the thing.",
+      "example": "Here's the thing — it's not just about the taste. It's about the whole morning routine."
+    },
+    {
+      "id": "2026-08-06-53",
+      "front": "그것 없는 내 삶을 상상할 수 없다",
+      "back": "I can't imagine my life without it.",
+      "example": "The bottom line is that I can't imagine my life without coffee."
+    },
+    {
+      "id": "2026-08-06-54",
+      "front": "있잖아요, 우선 먼저 (자연스러운 시작)",
+      "back": "Well, you know, first things first.",
+      "example": "Well, you know, first things first — let me tell you about the time I forgot my wallet at home."
+    }
+  ]
+}

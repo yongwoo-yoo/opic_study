@@ -1,0 +1,92 @@
+{
+  "date": "2026-08-06",
+  "title": "99-1 전략 실전 — 교통수단 문제 답변 | 오픽노잼 020",
+  "source": "오픽노잼 1:1 가이드 020",
+  "summary": [
+    "99-1 전략: 하나의 주제(99%)에만 집중하면서 1%만 대조(contrast) — 완전히 다른 주제로 넘어가면 채점관이 연결고리를 잃는다",
+    "교통수단 문제 답변: 차에서 이상한 소리 → 보험사/정비사 호출 → 수리 완료 — 문제·감정·이유 3요소 유지하면서 해결 과정만 서술",
+    "'I ended up blaming the train' — 자책하기 싫을 때 쓰는 유머 표현, 채점관 집중도 상승",
+    "결론(conclusion)에서 해결책을 반드시 언급 — 해결 못 했으면 못 했다고 설명하는 것도 OK",
+    "과거경험 질문은 전부 과거시제 — 'it is my fault' → 'it was my fault'"
+  ],
+  "keyExpressions": [
+    {
+      "en": "I heard some weird noise from the car.",
+      "ko": "차에서 이상한 소리가 들렸다",
+      "note": "교통 문제 메인 포인트 첫 문장"
+    },
+    {
+      "en": "I was overly worried about that.",
+      "ko": "그것 때문에 너무 걱정이 됐다",
+      "note": "overly = 지나치게"
+    },
+    {
+      "en": "I had no choice but to call the mechanic.",
+      "ko": "정비사를 부를 수밖에 없었다",
+      "note": "I had no choice but to + 동사원형"
+    },
+    {
+      "en": "He did a fantastic job.",
+      "ko": "그가 정말 잘 해줬다",
+      "note": "결론에서 해결자 칭찬 표현"
+    },
+    {
+      "en": "I ended up blaming the train.",
+      "ko": "결국 전철 탓을 했다",
+      "note": "end up + ~ing: 결국 ~하게 됐다 — 유머 포인트"
+    },
+    {
+      "en": "I wanted to point fingers at something else.",
+      "ko": "다른 무언가를 탓하고 싶었다",
+      "note": "point fingers at = ~를 탓하다"
+    },
+    {
+      "en": "It was definitely my fault.",
+      "ko": "분명히 내 잘못이었다",
+      "note": "과거시제 주의: 'is' → 'was'"
+    },
+    {
+      "en": "Something good did come out of it, but overall...",
+      "ko": "좋은 것도 있긴 했지만, 전체적으로는...",
+      "note": "99-1: 작은 긍정 → 다시 부정 메인으로 복귀"
+    }
+  ],
+  "cards": [
+    {
+      "id": "2026-08-06-8",
+      "front": "차에서 이상한 소리가 들렸다",
+      "back": "I heard some weird noise from the car.",
+      "example": "When I got into my car, I heard some weird noise and I was overly worried about that."
+    },
+    {
+      "id": "2026-08-06-9",
+      "front": "정비사를 부를 수밖에 없었다",
+      "back": "I had no choice but to call the mechanic.",
+      "example": "I had no choice but to call the mechanic, and he fixed it up right away."
+    },
+    {
+      "id": "2026-08-06-10",
+      "front": "결국 전철 탓을 했다 (유머)",
+      "back": "I ended up blaming the train.",
+      "example": "It was my fault for missing the train, but I ended up blaming the train because I didn't want to blame myself."
+    },
+    {
+      "id": "2026-08-06-11",
+      "front": "다른 무언가를 탓하고 싶었다",
+      "back": "I wanted to point fingers at something else.",
+      "example": "I was so frustrated at myself, so I just wanted to point fingers at something else."
+    },
+    {
+      "id": "2026-08-06-12",
+      "front": "분명히 내 잘못이었다 (과거시제)",
+      "back": "It was definitely my fault.",
+      "example": "It wasn't the train's fault — it was definitely my fault for being late."
+    },
+    {
+      "id": "2026-08-06-13",
+      "front": "좋은 것도 있긴 했지만, 전체적으로는...",
+      "back": "Something good did come out of it, but overall I ended up being very late.",
+      "example": "99-1: 1%의 긍정 → 다시 메인 주제(문제)로 복귀"
+    }
+  ]
+}

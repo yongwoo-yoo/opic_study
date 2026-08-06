@@ -1,10 +1,76 @@
 {
   "lessons": [
     {
+      "file": "2026-08-06-variety-expressions-ih-to-al.json",
+      "date": "2026-08-06",
+      "title": "같은 표현 반복이 AL을 막는다 — 표현 다양화 | 오픽노잼 022",
+      "cardCount": 5
+    },
+    {
+      "file": "2026-08-06-transport-one-line-practice.json",
+      "date": "2026-08-06",
+      "title": "교통수단 질문 한 줄씩 연습하기 | 오픽노잼 025",
+      "cardCount": 5
+    },
+    {
+      "file": "2026-08-06-skip-news-ihu15.json",
+      "date": "2026-08-06",
+      "title": "뉴스 관련 질문 스킵 & ihu15 전략 | 오픽노잼 027",
+      "cardCount": 4
+    },
+    {
+      "file": "2026-08-06-self-intro-blank-mind-tips.json",
+      "date": "2026-08-06",
+      "title": "자기소개·머리 하얘질때·IM↔IH 공부법 | 오픽노잼 023",
+      "cardCount": 5
+    },
+    {
+      "file": "2026-08-06-recycling-tips-test-prep.json",
+      "date": "2026-08-06",
+      "title": "시험 전 리사이클링 프로팁 | 오픽노잼 024",
+      "cardCount": 4
+    },
+    {
+      "file": "2026-08-06-question-control-ih-al.json",
+      "date": "2026-08-06",
+      "title": "질문 컨트롤이 IM/IH/AL을 가른다 | 오픽노잼 021",
+      "cardCount": 4
+    },
+    {
       "file": "2026-08-06-past-exp-main-point-embarrassed.json",
       "date": "2026-08-06",
       "title": "과거경험 메인 포인트 3요소 & embarrassed 오용 — 오픽노잼 019",
       "cardCount": 7
+    },
+    {
+      "file": "2026-08-06-im2-ih-pets-topic.json",
+      "date": "2026-08-06",
+      "title": "IM2 → IH — 반려동물 토픽이 꿀인 이유 | 오픽노잼 030",
+      "cardCount": 5
+    },
+    {
+      "file": "2026-08-06-im1-to-ih-natural-place.json",
+      "date": "2026-08-06",
+      "title": "IM1 → IH 올라가기 — 자연 장소 답변 | 오픽노잼 028",
+      "cardCount": 5
+    },
+    {
+      "file": "2026-08-06-difficulty-66-people-strategy.json",
+      "date": "2026-08-06",
+      "title": "난이도 6-6 선택 & People 질문 전략 | 오픽노잼 026",
+      "cardCount": 4
+    },
+    {
+      "file": "2026-08-06-99-1-strategy-transport.json",
+      "date": "2026-08-06",
+      "title": "99-1 전략 실전 — 교통수단 문제 답변 | 오픽노잼 020",
+      "cardCount": 6
+    },
+    {
+      "file": "2026-08-06-10-patterns-shadowing.json",
+      "date": "2026-08-06",
+      "title": "IH 필수 패턴 10개 + 쉐도잉 연습 | 오픽노잼 029",
+      "cardCount": 5
     },
     {
       "file": "2026-08-05-opic-coaching-overseas-y-component.json",

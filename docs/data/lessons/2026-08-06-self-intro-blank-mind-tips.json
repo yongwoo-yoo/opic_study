@@ -1,0 +1,70 @@
+{
+  "date": "2026-08-06",
+  "title": "자기소개·머리 하얘질때·IM↔IH 공부법 | 오픽노잼 023",
+  "source": "오픽노잼 1:1 가이드 023",
+  "summary": [
+    "오픽 자기소개: 재밌고 다양하게 — 단순 '이름+나이+직업' 나열 대신 흥미로운 사실로 채점관 집중도 높이기",
+    "머리가 하얘질 때: 멈추지 말고 필러로 계속 버텨라 — 'you know', 'like', 'I mean' 등으로 생각할 시간 벌기",
+    "IM 학생은 표현/어휘 공부, IH 학생은 질문 컨트롤·다양한 표현 공부가 우선순위",
+    "오픽 시험에서 욕설이나 강한 표현은 채점에 영향 없음 — 자연스러운 감정 표현이 더 중요"
+  ],
+  "keyExpressions": [
+    {
+      "en": "Let me tell you a little bit about myself.",
+      "ko": "제 자신에 대해 조금 말씀드리겠습니다",
+      "note": "자기소개 시작 표현 — 자연스럽고 흔히 쓰임"
+    },
+    {
+      "en": "One thing that people always notice about me is...",
+      "ko": "사람들이 항상 나에 대해 알아채는 한 가지는...",
+      "note": "인상적인 자기소개 방식"
+    },
+    {
+      "en": "You know, I mean... like...",
+      "ko": "있잖아요, 그러니까... 이렇게...",
+      "note": "머리 하얘질 때 버티는 필러 — 절대 침묵보다 낫다"
+    },
+    {
+      "en": "I know this might sound a little random, but...",
+      "ko": "좀 뜬금없이 들릴 수도 있는데...",
+      "note": "예상 밖의 자기소개 전환 시 사용"
+    },
+    {
+      "en": "I'm the kind of person who...",
+      "ko": "저는 ~하는 타입이에요",
+      "note": "자기 성격/습관 묘사 유용 패턴"
+    }
+  ],
+  "cards": [
+    {
+      "id": "2026-08-06-23",
+      "front": "자기소개 자연스러운 시작",
+      "back": "Let me tell you a little bit about myself.",
+      "example": "Let me tell you a little bit about myself. I'm a total coffee addict."
+    },
+    {
+      "id": "2026-08-06-24",
+      "front": "사람들이 항상 나에 대해 알아채는 건...",
+      "back": "One thing that people always notice about me is...",
+      "example": "One thing that people always notice about me is that I always have a cup of coffee in my hand."
+    },
+    {
+      "id": "2026-08-06-25",
+      "front": "저는 ~하는 타입이에요",
+      "back": "I'm the kind of person who...",
+      "example": "I'm the kind of person who can't start the day without coffee."
+    },
+    {
+      "id": "2026-08-06-26",
+      "front": "머리 하얘질 때 버티는 필러 조합",
+      "back": "You know... I mean... like... well...",
+      "example": "침묵보다 필러로 버티면서 생각하는 것처럼 보이는 게 훨씬 낫다"
+    },
+    {
+      "id": "2026-08-06-27",
+      "front": "좀 뜬금없이 들릴 수도 있는데...",
+      "back": "I know this might sound a little random, but...",
+      "example": "I know this might sound a little random, but I think the best way to describe me is through my love of food."
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "date": "2026-08-06",
+  "title": "난이도 6-6 선택 & People 질문 전략 | 오픽노잼 026",
+  "source": "오픽노잼 1:1 가이드 026",
+  "summary": [
+    "난이도는 항상 6-6(최고) 선택 — '난이도'는 내 실력이 아니라 고점수를 받을 수 있는 확률. 낮게 고르면 어려운 질문이 안 나와서 AL 불가능",
+    "중간에 재조정 질문이 나오면 '똑같이(same)'로 유지 — 내려가는 순간 확률 감소",
+    "People 질문 전략 변화: 예전엔 나(P1)로 컨트롤하면 됐지만, 요즘 채점자들이 까다로워져서 다른 사람 감정까지 보여줘야 AL 가능",
+    "AL 학생 차이: 나의 감정만이 아니라 친구·가족 등 주변 사람의 감정도 묘사 — 'My friend didn't enjoy it as much as I did'"
+  ],
+  "keyExpressions": [
+    {
+      "en": "Difficulty level is not your ability — it's your probability of getting a high score.",
+      "ko": "난이도는 내 실력이 아니라 고점수 확률이다",
+      "note": "오픽 핵심 전략 원칙"
+    },
+    {
+      "en": "My friend didn't enjoy it as much as I did.",
+      "ko": "친구는 나만큼 즐기지 않았다",
+      "note": "다른 사람의 감정 묘사 — AL 차별화 포인트"
+    },
+    {
+      "en": "I could tell she was a little disappointed.",
+      "ko": "그녀가 약간 실망한 게 느껴졌다",
+      "note": "타인 감정 묘사 표현"
+    },
+    {
+      "en": "For me it was amazing, but for her it was just okay.",
+      "ko": "나에겐 놀라웠지만, 그녀에겐 그냥 괜찮은 정도였다",
+      "note": "나 vs 타인 감정 대조 — AL 표현"
+    },
+    {
+      "en": "I think what made it special was not just the place itself, but the people I was with.",
+      "ko": "특별했던 건 장소 자체뿐 아니라 함께한 사람들이었다",
+      "note": "사람 중심 묘사로 확장"
+    }
+  ],
+  "cards": [
+    {
+      "id": "2026-08-06-37",
+      "front": "오픽 난이도 선택 전략",
+      "back": "Always choose 6-6 (hardest). Difficulty = probability of a high score, not your ability.",
+      "example": "사사(4-4)를 고르면 외국인도 AL 불가능. 항상 6-6 선택."
+    },
+    {
+      "id": "2026-08-06-38",
+      "front": "친구는 나만큼 즐기지 않았다 (AL 타인 감정 묘사)",
+      "back": "My friend didn't enjoy it as much as I did.",
+      "example": "I loved the food, but my friend didn't enjoy it as much as I did — she said it was too spicy."
+    },
+    {
+      "id": "2026-08-06-39",
+      "front": "그녀가 약간 실망한 게 느껴졌다",
+      "back": "I could tell she was a little disappointed.",
+      "example": "I could tell she was a little disappointed, which made me feel bad."
+    },
+    {
+      "id": "2026-08-06-40",
+      "front": "나에겐 놀라웠지만, 그녀에겐 그냥 괜찮은 정도",
+      "back": "For me it was amazing, but for her it was just okay.",
+      "example": "AL 차별화: 나 혼자의 감정이 아닌 다른 사람의 감정까지 대조해서 보여주기"
+    }
+  ]
+}

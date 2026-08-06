@@ -1,0 +1,70 @@
+{
+  "date": "2026-08-06",
+  "title": "IM2 → IH — 반려동물 토픽이 꿀인 이유 | 오픽노잼 030",
+  "source": "오픽노잼 1:1 가이드 030",
+  "summary": [
+    "IM2가 IH를 못 받는 이유: 영어 실력 문제가 아니라 답변 방식·전략을 몰라서 — 전략 교정만으로 IH 가능",
+    "서베이에서 pets(반려동물) 토픽 반드시 선택 추천 — 미국 채점자의 65~68%가 개를 키워서 공감대 형성 극대화",
+    "pets 질문: 'Tell me about what you do for your pets' — 먹이, 청소, 산책, 놀아주기 등 일상 습관 나열보다 특별한 에피소드로 차별화",
+    "같은 행동을 표현할 때 다양한 표현 사용 — 'feed' 하나로 반복하지 말고 'make sure they're well-fed', 'give them their meals' 등으로 변환"
+  ],
+  "keyExpressions": [
+    {
+      "en": "I make sure my dog gets enough exercise every day.",
+      "ko": "매일 강아지가 충분히 운동하도록 챙긴다",
+      "note": "make sure + 절 = ~하도록 확실히 챙기다"
+    },
+    {
+      "en": "My dog is basically my best friend.",
+      "ko": "강아지가 사실 내 가장 친한 친구다",
+      "note": "반려동물 애정 표현 자연스러운 방식"
+    },
+    {
+      "en": "I can't imagine coming home to an empty house without her.",
+      "ko": "그녀 없이 텅 빈 집에 오는 건 상상도 못 한다",
+      "note": "반려동물의 존재 의미 강조 표현"
+    },
+    {
+      "en": "She gets so excited whenever I come home.",
+      "ko": "내가 집에 올 때마다 너무 흥분한다",
+      "note": "반려동물 반응 묘사 — 생동감 있는 표현"
+    },
+    {
+      "en": "Taking care of a pet teaches you a lot about responsibility.",
+      "ko": "반려동물을 돌보는 것은 책임감에 대해 많이 가르쳐 준다",
+      "note": "경험의 의미 설명 — IH 차별화"
+    }
+  ],
+  "cards": [
+    {
+      "id": "2026-08-06-55",
+      "front": "매일 강아지가 충분히 운동하도록 챙긴다",
+      "back": "I make sure my dog gets enough exercise every day.",
+      "example": "I make sure my dog gets enough exercise every day, even when I'm busy."
+    },
+    {
+      "id": "2026-08-06-56",
+      "front": "강아지가 사실 내 가장 친한 친구다",
+      "back": "My dog is basically my best friend.",
+      "example": "My dog is basically my best friend — she knows when I'm sad and always cheers me up."
+    },
+    {
+      "id": "2026-08-06-57",
+      "front": "그녀 없이 텅 빈 집에 오는 건 상상도 못 한다",
+      "back": "I can't imagine coming home to an empty house without her.",
+      "example": "I can't imagine coming home to an empty house without her. She always makes me feel welcome."
+    },
+    {
+      "id": "2026-08-06-58",
+      "front": "내가 집에 올 때마다 너무 흥분한다",
+      "back": "She gets so excited whenever I come home.",
+      "example": "She gets so excited whenever I come home — it's honestly the best part of my day."
+    },
+    {
+      "id": "2026-08-06-59",
+      "front": "반려동물 돌보기 = 책임감 배우기",
+      "back": "Taking care of a pet teaches you a lot about responsibility.",
+      "example": "Taking care of a pet teaches you a lot about responsibility — you can't just ignore them when it's inconvenient."
+    }
+  ]
+}

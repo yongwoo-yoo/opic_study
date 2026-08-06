@@ -1,0 +1,64 @@
+{
+  "date": "2026-08-06",
+  "title": "시험 전 리사이클링 프로팁 | 오픽노잼 024",
+  "source": "오픽노잼 1:1 가이드 024",
+  "summary": [
+    "리사이클링: 준비한 답변의 재료(소재·표현)를 다른 질문에 재활용하는 전략 — 매번 새로운 내용 만들지 않아도 됨",
+    "강점인 토픽의 표현과 에피소드를 다른 카테고리로 이식 — 예: 카페 경험 → 해외 경험 질문에 카페 이야기 활용",
+    "시험 직전 리사이클링 포인트를 정리해두면 돌발 질문이 와도 대처 가능",
+    "완벽히 다른 주제인 척하면서 실은 자신 있는 소재로 답하는 것이 핵심"
+  ],
+  "keyExpressions": [
+    {
+      "en": "This reminds me of something that happened to me...",
+      "ko": "이게 제게 있었던 일이 생각나는데요...",
+      "note": "리사이클링 전환 표현 — 다른 주제에서 준비된 소재로 이동"
+    },
+    {
+      "en": "Speaking of which, I actually have a great story about that.",
+      "ko": "그러고 보니, 그에 관한 좋은 이야기가 있어요",
+      "note": "자연스럽게 준비된 에피소드로 연결"
+    },
+    {
+      "en": "That actually brings to mind...",
+      "ko": "그게 사실 ~이 떠오르는데...",
+      "note": "리사이클링 연결 표현"
+    },
+    {
+      "en": "I know this is a little off-topic, but it's related.",
+      "ko": "약간 주제에서 벗어날 수 있는데, 관련이 있어요",
+      "note": "리사이클링 시 주제 이탈 방어 표현"
+    },
+    {
+      "en": "I guess what I'm trying to say is...",
+      "ko": "제가 말하려는 건...",
+      "note": "복잡한 리사이클링 후 핵심으로 돌아올 때"
+    }
+  ],
+  "cards": [
+    {
+      "id": "2026-08-06-28",
+      "front": "이게 제게 있었던 일이 생각나는데요 (리사이클링 전환)",
+      "back": "This reminds me of something that happened to me...",
+      "example": "This reminds me of something that happened to me when I was at a cafe in New York."
+    },
+    {
+      "id": "2026-08-06-29",
+      "front": "그러고 보니, 그에 관한 좋은 이야기가 있어요",
+      "back": "Speaking of which, I actually have a great story about that.",
+      "example": "Speaking of which, I actually have a great story about a transportation problem I faced overseas."
+    },
+    {
+      "id": "2026-08-06-30",
+      "front": "그게 사실 ~이 떠오르는데...",
+      "back": "That actually brings to mind...",
+      "example": "That actually brings to mind a time when I visited a cafe that felt just like being in Paris."
+    },
+    {
+      "id": "2026-08-06-31",
+      "front": "제가 말하려는 건...",
+      "back": "I guess what I'm trying to say is...",
+      "example": "I guess what I'm trying to say is that food is the best way for me to experience a new culture."
+    }
+  ]
+}

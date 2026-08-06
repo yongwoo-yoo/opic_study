@@ -1,0 +1,75 @@
+{
+  "date": "2026-08-06",
+  "title": "교통수단 질문 한 줄씩 연습하기 | 오픽노잼 025",
+  "source": "오픽노잼 1:1 가이드 025",
+  "summary": [
+    "한 줄씩 연습 전략: 완성된 답을 통째로 외우는 대신, 문장 하나하나를 자연스럽게 말할 수 있을 때까지 반복",
+    "교통수단 주제 핵심 표현: take the subway, miss the bus, get stuck in traffic, call a cab/taxi",
+    "실생활 경험을 그대로 활용 — 최근 교통 관련 에피소드를 메인 포인트로 삼으면 자연스러움",
+    "그룹 코칭 전략: 한 명이 메인 포인트, 다른 명이 이어받아 디테일 — 답변 구조를 나눠서 연습"
+  ],
+  "keyExpressions": [
+    {
+      "en": "I got stuck in traffic for over an hour.",
+      "ko": "한 시간 넘게 교통 체증에 걸렸다",
+      "note": "get stuck in traffic = 교통 체증에 갇히다"
+    },
+    {
+      "en": "I ended up missing my bus.",
+      "ko": "결국 버스를 놓쳤다",
+      "note": "end up ~ing: 결국 ~하게 됐다"
+    },
+    {
+      "en": "I had to take a different route.",
+      "ko": "다른 경로로 가야 했다",
+      "note": "take a route = 경로를 이용하다"
+    },
+    {
+      "en": "The subway was completely packed.",
+      "ko": "지하철이 완전히 꽉 찼다",
+      "note": "packed = 매우 붐비는"
+    },
+    {
+      "en": "I ended up arriving late and had to apologize.",
+      "ko": "결국 늦게 도착해서 사과해야 했다",
+      "note": "결론 표현 — 99-1 연결"
+    },
+    {
+      "en": "Luckily, I managed to catch the last train.",
+      "ko": "다행히 막차를 간신히 탔다",
+      "note": "managed to = 간신히 ~했다"
+    }
+  ],
+  "cards": [
+    {
+      "id": "2026-08-06-32",
+      "front": "한 시간 넘게 교통 체증에 걸렸다",
+      "back": "I got stuck in traffic for over an hour.",
+      "example": "I was already running late, and then I got stuck in traffic for over an hour."
+    },
+    {
+      "id": "2026-08-06-33",
+      "front": "결국 버스를 놓쳤다",
+      "back": "I ended up missing my bus.",
+      "example": "Because I was checking my phone, I ended up missing my bus."
+    },
+    {
+      "id": "2026-08-06-34",
+      "front": "지하철이 완전히 꽉 찼다",
+      "back": "The subway was completely packed.",
+      "example": "It was rush hour, and the subway was completely packed — I could barely breathe."
+    },
+    {
+      "id": "2026-08-06-35",
+      "front": "다행히 막차를 간신히 탔다",
+      "back": "Luckily, I managed to catch the last train.",
+      "example": "I ran as fast as I could and luckily I managed to catch the last train."
+    },
+    {
+      "id": "2026-08-06-36",
+      "front": "결국 늦게 도착해서 사과해야 했다",
+      "back": "I ended up arriving late and had to apologize.",
+      "example": "Despite everything, I ended up arriving 30 minutes late and had to apologize to my friend."
+    }
+  ]
+}

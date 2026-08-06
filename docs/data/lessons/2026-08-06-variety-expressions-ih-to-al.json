@@ -1,0 +1,70 @@
+{
+  "date": "2026-08-06",
+  "title": "같은 표현 반복이 AL을 막는다 — 표현 다양화 | 오픽노잼 022",
+  "source": "오픽노잼 1:1 가이드 022",
+  "summary": [
+    "IH 학생들이 AL을 못 받는 가장 큰 이유: 같은 단어/표현을 반복 — 'delicious food... happy... delicious food... happy' 패턴",
+    "같은 개념을 다양한 표현으로 바꾸는 것이 AL의 핵심 — 동의어, 비유, 구체적 예시로 변환",
+    "IH 학생들은 영어 욕심이 커서 AL을 원하지만, 그 욕심이 오히려 같은 표현을 과하게 쓰는 함정으로 이어짐",
+    "같은 감정/상황을 표현할 때 최소 2~3가지 다른 표현을 준비해 두는 게 좋다"
+  ],
+  "keyExpressions": [
+    {
+      "en": "I could eat there every single day.",
+      "ko": "거기서 매일 먹을 수 있을 것 같다",
+      "note": "delicious / I love it의 다양화 표현"
+    },
+    {
+      "en": "It never gets old.",
+      "ko": "절대 질리지 않는다",
+      "note": "반복해도 좋다는 느낌의 다양화 표현"
+    },
+    {
+      "en": "I can't get enough of it.",
+      "ko": "아무리 먹어도/해도 질리지 않는다",
+      "note": "강한 선호 표현"
+    },
+    {
+      "en": "That place has a special place in my heart.",
+      "ko": "그 장소는 나에게 특별한 곳이다",
+      "note": "단순 'I love it' 업그레이드"
+    },
+    {
+      "en": "It's hard to put into words.",
+      "ko": "말로 표현하기 어렵다",
+      "note": "감정이 너무 클 때 쓰는 표현 — 이후 구체적 묘사로 연결"
+    }
+  ],
+  "cards": [
+    {
+      "id": "2026-08-06-18",
+      "front": "거기서 매일 먹을 수 있을 것 같다 (I love it 다양화)",
+      "back": "I could eat there every single day.",
+      "example": "The food was so good — I could eat there every single day and it would never get old."
+    },
+    {
+      "id": "2026-08-06-19",
+      "front": "절대 질리지 않는다",
+      "back": "It never gets old.",
+      "example": "I've been to that restaurant so many times, but it never gets old."
+    },
+    {
+      "id": "2026-08-06-20",
+      "front": "아무리 해도 질리지 않는다",
+      "back": "I can't get enough of it.",
+      "example": "I can't get enough of Korean food — I could eat it every day."
+    },
+    {
+      "id": "2026-08-06-21",
+      "front": "말로 표현하기 어렵다",
+      "back": "It's hard to put into words.",
+      "example": "It's hard to put into words, but that place just made me feel so at home."
+    },
+    {
+      "id": "2026-08-06-22",
+      "front": "그 장소는 나에게 특별하다 (I love it 업그레이드)",
+      "back": "That place has a special place in my heart.",
+      "example": "I've been to many cafes, but that one has a special place in my heart."
+    }
+  ]
+}

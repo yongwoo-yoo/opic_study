@@ -1,0 +1,64 @@
+{
+  "date": "2026-08-06",
+  "title": "질문 컨트롤이 IM/IH/AL을 가른다 | 오픽노잼 021",
+  "source": "오픽노잼 1:1 가이드 021",
+  "summary": [
+    "IM↔IH↔AL 차이는 어휘력이 아니라 질문 컨트롤 능력 — 질문을 얼마나 정확히 파악하고 하나의 주제로 부드럽게 이끄는지가 핵심",
+    "IM2까지는 한 가지 전략(바로 한 주제로 답)으로 충분. IH 이상은 질문의 전체 범위를 먼저 acknowledge한 후 하나의 주제로 통제",
+    "복잡한 질문일수록 먼저 전체를 인식하는 신호를 보낸 다음 '하나만 얘기하겠다'고 이동하는 흐름이 자연스럽다",
+    "날씨 질문 예시: 여러 계절을 물어봐도 하나의 계절/특징으로 컨트롤해서 답변"
+  ],
+  "keyExpressions": [
+    {
+      "en": "It's not vocabulary — it's question control.",
+      "ko": "어휘력이 아니라 질문 컨트롤이 핵심이다",
+      "note": "IM/IH/AL 구별의 핵심 원리"
+    },
+    {
+      "en": "There are so many things I could talk about, but I'm going to focus on...",
+      "ko": "많은 것들을 얘기할 수 있지만, ~에 집중하겠다",
+      "note": "질문 컨트롤 신호 표현"
+    },
+    {
+      "en": "When it comes to weather, the one thing that really stands out to me is...",
+      "ko": "날씨에 관해서라면, 제가 특히 눈에 띄는 건...",
+      "note": "큰 주제 → 하나로 좁히는 전환"
+    },
+    {
+      "en": "I think the most important thing here is...",
+      "ko": "여기서 가장 중요한 건...",
+      "note": "메인 포인트로 집중 유도"
+    },
+    {
+      "en": "Honestly, I could go on and on about this, but...",
+      "ko": "솔직히 이에 대해 계속 얘기할 수 있지만...",
+      "note": "질문 범위 인식 후 컨트롤"
+    }
+  ],
+  "cards": [
+    {
+      "id": "2026-08-06-14",
+      "front": "IM/IH/AL 차이의 핵심",
+      "back": "It's not vocabulary — it's question control.",
+      "example": "The ability to control a complex question and smoothly focus on one topic separates IH from AL."
+    },
+    {
+      "id": "2026-08-06-15",
+      "front": "많은 걸 얘기할 수 있지만, ~에 집중하겠다",
+      "back": "There are so many things I could talk about, but I'm going to focus on...",
+      "example": "질문의 여러 요소를 인식했음을 보이면서 하나로 컨트롤하는 IH+ 신호"
+    },
+    {
+      "id": "2026-08-06-16",
+      "front": "날씨 관해서라면, 제가 특히 눈에 띄는 건...",
+      "back": "When it comes to weather, the one thing that really stands out to me is...",
+      "example": "질문 컨트롤 실전 예시 — 계절/날씨 질문을 하나의 포인트로 좁힘"
+    },
+    {
+      "id": "2026-08-06-17",
+      "front": "솔직히 이에 대해 계속 얘기할 수 있지만...",
+      "back": "Honestly, I could go on and on about this, but...",
+      "example": "질문 범위 acknowledge → 컨트롤로 전환하는 자연스러운 연결"
+    }
+  ]
+}
