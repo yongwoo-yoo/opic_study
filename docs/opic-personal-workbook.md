@@ -29,17 +29,17 @@ MP는 **What → Why → Feeling** 순서로 연습합니다. 아래 **MP 세 �
 
 **MP**
 
-- **What:** I live in an apartment, and my favorite room is the kitchen.
-- **Why:** That's where I make coffee and tea, which are two of my favorite things.
-- **Feeling:** Just spending time there makes me feel relaxed and happy.
+- **What:** Well, my favorite room is the kitchen.
+- **Why:** You know, I make coffee and tea there.
+- **Feeling:** So, I feel relaxed and happy in that room.
 
 **본문**
 
-I'm **such a coffee person**. I enjoy making my own coffee, so the kitchen means a lot to me. It's more than just a place to prepare food. **Whenever** I make coffee or tea there, I get to spend time doing something I really enjoy. The smell of coffee is one of my favorite things about being at home.
+I'm **such a coffee person**. I grind my own beans and make coffee there. **Whenever** I smell fresh coffee, I feel at home.
 
 **마무리**
 
-**Overall**, the kitchen is the part of my home that feels most special to me.
+**Overall**, that's why the kitchen is special to me.
 
 **표현:** E04·E02·E03. **추가 질문:** 방 개수·구조를 명시적으로 물으면 실제 구조를 첫 문장 뒤에 한 문장 추가합니다.
 
@@ -50,17 +50,17 @@ I'm **such a coffee person**. I enjoy making my own coffee, so the kitchen means
 
 **MP**
 
-- **What:** My favorite kind of music is meditation music.
-- **Why:** It helps me **clear my head** after a busy week at work.
-- **Feeling:** I feel really calm when I listen to it.
+- **What:** Well, I love meditation music.
+- **Why:** You know, it helps me **clear my head** after work.
+- **Feeling:** So, I feel really calm when I listen to it.
 
 **본문**
 
-What I enjoy most is the peaceful feeling it gives me. My work can leave my mind full of things to think about. But when I listen to this music, I can slow down a little. It goes really well with another hobby of mine, drinking tea. That combination is a big part of why I enjoy this kind of music so much.
+My head gets busy during the week. But this music helps me slow down. I usually enjoy it with a cup of tea.
 
 **마무리**
 
-For me, meditation music is a simple way to **wind down and relax**.
+**Overall**, it helps me **wind down and relax**.
 
 **표현:** E08·E01. **보충:** 가수도 요구하는 문항에는 실제로 듣는 아티스트 한 명을 추가해야 합니다. 장르만으로 가수 부분까지 답했다고 보지 않습니다.
 
@@ -71,17 +71,17 @@ For me, meditation music is a simple way to **wind down and relax**.
 
 **MP**
 
-- **What:** One beach that really stands out to me is a beach I visited in Hawaii.
-- **Why:** I could enjoy the ocean and see wildlife there, including sea turtles.
-- **Feeling:** Thinking about that place still makes me feel excited.
+- **What:** Well, a beach in Hawaii really stands out to me.
+- **Why:** You know, I saw sea turtles there.
+- **Feeling:** Honestly, that place still makes me excited.
 
 **본문**
 
-I went there on a camping trip with my wife. The beach was beautiful, and we could go snorkeling there. What made the place special to me was how close I felt to nature. There were sea turtles in the ocean and even chickens walking around the campsite. Those details are what I remember most about the place.
+I went camping there with my wife. We went snorkeling and saw chickens around the campsite. I felt really close to nature.
 
 **마무리**
 
-**Put simply**, it's a place I remember for its nature.
+**Put simply**, I'll never forget its beautiful nature.
 
 **표현:** E10. **맞춤 도입:** 국가 질문에는 “I visited the United States, specifically Hawaii.”로 시작합니다. 현지인 특징·해변 이름은 메모에 없으므로 보충합니다. ‘가장 최근’이나 ‘첫 해외여행’이라고 바꾸지 않습니다.
 
@@ -92,17 +92,17 @@ I went there on a camping trip with my wife. The beach was beautiful, and we cou
 
 **MP**
 
-- **What:** One of my friends is a really consistent person.
-- **Why:** Once he starts something, he keeps doing it and sticks to his routine.
-- **Feeling:** I really admire that about him.
+- **What:** Well, my friend is a very consistent person.
+- **Why:** You know, he always sticks to his routine.
+- **Feeling:** Honestly, I really admire him for that.
 
 **본문**
 
-**The main thing is**, he doesn't give up easily. He keeps going instead of stopping after a short time. **If I'm honest**, being that consistent is difficult for me. So when I think about his attitude, it makes me want to improve my own habits. I don't just admire what he does. I admire the way he keeps doing it.
+**The main thing is**, he never gives up easily. **If I'm honest**, that's hard for me. So he makes me want to improve my habits.
 
 **마무리**
 
-That's the quality I'd really like to learn from him.
+That's what I'd really like to learn from him.
 
 **표현:** E05·E09. **보충:** 건강한 사람 질문(p.17)에는 이 친구의 실제 운동·식습관이 필요합니다. 꾸준하다는 사실만으로 운동을 한다고 만들지 않습니다.
 
@@ -113,17 +113,17 @@ That's the quality I'd really like to learn from him.
 
 **MP**
 
-- **What:** Korea has four seasons, and fall is my favorite.
-- **Why:** The cool weather is great for camping and enjoying coffee outside.
-- **Feeling:** I feel happy when that time of year comes around.
+- **What:** Well, fall is my favorite season in Korea.
+- **Why:** You know, it's perfect for coffee and camping.
+- **Feeling:** So, I feel really happy when fall comes.
 
 **본문**
 
-I like making coffee, and I also enjoy camping. So the weather matters to me when I want to spend time outdoors. In fall, I can enjoy those hobbies in weather that feels comfortable to me. **The main thing is**, it makes being outside really enjoyable. That's the part of the season I look forward to most.
+The weather is cool and comfortable. I can drink coffee outside or go camping. **The main thing is**, I can enjoy being outdoors.
 
 **마무리**
 
-That's why fall is my favorite time of year.
+**Overall**, fall is just perfect for me.
 
 **표현:** E05. **보충:** ‘오늘 날씨’는 실제 날씨를 넣어 따로 답합니다. 가을 이야기로 오늘의 상태를 대신하지 않습니다.
 
@@ -134,17 +134,17 @@ That's why fall is my favorite time of year.
 
 **MP**
 
-- **What:** I'd like to talk about the semiconductor industry in Korea.
-- **Why:** I work at a semiconductor company and handle data there.
-- **Feeling:** That personal connection makes the industry interesting to me.
+- **What:** Well, I'd like to talk about Korea's semiconductor industry.
+- **Why:** You know, I work in that industry and handle data.
+- **Feeling:** So, it's very interesting to me.
 
 **본문**
 
-My job involves processing and analyzing data. So when I talk about this industry, I'm thinking about the work I do every day. **The main thing is**, it isn't just an industry I hear about in the news. It's connected to my own working life. That's why this is the industry I feel most comfortable talking about.
+I process and analyze data at work. **The main thing is**, this industry is part of my daily life. I don't just read about it in the news.
 
 **마무리**
 
-For me, the semiconductor industry is closely connected to my daily life.
+**Overall**, I feel closely connected to this industry.
 
 **표현:** E05. **보충:** 회사명·성공 과정·3년 전과의 산업 비교는 별도 자료가 필요합니다. 기존 메모의 메모리 공급 전망을 현재의 검증된 사실로 옮기지 않았습니다.
 
@@ -155,17 +155,17 @@ For me, the semiconductor industry is closely connected to my daily life.
 
 **MP**
 
-- **What:** My favorite Korean holiday is Chuseok.
-- **Why:** My family gets together, and there's so much delicious food to enjoy.
-- **Feeling:** That makes it a really happy time for me.
+- **What:** Well, my favorite Korean holiday is Chuseok.
+- **Why:** You know, my family gets together and shares good food.
+- **Feeling:** So, it's a really happy time for me.
 
 **본문**
 
-If I were explaining it to someone from another country, I'd describe it as a Korean holiday that's a little like Thanksgiving. For me, the best part is the food and the chance to spend time with my family. **Put simply**, those things make the holiday special. That's what I think of first when someone mentions Chuseok.
+It's kind of like Korean Thanksgiving. We eat, talk, and spend time together. **Put simply**, family and food make it special.
 
 **마무리**
 
-It's the holiday I enjoy most because of those simple pleasures.
+**Overall**, that's why I love Chuseok.
 
 **표현:** E10. **보충:** 여러 명절의 종류를 요구하면 추석 외 명절도 짧게 추가합니다.
 
@@ -176,17 +176,17 @@ It's the holiday I enjoy most because of those simple pleasures.
 
 **MP**
 
-- **What:** My favorite café is a place called Cafe Doan.
-- **Why:** I can really taste the different flavors in the coffee they serve.
-- **Feeling:** That makes every visit exciting for me.
+- **What:** Well, my favorite café is Cafe Doan.
+- **Why:** You know, its coffee has really clear flavors.
+- **Feeling:** So, every visit is exciting for me.
 
 **본문**
 
-I'm **such a coffee person**, so that detail matters a lot to me. The café uses beans from well-known roasters in Korea and abroad. I enjoy noticing the different tastes and aromas in each cup. I've also become friendly with the owner. Sometimes he shares some beans with me, so I can enjoy similar coffee at home.
+I'm **such a coffee person**. They use beans from famous roasters, so every cup tastes different. I even became friends with the owner, and he sometimes gives me beans.
 
 **마무리**
 
-**Overall**, this café makes my coffee hobby even more enjoyable.
+**Overall**, this café makes my hobby more enjoyable.
 
 **표현:** E04·E03. **수정:** 기존 “coffee beans from Korea”는 한국산 생두처럼 들릴 수 있어 국내외 **로스터리** 원두로 바로잡았습니다. 식당 질문에는 음식 제공 여부부터 확인해야 합니다.
 
@@ -197,17 +197,17 @@ I'm **such a coffee person**, so that detail matters a lot to me. The café uses
 
 **MP**
 
-- **What:** My favorite place to travel to in Korea is Jeju Island.
-- **Why:** It has beaches and small volcanic hills, so I can enjoy different kinds of scenery.
-- **Feeling:** Being there makes me feel like I'm really on vacation.
+- **What:** Well, my favorite place in Korea is Jeju Island.
+- **Why:** You know, it has beautiful beaches and volcanic hills.
+- **Feeling:** So, I really feel like I'm on vacation there.
 
 **본문**
 
-What I like most is the atmosphere. It feels different from the mainland. On my trip, I rented a car and drove around the island. I visited a beach and climbed an oreum, which is a small volcanic hill. Those places are what I picture when I think about Jeju. I also remember enjoying the local black pork.
+Jeju feels very different from the mainland. I drove around the island, visited a beach, and climbed an oreum. I also enjoyed the local black pork.
 
 **마무리**
 
-**Overall**, Jeju is a place I remember for its scenery and atmosphere.
+**Overall**, I love Jeju's unique atmosphere.
 
 **표현:** E03. **보충:** p.18 한국 지형 전체를 물으면 이 답변 앞에 전국의 지형 특징을 설명해야 합니다. 제주 사례만으로 전국 설명을 대신하지 않습니다.
 
@@ -218,17 +218,17 @@ What I like most is the atmosphere. It feels different from the mainland. On my 
 
 **MP**
 
-- **What:** I like simple, comfortable clothes, especially T-shirts and jeans.
-- **Why:** They're easy to move around in, and comfort matters a lot to me.
-- **Feeling:** I feel most like myself when I wear them.
+- **What:** Well, I usually wear T-shirts and jeans.
+- **Why:** You know, they're simple and comfortable.
+- **Feeling:** Honestly, I feel like myself in those clothes.
 
 **본문**
 
-**If I'm honest**, I don't pay much attention to fashion trends. I care more about how clothes feel when I'm wearing them. **The main thing is**, I want to feel comfortable throughout the day. So a simple outfit works well for me. That's why I tend to prefer this style.
+**If I'm honest**, I don't follow fashion trends. **The main thing is** comfort. I just want clothes that are easy to move in.
 
 **마무리**
 
-For me, feeling comfortable is the most important part of getting dressed.
+**Overall**, comfort matters most to me.
 
 **표현:** E09·E05. **보충:** 한국 사람 전체의 패션, 어릴 때 유행, 실제 쇼핑 습관은 별도 답변입니다.
 
@@ -241,17 +241,17 @@ For me, feeling comfortable is the most important part of getting dressed.
 
 **MP**
 
-- **What:** Every weekend, I drink tea while listening to meditation music.
-- **Why:** It helps me **clear my head** after a busy week at work.
-- **Feeling:** I feel really relaxed during that quiet time.
+- **What:** Well, I listen to meditation music every weekend.
+- **Why:** You know, it helps me **clear my head** after work.
+- **Feeling:** So, I feel really relaxed while listening to it.
 
 **본문**
 
-The two hobbies go really well together. While I'm drinking tea, I can just listen to the music and slow down. My mind is often busy with work during the week, so this time feels different. I don't need to do anything complicated. Tea and music are enough to help me **wind down and relax**.
+I usually drink tea at the same time. My mind is busy during the week, but tea and music slow me down. They help me **wind down and relax**.
 
 **마무리**
 
-That's why this has become such an enjoyable part of my weekends.
+**Overall**, it's my favorite weekend routine.
 
 **표현:** E08·E01. **보충:** 장소·기기를 요구하면 실제 듣는 곳과 기기를 추가합니다. 메모에는 정확한 장소·기기가 없습니다.
 
@@ -262,17 +262,17 @@ That's why this has become such an enjoyable part of my weekends.
 
 **MP**
 
-- **What:** One thing I do at home on weekends is make my own coffee.
-- **Why:** I enjoy the process of making it, not just drinking the finished cup.
-- **Feeling:** It makes me feel relaxed and happy.
+- **What:** Well, I make my own coffee every weekend.
+- **Why:** You know, I enjoy the whole process.
+- **Feeling:** So, it makes me feel relaxed and happy.
 
 **본문**
 
-I grind my own coffee beans and make the coffee in my kitchen. Sometimes I have beans that the owner of my favorite café has shared with me. It's fun to enjoy similar coffee at home. **The main thing is**, this is something I do because I enjoy it. It gives me a little time to focus on a hobby I really like.
+I grind the beans and make coffee in my kitchen. Sometimes, I use beans from my favorite café. **The main thing is**, I enjoy making it myself.
 
 **마무리**
 
-Making coffee is one of my favorite ways to spend time at home.
+**Overall**, it's my favorite thing to do at home.
 
 **표현:** E05. **보충:** 평일과 주말을 모두 묻는 경우 실제 평일 일과도 추가합니다. 집안일 질문에는 청소·설거지 등 실제 가사 행동이 필요합니다.
 
@@ -283,17 +283,17 @@ Making coffee is one of my favorite ways to spend time at home.
 
 **MP**
 
-- **What:** I like running outside to stay active.
-- **Why:** I can exercise while enjoying the fresh air and the feeling of the wind.
-- **Feeling:** It makes me feel really free.
+- **What:** Well, I run outside to stay active.
+- **Why:** You know, I love the fresh air and the wind.
+- **Feeling:** Honestly, running makes me feel free.
 
 **본문**
 
-**If I'm honest**, going to a gym isn't really my thing. I prefer being outdoors. When I run, I get to move my body and spend time outside at the same time. That's what I enjoy most about it. It gives me a chance to do something active that I actually like.
+**If I'm honest**, the gym isn't really my thing. I prefer being outside. Running gives me exercise and fresh air at the same time.
 
 **마무리**
 
-For me, running is an enjoyable way to stay active and **clear my head**.
+**Overall**, running keeps me active and clears my head.
 
 **표현:** E09·E08. **적용 범위:** 건강 관리 질문에는 적합하지만 ‘헬스장 시설 묘사’에는 그대로 사용하지 않습니다. 러닝 시작 시기·횟수·거리는 실제 값이 필요합니다.
 
@@ -304,17 +304,17 @@ For me, running is an enjoyable way to stay active and **clear my head**.
 
 **MP**
 
-- **What:** I mainly use the internet to learn about personal finance and read the news.
-- **Why:** There's a lot of information about topics I'm interested in, including the stock market.
-- **Feeling:** I find it interesting to keep learning about these things.
+- **What:** Well, I use the internet for financial news.
+- **Why:** You know, I want to learn more about investing.
+- **Feeling:** So, I find it really interesting.
 
 **본문**
 
-**These days**, reading financial news is part of my routine. I also spend time learning about investing. Those two activities are closely connected for me. One is about following what's happening, and the other is about understanding it better. So when I talk about my internet habits, this is the main thing I think of.
+**These days**, I check the stock market and read the news online. Then, I look up anything I don't understand. It's part of my daily routine.
 
 **마무리**
 
-For me, the internet is a useful place to keep learning.
+**Overall**, the internet helps me keep learning.
 
 **표현:** E13. **보충:** 주로 보는 동영상·좋아하는 사이트·어제 한 일은 각각 실제 채널·사이트·행동을 넣어야 합니다.
 
@@ -325,17 +325,17 @@ For me, the internet is a useful place to keep learning.
 
 **MP**
 
-- **What:** I usually try to schedule appointments for the weekend.
-- **Why:** It's difficult for me to find time on weekdays.
-- **Feeling:** Having something planned for the weekend feels less stressful to me.
+- **What:** Well, I usually make appointments for weekends.
+- **Why:** You know, I'm too busy on weekdays.
+- **Feeling:** So, weekend appointments feel less stressful.
 
 **본문**
 
-For example, a car repair is one kind of appointment I've made. The part I pay attention to is whether the time fits my schedule. **The main thing is**, I want to choose a time when I can actually go. If something else comes up, I need to contact the place and ask about changing the appointment.
+For example, I once made a car repair appointment. **The main thing is** finding a time I can keep. If something comes up, I call and change it.
 
 **마무리**
 
-So finding a time that works for me is the most important part.
+**Overall**, weekends work best for me.
 
 **표현:** E05. **보충:** 실제 예약 경로(전화·앱 등)를 본문 앞에 추가하면 ‘방법’ 답변이 완성됩니다. 치과·미용실로 지정하면 자동차 정비소로 바꾸지 않습니다.
 
@@ -346,17 +346,17 @@ So finding a time that works for me is the most important part.
 
 **MP**
 
-- **What:** On Chuseok, my family gets together to eat and talk.
-- **Why:** Sharing good food gives us time to enjoy being together.
-- **Feeling:** I feel happy during those family gatherings.
+- **What:** Well, my family eats and talks together on Chuseok.
+- **Why:** You know, it's a rare chance to be together.
+- **Feeling:** So, I feel really happy during the holiday.
 
 **본문**
 
-The food is definitely one of the things I look forward to. But I also enjoy the time we spend together. **The main thing is**, we get to share a meal and have a conversation. For me, that's what makes the holiday enjoyable. It's a simple way to spend time with my family.
+I always look forward to the food. But **the main thing is** spending time together. We share a meal and catch up.
 
 **마무리**
 
-That's the part of Chuseok that means the most to me.
+**Overall**, family time makes Chuseok special.
 
 **표현:** E05. **적용 범위:** p.26 가족과 주로 하는 일에는 ‘추석에 가족을 만날 때’라는 실제 범위를 밝힙니다. 최근 명절·어릴 때 추석 경험으로 바꾸려면 해당 사건이 필요합니다.
 
@@ -367,17 +367,17 @@ That's the part of Chuseok that means the most to me.
 
 **MP**
 
-- **What:** **These days**, I do most of my banking on my phone.
-- **Why:** I can send money in a few seconds without visiting a branch.
-- **Feeling:** I feel relieved that these tasks are so much easier now.
+- **What:** Well, I do most of my banking on my phone.
+- **Why:** You know, I can send money in seconds.
+- **Feeling:** So, banking feels much easier now.
 
 **본문**
 
-I don't visit banks very often anymore. When I need to send money, I can use the app on my phone. **The main thing is**, I don't have to plan a separate trip just for that. Being able to take care of it this way is really convenient for me.
+**These days**, I rarely visit a bank. I just open the app and send money. **The main thing is**, I don't need a separate trip.
 
 **마무리**
 
-Mobile banking has made this part of my routine much simpler.
+**Overall**, mobile banking is really convenient.
 
 **표현:** E13·E05. **주의:** 질문이 실제 ‘은행 지점에 가서 하는 순서’를 요구하면 창구 업무 경험을 보충합니다. 앱 이야기만으로 현장 절차까지 답한 것은 아닙니다.
 
@@ -388,17 +388,17 @@ Mobile banking has made this part of my routine much simpler.
 
 **MP**
 
-- **What:** When I take the bus, I check its arrival time on my phone.
-- **Why:** The app shows me where the bus is in real time.
-- **Feeling:** Knowing that makes me feel much more at ease.
+- **What:** Well, I check bus times on my phone.
+- **Why:** You know, the app shows the bus in real time.
+- **Feeling:** So, I feel much more at ease.
 
 **본문**
 
-I can see the bus location instead of just wondering when it will arrive. **Put simply**, I have useful information right there on my phone. It doesn't change the bus itself, but it changes how I feel while I'm waiting. That's why I find this feature so useful.
+I can see where the bus is and when it will arrive. **Put simply**, I don't have to guess anymore. Waiting is much easier.
 
 **마무리**
 
-It's one simple way my phone makes getting around easier.
+**Overall**, this app makes bus travel easier.
 
 **표현:** E10. **보충:** ‘매일 가장 자주 쓰는 기술’이라는 빈도를 충족하는지는 확인합니다. ‘가장 좋아하는 기능’으로 쓰려면 첫 문장을 선호 문장으로 바꿉니다.
 
@@ -411,17 +411,17 @@ It's one simple way my phone makes getting around easier.
 
 **MP**
 
-- **What:** My new wireless earphones stopped working after just three uses.
-- **Why:** I'd bought them from overseas, so I thought getting them repaired would be difficult.
-- **Feeling:** I was really frustrated.
+- **What:** Well, my new earphones broke after only three uses.
+- **Why:** You know, I bought them from overseas.
+- **Feeling:** So, I was really frustrated and worried.
 
 **본문**
 
-I'd bought them for running, so I was disappointed that they broke so quickly. **I couldn't believe** they had stopped working already. Fortunately, the shopping platform offered a return option. I was able to send them back and get a full refund. That made a big difference to how I felt about the whole experience.
+I bought them for running, so **I couldn't believe** it. Luckily, the shopping app allowed returns. I sent them back and got a full refund.
 
 **마무리**
 
-I was relieved in the end, and I trusted that shopping platform more afterward.
+**Overall**, I was relieved, and I trusted the app more.
 
 **표현:** E12. **경계:** 가구 고장·전화기 고장·은행 문제를 묻는 문항에는 이 사건을 바꿔 붙이지 않습니다. p.12의 ‘관심 산업에서 기대에 못 미친 제품’은 실제 질문 범위가 소비자 전자기기를 포함할 때만 연결합니다.
 
@@ -432,17 +432,17 @@ I was relieved in the end, and I trusted that shopping platform more afterward.
 
 **MP**
 
-- **What:** On a camping trip in Hawaii with my wife, I saw animals right around us.
-- **Why:** There were chickens walking around the campsite and sea turtles in the ocean.
-- **Feeling:** I was amazed at how close we were to nature.
+- **What:** Well, I saw amazing animals while camping in Hawaii.
+- **Why:** You know, chickens and sea turtles were all around us.
+- **Feeling:** Honestly, I was amazed by the nature there.
 
 **본문**
 
-The chickens were especially surprising. I was used to seeing chickens kept in enclosures in Korea, so seeing them walking around freely felt different. We also enjoyed the beach and went snorkeling. **I couldn't believe** how much there was to see around us. The shower facilities weren't great, but the natural setting was what stayed with me.
+The chickens walked freely around the campsite. We also saw sea turtles while snorkeling. **I couldn't believe** how close the animals were.
 
 **마무리**
 
-**Overall**, that trip became one of my favorite travel memories.
+**Overall**, it became one of my favorite trips.
 
 **표현:** E12·E03. **선택적 직접화법:** “I thought to myself, ‘This is so different from what I'm used to.’”는 당시 느낌을 재구성한 연습 문장입니다(E11). 실제 기억과 맞을 때만 본문에 넣습니다.
 
@@ -455,17 +455,17 @@ The chickens were especially surprising. I was used to seeing chickens kept in e
 
 **MP**
 
-- **What:** I became interested in meditation music after hearing it in a small shop.
-- **Why:** The music helped me relax while I was there.
-- **Feeling:** I felt surprisingly calm, and that feeling stayed with me.
+- **What:** Well, I first heard meditation music in a small shop.
+- **Why:** You know, it made me relax right away.
+- **Feeling:** Honestly, I felt surprisingly calm.
 
 **본문**
 
-What I remember most is how the music made me feel. It gave me a sense of rest. After that experience, I started listening to meditation music while drinking tea on weekends. My work week can leave my mind feeling busy, so it was nice to find something that helped me **wind down and relax**.
+I really liked that peaceful feeling. After that, I started listening to it with tea on weekends. It helps me **wind down and relax**.
 
 **마무리**
 
-That one experience became the starting point for a weekend habit I still enjoy.
+**Overall**, that moment started my weekend habit.
 
 **표현:** E01. **복합형:** 취향 변화까지 물으면 C03의 과거·현재 대조를 짧게 붙입니다. 라이브 공연을 들은 경험이 아니므로 p.2 SET2 Q3에는 사용하지 않습니다.
 
@@ -476,17 +476,17 @@ That one experience became the starting point for a weekend habit I still enjoy.
 
 **MP**
 
-- **What:** I once had to change a car repair appointment.
-- **Why:** Something else came up, and I couldn't make it at the original time.
-- **Feeling:** I felt sorry about having to change the plan.
+- **What:** Well, I once changed a car repair appointment.
+- **Why:** You know, something came up at the last minute.
+- **Feeling:** So, I felt really sorry about it.
 
 **본문**
 
-I called the repair shop and explained the situation. I asked if I could move the appointment to another day. Fortunately, the staff were kind and helped me change it. **The main thing was**, I was able to find another time instead of missing the appointment without saying anything.
+I called the shop and explained the problem. I said, “Could I come another day?” Luckily, they changed the date for me.
 
 **마무리**
 
-I was relieved that everything worked out in the end.
+**Overall**, I was relieved that it worked out.
 
 **표현:** E05의 과거형 응용. **선택적 직접화법:** “Could I move my appointment to another day?”는 기존 롤플레이를 이용한 재구성 문장입니다. 실제 대화의 녹취는 아닙니다. 치과·미용실 예약으로 지정된 질문에는 별도 사건이 필요합니다.
 
@@ -497,17 +497,17 @@ I was relieved that everything worked out in the end.
 
 **MP**
 
-- **What:** One domestic trip I remember well was a trip to Jeju Island.
-- **Why:** I explored the island by car and got to enjoy both a beach and an oreum.
-- **Feeling:** I felt like I was somewhere very different from my everyday surroundings.
+- **What:** Well, I remember a road trip around Jeju Island.
+- **Why:** You know, I visited a beach and climbed an oreum.
+- **Feeling:** So, it felt like a different world.
 
 **본문**
 
-I rented a car and drove around the island. One of the things I did was climb an oreum, a small volcanic hill. I also visited a beach. What stayed with me was the atmosphere of the island. It felt different from the mainland. I enjoyed the local black pork too, but the scenery was the main thing I remembered.
+I rented a car and drove around the island. The scenery felt different from the mainland. I also tried black pork, and it was delicious.
 
 **마무리**
 
-**Overall**, the trip gave me a real feeling of getting away.
+**Overall**, it felt like a real getaway.
 
 **표현:** E03. **보충:** 어릴 때 여행·최근 여행·여행 중 문제와 해결이라는 조건은 현재 자료로 충족되지 않습니다.
 
@@ -520,17 +520,17 @@ I rented a car and drove around the island. One of the things I did was climb an
 
 **MP**
 
-- **What:** **These days**, I can take care of most of my banking on my phone.
-- **Why:** I can send money without going to a bank in person.
-- **Feeling:** I feel that banking is much easier now.
+- **What:** Well, I do my banking on my phone these days.
+- **Why:** You know, I don't need to visit a bank.
+- **Feeling:** So, banking feels much easier now.
 
 **본문**
 
-In the past, I had to visit a bank for things I can now do on my phone. I even went there to update my bankbook. Now, sending money takes only a few seconds on an app. **The main thing is**, the place where I handle the task has changed. I don't need to make a separate trip for it anymore.
+In the past, I visited a bank and updated my bankbook. Now, I send money in seconds with an app. **The main thing is**, I can do it anywhere.
 
 **마무리**
 
-For me, that's the biggest difference between banking in the past and banking now.
+**Overall**, mobile banking is much more convenient.
 
 **표현:** E13·E05. **보충:** ‘어렸을 때’라는 시점을 정확히 요구하면 당시 은행에 갔던 실제 기억을 확인합니다. 단순한 과거를 임의로 어린 시절로 바꾸지 않습니다.
 
@@ -541,17 +541,17 @@ For me, that's the biggest difference between banking in the past and banking no
 
 **MP**
 
-- **What:** **These days**, ordering and making reservations are much more digital.
-- **Why:** We can use phone apps or kiosks instead of handling everything in person.
-- **Feeling:** I find that change really convenient.
+- **What:** Well, ordering is mostly digital these days.
+- **Why:** You know, we can use apps and kiosks.
+- **Feeling:** Honestly, I find that really convenient.
 
 **본문**
 
-In the past, I remember people placing orders directly with staff. Reservations could mean going to a place and having the details written down. Now, we can often handle the same tasks through an app, and online ordering is possible too. **Put simply**, the way we interact with a business has changed.
+In the past, we ordered directly from staff. Now, we tap a screen or use an app. **Put simply**, the whole process is faster.
 
 **마무리**
 
-That's the change I notice most: more of the process happens on a screen.
+**Overall**, screens have changed how we order.
 
 **표현:** E13·E10. **문항별 조정:** 음식점 질문에서는 예약·다른 업종을 줄이고 음식 주문만 설명합니다. 건강식 메뉴 변화·식품 구매의 정확한 20년 변화는 다른 질문입니다.
 
@@ -562,17 +562,17 @@ That's the change I notice most: more of the process happens on a screen.
 
 **MP**
 
-- **What:** Meditation music is now part of my weekend routine.
-- **Why:** I found that it helps me relax, especially when I drink tea.
-- **Feeling:** I'm happy that I found something that works so well for me.
+- **What:** Well, meditation music is now my weekend routine.
+- **Why:** You know, it helps me relax with a cup of tea.
+- **Feeling:** So, I'm really happy I found it.
 
 **본문**
 
-Before I heard that music in a small shop, I didn't have this weekend routine. After that experience, I started combining music with drinking tea. Now, it's something I enjoy regularly. **The main thing is**, music has become part of the way I rest. It helps me **unwind** after a busy week.
+Before, I didn't have this routine. Then I heard meditation music in a shop. Now, I enjoy it with tea every weekend.
 
 **마무리**
 
-So the biggest change is that I now have this quiet routine to look forward to.
+**Overall**, I now have a quiet way to **unwind**.
 
 **표현:** E05·E06. **경계:** 예전에 록이나 팝을 좋아했다고 만들지 않았습니다. 두 음악 장르 비교 문항에는 두 번째 장르와 차이점이 필요합니다. 자유시간 전체 비교라면 ‘음악을 듣는 시간’에 초점을 좁힌다는 문장을 먼저 붙입니다.
 
@@ -583,17 +583,17 @@ So the biggest change is that I now have this quiet routine to look forward to.
 
 **MP**
 
-- **What:** I can now check a bus's location in real time on my phone.
-- **Why:** The app lets me see when it's likely to arrive.
-- **Feeling:** I feel much more at ease while waiting.
+- **What:** Well, I can now track buses on my phone.
+- **Why:** You know, I can see when my bus will arrive.
+- **Feeling:** So, I feel much more relaxed while waiting.
 
 **본문**
 
-In the past, people waited at the bus stop without an app like this. They didn't know exactly when the bus would come. Now, I can look at my phone and see where it is. **The main thing is**, I have more information than before. The waiting feels less uncertain because of that.
+In the past, people just waited without knowing. Now, I can see the bus in real time. **The main thing is**, there's no more guessing.
 
 **마무리**
 
-For me, that's a really useful change in how we use public transportation.
+**Overall**, taking the bus is easier now.
 
 **표현:** E05. **과거 묘사로 변형:** p.19에서는 실제 어린 시절 이용 수단을 먼저 밝히고 과거 모습을 설명합니다. 현재 앱 비교는 마지막 한 문장 정도만 선택적으로 붙입니다. 어린 시절 경험은 별도 확인이 필요합니다.
 

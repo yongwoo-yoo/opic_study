@@ -217,6 +217,8 @@ function renderAnswerDetail(id) {
   if (!answer) return;
   const category = ANSWER_CATEGORY[answer.category];
   const progress = loadAnswerProgress();
+  const mpText = [answer.what, answer.why, answer.feeling].join(' ');
+  const mpWordCount = mpText.split(/\s+/).length;
   setView('answer-detail-view', category.name, true);
   document.getElementById('back-btn').onclick = renderAnswerList;
   document.getElementById('answer-detail').innerHTML = `
@@ -229,10 +231,14 @@ function renderAnswerDetail(id) {
     <div class="answer-prompt-card">
       <span>이 질문을 받았다고 생각하고 먼저 말해보세요</span>
       <strong>${answer.title.replace(/ \[확인용\]$/, '')}</strong>
+      <div class="answer-timer-row">
+        <span id="answer-timer">20초</span>
+        <button id="answer-timer-btn">타이머 시작</button>
+      </div>
     </div>
     <button class="reveal-button" data-target="mp-section">MP 힌트 보기</button>
     <section class="answer-reveal hidden" id="mp-section">
-      <h3>MP · What → Why → Feeling</h3>
+      <h3>MP · What → Why → Feeling <small>${mpWordCount}단어 · 20초 목표</small></h3>
       <div class="mp-step what"><b>What</b><p>${answer.what}</p></div>
       <div class="mp-step why"><b>Why</b><p>${answer.why}</p></div>
       <div class="mp-step feeling"><b>Feeling</b><p>${answer.feeling}</p></div>
@@ -273,6 +279,32 @@ function renderAnswerDetail(id) {
     localStorage.setItem(ANSWER_PROGRESS_KEY, JSON.stringify(saved));
     event.currentTarget.classList.toggle('done', saved[id]);
     event.currentTarget.textContent = saved[id] ? '✓ 학습 완료됨' : '오늘 학습 완료';
+  };
+  let timerId = null;
+  document.getElementById('answer-timer-btn').onclick = event => {
+    if (timerId) {
+      clearInterval(timerId);
+      timerId = null;
+      document.getElementById('answer-timer').textContent = '20초';
+      document.getElementById('answer-timer').classList.remove('time-up');
+      event.currentTarget.textContent = '타이머 시작';
+      return;
+    }
+    let seconds = 20;
+    const timer = document.getElementById('answer-timer');
+    timer.classList.remove('time-up');
+    event.currentTarget.textContent = '다시 시작';
+    timer.textContent = `${seconds}초`;
+    timerId = setInterval(() => {
+      seconds--;
+      timer.textContent = seconds > 0 ? `${seconds}초` : '시간 끝!';
+      if (seconds <= 0) {
+        clearInterval(timerId);
+        timerId = null;
+        timer.classList.add('time-up');
+        event.currentTarget.textContent = '다시 시작';
+      }
+    }, 1000);
   };
 }
 
