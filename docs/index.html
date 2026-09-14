@@ -26,6 +26,14 @@
           </div>
           <button class="study-btn" id="study-btn">복습 시작</button>
         </div>
+        <button class="answer-study-entry" id="answer-study-btn">
+          <span class="answer-entry-icon">🎙️</span>
+          <span>
+            <strong>내 답변 4유형 연습</strong>
+            <small>시험 질문 · MP · 전체 답변 27개</small>
+          </span>
+          <span class="answer-entry-arrow">›</span>
+        </button>
         <a href="guide.html" class="guide-btn">핵심 가이드 보기 →</a>
         <div class="section-title">레슨 목록</div>
         <ul class="lesson-list" id="lesson-list">
@@ -48,6 +56,34 @@
     </div>
     <div id="flashcard-view" style="display:none">
       <div class="flashcard-section" id="flashcard-container"></div>
+    </div>
+    <div id="answer-list-view" style="display:none">
+      <div class="answer-study-section">
+        <div class="answer-progress-card">
+          <div>
+            <strong id="answer-progress-count">0 / 27</strong>
+            <span>학습 완료</span>
+          </div>
+          <button id="random-answer-btn">랜덤 연습</button>
+        </div>
+        <div class="answer-progress-track"><div id="answer-progress-fill"></div></div>
+        <label class="answer-search">
+          <span aria-hidden="true">⌕</span>
+          <input id="answer-search-input" type="search" placeholder="집, 음악, 여행처럼 검색" autocomplete="off">
+        </label>
+        <div class="category-filters" id="category-filters">
+          <button class="active" data-category="all">전체</button>
+          <button data-category="D">묘사</button>
+          <button data-category="H">습관</button>
+          <button data-category="P">과거 경험</button>
+          <button data-category="C">비교</button>
+        </div>
+        <p class="answer-result-count" id="answer-result-count"></p>
+        <ul class="answer-list" id="answer-list"></ul>
+      </div>
+    </div>
+    <div id="answer-detail-view" style="display:none">
+      <div class="answer-detail-section" id="answer-detail"></div>
     </div>
   </div>
   <script src="app.js"></script>

@@ -1,4 +1,11 @@
 const SRS_KEY = 'opic_srs';
+const ANSWER_PROGRESS_KEY = 'opic_answer_progress';
+const ANSWER_CATEGORY = {
+  D: { name: '묘사', className: 'description' },
+  H: { name: '습관', className: 'habit' },
+  P: { name: '과거 경험', className: 'past' },
+  C: { name: '비교', className: 'comparison' }
+};
 
 function loadSRS() {
   try { return JSON.parse(localStorage.getItem(SRS_KEY) || '{}'); } catch { return {}; }
@@ -40,11 +47,13 @@ let index = null;
 let reviewQueue = [];
 let reviewIdx = 0;
 let flipped = false;
+let personalAnswers = null;
+let activeAnswerCategory = 'all';
 
 function setView(viewId, title, showBack = false) {
   document.getElementById('header-title').textContent = title;
   document.getElementById('back-btn').style.display = showBack ? '' : 'none';
-  ['home-view', 'note-view', 'flashcard-view'].forEach(id => {
+  ['home-view', 'note-view', 'flashcard-view', 'answer-list-view', 'answer-detail-view'].forEach(id => {
     document.getElementById(id).style.display = id === viewId ? '' : 'none';
   });
 }
@@ -69,6 +78,7 @@ async function renderHome() {
 
   document.getElementById('due-count').textContent = dueCount;
   document.getElementById('study-btn').onclick = () => startReview(null);
+  document.getElementById('answer-study-btn').onclick = renderAnswerList;
 
   const list = document.getElementById('lesson-list');
   list.innerHTML = '';
@@ -84,6 +94,201 @@ async function renderHome() {
     li.onclick = () => renderNote(lesson.file);
     list.appendChild(li);
   }
+}
+
+function plainText(value) {
+  return value
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
+    .replace(/<[^>]+>/g, '')
+    .replace(/\*\*/g, '')
+    .trim();
+}
+
+function extractField(block, label) {
+  const match = block.match(new RegExp(`- \\*\\*${label}:\\*\\* (.+)`));
+  return match ? plainText(match[1]) : '';
+}
+
+function extractParagraph(block, heading) {
+  const match = block.match(new RegExp(`\\*\\*${heading}\\*\\*\\n\\n([\\s\\S]*?)(?=\\n\\*\\*|$)`));
+  return match ? plainText(match[1].replace(/\n+/g, ' ')) : '';
+}
+
+async function loadPersonalAnswers() {
+  if (personalAnswers) return personalAnswers;
+  const markdown = await fetch('opic-personal-workbook.md').then(response => {
+    if (!response.ok) throw new Error('답변 자료를 불러오지 못했습니다.');
+    return response.text();
+  });
+  const blocks = [...markdown.matchAll(/<a id="([dhpc]\d+)"[^>]*><\/a>\n### ([DHPC]\d+)\. ([^\n]+)\n([\s\S]*?)(?=<a id="[dhpc]\d+"|\n## [3-7]\.|$)/g)];
+  personalAnswers = blocks.map(match => {
+    const id = match[2];
+    const body = match[4];
+    const context = body.match(/\*\*시험지:\*\* ([\s\S]*?)(?=\n\n\*\*MP\*\*)/);
+    const expressions = body.match(/\*\*표현:\*\* ([^.\n]+)/);
+    return {
+      id,
+      category: id[0],
+      title: plainText(match[3]),
+      context: context ? plainText(context[1]) : '',
+      what: extractField(body, 'What'),
+      why: extractField(body, 'Why'),
+      feeling: extractField(body, 'Feeling'),
+      body: extractParagraph(body, '본문'),
+      ending: extractParagraph(body, '마무리'),
+      expressions: expressions ? plainText(expressions[1]) : ''
+    };
+  });
+  return personalAnswers;
+}
+
+function loadAnswerProgress() {
+  try { return JSON.parse(localStorage.getItem(ANSWER_PROGRESS_KEY) || '{}'); } catch { return {}; }
+}
+
+function updateAnswerProgress(answers) {
+  const done = loadAnswerProgress();
+  const completed = answers.filter(answer => done[answer.id]).length;
+  document.getElementById('answer-progress-count').textContent = `${completed} / ${answers.length}`;
+  document.getElementById('answer-progress-fill').style.width = `${completed / answers.length * 100}%`;
+}
+
+async function renderAnswerList() {
+  setView('answer-list-view', '내 답변 연습', true);
+  document.getElementById('back-btn').onclick = renderHome;
+  const list = document.getElementById('answer-list');
+  list.innerHTML = '<li class="empty"><p>답변을 불러오는 중…</p></li>';
+
+  try {
+    const answers = await loadPersonalAnswers();
+    updateAnswerProgress(answers);
+    renderAnswerItems();
+    document.getElementById('answer-search-input').oninput = renderAnswerItems;
+    document.getElementById('category-filters').onclick = event => {
+      const button = event.target.closest('[data-category]');
+      if (!button) return;
+      activeAnswerCategory = button.dataset.category;
+      document.querySelectorAll('#category-filters button').forEach(item => {
+        item.classList.toggle('active', item === button);
+      });
+      renderAnswerItems();
+    };
+    document.getElementById('random-answer-btn').onclick = () => {
+      const candidates = getVisibleAnswers();
+      if (candidates.length) renderAnswerDetail(candidates[Math.floor(Math.random() * candidates.length)].id);
+    };
+  } catch (error) {
+    list.innerHTML = `<li class="empty"><p>${error.message}</p></li>`;
+  }
+}
+
+function getVisibleAnswers() {
+  const query = document.getElementById('answer-search-input').value.trim().toLowerCase();
+  return personalAnswers.filter(answer => {
+    const categoryMatches = activeAnswerCategory === 'all' || answer.category === activeAnswerCategory;
+    const textMatches = !query || `${answer.title} ${answer.context} ${answer.what}`.toLowerCase().includes(query);
+    return categoryMatches && textMatches;
+  });
+}
+
+function renderAnswerItems() {
+  const answers = getVisibleAnswers();
+  const progress = loadAnswerProgress();
+  document.getElementById('answer-result-count').textContent = `${answers.length}개 답변`;
+  document.getElementById('answer-list').innerHTML = answers.length ? answers.map(answer => {
+    const category = ANSWER_CATEGORY[answer.category];
+    return `<li class="answer-item ${progress[answer.id] ? 'completed' : ''}" data-id="${answer.id}">
+      <span class="category-badge ${category.className}">${category.name}</span>
+      <span class="answer-item-copy">
+        <strong>${answer.title}</strong>
+        <small>${answer.context}</small>
+      </span>
+      <span class="answer-check">${progress[answer.id] ? '✓' : '›'}</span>
+    </li>`;
+  }).join('') : '<li class="empty"><p>조건에 맞는 답변이 없어요.</p></li>';
+  document.getElementById('answer-list').onclick = event => {
+    const item = event.target.closest('[data-id]');
+    if (item) renderAnswerDetail(item.dataset.id);
+  };
+}
+
+function renderAnswerDetail(id) {
+  const answer = personalAnswers.find(item => item.id === id);
+  if (!answer) return;
+  const category = ANSWER_CATEGORY[answer.category];
+  const progress = loadAnswerProgress();
+  setView('answer-detail-view', category.name, true);
+  document.getElementById('back-btn').onclick = renderAnswerList;
+  document.getElementById('answer-detail').innerHTML = `
+    <div class="answer-detail-heading">
+      <span class="category-badge ${category.className}">${category.name}</span>
+      <span class="answer-code">${answer.id}</span>
+      <h2>${answer.title}</h2>
+      <p>${answer.context}</p>
+    </div>
+    <div class="answer-prompt-card">
+      <span>이 질문을 받았다고 생각하고 먼저 말해보세요</span>
+      <strong>${answer.title.replace(/ \[확인용\]$/, '')}</strong>
+    </div>
+    <button class="reveal-button" data-target="mp-section">MP 힌트 보기</button>
+    <section class="answer-reveal hidden" id="mp-section">
+      <h3>MP · What → Why → Feeling</h3>
+      <div class="mp-step what"><b>What</b><p>${answer.what}</p></div>
+      <div class="mp-step why"><b>Why</b><p>${answer.why}</p></div>
+      <div class="mp-step feeling"><b>Feeling</b><p>${answer.feeling}</p></div>
+      <button class="speak-button" data-speak="mp">▶ MP 듣기</button>
+    </section>
+    <button class="reveal-button" data-target="full-section">전체 답변 보기</button>
+    <section class="answer-reveal hidden" id="full-section">
+      <h3>전체 답변</h3>
+      <p class="answer-script">${[answer.what, answer.why, answer.feeling, answer.body, answer.ending].join(' ')}</p>
+      ${answer.expressions ? `<p class="answer-expression">활용 표현 · ${answer.expressions}</p>` : ''}
+      <button class="speak-button" data-speak="full">▶ 전체 답변 듣기</button>
+    </section>
+    <button class="answer-complete-button ${progress[id] ? 'done' : ''}" id="answer-complete-btn">
+      ${progress[id] ? '✓ 학습 완료됨' : '오늘 학습 완료'}
+    </button>`;
+
+  document.getElementById('answer-detail').onclick = event => {
+    const reveal = event.target.closest('[data-target]');
+    if (reveal) {
+      const section = document.getElementById(reveal.dataset.target);
+      section.classList.toggle('hidden');
+      reveal.textContent = section.classList.contains('hidden')
+        ? (reveal.dataset.target === 'mp-section' ? 'MP 힌트 보기' : '전체 답변 보기')
+        : '접기';
+      return;
+    }
+    const speak = event.target.closest('[data-speak]');
+    if (speak) {
+      const text = speak.dataset.speak === 'mp'
+        ? [answer.what, answer.why, answer.feeling].join(' ')
+        : [answer.what, answer.why, answer.feeling, answer.body, answer.ending].join(' ');
+      speakEnglish(text, speak);
+    }
+  };
+  document.getElementById('answer-complete-btn').onclick = event => {
+    const saved = loadAnswerProgress();
+    saved[id] = !saved[id];
+    localStorage.setItem(ANSWER_PROGRESS_KEY, JSON.stringify(saved));
+    event.currentTarget.classList.toggle('done', saved[id]);
+    event.currentTarget.textContent = saved[id] ? '✓ 학습 완료됨' : '오늘 학습 완료';
+  };
+}
+
+function speakEnglish(text, button) {
+  if (!('speechSynthesis' in window)) {
+    button.textContent = '이 브라우저는 음성 재생을 지원하지 않아요';
+    return;
+  }
+  window.speechSynthesis.cancel();
+  const utterance = new SpeechSynthesisUtterance(text);
+  utterance.lang = 'en-US';
+  utterance.rate = 0.86;
+  button.textContent = '■ 재생 중지';
+  utterance.onend = () => { button.textContent = '▶ 다시 듣기'; };
+  utterance.onerror = () => { button.textContent = '▶ 다시 듣기'; };
+  window.speechSynthesis.speak(utterance);
 }
 
 async function renderNote(file) {
