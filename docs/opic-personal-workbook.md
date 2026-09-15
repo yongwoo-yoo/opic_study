@@ -4,7 +4,7 @@
 
 - [시험지 28쪽 질문 분류표](opic-question-map.md): 질문을 찾은 뒤 아래 답변 번호로 이동합니다.
 - [자막 표현·전략 출처](opic-subtitle-notes.md): E01~E14의 뜻과 영상 시간을 확인합니다.
-- **27개 답변**을 만들었습니다. D09·D10·P05는 기존 영어 초안에만 있던 내용을 포함한 **확인용**입니다. 나머지도 감정·평가 표현은 한글 메모를 토대로 다듬은 제안이므로 본인 느낌에 맞춰 바꿉니다.
+- **27개 답변**을 10문장으로 구성했습니다. 앞의 MP 3문장은 20초 안에 말할 수 있게 20~27단어로 유지했습니다. D09·D10·P05는 기존 영어 초안에만 있던 내용을 포함한 **확인용**입니다. 나머지도 감정·평가 표현은 한글 메모를 토대로 다듬은 제안이므로 본인 느낌에 맞춰 바꿉니다.
 - 원래 메모와 스크립트는 보존했습니다. 자료가 없는 질문은 분류표에서 **보충**으로 표시했습니다. 별도 사건·인물·날짜를 만들어 경험을 채우지 않았습니다.
 
 ## 1. 답변 만드는 기준
@@ -35,7 +35,7 @@ MP는 **What → Why → Feeling** 순서로 연습합니다. 아래 **MP 세 �
 
 **본문**
 
-I'm **such a coffee person**. I grind my own beans and make coffee there. **Whenever** I smell fresh coffee, I feel at home.
+I'm **such a coffee person**, so I spend a lot of time there. I usually grind my own beans first. Then I slowly make a fresh cup of coffee. Sometimes I make tea instead, you know. The smell of coffee fills the kitchen. **Whenever** that happens, I feel completely at home.
 
 **마무리**
 
@@ -56,7 +56,7 @@ I'm **such a coffee person**. I grind my own beans and make coffee there. **When
 
 **본문**
 
-My head gets busy during the week. But this music helps me slow down. I usually enjoy it with a cup of tea.
+My head gets really busy during the week. I mean, there is always something to think about at work. But this music helps me slow down. It is quiet and very peaceful. I usually enjoy it with a cup of tea. That simple combination gives me a real break.
 
 **마무리**
 
@@ -77,7 +77,7 @@ My head gets busy during the week. But this music helps me slow down. I usually 
 
 **본문**
 
-I went camping there with my wife. We went snorkeling and saw chickens around the campsite. I felt really close to nature.
+I went there on a camping trip with my wife. The beach was right near our campsite. We went snorkeling in the clear water. And, you know, we saw sea turtles in the ocean. There were also chickens walking around the campsite. I felt really close to nature the whole time.
 
 **마무리**
 
@@ -98,7 +98,7 @@ I went camping there with my wife. We went snorkeling and saw chickens around th
 
 **본문**
 
-**The main thing is**, he never gives up easily. **If I'm honest**, that's hard for me. So he makes me want to improve my habits.
+**The main thing is**, he never gives up easily. Once he starts something, he keeps going. He also follows his routine every single day. **If I'm honest**, that kind of consistency is hard for me. I sometimes stop when things get difficult. So, you know, he makes me want to improve my own habits.
 
 **마무리**
 
@@ -119,7 +119,7 @@ That's what I'd really like to learn from him.
 
 **본문**
 
-The weather is cool and comfortable. I can drink coffee outside or go camping. **The main thing is**, I can enjoy being outdoors.
+The weather is cool and comfortable. It is not as hot as summer. It is not freezing like winter either. I can drink coffee outside and enjoy the fresh air. I can also go camping without worrying about the heat. **The main thing is**, I can really enjoy being outdoors.
 
 **마무리**
 
@@ -140,7 +140,7 @@ The weather is cool and comfortable. I can drink coffee outside or go camping. *
 
 **본문**
 
-I process and analyze data at work. **The main thing is**, this industry is part of my daily life. I don't just read about it in the news.
+I work for a semiconductor company in Korea. My job is to process and analyze data. So, you know, I deal with this industry every day. I also see semiconductor news quite often. **The main thing is**, it is part of my real working life. It is much more than just a topic in the news for me.
 
 **마무리**
 
@@ -161,7 +161,7 @@ I process and analyze data at work. **The main thing is**, this industry is part
 
 **본문**
 
-It's kind of like Korean Thanksgiving. We eat, talk, and spend time together. **Put simply**, family and food make it special.
+It is kind of like Korean Thanksgiving. My family gets together for the holiday. We sit down and share a big meal. There is always a lot of delicious food. After eating, we talk and catch up with one another. **Put simply**, family and food make the day special.
 
 **마무리**
 
@@ -182,7 +182,7 @@ It's kind of like Korean Thanksgiving. We eat, talk, and spend time together. **
 
 **본문**
 
-I'm **such a coffee person**. They use beans from famous roasters, so every cup tastes different. I even became friends with the owner, and he sometimes gives me beans.
+I'm **such a coffee person**, so good beans matter to me. The café uses beans from famous roasters. Some are from Korea, and others are from abroad. Each cup has a different taste and aroma. I go there so often that I became friends with the owner. Sometimes, you know, he even gives me beans to enjoy at home.
 
 **마무리**
 
@@ -203,7 +203,7 @@ I'm **such a coffee person**. They use beans from famous roasters, so every cup 
 
 **본문**
 
-Jeju feels very different from the mainland. I drove around the island, visited a beach, and climbed an oreum. I also enjoyed the local black pork.
+Jeju feels very different from the mainland. I rented a car and drove around the island. That was a great way to see different places. I visited a beautiful beach and climbed an oreum. An oreum is a small volcanic hill, by the way. I also tried the local black pork, and it was delicious.
 
 **마무리**
 
@@ -224,7 +224,7 @@ Jeju feels very different from the mainland. I drove around the island, visited 
 
 **본문**
 
-**If I'm honest**, I don't follow fashion trends. **The main thing is** comfort. I just want clothes that are easy to move in.
+**If I'm honest**, I do not follow fashion trends very much. I usually choose a simple T-shirt first. Then I wear it with a comfortable pair of jeans. That outfit is easy to wear almost anywhere. **The main thing is** being able to move around comfortably. So, you know, I keep my style simple.
 
 **마무리**
 
@@ -247,7 +247,7 @@ Jeju feels very different from the mainland. I drove around the island, visited 
 
 **본문**
 
-I usually drink tea at the same time. My mind is busy during the week, but tea and music slow me down. They help me **wind down and relax**.
+I usually make a cup of tea first. Then I put on some meditation music. I sit quietly and enjoy both at the same time. My mind is often busy during the week. But, you know, this routine helps me slow down. It is how I **wind down and relax**.
 
 **마무리**
 
@@ -268,7 +268,7 @@ I usually drink tea at the same time. My mind is busy during the week, but tea a
 
 **본문**
 
-I grind the beans and make coffee in my kitchen. Sometimes, I use beans from my favorite café. **The main thing is**, I enjoy making it myself.
+First, I choose the coffee beans I want to use. Then I grind them in my kitchen. I take my time while making the coffee. Sometimes I use beans from my favorite café. The owner occasionally shares some with me, you know. **The main thing is**, I enjoy making the whole drink myself.
 
 **마무리**
 
@@ -289,7 +289,7 @@ I grind the beans and make coffee in my kitchen. Sometimes, I use beans from my 
 
 **본문**
 
-**If I'm honest**, the gym isn't really my thing. I prefer being outside. Running gives me exercise and fresh air at the same time.
+**If I'm honest**, the gym is not really my thing. I would rather exercise outside. I can feel the wind while I am running. I also get to enjoy the fresh morning air. Of course, running is good exercise for me too. So, you know, I get exercise and outdoor time together.
 
 **마무리**
 
@@ -310,7 +310,7 @@ I grind the beans and make coffee in my kitchen. Sometimes, I use beans from my 
 
 **본문**
 
-**These days**, I check the stock market and read the news online. Then, I look up anything I don't understand. It's part of my daily routine.
+**These days**, I check stock market news online. I also read about money and investing. If I find something new, I look it up. That helps me understand the news better. I mean, there is always more to learn about this topic. So checking financial information has become part of my routine.
 
 **마무리**
 
@@ -331,7 +331,7 @@ I grind the beans and make coffee in my kitchen. Sometimes, I use beans from my 
 
 **본문**
 
-For example, I once made a car repair appointment. **The main thing is** finding a time I can keep. If something comes up, I call and change it.
+For example, I sometimes need a car repair appointment. I first check which weekend is free. Then I choose a time that fits my schedule. **The main thing is** finding a time I can actually keep. Of course, something unexpected can still come up. When that happens, I call the shop and change the appointment.
 
 **마무리**
 
@@ -352,7 +352,7 @@ For example, I once made a car repair appointment. **The main thing is** finding
 
 **본문**
 
-I always look forward to the food. But **the main thing is** spending time together. We share a meal and catch up.
+I always look forward to the holiday food. My family sits down and eats together. We talk about what has been happening in our lives. Sometimes we stay at the table for a long time. But **the main thing is** spending time together. You know, it is a nice chance for everyone to catch up.
 
 **마무리**
 
@@ -373,7 +373,7 @@ I always look forward to the food. But **the main thing is** spending time toget
 
 **본문**
 
-**These days**, I rarely visit a bank. I just open the app and send money. **The main thing is**, I don't need a separate trip.
+**These days**, I rarely visit a bank branch. I usually open the banking app on my phone. Then I check my account or send money. The whole process takes only a few seconds. **The main thing is**, I do not need to make a separate trip. You know, I can handle it wherever I am.
 
 **마무리**
 
@@ -394,7 +394,7 @@ I always look forward to the food. But **the main thing is** spending time toget
 
 **본문**
 
-I can see where the bus is and when it will arrive. **Put simply**, I don't have to guess anymore. Waiting is much easier.
+Before leaving, I open the bus app on my phone. It shows me where the bus is. It also tells me when the bus will arrive. So I know when to walk to the bus stop. **Put simply**, I do not have to guess anymore. You know, that makes waiting much easier.
 
 **마무리**
 
@@ -417,7 +417,7 @@ I can see where the bus is and when it will arrive. **Put simply**, I don't have
 
 **본문**
 
-I bought them for running, so **I couldn't believe** it. Luckily, the shopping app allowed returns. I sent them back and got a full refund.
+I had bought the earphones for running. But they stopped working almost right away. **I couldn't believe** they broke after only three uses. At first, I thought overseas service would be difficult. Luckily, the shopping platform offered a return option. I sent them back and received a full refund.
 
 **마무리**
 
@@ -438,7 +438,7 @@ I bought them for running, so **I couldn't believe** it. Luckily, the shopping a
 
 **본문**
 
-The chickens walked freely around the campsite. We also saw sea turtles while snorkeling. **I couldn't believe** how close the animals were.
+The chickens walked freely around the campsite. That was really unusual to me. In Korea, I usually see chickens inside an enclosure. We also went snorkeling in the ocean. Then, you know, we saw sea turtles in the water. **I couldn't believe** how close all the animals were.
 
 **마무리**
 
@@ -461,7 +461,7 @@ The chickens walked freely around the campsite. We also saw sea turtles while sn
 
 **본문**
 
-I really liked that peaceful feeling. After that, I started listening to it with tea on weekends. It helps me **wind down and relax**.
+I stopped and listened to the music for a while. It gave the whole shop a peaceful mood. I really liked the way it made me feel. After that day, I looked for similar music. Then I started playing it while drinking tea on weekends. Now it helps me **wind down and relax** after work.
 
 **마무리**
 
@@ -482,7 +482,7 @@ I really liked that peaceful feeling. After that, I started listening to it with
 
 **본문**
 
-I called the shop and explained the problem. I said, “Could I come another day?” Luckily, they changed the date for me.
+I called the repair shop as soon as I could. First, I explained that something unexpected had happened. Then I said, “Could I come another day?” The staff listened and checked another date for me. Luckily, they were very kind about the change. In the end, they moved my appointment without any problem.
 
 **마무리**
 
@@ -503,7 +503,7 @@ I called the shop and explained the problem. I said, “Could I come another day
 
 **본문**
 
-I rented a car and drove around the island. The scenery felt different from the mainland. I also tried black pork, and it was delicious.
+I rented a car and drove around the island. First, I went to a beautiful beach. I also climbed an oreum, which is a small volcanic hill. The scenery felt very different from the mainland. Later, I tried Jeju's famous black pork. It was delicious, and it made the trip even better.
 
 **마무리**
 
@@ -526,7 +526,7 @@ I rented a car and drove around the island. The scenery felt different from the 
 
 **본문**
 
-In the past, I visited a bank and updated my bankbook. Now, I send money in seconds with an app. **The main thing is**, I can do it anywhere.
+In the past, I had to visit a bank more often. I even went there to update my bankbook. That took extra time and planning. Now, I can send money in just a few seconds. I only need to open an app on my phone. **The main thing is**, I can do it almost anywhere.
 
 **마무리**
 
@@ -547,7 +547,7 @@ In the past, I visited a bank and updated my bankbook. Now, I send money in seco
 
 **본문**
 
-In the past, we ordered directly from staff. Now, we tap a screen or use an app. **Put simply**, the whole process is faster.
+In the past, we usually ordered directly from a staff member. We also made many reservations in person. Now, we can tap a kiosk at a restaurant. We can also order or make a reservation with an app. So, you know, fewer steps require face-to-face help. **Put simply**, the whole process has become faster.
 
 **마무리**
 
@@ -568,7 +568,7 @@ In the past, we ordered directly from staff. Now, we tap a screen or use an app.
 
 **본문**
 
-Before, I didn't have this routine. Then I heard meditation music in a shop. Now, I enjoy it with tea every weekend.
+Before, I did not have a special weekend routine. Then I heard meditation music in a small shop. I noticed that the music made me feel calm. After that, I started looking for similar music. Now, I play it while drinking tea every weekend. So, you know, music has become part of the way I rest.
 
 **마무리**
 
@@ -589,7 +589,7 @@ Before, I didn't have this routine. Then I heard meditation music in a shop. Now
 
 **본문**
 
-In the past, people just waited without knowing. Now, I can see the bus in real time. **The main thing is**, there's no more guessing.
+In the past, people just waited at the bus stop. They did not know exactly when the bus would arrive. That made waiting feel uncertain. Now, I can check the bus location on my phone. The app shows the information in real time. **The main thing is**, I do not have to keep guessing.
 
 **마무리**
 
