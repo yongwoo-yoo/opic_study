@@ -114,6 +114,16 @@ function extractParagraph(block, heading) {
   return match ? plainText(match[1].replace(/\n+/g, ' ')) : '';
 }
 
+function extractSentenceList(block, heading) {
+  const match = block.match(new RegExp(`\\*\\*${heading}\\*\\*\\n\\n((?:- [^\\n]+\\n?)+)`));
+  return match ? match[1].trim().split('\n').map(line => plainText(line.slice(2))) : [];
+}
+
+function splitEnglishSentences(text) {
+  return [...new Intl.Segmenter('en', { granularity: 'sentence' }).segment(text)]
+    .map(part => part.segment.trim()).filter(Boolean);
+}
+
 async function loadPersonalAnswers() {
   if (personalAnswers) return personalAnswers;
   const markdown = await fetch('opic-personal-workbook.md').then(response => {
@@ -136,7 +146,7 @@ async function loadPersonalAnswers() {
       feeling: extractField(body, 'Feeling'),
       body: extractParagraph(body, '본문'),
       ending: extractParagraph(body, '마무리'),
-      korean: extractParagraph(body, '한글'),
+      koreanSentences: extractSentenceList(body, '한글 문장'),
       expressions: expressions ? plainText(expressions[1]) : ''
     };
   });
@@ -220,6 +230,7 @@ function renderAnswerDetail(id) {
   const progress = loadAnswerProgress();
   const mpText = [answer.what, answer.why, answer.feeling].join(' ');
   const mpWordCount = mpText.split(/\s+/).length;
+  const englishSentences = splitEnglishSentences([answer.what, answer.why, answer.feeling, answer.body, answer.ending].join(' '));
   setView('answer-detail-view', category.name, true);
   document.getElementById('back-btn').onclick = renderAnswerList;
   document.getElementById('answer-detail').innerHTML = `
@@ -248,11 +259,17 @@ function renderAnswerDetail(id) {
     <button class="reveal-button" data-target="full-section">전체 답변 보기</button>
     <section class="answer-reveal hidden" id="full-section">
       <h3>전체 답변</h3>
-      <p class="answer-script-ko">${answer.korean}</p>
-      <button class="answer-script-english" type="button" aria-label="가려진 영어 답변 보기" aria-pressed="false">
-        <span class="answer-script-hint">클릭해서 영어 답변 보기</span>
-        <span class="answer-script-text">${[answer.what, answer.why, answer.feeling, answer.body, answer.ending].join(' ')}</span>
-      </button>
+      <p class="answer-script-guide">한글을 보고 영어로 말한 뒤, 문장별로 눌러 확인하세요.</p>
+      <ol class="answer-sentence-list">
+        ${answer.koreanSentences.map((korean, index) => `
+          <li>
+            <p class="answer-script-ko">${korean}</p>
+            <button class="answer-script-english" type="button" data-sentence="${index + 1}" aria-label="${index + 1}번 영어 문장 보기" aria-pressed="false">
+              <span class="answer-script-hint">영어 확인</span>
+              <span class="answer-script-text">${englishSentences[index]}</span>
+            </button>
+          </li>`).join('')}
+      </ol>
       ${answer.expressions ? `<p class="answer-expression">활용 표현 · ${answer.expressions}</p>` : ''}
       <button class="speak-button" data-speak="full">▶ 전체 답변 듣기</button>
     </section>
@@ -265,8 +282,8 @@ function renderAnswerDetail(id) {
     if (english) {
       const revealed = english.classList.toggle('revealed');
       english.setAttribute('aria-pressed', String(revealed));
-      english.setAttribute('aria-label', revealed ? '영어 답변 다시 가리기' : '가려진 영어 답변 보기');
-      english.querySelector('.answer-script-hint').textContent = revealed ? '클릭해서 영어 다시 가리기' : '클릭해서 영어 답변 보기';
+      english.setAttribute('aria-label', `${english.dataset.sentence}번 영어 문장 ${revealed ? '다시 가리기' : '보기'}`);
+      english.querySelector('.answer-script-hint').textContent = revealed ? '영어 다시 가리기' : '영어 확인';
       return;
     }
     const reveal = event.target.closest('[data-target]');

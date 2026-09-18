@@ -389,12 +389,16 @@ header h1 { font-size: 1.1rem; font-weight: 700; }
 .mp-step.why b { color: #b45309; }
 .mp-step.feeling { border-color: #ec4899; }
 .mp-step.feeling b { color: #be185d; }
-.answer-script-ko { font-size: 0.95rem; line-height: 1.8; white-space: pre-line; }
+.answer-script-guide { margin-bottom: 14px; color: var(--text-muted); font-size: 0.82rem; }
+.answer-sentence-list { margin: 0; padding-left: 25px; }
+.answer-sentence-list li { padding: 12px 0; border-bottom: 1px solid var(--border); }
+.answer-sentence-list li::marker { color: var(--primary); font-weight: 700; }
+.answer-script-ko { font-size: 0.95rem; line-height: 1.65; }
 .answer-script-english {
   display: block;
   width: 100%;
-  margin-top: 14px;
-  padding: 14px;
+  margin-top: 8px;
+  padding: 10px 12px;
   border: 1px solid var(--border);
   border-radius: 10px;
   background: #f8fafc;
@@ -402,7 +406,7 @@ header h1 { font-size: 1.1rem; font-weight: 700; }
   text-align: left;
   cursor: pointer;
 }
-.answer-script-hint { display: block; margin-bottom: 8px; color: var(--primary); font-size: 0.78rem; font-weight: 700; }
+.answer-script-hint { display: block; margin-bottom: 4px; color: var(--primary); font-size: 0.75rem; font-weight: 700; }
 .answer-script-text { display: block; font-size: 0.95rem; line-height: 1.75; filter: blur(5px); user-select: none; }
 .answer-script-english.revealed .answer-script-text { filter: none; user-select: text; }
 .answer-script-english:focus-visible { outline: 3px solid var(--primary); outline-offset: 2px; }
