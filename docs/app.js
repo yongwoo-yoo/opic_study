@@ -136,6 +136,7 @@ async function loadPersonalAnswers() {
       feeling: extractField(body, 'Feeling'),
       body: extractParagraph(body, '본문'),
       ending: extractParagraph(body, '마무리'),
+      korean: extractParagraph(body, '한글'),
       expressions: expressions ? plainText(expressions[1]) : ''
     };
   });
@@ -247,7 +248,11 @@ function renderAnswerDetail(id) {
     <button class="reveal-button" data-target="full-section">전체 답변 보기</button>
     <section class="answer-reveal hidden" id="full-section">
       <h3>전체 답변</h3>
-      <p class="answer-script">${[answer.what, answer.why, answer.feeling, answer.body, answer.ending].join(' ')}</p>
+      <p class="answer-script-ko">${answer.korean}</p>
+      <button class="answer-script-english" type="button" aria-label="가려진 영어 답변 보기" aria-pressed="false">
+        <span class="answer-script-hint">클릭해서 영어 답변 보기</span>
+        <span class="answer-script-text">${[answer.what, answer.why, answer.feeling, answer.body, answer.ending].join(' ')}</span>
+      </button>
       ${answer.expressions ? `<p class="answer-expression">활용 표현 · ${answer.expressions}</p>` : ''}
       <button class="speak-button" data-speak="full">▶ 전체 답변 듣기</button>
     </section>
@@ -256,6 +261,14 @@ function renderAnswerDetail(id) {
     </button>`;
 
   document.getElementById('answer-detail').onclick = event => {
+    const english = event.target.closest('.answer-script-english');
+    if (english) {
+      const revealed = english.classList.toggle('revealed');
+      english.setAttribute('aria-pressed', String(revealed));
+      english.setAttribute('aria-label', revealed ? '영어 답변 다시 가리기' : '가려진 영어 답변 보기');
+      english.querySelector('.answer-script-hint').textContent = revealed ? '클릭해서 영어 다시 가리기' : '클릭해서 영어 답변 보기';
+      return;
+    }
     const reveal = event.target.closest('[data-target]');
     if (reveal) {
       const section = document.getElementById(reveal.dataset.target);

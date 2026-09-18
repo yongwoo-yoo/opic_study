@@ -389,7 +389,23 @@ header h1 { font-size: 1.1rem; font-weight: 700; }
 .mp-step.why b { color: #b45309; }
 .mp-step.feeling { border-color: #ec4899; }
 .mp-step.feeling b { color: #be185d; }
-.answer-script { font-size: 0.95rem; line-height: 1.75; }
+.answer-script-ko { font-size: 0.95rem; line-height: 1.8; white-space: pre-line; }
+.answer-script-english {
+  display: block;
+  width: 100%;
+  margin-top: 14px;
+  padding: 14px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: #f8fafc;
+  color: var(--text);
+  text-align: left;
+  cursor: pointer;
+}
+.answer-script-hint { display: block; margin-bottom: 8px; color: var(--primary); font-size: 0.78rem; font-weight: 700; }
+.answer-script-text { display: block; font-size: 0.95rem; line-height: 1.75; filter: blur(5px); user-select: none; }
+.answer-script-english.revealed .answer-script-text { filter: none; user-select: text; }
+.answer-script-english:focus-visible { outline: 3px solid var(--primary); outline-offset: 2px; }
 .answer-expression { margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--border); color: var(--primary); font-size: 0.76rem; }
 .speak-button {
   width: 100%;
