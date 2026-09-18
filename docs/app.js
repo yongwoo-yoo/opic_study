@@ -120,13 +120,13 @@ function extractSentenceList(block, heading) {
 }
 
 function splitEnglishSentences(text) {
-  return [...new Intl.Segmenter('en', { granularity: 'sentence' }).segment(text)]
-    .map(part => part.segment.trim()).filter(Boolean);
+  return (plainText(text).match(/[^.!?]+[.!?][”"']?(?=\s|$)/g) || [])
+    .map(sentence => sentence.trim());
 }
 
 async function loadPersonalAnswers() {
   if (personalAnswers) return personalAnswers;
-  const markdown = await fetch('opic-personal-workbook.md').then(response => {
+  const markdown = await fetch('opic-personal-workbook.md?v=8').then(response => {
     if (!response.ok) throw new Error('답변 자료를 불러오지 못했습니다.');
     return response.text();
   });
@@ -223,6 +223,22 @@ function renderAnswerItems() {
   };
 }
 
+function renderSentenceList(koreanSentences, englishSentences, start, end, labels = []) {
+  return `<ol class="answer-sentence-list" start="${start + 1}">
+    ${koreanSentences.slice(start, end).map((korean, offset) => {
+      const number = start + offset + 1;
+      return `<li>
+        ${labels[offset] ? `<b class="answer-sentence-label">${labels[offset]}</b>` : ''}
+        <p class="answer-script-ko">${korean}</p>
+        <button class="answer-script-english" type="button" data-sentence="${number}" aria-label="${number}번 영어 문장 보기" aria-pressed="false">
+          <span class="answer-script-hint">영어 확인</span>
+          <span class="answer-script-text">${englishSentences[number - 1]}</span>
+        </button>
+      </li>`;
+    }).join('')}
+  </ol>`;
+}
+
 function renderAnswerDetail(id) {
   const answer = personalAnswers.find(item => item.id === id);
   if (!answer) return;
@@ -233,6 +249,10 @@ function renderAnswerDetail(id) {
   const englishSentences = splitEnglishSentences([answer.what, answer.why, answer.feeling, answer.body, answer.ending].join(' '));
   setView('answer-detail-view', category.name, true);
   document.getElementById('back-btn').onclick = renderAnswerList;
+  if (answer.koreanSentences.length !== englishSentences.length || !englishSentences.length) {
+    document.getElementById('answer-detail').innerHTML = '<p class="empty">답변 파일을 새로 불러와야 합니다. 페이지를 새로고침해 주세요.</p>';
+    return;
+  }
   document.getElementById('answer-detail').innerHTML = `
     <div class="answer-detail-heading">
       <span class="category-badge ${category.className}">${category.name}</span>
@@ -251,25 +271,15 @@ function renderAnswerDetail(id) {
     <button class="reveal-button" data-target="mp-section">MP 힌트 보기</button>
     <section class="answer-reveal hidden" id="mp-section">
       <h3>MP · What → Why → Feeling <small>${mpWordCount}단어 · 20초 목표</small></h3>
-      <div class="mp-step what"><b>What</b><p>${answer.what}</p></div>
-      <div class="mp-step why"><b>Why</b><p>${answer.why}</p></div>
-      <div class="mp-step feeling"><b>Feeling</b><p>${answer.feeling}</p></div>
+      <p class="answer-script-guide">한글을 보고 영어로 말한 뒤, 문장별로 눌러 확인하세요.</p>
+      ${renderSentenceList(answer.koreanSentences, englishSentences, 0, 3, ['What', 'Why', 'Feeling'])}
       <button class="speak-button" data-speak="mp">▶ MP 듣기</button>
     </section>
     <button class="reveal-button" data-target="full-section">전체 답변 보기</button>
     <section class="answer-reveal hidden" id="full-section">
       <h3>전체 답변</h3>
       <p class="answer-script-guide">한글을 보고 영어로 말한 뒤, 문장별로 눌러 확인하세요.</p>
-      <ol class="answer-sentence-list">
-        ${answer.koreanSentences.map((korean, index) => `
-          <li>
-            <p class="answer-script-ko">${korean}</p>
-            <button class="answer-script-english" type="button" data-sentence="${index + 1}" aria-label="${index + 1}번 영어 문장 보기" aria-pressed="false">
-              <span class="answer-script-hint">영어 확인</span>
-              <span class="answer-script-text">${englishSentences[index]}</span>
-            </button>
-          </li>`).join('')}
-      </ol>
+      ${renderSentenceList(answer.koreanSentences, englishSentences, 0, englishSentences.length)}
       ${answer.expressions ? `<p class="answer-expression">활용 표현 · ${answer.expressions}</p>` : ''}
       <button class="speak-button" data-speak="full">▶ 전체 답변 듣기</button>
     </section>
