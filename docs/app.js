@@ -49,6 +49,7 @@ let reviewIdx = 0;
 let flipped = false;
 let personalAnswers = null;
 let activeAnswerCategory = 'all';
+let activeSpeechButton = null;
 
 function setView(viewId, title, showBack = false) {
   document.getElementById('header-title').textContent = title;
@@ -230,10 +231,13 @@ function renderSentenceList(koreanSentences, englishSentences, start, end, label
       return `<li>
         ${labels[offset] ? `<b class="answer-sentence-label">${labels[offset]}</b>` : ''}
         <p class="answer-script-ko">${korean}</p>
-        <button class="answer-script-english" type="button" data-sentence="${number}" aria-label="${number}번 영어 문장 보기" aria-pressed="false">
-          <span class="answer-script-hint">영어 확인</span>
-          <span class="answer-script-text">${englishSentences[number - 1]}</span>
-        </button>
+        <div class="answer-sentence-actions">
+          <button class="answer-script-english" type="button" data-sentence="${number}" aria-label="${number}번 영어 문장 보기" aria-pressed="false">
+            <span class="answer-script-hint">영어 확인</span>
+            <span class="answer-script-text">${englishSentences[number - 1]}</span>
+          </button>
+          <button class="sentence-speak-button" type="button" data-speak-sentence="${number}" aria-label="${number}번 영어 문장 발음 듣기">▶ 발음 듣기</button>
+        </div>
       </li>`;
     }).join('')}
   </ol>`;
@@ -288,6 +292,11 @@ function renderAnswerDetail(id) {
     </button>`;
 
   document.getElementById('answer-detail').onclick = event => {
+    const sentenceSpeak = event.target.closest('[data-speak-sentence]');
+    if (sentenceSpeak) {
+      speakEnglish(englishSentences[Number(sentenceSpeak.dataset.speakSentence) - 1], sentenceSpeak);
+      return;
+    }
     const english = event.target.closest('.answer-script-english');
     if (english) {
       const revealed = english.classList.toggle('revealed');
@@ -353,13 +362,25 @@ function speakEnglish(text, button) {
     button.textContent = '이 브라우저는 음성 재생을 지원하지 않아요';
     return;
   }
+  if (activeSpeechButton === button) {
+    window.speechSynthesis.cancel();
+    button.textContent = '▶ 다시 듣기';
+    activeSpeechButton = null;
+    return;
+  }
   window.speechSynthesis.cancel();
+  if (activeSpeechButton) activeSpeechButton.textContent = '▶ 다시 듣기';
+  activeSpeechButton = button;
   const utterance = new SpeechSynthesisUtterance(text);
   utterance.lang = 'en-US';
   utterance.rate = 0.86;
   button.textContent = '■ 재생 중지';
-  utterance.onend = () => { button.textContent = '▶ 다시 듣기'; };
-  utterance.onerror = () => { button.textContent = '▶ 다시 듣기'; };
+  utterance.onend = utterance.onerror = () => {
+    if (activeSpeechButton === button) {
+      button.textContent = '▶ 다시 듣기';
+      activeSpeechButton = null;
+    }
+  };
   window.speechSynthesis.speak(utterance);
 }
 

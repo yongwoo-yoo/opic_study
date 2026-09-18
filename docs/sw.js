@@ -1,4 +1,4 @@
-const SHELL_CACHE = 'opic-shell-v8';
+const SHELL_CACHE = 'opic-shell-v9';
 const SHELL = ['./', 'index.html', 'app.js', 'style.css', 'manifest.json', 'icon.svg', 'opic-personal-workbook.md'];
 
 self.addEventListener('install', e => {
