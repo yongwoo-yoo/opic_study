@@ -7,6 +7,13 @@
 - **27개 답변**을 12문장으로 구성했습니다. 앞의 MP 3문장은 20초 안에 말할 수 있게 20~27단어로 유지했습니다. D09·D10·P05는 기존 영어 초안에만 있던 내용을 포함한 **확인용**입니다. 나머지도 감정·평가 표현은 한글 메모를 토대로 다듬은 제안이므로 본인 느낌에 맞춰 바꿉니다.
 - 원래 메모와 스크립트는 보존했습니다. 자료가 없는 질문은 분류표에서 **보충**으로 표시했습니다. 별도 사건·인물·날짜를 만들어 경험을 채우지 않았습니다.
 
+## 이번 답변 보완에 사용한 영상
+
+- [오픽 IH 만들어주는 문장 100개](https://youtu.be/T2NqoPHpXcA): `coffee fanatic`, `ritual`, `fully recharge`, `go the extra mile`, `when it comes to` 등
+- [오픽 AL 만들어주는 문장 100개](https://youtu.be/Qc-pJ0w51Bc): `seamlessly`, `self-explanatory`, `game changer`, `panoramic view`, `splurge` 등
+
+영상 표현은 기존 개인 경험과 자연스럽게 맞는 답변에만 넣었습니다. 새로운 사건이나 사실은 추가하지 않았습니다.
+
 ## 1. 답변 만드는 기준
 
 MP는 **What → Why → Feeling** 순서로 연습합니다. 아래 **MP 세 문장 + 본문 + 마무리**를 이어 읽으면 완성 답변입니다. What/Why/Feeling이라는 라벨은 읽지 않습니다. 강조된 영어는 자막에서 확인한 표현을 본인 이야기로 바꿔 쓴 부분입니다.
@@ -35,7 +42,7 @@ MP는 **What → Why → Feeling** 순서로 연습합니다. 아래 **MP 세 �
 
 **본문**
 
-I'm **such a coffee person**, so I spend a lot of time there. I usually grind my own beans first. Then I slowly make a fresh cup of coffee. Sometimes I make tea instead, you know. The smell of coffee fills the kitchen. **Whenever** that happens, I feel completely at home. I like taking a quiet moment before I drink it. Even a simple cup feels special when I make it myself.
+I'm **such a coffee person**, so I spend a lot of time there. I usually grind my own beans first. Then I slowly make a fresh cup of coffee. Sometimes I make tea instead, you know. The smell of coffee fills the kitchen. **Whenever** that happens, I feel completely at home. Making coffee has become a relaxing ritual for me. Even a simple cup feels special when I make it myself.
 
 **마무리**
 
@@ -52,7 +59,7 @@ I'm **such a coffee person**, so I spend a lot of time there. I usually grind my
 - 가끔은 대신 차를 만들기도 해요.
 - 커피 향이 부엌을 가득 채워요.
 - 그럴 때마다 집에 있다는 느낌이 확 들어요.
-- 마시기 전에 잠깐 조용한 시간을 갖는 게 좋아요.
+- 커피를 만드는 일은 저에게 편안한 의식 같은 습관이 되었어요.
 - 직접 만들면 평범한 한 잔도 특별하게 느껴져요.
 - 그래서 부엌이 저에게 특별해요.
 
@@ -71,7 +78,7 @@ I'm **such a coffee person**, so I spend a lot of time there. I usually grind my
 
 **본문**
 
-My head gets really busy during the week. I mean, there is always something to think about at work. But this music helps me slow down. It is quiet and very peaceful. I usually enjoy it with a cup of tea. That simple combination gives me a real break. I can focus on the music instead of my busy thoughts. After a while, I feel ready to rest.
+My head gets really busy during the week. I mean, there is always something to think about at work. But this music helps me slow down. It is quiet and very peaceful. I usually enjoy it with a cup of tea. That simple combination helps me fully recharge. I can focus on the music instead of my busy thoughts. After a while, I feel ready to rest.
 
 **마무리**
 
@@ -87,7 +94,7 @@ My head gets really busy during the week. I mean, there is always something to t
 - 하지만 이 음악은 제가 속도를 늦추게 해 줘요.
 - 조용하고 아주 평화로운 음악이에요.
 - 보통 차 한 잔과 함께 즐겨요.
-- 그 간단한 조합이 저에게 진정한 휴식을 줘요.
+- 그 간단한 조합 덕분에 에너지를 완전히 충전할 수 있어요.
 - 바쁜 생각 대신 음악에 집중할 수 있어요.
 - 조금 지나면 쉴 준비가 된 기분이에요.
 - 그래서 긴장을 풀고 편안해지는 데 도움이 돼요.
@@ -107,7 +114,7 @@ My head gets really busy during the week. I mean, there is always something to t
 
 **본문**
 
-I went there on a camping trip with my wife. The beach was right near our campsite. We went snorkeling in the clear water. And, you know, we saw sea turtles in the ocean. There were also chickens walking around the campsite. I felt really close to nature the whole time. Seeing those animals so nearby made the place stand out. I still remember that feeling when I think of Hawaii.
+I went there on a camping trip with my wife. The beach was right near our campsite. We went snorkeling in the clear water. And, you know, we saw sea turtles in the ocean. There were also chickens walking around the campsite. I felt really close to nature the whole time. The clear ocean gave us a panoramic view. I still remember that feeling when I think of Hawaii.
 
 **마무리**
 
@@ -124,7 +131,7 @@ I went there on a camping trip with my wife. The beach was right near our campsi
 - 그러다가 바다에서 바다거북을 봤어요.
 - 캠핑장 주변에는 닭들도 돌아다니고 있었어요.
 - 여행 내내 자연이 정말 가까이 느껴졌어요.
-- 동물들을 그렇게 가까이서 본 점이 특히 인상적이었어요.
+- 맑은 바다의 탁 트인 전경을 볼 수 있었어요.
 - 하와이를 생각하면 그때의 기분이 아직도 떠올라요.
 - 한마디로 그 아름다운 자연을 잊지 못할 거예요.
 
@@ -143,7 +150,7 @@ I went there on a camping trip with my wife. The beach was right near our campsi
 
 **본문**
 
-**The main thing is**, he never gives up easily. Once he starts something, he keeps going. He also follows his routine every single day. **If I'm honest**, that kind of consistency is hard for me. I sometimes stop when things get difficult. So, you know, he makes me want to improve my own habits. I notice the difference when I think about my own routine. His example reminds me to keep trying.
+**The main thing is**, he never gives up easily. Once he starts something, he keeps going. He also follows his routine every single day. **If I'm honest**, that kind of consistency is hard for me. I sometimes stop when things get difficult. So, you know, he makes me want to improve my own habits. I notice the difference when I think about my own routine. He always goes the extra mile to keep his routine.
 
 **마무리**
 
@@ -161,7 +168,7 @@ That's what I'd really like to learn from him.
 - 저는 일이 힘들어지면 가끔 멈추거든요.
 - 그래서 그 친구를 보면 제 습관도 고치고 싶어져요.
 - 제 일과를 돌아보면 그 차이를 느껴요.
-- 그 친구의 모습을 보면 계속 노력해야겠다는 생각이 들어요.
+- 그 친구는 일과를 지키기 위해 늘 한층 더 노력해요.
 - 제가 그 친구에게서 정말 배우고 싶은 점이에요.
 
 **표현:** E05·E09. **보충:** 건강한 사람 질문(p.17)에는 이 친구의 실제 운동·식습관이 필요합니다. 꾸준하다는 사실만으로 운동을 한다고 만들지 않습니다.
@@ -179,7 +186,7 @@ That's what I'd really like to learn from him.
 
 **본문**
 
-The weather is cool and comfortable. It is not as hot as summer. It is not freezing like winter either. I can drink coffee outside and enjoy the fresh air. I can also go camping without worrying about the heat. **The main thing is**, I can really enjoy being outdoors. I look forward to those simple outdoor moments. That is why the season fits my hobbies so well.
+The weather is cool and comfortable. It is not as hot as summer. It is not freezing like winter either. I can drink coffee outside and enjoy the fresh air. I can also go camping without worrying about the heat. **The main thing is**, I can really enjoy being outdoors. Those simple outdoor moments help me fully recharge. That is why the season fits my hobbies so well.
 
 **마무리**
 
@@ -196,7 +203,7 @@ The weather is cool and comfortable. It is not as hot as summer. It is not freez
 - 밖에서 커피를 마시며 신선한 공기를 즐길 수 있어요.
 - 더위를 걱정하지 않고 캠핑도 할 수 있어요.
 - 무엇보다 야외 시간을 제대로 즐길 수 있어요.
-- 그런 소소한 야외 시간이 기다려져요.
+- 그런 소소한 야외 시간 덕분에 에너지를 완전히 충전할 수 있어요.
 - 그래서 가을은 제 취미와 정말 잘 맞아요.
 - 결론적으로 가을은 저에게 딱 맞는 계절이에요.
 
@@ -215,7 +222,7 @@ The weather is cool and comfortable. It is not as hot as summer. It is not freez
 
 **본문**
 
-I work for a semiconductor company in Korea. My job is to process and analyze data. So, you know, I deal with this industry every day. I also see semiconductor news quite often. **The main thing is**, it is part of my real working life. It is much more than just a topic in the news for me. When I read about the industry, I think about my own work. That personal connection keeps me interested.
+I work for a semiconductor company in Korea. My job is to process and analyze data. So, you know, I deal with this industry every day. When it comes to technology, semiconductors are developing rapidly. **The main thing is**, it is part of my real working life. It is much more than just a topic in the news for me. When I read about the industry, I think about my own work. That personal connection keeps me interested.
 
 **마무리**
 
@@ -229,7 +236,7 @@ I work for a semiconductor company in Korea. My job is to process and analyze da
 - 저는 한국의 반도체 회사에서 일해요.
 - 데이터를 처리하고 분석하는 것이 제 일이에요.
 - 그래서 매일 이 산업을 접해요.
-- 반도체 관련 뉴스도 꽤 자주 봐요.
+- 기술 분야를 이야기하자면 반도체는 빠르게 발전하고 있어요.
 - 무엇보다 제 실제 직장 생활의 일부예요.
 - 저에게는 단순한 뉴스 주제 그 이상이에요.
 - 산업 관련 기사를 읽으면 제 업무가 떠올라요.
@@ -251,7 +258,7 @@ I work for a semiconductor company in Korea. My job is to process and analyze da
 
 **본문**
 
-It is kind of like Korean Thanksgiving. My family gets together for the holiday. We sit down and share a big meal. There is always a lot of delicious food. After eating, we talk and catch up with one another. **Put simply**, family and food make the day special. I especially enjoy the time we spend at the table. Being together makes the meal even better.
+Chuseok is a traditional holiday with many family rituals. My family gets together for the holiday. We sit down and share a big meal. There is always a lot of delicious food. After eating, we talk and catch up with one another. **Put simply**, family and food make the day special. I especially enjoy the time we spend at the table. Being together makes the meal even better.
 
 **마무리**
 
@@ -262,7 +269,7 @@ It is kind of like Korean Thanksgiving. My family gets together for the holiday.
 - 제가 가장 좋아하는 한국 명절은 추석이에요.
 - 가족이 모여 맛있는 음식을 나누거든요.
 - 그래서 저에게 정말 행복한 시간이에요.
-- 한국의 추수감사절 같은 명절이에요.
+- 추석은 가족이 함께하는 여러 전통 의식이 있는 명절이에요.
 - 명절에 가족이 함께 모여요.
 - 둘러앉아 푸짐한 식사를 나눠요.
 - 늘 맛있는 음식이 많이 있어요.
@@ -287,7 +294,7 @@ It is kind of like Korean Thanksgiving. My family gets together for the holiday.
 
 **본문**
 
-I'm **such a coffee person**, so good beans matter to me. The café uses beans from famous roasters. Some are from Korea, and others are from abroad. Each cup has a different taste and aroma. I go there so often that I became friends with the owner. Sometimes, you know, he even gives me beans to enjoy at home. I like noticing how one cup differs from another. That makes every visit interesting to me.
+I'm **such a coffee person**, so good beans matter to me. The café uses beans from famous roasters. Some are from Korea, and others are from abroad. Each cup has a different taste and aroma. I go there so often that I became friends with the owner. Sometimes, you know, he even gives me beans to enjoy at home. I enjoy discovering new flavors whenever I visit. That makes every visit interesting to me.
 
 **마무리**
 
@@ -304,7 +311,7 @@ I'm **such a coffee person**, so good beans matter to me. The café uses beans f
 - 한 잔 한 잔 맛과 향이 달라요.
 - 너무 자주 가서 사장님과 친구가 되었어요.
 - 가끔은 집에서 마시라며 원두를 주시기도 해요.
-- 커피마다 어떤 차이가 있는지 느껴 보는 게 좋아요.
+- 갈 때마다 새로운 맛을 발견하는 게 즐거워요.
 - 그래서 방문할 때마다 흥미로워요.
 - 그 카페 덕분에 커피 취미가 더 즐거워요.
 
@@ -323,7 +330,7 @@ I'm **such a coffee person**, so good beans matter to me. The café uses beans f
 
 **본문**
 
-Jeju feels very different from the mainland. I rented a car and drove around the island. That was a great way to see different places. I visited a beautiful beach and climbed an oreum. An oreum is a small volcanic hill, by the way. I also tried the local black pork, and it was delicious. Each stop showed me a different side of the island. I enjoyed the scenery as much as the food.
+Jeju feels very different from the mainland. I rented a car and drove around the island. That was a great way to see different places. I visited a beautiful beach and climbed an oreum. An oreum is a small volcanic hill, by the way. I also tried the local black pork, and it was delicious. From the oreum, I enjoyed a panoramic view of the island. I enjoyed the scenery as much as the food.
 
 **마무리**
 
@@ -340,7 +347,7 @@ Jeju feels very different from the mainland. I rented a car and drove around the
 - 아름다운 해변에 가고 오름에도 올랐어요.
 - 참고로 오름은 작은 화산 언덕이에요.
 - 제주 흑돼지도 먹었는데 맛있었어요.
-- 들르는 곳마다 섬의 다른 모습을 볼 수 있었어요.
+- 오름에서는 섬의 탁 트인 전경을 즐길 수 있었어요.
 - 음식만큼 풍경도 좋았어요.
 - 제주의 독특한 분위기가 정말 좋아요.
 
@@ -359,7 +366,7 @@ Jeju feels very different from the mainland. I rented a car and drove around the
 
 **본문**
 
-**If I'm honest**, I do not follow fashion trends very much. I usually choose a simple T-shirt first. Then I wear it with a comfortable pair of jeans. That outfit is easy to wear almost anywhere. **The main thing is** being able to move around comfortably. So, you know, I keep my style simple. I feel more comfortable when I do not have to think much about my clothes. That is why I often choose the same kind of outfit.
+**If I'm honest**, I do not follow fashion trends very much. I usually choose a simple T-shirt first. Then I wear it with a comfortable pair of jeans. That outfit is easy to wear almost anywhere. **The main thing is** being able to move around comfortably. So, you know, I keep my style simple. I feel more comfortable when I do not have to think much about my clothes. I rarely splurge on trendy clothes.
 
 **마무리**
 
@@ -377,7 +384,7 @@ Jeju feels very different from the mainland. I rented a car and drove around the
 - 무엇보다 편하게 움직일 수 있는 게 중요해요.
 - 그래서 옷차림을 단순하게 유지해요.
 - 옷을 많이 고민하지 않아도 되면 더 편해요.
-- 그래서 비슷한 옷차림을 자주 골라요.
+- 유행하는 옷에는 큰돈을 거의 쓰지 않아요.
 - 저에게는 편안함이 가장 중요해요.
 
 **표현:** E09·E05. **보충:** 한국 사람 전체의 패션, 어릴 때 유행, 실제 쇼핑 습관은 별도 답변입니다.
@@ -397,7 +404,7 @@ Jeju feels very different from the mainland. I rented a car and drove around the
 
 **본문**
 
-I usually make a cup of tea first. Then I put on some meditation music. I sit quietly and enjoy both at the same time. My mind is often busy during the week. But, you know, this routine helps me slow down. It is how I **wind down and relax**. I look forward to that quiet time on weekends. Even a short break like this feels refreshing.
+I usually make a cup of tea first. Then I put on some meditation music. I sit quietly and enjoy both at the same time. My mind is often busy during the week. But, you know, this routine helps me slow down. This quiet ritual helps me wind down and fully recharge. I look forward to that quiet time on weekends. Even a short break like this feels refreshing.
 
 **마무리**
 
@@ -413,7 +420,7 @@ I usually make a cup of tea first. Then I put on some meditation music. I sit qu
 - 조용히 앉아서 차와 음악을 함께 즐겨요.
 - 평일에는 생각이 많을 때가 많아요.
 - 하지만 이 습관 덕분에 속도를 늦출 수 있어요.
-- 이렇게 긴장을 풀고 편안해져요.
+- 이 조용한 습관 덕분에 긴장을 풀고 에너지를 완전히 충전해요.
 - 주말의 그 조용한 시간이 기다려져요.
 - 이렇게 잠깐만 쉬어도 기분이 상쾌해요.
 - 제가 가장 좋아하는 주말 습관이에요.
@@ -433,7 +440,7 @@ I usually make a cup of tea first. Then I put on some meditation music. I sit qu
 
 **본문**
 
-First, I choose the coffee beans I want to use. Then I grind them in my kitchen. I take my time while making the coffee. Sometimes I use beans from my favorite café. The owner occasionally shares some with me, you know. **The main thing is**, I enjoy making the whole drink myself. I like the smell of the beans as I prepare them. Taking my time is part of the fun.
+First, I choose the coffee beans I want to use. Then I grind them in my kitchen. I take my time while making the coffee. Sometimes I use beans from my favorite café. The owner occasionally shares some with me, you know. **The main thing is**, I enjoy making the whole drink myself. I like the smell of the beans as I prepare them. This slow process has become my weekend ritual.
 
 **마무리**
 
@@ -451,7 +458,7 @@ First, I choose the coffee beans I want to use. Then I grind them in my kitchen.
 - 사장님이 가끔 원두를 나눠 주시거든요.
 - 무엇보다 커피 한 잔을 전부 직접 만드는 게 좋아요.
 - 준비하면서 나는 원두 향도 좋아해요.
-- 천천히 만드는 것 자체가 재미의 일부예요.
+- 이 느긋한 과정은 제 주말 의식 같은 습관이 되었어요.
 - 집에서 가장 좋아하는 일이에요.
 
 **표현:** E05. **보충:** 평일과 주말을 모두 묻는 경우 실제 평일 일과도 추가합니다. 집안일 질문에는 청소·설거지 등 실제 가사 행동이 필요합니다.
@@ -469,7 +476,7 @@ First, I choose the coffee beans I want to use. Then I grind them in my kitchen.
 
 **본문**
 
-**If I'm honest**, the gym is not really my thing. I would rather exercise outside. I can feel the wind while I am running. I also get to enjoy the fresh morning air. Of course, running is good exercise for me too. So, you know, I get exercise and outdoor time together. Being outside makes the run more enjoyable. Afterward, my mind feels clearer.
+**If I'm honest**, the gym is not really my thing. I would rather exercise outside. I can feel the wind while I am running. I also get to enjoy the fresh morning air. These days, I'm more health-conscious, so I run regularly. So, you know, I get exercise and outdoor time together. Being outside makes the run more enjoyable. Afterward, my mind feels clearer.
 
 **마무리**
 
@@ -484,7 +491,7 @@ First, I choose the coffee beans I want to use. Then I grind them in my kitchen.
 - 밖에서 운동하는 편이 좋아요.
 - 달리면서 바람을 느낄 수 있어요.
 - 상쾌한 아침 공기도 즐길 수 있어요.
-- 물론 달리기는 저에게 좋은 운동이기도 해요.
+- 요즘은 건강을 더 신경 써서 규칙적으로 달려요.
 - 그래서 운동과 야외 시간을 동시에 얻어요.
 - 밖에 있으니 달리기가 더 즐거워요.
 - 달리고 나면 머릿속도 더 맑아져요.
@@ -505,7 +512,7 @@ First, I choose the coffee beans I want to use. Then I grind them in my kitchen.
 
 **본문**
 
-**These days**, I check stock market news online. I also read about money and investing. If I find something new, I look it up. That helps me understand the news better. I mean, there is always more to learn about this topic. So checking financial information has become part of my routine. One article often leads me to another question. That is what keeps the topic interesting.
+**These days**, I check stock market news online. I also read about money and investing. If I find something new, I look it up. That helps me understand the news better. I mean, there is always more to learn about this topic. I check financial information on a daily basis. One article often leads me to another question. That is what keeps the topic interesting.
 
 **마무리**
 
@@ -521,7 +528,7 @@ First, I choose the coffee beans I want to use. Then I grind them in my kitchen.
 - 새로운 내용을 보면 찾아봐요.
 - 그러면 뉴스를 더 잘 이해할 수 있어요.
 - 이 주제는 늘 더 배울 것이 있거든요.
-- 그래서 금융 정보를 확인하는 것이 제 일과가 됐어요.
+- 저는 매일 금융 정보를 확인해요.
 - 기사 하나를 읽으면 다른 궁금증이 생길 때가 많아요.
 - 그 점이 이 주제를 계속 흥미롭게 만들어요.
 - 인터넷 덕분에 계속 배울 수 있어요.
@@ -541,7 +548,7 @@ First, I choose the coffee beans I want to use. Then I grind them in my kitchen.
 
 **본문**
 
-For example, I sometimes need a car repair appointment. I first check which weekend is free. Then I choose a time that fits my schedule. **The main thing is** finding a time I can actually keep. Of course, something unexpected can still come up. When that happens, I call the shop and change the appointment. I try to let them know as soon as I can. Having a clear plan makes the appointment easier for me.
+For example, I sometimes need a car repair appointment. I first check which weekend is free. Then I choose a time that fits my schedule. **The main thing is** finding a time I can actually keep. Of course, something unexpected can still come up. When that happens, I call the shop and change the appointment. I always make sure to let them know as soon as I can. Having a clear plan makes the appointment easier for me.
 
 **마무리**
 
@@ -558,7 +565,7 @@ For example, I sometimes need a car repair appointment. I first check which week
 - 중요한 것은 실제로 지킬 수 있는 시간을 찾는 거예요.
 - 물론 예상치 못한 일이 생길 수도 있어요.
 - 그럴 때는 정비소에 전화해서 예약을 바꿔요.
-- 가능한 한 빨리 알리려고 해요.
+- 가능한 한 빨리 알리도록 항상 신경 써요.
 - 일정이 명확하면 예약이 더 편해요.
 - 저에게는 주말이 가장 잘 맞아요.
 
@@ -577,7 +584,7 @@ For example, I sometimes need a car repair appointment. I first check which week
 
 **본문**
 
-I always look forward to the holiday food. My family sits down and eats together. We talk about what has been happening in our lives. Sometimes we stay at the table for a long time. But **the main thing is** spending time together. You know, it is a nice chance for everyone to catch up. I enjoy listening to everyone's stories. Those conversations are part of what I remember about the holiday.
+I always look forward to the holiday food. My family sits down and eats together. We talk about what has been happening in our lives. Sometimes we stay at the table for a long time. But **the main thing is** spending time together. You know, it is a nice chance for everyone to catch up. I enjoy listening to everyone's stories. Eating and talking together is our favorite holiday ritual.
 
 **마무리**
 
@@ -595,7 +602,7 @@ I always look forward to the holiday food. My family sits down and eats together
 - 하지만 가장 중요한 건 함께 시간을 보내는 거예요.
 - 모두의 근황을 나누기 좋은 기회예요.
 - 가족들의 이야기를 듣는 게 좋아요.
-- 그 대화들이 명절의 기억으로 남아요.
+- 함께 먹고 이야기하는 것은 우리가 가장 좋아하는 명절 습관이에요.
 - 가족과 보내는 시간이 추석을 특별하게 해요.
 
 **표현:** E05. **적용 범위:** p.26 가족과 주로 하는 일에는 ‘추석에 가족을 만날 때’라는 실제 범위를 밝힙니다. 최근 명절·어릴 때 추석 경험으로 바꾸려면 해당 사건이 필요합니다.
@@ -613,7 +620,7 @@ I always look forward to the holiday food. My family sits down and eats together
 
 **본문**
 
-**These days**, I rarely visit a bank branch. I usually open the banking app on my phone. Then I check my account or send money. The whole process takes only a few seconds. **The main thing is**, I do not need to make a separate trip. You know, I can handle it wherever I am. That saves me time during a busy day. I like being able to finish a simple task right away.
+**These days**, I rarely visit a bank branch. I usually open the banking app on my phone. Then I check my account or send money. The app works seamlessly, so the whole process takes only a few seconds. **The main thing is**, I do not need to make a separate trip. You know, I can handle it wherever I am. That saves me time during a busy day. I like being able to finish a simple task right away.
 
 **마무리**
 
@@ -627,7 +634,7 @@ I always look forward to the holiday food. My family sits down and eats together
 - 요즘은 은행 지점에 거의 가지 않아요.
 - 보통 휴대폰에서 은행 앱을 열어요.
 - 그런 다음 계좌를 확인하거나 돈을 보내요.
-- 전체 과정이 몇 초밖에 걸리지 않아요.
+- 앱이 매끄럽게 작동해서 전체 과정이 몇 초밖에 걸리지 않아요.
 - 무엇보다 은행에 따로 갈 필요가 없어요.
 - 어디에 있든 처리할 수 있거든요.
 - 바쁜 날에는 시간을 아낄 수 있어요.
@@ -649,7 +656,7 @@ I always look forward to the holiday food. My family sits down and eats together
 
 **본문**
 
-Before leaving, I open the bus app on my phone. It shows me where the bus is. It also tells me when the bus will arrive. So I know when to walk to the bus stop. **Put simply**, I do not have to guess anymore. You know, that makes waiting much easier. I can check the information before I step outside. That helps me feel more prepared for the trip.
+Before leaving, I open the bus app on my phone. It shows me where the bus is. It also tells me when the bus will arrive. So I know when to walk to the bus stop. **Put simply**, I do not have to guess anymore. You know, that makes waiting much easier. I can check the information before I step outside. Real-time bus information is a real game changer for me.
 
 **마무리**
 
@@ -667,7 +674,7 @@ Before leaving, I open the bus app on my phone. It shows me where the bus is. It
 - 한마디로 더는 추측하지 않아도 돼요.
 - 그래서 기다리기가 훨씬 쉬워져요.
 - 밖에 나가기 전에 정보를 확인할 수 있어요.
-- 덕분에 이동할 준비가 더 잘된 기분이에요.
+- 실시간 버스 정보는 저에게 정말 큰 변화를 가져온 기능이에요.
 - 이 앱 덕분에 버스 타기가 더 쉬워요.
 
 **표현:** E10. **보충:** ‘매일 가장 자주 쓰는 기술’이라는 빈도를 충족하는지는 확인합니다. ‘가장 좋아하는 기능’으로 쓰려면 첫 문장을 선호 문장으로 바꿉니다.
@@ -687,7 +694,7 @@ Before leaving, I open the bus app on my phone. It shows me where the bus is. It
 
 **본문**
 
-I had bought the earphones for running. But they stopped working almost right away. **I couldn't believe** they broke after only three uses. At first, I thought overseas service would be difficult. Luckily, the shopping platform offered a return option. I sent them back and received a full refund. The return process was easier than I expected. That made a frustrating experience end well.
+I had bought the earphones for running. But they stopped working almost right away. **I couldn't believe** they broke after only three uses. At first, I thought overseas service would be difficult. Luckily, the shopping platform offered a return option. I sent them back and received a full refund. The return process worked seamlessly without any problems. That made a frustrating experience end well.
 
 **마무리**
 
@@ -704,7 +711,7 @@ I had bought the earphones for running. But they stopped working almost right aw
 - 처음에는 해외 제품의 사후 서비스가 어려울 거라고 생각했어요.
 - 다행히 쇼핑 플랫폼에서 반품할 수 있었어요.
 - 제품을 돌려보내고 전액 환불받았어요.
-- 반품 절차는 생각보다 쉬웠어요.
+- 반품 절차는 아무 문제 없이 매끄럽게 진행됐어요.
 - 덕분에 답답한 경험이 잘 끝났어요.
 - 결국 안도했고 그 앱을 더 신뢰하게 됐어요.
 
@@ -723,7 +730,7 @@ I had bought the earphones for running. But they stopped working almost right aw
 
 **본문**
 
-The chickens walked freely around the campsite. That was really unusual to me. In Korea, I usually see chickens inside an enclosure. We also went snorkeling in the ocean. Then, you know, we saw sea turtles in the water. **I couldn't believe** how close all the animals were. I kept thinking about how different it felt from home. Those encounters made the trip especially memorable.
+The chickens walked freely around the campsite. That was really unusual to me. In Korea, I usually see chickens inside an enclosure. We also went snorkeling in the ocean. Then, you know, we saw sea turtles in the water. **I couldn't believe** how close all the animals were. I kept thinking about how different it felt from home. I absolutely loved seeing wildlife so close to us.
 
 **마무리**
 
@@ -741,7 +748,7 @@ The chickens walked freely around the campsite. That was really unusual to me. I
 - 그러다가 물속에서 바다거북을 봤어요.
 - 동물들이 그렇게 가까이 있다는 게 믿기지 않았어요.
 - 집에서 보던 모습과 얼마나 다른지 계속 생각났어요.
-- 그 만남들 덕분에 여행이 특히 기억에 남아요.
+- 야생동물을 그렇게 가까이에서 본 경험이 정말 좋았어요.
 - 제가 가장 좋아하는 여행 중 하나가 됐어요.
 
 **표현:** E12·E03. **선택적 직접화법:** “I thought to myself, ‘This is so different from what I'm used to.’”는 당시 느낌을 재구성한 연습 문장입니다(E11). 실제 기억과 맞을 때만 본문에 넣습니다.
@@ -761,7 +768,7 @@ The chickens walked freely around the campsite. That was really unusual to me. I
 
 **본문**
 
-I stopped and listened to the music for a while. It gave the whole shop a peaceful mood. I really liked the way it made me feel. After that day, I looked for similar music. Then I started playing it while drinking tea on weekends. Now it helps me **wind down and relax** after work. I still remember how calm I felt in that shop. A simple moment turned into a habit I enjoy.
+I stopped and listened to the music for a while. It gave the whole shop a peaceful mood. I really liked the way it made me feel. After that day, I looked for similar music. Then I started playing it while drinking tea on weekends. Now it helps me **wind down and relax** after work. I still remember how calm I felt in that shop. That simple moment turned into a relaxing weekend ritual.
 
 **마무리**
 
@@ -779,7 +786,7 @@ I stopped and listened to the music for a while. It gave the whole shop a peacef
 - 그러다 주말에 차를 마시며 그 음악을 틀기 시작했어요.
 - 지금은 퇴근 후 긴장을 푸는 데 도움이 돼요.
 - 가게에서 느꼈던 차분함이 아직도 기억나요.
-- 그 짧은 순간이 제가 좋아하는 습관이 됐어요.
+- 그 짧은 순간이 편안한 주말 의식 같은 습관으로 이어졌어요.
 - 그때부터 제 주말 습관이 시작됐어요.
 
 **표현:** E01. **복합형:** 취향 변화까지 물으면 C03의 과거·현재 대조를 짧게 붙입니다. 라이브 공연을 들은 경험이 아니므로 p.2 SET2 Q3에는 사용하지 않습니다.
@@ -797,7 +804,7 @@ I stopped and listened to the music for a while. It gave the whole shop a peacef
 
 **본문**
 
-I called the repair shop as soon as I could. First, I explained that something unexpected had happened. Then I said, “Could I come another day?” The staff listened and checked another date for me. Luckily, they were very kind about the change. In the end, they moved my appointment without any problem. I appreciated how understanding they were. After the call, I felt less worried about the repair.
+I called the repair shop as soon as I could. First, I explained that something unexpected had happened. Then I said, “Could I come another day?” The staff listened and checked another date for me. Luckily, they were very kind about the change. In the end, they handled the change seamlessly. I appreciated how understanding they were. After the call, I felt less worried about the repair.
 
 **마무리**
 
@@ -813,7 +820,7 @@ I called the repair shop as soon as I could. First, I explained that something u
 - 그런 다음 다른 날 가도 되느냐고 물었어요.
 - 직원이 제 말을 듣고 다른 날짜를 확인해 줬어요.
 - 다행히 변경에 아주 친절하게 응해 줬어요.
-- 결국 문제없이 예약을 옮겨 줬어요.
+- 결국 변경 요청을 아주 매끄럽게 처리해 줬어요.
 - 이해해 줘서 고마웠어요.
 - 통화 후에는 수리에 대한 걱정도 줄었어요.
 - 일이 잘 풀려서 안심했어요.
@@ -833,7 +840,7 @@ I called the repair shop as soon as I could. First, I explained that something u
 
 **본문**
 
-I rented a car and drove around the island. First, I went to a beautiful beach. I also climbed an oreum, which is a small volcanic hill. The scenery felt very different from the mainland. Later, I tried Jeju's famous black pork. It was delicious, and it made the trip even better. I liked seeing different scenery as I moved around. The beach and the hill both stayed in my memory.
+I rented a car and drove around the island. First, I went to a beautiful beach. I also climbed an oreum, which is a small volcanic hill. The scenery felt very different from the mainland. Later, I tried Jeju's famous black pork. It was delicious, and it made the trip even better. Driving around gave me panoramic views of the island. The beach and the hill both stayed in my memory.
 
 **마무리**
 
@@ -850,7 +857,7 @@ I rented a car and drove around the island. First, I went to a beautiful beach. 
 - 풍경이 본토와 아주 다르게 느껴졌어요.
 - 나중에는 제주도의 유명한 흑돼지를 먹었어요.
 - 맛있어서 여행이 더 좋아졌어요.
-- 이동하면서 여러 풍경을 보는 게 좋았어요.
+- 차로 돌아다니며 섬의 탁 트인 전경을 볼 수 있었어요.
 - 해변과 오름 모두 기억에 남아요.
 - 제대로 여행을 떠나온 기분이었어요.
 
@@ -871,7 +878,7 @@ I rented a car and drove around the island. First, I went to a beautiful beach. 
 
 **본문**
 
-In the past, I had to visit a bank more often. I even went there to update my bankbook. That took extra time and planning. Now, I can send money in just a few seconds. I only need to open an app on my phone. **The main thing is**, I can do it almost anywhere. The same task feels much simpler today. I no longer have to plan a trip for a quick transfer.
+In the past, I had to visit a bank more often. I even went there to update my bankbook. That took extra time and planning. Now, I can send money in just a few seconds. I only need to open an app on my phone. **The main thing is**, I can do it almost anywhere. Mobile banking has been a real game changer. I no longer have to plan a trip for a quick transfer.
 
 **마무리**
 
@@ -888,7 +895,7 @@ In the past, I had to visit a bank more often. I even went there to update my ba
 - 지금은 몇 초 만에 송금할 수 있어요.
 - 휴대폰에서 앱을 열기만 하면 돼요.
 - 무엇보다 거의 어디서나 할 수 있어요.
-- 같은 일이 오늘날에는 훨씬 간단해졌어요.
+- 모바일 뱅킹은 정말 큰 변화를 가져왔어요.
 - 빠른 송금을 위해 따로 외출을 계획할 필요도 없어요.
 - 모바일 뱅킹이 훨씬 편리해요.
 
@@ -907,7 +914,7 @@ In the past, I had to visit a bank more often. I even went there to update my ba
 
 **본문**
 
-In the past, we usually ordered directly from a staff member. We also made many reservations in person. Now, we can tap a kiosk at a restaurant. We can also order or make a reservation with an app. So, you know, fewer steps require face-to-face help. **Put simply**, the whole process has become faster. I notice this change whenever I place an order. Using a screen now feels like a normal part of the process.
+In the past, we usually ordered directly from a staff member. We also made many reservations in person. Now, we can tap a kiosk at a restaurant. We can also order or make a reservation with an app. So, you know, fewer steps require face-to-face help. **Put simply**, the whole process has become faster. I notice this change whenever I place an order. Most kiosks are self-explanatory and easy to use.
 
 **마무리**
 
@@ -925,7 +932,7 @@ In the past, we usually ordered directly from a staff member. We also made many 
 - 그래서 직접 도움을 받아야 하는 단계가 줄었어요.
 - 한마디로 전체 과정이 빨라졌어요.
 - 주문할 때마다 이런 변화를 느껴요.
-- 이제 화면을 쓰는 것이 자연스러운 과정이에요.
+- 대부분의 키오스크는 직관적이라 사용하기 쉬워요.
 - 화면이 우리의 주문 방식을 바꿨어요.
 
 **표현:** E13·E10. **문항별 조정:** 음식점 질문에서는 예약·다른 업종을 줄이고 음식 주문만 설명합니다. 건강식 메뉴 변화·식품 구매의 정확한 20년 변화는 다른 질문입니다.
@@ -943,7 +950,7 @@ In the past, we usually ordered directly from a staff member. We also made many 
 
 **본문**
 
-Before, I did not have a special weekend routine. Then I heard meditation music in a small shop. I noticed that the music made me feel calm. After that, I started looking for similar music. Now, I play it while drinking tea every weekend. So, you know, music has become part of the way I rest. The quiet music gives my weekends a different feeling. I am glad that I kept listening after that first day.
+Before, I did not have a special weekend routine. Then I heard meditation music in a small shop. I noticed that the music made me feel calm. After that, I started looking for similar music. Now, I play it while drinking tea every weekend. So, you know, music has become part of the way I rest. The quiet music helps me fully recharge on weekends. I am glad that I kept listening after that first day.
 
 **마무리**
 
@@ -960,7 +967,7 @@ Before, I did not have a special weekend routine. Then I heard meditation music 
 - 그 뒤로 비슷한 음악을 찾기 시작했어요.
 - 지금은 주말마다 차를 마시며 그 음악을 틀어요.
 - 그래서 음악이 제 휴식의 일부가 되었어요.
-- 조용한 음악 덕분에 주말의 느낌이 달라졌어요.
+- 조용한 음악 덕분에 주말에 에너지를 완전히 충전해요.
 - 처음 들은 뒤 계속 듣기를 잘했다고 생각해요.
 - 이제는 조용히 긴장을 푸는 방법이 생겼어요.
 
@@ -979,7 +986,7 @@ Before, I did not have a special weekend routine. Then I heard meditation music 
 
 **본문**
 
-In the past, people just waited at the bus stop. They did not know exactly when the bus would arrive. That made waiting feel uncertain. Now, I can check the bus location on my phone. The app shows the information in real time. **The main thing is**, I do not have to keep guessing. I can decide when to head to the stop. Knowing the arrival time makes the wait feel shorter.
+In the past, people just waited at the bus stop. They did not know exactly when the bus would arrive. That made waiting feel uncertain. Now, I can check the bus location on my phone. The app shows the information in real time. **The main thing is**, I do not have to keep guessing. I can decide when to head to the stop. Real-time tracking has been a game changer for bus travel.
 
 **마무리**
 
@@ -997,7 +1004,7 @@ In the past, people just waited at the bus stop. They did not know exactly when 
 - 앱이 정보를 실시간으로 보여 줘요.
 - 무엇보다 계속 추측할 필요가 없어요.
 - 언제 정류장으로 갈지 결정할 수 있어요.
-- 도착 시간을 알면 기다림이 더 짧게 느껴져요.
+- 실시간 위치 확인은 버스 이용에 큰 변화를 가져왔어요.
 - 이제 버스 타기가 더 쉬워요.
 
 **표현:** E05. **과거 묘사로 변형:** p.19에서는 실제 어린 시절 이용 수단을 먼저 밝히고 과거 모습을 설명합니다. 현재 앱 비교는 마지막 한 문장 정도만 선택적으로 붙입니다. 어린 시절 경험은 별도 확인이 필요합니다.
