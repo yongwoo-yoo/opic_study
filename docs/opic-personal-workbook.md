@@ -16,16 +16,16 @@
 
 ## 1. 답변 만드는 기준
 
-MP는 **What → Why → Feeling** 순서로 연습합니다. 아래 **MP 세 문장 + 본문 + 마무리**를 이어 읽으면 완성 답변입니다. What/Why/Feeling이라는 라벨은 읽지 않습니다. 강조된 영어는 자막에서 확인한 표현을 본인 이야기로 바꿔 쓴 부분입니다.
+MP는 **What → Feeling → Why** 순서로 연습합니다. 아래 **MP 세 문장 + 본문 + 마무리**를 이어 읽으면 완성 답변입니다. What/Feeling/Why라는 라벨은 읽지 않습니다. 강조된 영어는 자막에서 확인한 표현을 본인 이야기로 바꿔 쓴 부분입니다.
 
 | 카테고리 | MP에서 잡을 것 | 이후 구성 | 주의할 점 |
 |---|---|---|---|
-| D · 묘사 | 대상·핵심 특징 → 이유 → 감정 | 구체적 특징/예시 → 같은 핵심으로 마무리 | 대상 전체를 소개하되 초점을 하나 잡기 |
-| H · 습관 | 반복 행동 → 이유 → 감정 | 언제·어떻게·누구와 → 선택적으로 짧은 비교 → 현재 습관 | 특정 하루의 사건으로 길게 빠지지 않기 |
-| P · 과거 경험 | 사건 → 감정의 이유 → 당시 감정 | 필요한 배경 → 사건 진행 → 결과 → 의미 | 처음·최근·어릴 때 등 질문의 시간 조건 지키기 |
-| C · 비교 | 현재 상태 → 이유 → 현재 감정 | 과거 → 현재의 차이 → 평가 | 같은 비교 기준 유지; A/B 비교면 같은 기준으로 두 대상 설명 |
+| D · 묘사 | 대상·핵심 특징 → 느낌·평가 → 이유 | MP에서 말한 대상의 특징과 예시를 구체화 → MP 핵심으로 1~2문장 마무리 | 대상 전체를 소개하되 초점을 하나 잡기 |
+| H · 습관 | 반복 행동 → 느낌·평가 → 이유 | MP에서 말한 행동을 언제·어떻게 하는지 설명 → MP 핵심으로 1~2문장 마무리 | 특정 하루의 사건으로 길게 빠지지 않기 |
+| P · 과거 경험 | 클라이맥스·결과 → 당시 감정 → 그 이유 | 필요한 배경 → 사건 진행 → 처음 제시한 클라이맥스·결과 → 의미와 느낌으로 마무리 | 처음·최근·어릴 때 등 질문의 시간 조건 지키기 |
+| C · 비교 | 현재의 핵심 변화 → 현재 느낌·평가 → 이유 | 관련된 과거 모습 → 현재로 복귀 → MP 내용을 이어 설명 → 결론 | 처음부터 끝까지 같은 비교 기준 유지하기 |
 
-강의 원문이 모든 유형에 이 순서를 강제하는 것은 아닙니다. 특히 Habit 강의는 행동 중심의 간단한 MP도 허용합니다. 여기서는 사용자와 합의한 What → Why → Feeling 순서로 통일했습니다. 표현 자체의 점수 효과를 보장하는 자료가 아니라, 핵심·이유·감정을 명확하게 말하기 위한 답변집입니다.
+27개 답변은 이 구조로 통일했습니다. 묘사와 습관은 MP를 뒷받침하는 설명만 이어지고, 과거 경험은 가장 중요한 장면을 먼저 들려준 뒤 시간 순서로 풀어갑니다. 비교는 현재 MP를 먼저 제시하고 과거를 설명한 다음 다시 현재로 돌아옵니다.
 
 ## 2. Description — 묘사
 
@@ -37,8 +37,8 @@ MP는 **What → Why → Feeling** 순서로 연습합니다. 아래 **MP 세 �
 **MP**
 
 - **What:** Well, my favorite room is the kitchen.
-- **Why:** You know, I make coffee and tea there.
 - **Feeling:** So, I feel relaxed and happy in that room.
+- **Why:** You know, I make coffee and tea there.
 
 **본문**
 
@@ -51,8 +51,8 @@ I'm **such a coffee person**, so I spend a lot of time there. I usually grind my
 **한글 문장**
 
 - 제가 가장 좋아하는 방은 부엌이에요.
-- 거기에서 커피와 차를 만들거든요.
 - 그래서 그 방에 있으면 편안하고 행복해요.
+- 거기에서 커피와 차를 만들거든요.
 - 저는 커피를 정말 좋아해서 부엌에서 많은 시간을 보내요.
 - 보통 먼저 원두를 직접 갈아요.
 - 그런 다음 천천히 신선한 커피를 한 잔 만들어요.
@@ -73,8 +73,8 @@ I'm **such a coffee person**, so I spend a lot of time there. I usually grind my
 **MP**
 
 - **What:** Well, I love meditation music.
-- **Why:** You know, it helps me **clear my head** after work.
 - **Feeling:** So, I feel really calm when I listen to it.
+- **Why:** You know, it helps me **clear my head** after work.
 
 **본문**
 
@@ -87,8 +87,8 @@ My head gets really busy during the week. I mean, there is always something to t
 **한글 문장**
 
 - 저는 명상 음악을 좋아해요.
-- 퇴근 후 복잡한 머릿속을 정리하는 데 도움이 돼요.
 - 들으면 마음이 정말 차분해져요.
+- 퇴근 후 복잡한 머릿속을 정리하는 데 도움이 돼요.
 - 평일에는 머릿속이 아주 복잡해져요.
 - 직장에서는 늘 생각할 일이 있거든요.
 - 하지만 이 음악은 제가 속도를 늦추게 해 줘요.
@@ -109,8 +109,8 @@ My head gets really busy during the week. I mean, there is always something to t
 **MP**
 
 - **What:** Well, a beach in Hawaii really stands out to me.
-- **Why:** You know, I saw sea turtles there.
 - **Feeling:** Honestly, that place still makes me excited.
+- **Why:** You know, I saw sea turtles there.
 
 **본문**
 
@@ -123,8 +123,8 @@ I went there on a camping trip with my wife. The beach was right near our campsi
 **한글 문장**
 
 - 하와이의 한 해변이 특히 기억에 남아요.
-- 그곳에서 바다거북을 봤거든요.
 - 지금도 그곳을 생각하면 설레요.
+- 그곳에서 바다거북을 봤거든요.
 - 아내와 함께 캠핑 여행으로 갔어요.
 - 해변은 캠핑장 바로 옆에 있었어요.
 - 맑은 물에서 스노클링을 했어요.
@@ -145,8 +145,8 @@ I went there on a camping trip with my wife. The beach was right near our campsi
 **MP**
 
 - **What:** Well, my friend is a very consistent person.
-- **Why:** You know, he always sticks to his routine.
 - **Feeling:** Honestly, I really admire him for that.
+- **Why:** You know, he always sticks to his routine.
 
 **본문**
 
@@ -159,8 +159,8 @@ That's what I'd really like to learn from him.
 **한글 문장**
 
 - 제 친구는 정말 꾸준한 사람이에요.
-- 언제나 자기 일과를 지키거든요.
 - 그런 점이 정말 존경스러워요.
+- 언제나 자기 일과를 지키거든요.
 - 무엇보다 그 친구는 쉽게 포기하지 않아요.
 - 한번 시작하면 계속해요.
 - 매일 자기 일과도 지켜요.
@@ -181,8 +181,8 @@ That's what I'd really like to learn from him.
 **MP**
 
 - **What:** Well, fall is my favorite season in Korea.
-- **Why:** You know, it's perfect for coffee and camping.
 - **Feeling:** So, I feel really happy when fall comes.
+- **Why:** You know, it's perfect for coffee and camping.
 
 **본문**
 
@@ -195,8 +195,8 @@ The weather is cool and comfortable. It is not as hot as summer. It is not freez
 **한글 문장**
 
 - 한국에서 제가 가장 좋아하는 계절은 가을이에요.
-- 커피를 마시고 캠핑하기에 딱 좋거든요.
 - 가을이 오면 정말 행복해요.
+- 커피를 마시고 캠핑하기에 딱 좋거든요.
 - 날씨가 선선하고 쾌적해요.
 - 여름만큼 덥지 않아요.
 - 겨울처럼 춥지도 않아요.
@@ -217,8 +217,8 @@ The weather is cool and comfortable. It is not as hot as summer. It is not freez
 **MP**
 
 - **What:** Well, I'd like to talk about Korea's semiconductor industry.
-- **Why:** You know, I work in that industry and handle data.
 - **Feeling:** So, it's very interesting to me.
+- **Why:** You know, I work in that industry and handle data.
 
 **본문**
 
@@ -231,8 +231,8 @@ I work for a semiconductor company in Korea. My job is to process and analyze da
 **한글 문장**
 
 - 한국의 반도체 산업에 대해 이야기하고 싶어요.
-- 제가 그 산업에서 일하며 데이터를 다루거든요.
 - 그래서 저에게 아주 흥미로워요.
+- 제가 그 산업에서 일하며 데이터를 다루거든요.
 - 저는 한국의 반도체 회사에서 일해요.
 - 데이터를 처리하고 분석하는 것이 제 일이에요.
 - 그래서 매일 이 산업을 접해요.
@@ -253,8 +253,8 @@ I work for a semiconductor company in Korea. My job is to process and analyze da
 **MP**
 
 - **What:** Well, my favorite Korean holiday is Chuseok.
-- **Why:** You know, my family gets together and shares good food.
 - **Feeling:** So, it's a really happy time for me.
+- **Why:** You know, my family gets together and shares good food.
 
 **본문**
 
@@ -267,8 +267,8 @@ Chuseok is a traditional holiday with many family rituals. My family gets togeth
 **한글 문장**
 
 - 제가 가장 좋아하는 한국 명절은 추석이에요.
-- 가족이 모여 맛있는 음식을 나누거든요.
 - 그래서 저에게 정말 행복한 시간이에요.
+- 가족이 모여 맛있는 음식을 나누거든요.
 - 추석은 가족이 함께하는 여러 전통 의식이 있는 명절이에요.
 - 명절에 가족이 함께 모여요.
 - 둘러앉아 푸짐한 식사를 나눠요.
@@ -289,8 +289,8 @@ Chuseok is a traditional holiday with many family rituals. My family gets togeth
 **MP**
 
 - **What:** Well, my favorite café is Cafe Doan.
-- **Why:** You know, its coffee has really clear flavors.
 - **Feeling:** So, every visit is exciting for me.
+- **Why:** You know, its coffee has really clear flavors.
 
 **본문**
 
@@ -303,8 +303,8 @@ I'm **such a coffee person**, so good beans matter to me. The café uses beans f
 **한글 문장**
 
 - 제가 가장 좋아하는 카페는 카페 도안이에요.
-- 그곳 커피는 맛이 정말 선명하거든요.
 - 그래서 갈 때마다 설레요.
+- 그곳 커피는 맛이 정말 선명하거든요.
 - 저는 커피를 정말 좋아해서 좋은 원두가 중요해요.
 - 그 카페는 유명 로스터리의 원두를 써요.
 - 국내 로스터리 원두도 있고 해외 원두도 있어요.
@@ -325,8 +325,8 @@ I'm **such a coffee person**, so good beans matter to me. The café uses beans f
 **MP**
 
 - **What:** Well, my favorite place in Korea is Jeju Island.
-- **Why:** You know, it has beautiful beaches and volcanic hills.
 - **Feeling:** So, I really feel like I'm on vacation there.
+- **Why:** You know, it has beautiful beaches and volcanic hills.
 
 **본문**
 
@@ -339,8 +339,8 @@ Jeju feels very different from the mainland. I rented a car and drove around the
 **한글 문장**
 
 - 한국에서 제가 가장 좋아하는 곳은 제주도예요.
-- 아름다운 해변과 오름이 있거든요.
 - 그곳에 가면 정말 휴가를 온 기분이에요.
+- 아름다운 해변과 오름이 있거든요.
 - 제주는 본토와 분위기가 많이 달라요.
 - 렌터카를 빌려 섬을 돌아다녔어요.
 - 여러 곳을 보기 좋은 방법이었어요.
@@ -361,8 +361,8 @@ Jeju feels very different from the mainland. I rented a car and drove around the
 **MP**
 
 - **What:** Well, I usually wear T-shirts and jeans.
-- **Why:** You know, they're simple and comfortable.
 - **Feeling:** Honestly, I feel like myself in those clothes.
+- **Why:** You know, they're simple and comfortable.
 
 **본문**
 
@@ -375,8 +375,8 @@ Jeju feels very different from the mainland. I rented a car and drove around the
 **한글 문장**
 
 - 저는 보통 티셔츠와 청바지를 입어요.
-- 단순하고 편하거든요.
 - 그런 옷을 입으면 제 모습 그대로인 것 같아요.
+- 단순하고 편하거든요.
 - 솔직히 유행을 많이 따르지는 않아요.
 - 보통 먼저 간단한 티셔츠를 골라요.
 - 그런 다음 편한 청바지를 입어요.
@@ -399,8 +399,8 @@ Jeju feels very different from the mainland. I rented a car and drove around the
 **MP**
 
 - **What:** Well, I listen to meditation music every weekend.
-- **Why:** You know, it helps me **clear my head** after work.
 - **Feeling:** So, I feel really relaxed while listening to it.
+- **Why:** You know, it helps me **clear my head** after work.
 
 **본문**
 
@@ -413,8 +413,8 @@ I usually make a cup of tea first. Then I put on some meditation music. I sit qu
 **한글 문장**
 
 - 저는 주말마다 명상 음악을 들어요.
-- 퇴근 후 복잡한 머릿속을 정리하는 데 도움이 돼요.
 - 들으면서 정말 편안해져요.
+- 퇴근 후 복잡한 머릿속을 정리하는 데 도움이 돼요.
 - 보통 먼저 차 한 잔을 만들어요.
 - 그런 다음 명상 음악을 틀어요.
 - 조용히 앉아서 차와 음악을 함께 즐겨요.
@@ -435,8 +435,8 @@ I usually make a cup of tea first. Then I put on some meditation music. I sit qu
 **MP**
 
 - **What:** Well, I make my own coffee every weekend.
-- **Why:** You know, I enjoy the whole process.
 - **Feeling:** So, it makes me feel relaxed and happy.
+- **Why:** You know, I enjoy the whole process.
 
 **본문**
 
@@ -449,8 +449,8 @@ First, I choose the coffee beans I want to use. Then I grind them in my kitchen.
 **한글 문장**
 
 - 저는 주말마다 직접 커피를 내려요.
-- 그 과정 전체가 좋거든요.
 - 그러면 마음이 편안하고 행복해져요.
+- 그 과정 전체가 좋거든요.
 - 먼저 사용하고 싶은 원두를 골라요.
 - 그런 다음 부엌에서 원두를 갈아요.
 - 커피를 만들 때는 서두르지 않아요.
@@ -471,8 +471,8 @@ First, I choose the coffee beans I want to use. Then I grind them in my kitchen.
 **MP**
 
 - **What:** Well, I run outside to stay active.
-- **Why:** You know, I love the fresh air and the wind.
 - **Feeling:** Honestly, running makes me feel free.
+- **Why:** You know, I love the fresh air and the wind.
 
 **본문**
 
@@ -485,8 +485,8 @@ First, I choose the coffee beans I want to use. Then I grind them in my kitchen.
 **한글 문장**
 
 - 저는 건강을 위해 밖에서 달려요.
-- 신선한 공기와 바람이 좋거든요.
 - 달리면 자유로운 기분이 들어요.
+- 신선한 공기와 바람이 좋거든요.
 - 솔직히 헬스장은 저와 잘 맞지 않아요.
 - 밖에서 운동하는 편이 좋아요.
 - 달리면서 바람을 느낄 수 있어요.
@@ -507,8 +507,8 @@ First, I choose the coffee beans I want to use. Then I grind them in my kitchen.
 **MP**
 
 - **What:** Well, I use the internet for financial news.
-- **Why:** You know, I want to learn more about investing.
 - **Feeling:** So, I find it really interesting.
+- **Why:** You know, I want to learn more about investing.
 
 **본문**
 
@@ -521,8 +521,8 @@ First, I choose the coffee beans I want to use. Then I grind them in my kitchen.
 **한글 문장**
 
 - 저는 금융 뉴스를 보려고 인터넷을 써요.
-- 투자에 대해 더 배우고 싶거든요.
 - 그래서 이 주제가 정말 흥미로워요.
+- 투자에 대해 더 배우고 싶거든요.
 - 요즘 온라인으로 주식 시장 소식을 확인해요.
 - 돈과 투자에 관한 글도 읽어요.
 - 새로운 내용을 보면 찾아봐요.
@@ -543,8 +543,8 @@ First, I choose the coffee beans I want to use. Then I grind them in my kitchen.
 **MP**
 
 - **What:** Well, I usually make appointments for weekends.
-- **Why:** You know, I'm too busy on weekdays.
 - **Feeling:** So, weekend appointments feel less stressful.
+- **Why:** You know, I'm too busy on weekdays.
 
 **본문**
 
@@ -557,8 +557,8 @@ For example, I sometimes need a car repair appointment. I first check which week
 **한글 문장**
 
 - 저는 보통 주말에 약속을 잡아요.
-- 평일에는 너무 바쁘거든요.
 - 그래서 주말 약속이 덜 부담스러워요.
+- 평일에는 너무 바쁘거든요.
 - 예를 들어 자동차 수리 예약이 필요할 때가 있어요.
 - 먼저 어느 주말에 시간이 되는지 확인해요.
 - 그다음 일정에 맞는 시간을 골라요.
@@ -579,8 +579,8 @@ For example, I sometimes need a car repair appointment. I first check which week
 **MP**
 
 - **What:** Well, my family eats and talks together on Chuseok.
-- **Why:** You know, it's a rare chance to be together.
 - **Feeling:** So, I feel really happy during the holiday.
+- **Why:** You know, it's a rare chance to be together.
 
 **본문**
 
@@ -593,8 +593,8 @@ I always look forward to the holiday food. My family sits down and eats together
 **한글 문장**
 
 - 추석에는 가족과 함께 먹고 이야기해요.
-- 다 같이 모일 수 있는 흔치 않은 기회거든요.
 - 그래서 명절에 정말 행복해요.
+- 다 같이 모일 수 있는 흔치 않은 기회거든요.
 - 명절 음식이 늘 기대돼요.
 - 가족이 둘러앉아 함께 식사해요.
 - 서로 어떻게 지냈는지 이야기해요.
@@ -615,8 +615,8 @@ I always look forward to the holiday food. My family sits down and eats together
 **MP**
 
 - **What:** Well, I do most of my banking on my phone.
-- **Why:** You know, I can send money in seconds.
 - **Feeling:** So, banking feels much easier now.
+- **Why:** You know, I can send money in seconds.
 
 **본문**
 
@@ -629,8 +629,8 @@ I always look forward to the holiday food. My family sits down and eats together
 **한글 문장**
 
 - 저는 은행 업무를 대부분 휴대폰으로 해요.
-- 몇 초 만에 송금할 수 있거든요.
 - 그래서 이제 은행 업무가 훨씬 쉬워졌어요.
+- 몇 초 만에 송금할 수 있거든요.
 - 요즘은 은행 지점에 거의 가지 않아요.
 - 보통 휴대폰에서 은행 앱을 열어요.
 - 그런 다음 계좌를 확인하거나 돈을 보내요.
@@ -651,8 +651,8 @@ I always look forward to the holiday food. My family sits down and eats together
 **MP**
 
 - **What:** Well, I check bus times on my phone.
-- **Why:** You know, the app shows the bus in real time.
 - **Feeling:** So, I feel much more at ease.
+- **Why:** You know, the app shows the bus in real time.
 
 **본문**
 
@@ -665,8 +665,8 @@ Before leaving, I open the bus app on my phone. It shows me where the bus is. It
 **한글 문장**
 
 - 저는 휴대폰으로 버스 시간을 확인해요.
-- 앱이 버스 위치를 실시간으로 보여 주거든요.
 - 그래서 마음이 훨씬 놓여요.
+- 앱이 버스 위치를 실시간으로 보여 주거든요.
 - 나가기 전에 휴대폰으로 버스 앱을 열어요.
 - 버스가 어디에 있는지 보여 줘요.
 - 버스가 언제 도착하는지도 알려 줘요.
@@ -688,9 +688,9 @@ Before leaving, I open the bus app on my phone. It shows me where the bus is. It
 
 **MP**
 
-- **What:** Well, my new earphones broke after only three uses.
-- **Why:** You know, I bought them from overseas.
+- **What:** The worst part was that my new earphones broke after only three uses.
 - **Feeling:** So, I was really frustrated and worried.
+- **Why:** You know, I bought them from overseas.
 
 **본문**
 
@@ -702,9 +702,9 @@ I had bought the earphones for running. But they stopped working almost right aw
 
 **한글 문장**
 
-- 새 이어폰이 단 세 번 사용한 뒤 고장 났어요.
-- 해외에서 산 제품이었거든요.
+- 가장 황당했던 건 새 이어폰이 단 세 번 사용한 뒤 고장 난 일이에요.
 - 그래서 정말 답답하고 걱정됐어요.
+- 해외에서 산 제품이었거든요.
 - 러닝할 때 쓰려고 이어폰을 샀어요.
 - 그런데 거의 바로 작동을 멈췄어요.
 - 세 번 만에 고장 났다는 게 믿기지 않았어요.
@@ -724,9 +724,9 @@ I had bought the earphones for running. But they stopped working almost right aw
 
 **MP**
 
-- **What:** Well, I saw amazing animals while camping in Hawaii.
-- **Why:** You know, chickens and sea turtles were all around us.
+- **What:** The highlight was seeing wildlife while camping in Hawaii.
 - **Feeling:** Honestly, I was amazed by the nature there.
+- **Why:** You know, chickens and sea turtles were all around us.
 
 **본문**
 
@@ -738,9 +738,9 @@ The chickens walked freely around the campsite. That was really unusual to me. I
 
 **한글 문장**
 
-- 하와이에서 캠핑하며 멋진 동물들을 봤어요.
-- 주변에 닭과 바다거북이 있었거든요.
+- 하와이 캠핑의 하이라이트는 야생동물을 본 순간이었어요.
 - 그곳의 자연에 감탄했어요.
+- 주변에 닭과 바다거북이 있었거든요.
 - 닭들이 캠핑장 주변을 자유롭게 돌아다녔어요.
 - 저에게는 정말 낯선 모습이었어요.
 - 한국에서는 보통 닭을 우리 안에서 보거든요.
@@ -762,13 +762,13 @@ The chickens walked freely around the campsite. That was really unusual to me. I
 
 **MP**
 
-- **What:** Well, I first heard meditation music in a small shop.
-- **Why:** You know, it made me relax right away.
+- **What:** Meditation music suddenly calmed me in a small shop.
 - **Feeling:** Honestly, I felt surprisingly calm.
+- **Why:** You know, the music gave the shop a peaceful mood.
 
 **본문**
 
-I stopped and listened to the music for a while. It gave the whole shop a peaceful mood. I really liked the way it made me feel. After that day, I looked for similar music. Then I started playing it while drinking tea on weekends. Now it helps me **wind down and relax** after work. I still remember how calm I felt in that shop. That simple moment turned into a relaxing weekend ritual.
+I stopped and listened to the music for a while. The soft sound filled the whole shop. I really liked the way it made me feel. After that day, I looked for similar music. Then I started playing it while drinking tea on weekends. Now it helps me **wind down and relax** after work. I still remember how calm I felt in that shop. That simple moment turned into a relaxing weekend ritual.
 
 **마무리**
 
@@ -776,11 +776,11 @@ I stopped and listened to the music for a while. It gave the whole shop a peacef
 
 **한글 문장**
 
-- 작은 가게에서 처음 명상 음악을 들었어요.
-- 그 음악을 듣자마자 긴장이 풀렸어요.
+- 작은 가게에서 명상 음악이 갑자기 제 마음을 차분하게 해 줬어요.
 - 뜻밖에도 마음이 아주 차분해졌어요.
+- 그 음악이 가게를 평화로운 분위기로 만들었거든요.
 - 잠시 멈춰 음악을 들었어요.
-- 가게 전체에 평화로운 분위기가 생겼어요.
+- 부드러운 음악이 가게 전체에 퍼졌어요.
 - 그 음악을 들을 때의 기분이 정말 좋았어요.
 - 그날 이후 비슷한 음악을 찾아봤어요.
 - 그러다 주말에 차를 마시며 그 음악을 틀기 시작했어요.
@@ -798,9 +798,9 @@ I stopped and listened to the music for a while. It gave the whole shop a peacef
 
 **MP**
 
-- **What:** Well, I once changed a car repair appointment.
+- **What:** The shop changed my car repair appointment without any problem.
+- **Feeling:** So, I felt incredibly relieved.
 - **Why:** You know, something came up at the last minute.
-- **Feeling:** So, I felt really sorry about it.
 
 **본문**
 
@@ -812,9 +812,9 @@ I called the repair shop as soon as I could. First, I explained that something u
 
 **한글 문장**
 
-- 자동차 수리 예약을 바꾼 적이 있어요.
+- 정비소에서 자동차 수리 예약을 문제없이 바꿔 줬어요.
+- 그래서 정말 안심했어요.
 - 막판에 갑자기 일이 생겼거든요.
-- 그래서 정말 미안했어요.
 - 가능한 한 빨리 정비소에 전화했어요.
 - 먼저 예상치 못한 일이 생겼다고 설명했어요.
 - 그런 다음 다른 날 가도 되느냐고 물었어요.
@@ -834,9 +834,9 @@ I called the repair shop as soon as I could. First, I explained that something u
 
 **MP**
 
-- **What:** Well, I remember a road trip around Jeju Island.
-- **Why:** You know, I visited a beach and climbed an oreum.
+- **What:** The highlight was climbing an oreum in Jeju.
 - **Feeling:** So, it felt like a different world.
+- **Why:** You know, the panoramic view made the island feel completely different.
 
 **본문**
 
@@ -848,9 +848,9 @@ I rented a car and drove around the island. First, I went to a beautiful beach. 
 
 **한글 문장**
 
-- 제주도를 차로 여행했던 일이 기억나요.
-- 해변에 가고 오름에도 올랐거든요.
+- 제주 여행의 하이라이트는 오름에 오른 순간이었어요.
 - 다른 세상에 온 듯한 기분이었어요.
+- 탁 트인 전경 덕분에 섬이 완전히 다르게 느껴졌거든요.
 - 렌터카를 빌려 섬을 돌아다녔어요.
 - 먼저 아름다운 해변에 갔어요.
 - 작은 화산 언덕인 오름에도 올랐어요.
@@ -873,8 +873,8 @@ I rented a car and drove around the island. First, I went to a beautiful beach. 
 **MP**
 
 - **What:** Well, I do my banking on my phone these days.
-- **Why:** You know, I don't need to visit a bank.
 - **Feeling:** So, banking feels much easier now.
+- **Why:** You know, I don't need to visit a bank.
 
 **본문**
 
@@ -887,8 +887,8 @@ In the past, I had to visit a bank more often. I even went there to update my ba
 **한글 문장**
 
 - 요즘은 휴대폰으로 은행 업무를 해요.
-- 은행에 갈 필요가 없거든요.
 - 그래서 이제 은행 업무가 훨씬 쉬워졌어요.
+- 은행에 갈 필요가 없거든요.
 - 과거에는 은행에 더 자주 가야 했어요.
 - 통장을 정리하러 가기도 했어요.
 - 그러려면 시간과 계획이 더 필요했어요.
@@ -909,8 +909,8 @@ In the past, I had to visit a bank more often. I even went there to update my ba
 **MP**
 
 - **What:** Well, ordering is mostly digital these days.
-- **Why:** You know, we can use apps and kiosks.
 - **Feeling:** Honestly, I find that really convenient.
+- **Why:** You know, we can use apps and kiosks.
 
 **본문**
 
@@ -923,8 +923,8 @@ In the past, we usually ordered directly from a staff member. We also made many 
 **한글 문장**
 
 - 요즘은 주문 방식이 대부분 디지털이에요.
-- 앱과 키오스크를 쓸 수 있거든요.
 - 저는 그게 정말 편리해요.
+- 앱과 키오스크를 쓸 수 있거든요.
 - 과거에는 보통 직원에게 직접 주문했어요.
 - 예약도 방문해서 하는 경우가 많았어요.
 - 지금은 식당에서 키오스크를 누를 수 있어요.
@@ -945,8 +945,8 @@ In the past, we usually ordered directly from a staff member. We also made many 
 **MP**
 
 - **What:** Well, meditation music is now my weekend routine.
-- **Why:** You know, it helps me relax with a cup of tea.
 - **Feeling:** So, I'm really happy I found it.
+- **Why:** You know, it helps me relax with a cup of tea.
 
 **본문**
 
@@ -959,8 +959,8 @@ Before, I did not have a special weekend routine. Then I heard meditation music 
 **한글 문장**
 
 - 이제 명상 음악은 제 주말 습관이에요.
-- 차 한 잔과 함께 들으면 긴장이 풀려요.
 - 이 음악을 알게 되어 정말 기뻐요.
+- 차 한 잔과 함께 들으면 긴장이 풀려요.
 - 예전에는 특별한 주말 습관이 없었어요.
 - 그러다 작은 가게에서 명상 음악을 들었어요.
 - 그 음악이 저를 차분하게 만든다는 걸 느꼈어요.
@@ -981,8 +981,8 @@ Before, I did not have a special weekend routine. Then I heard meditation music 
 **MP**
 
 - **What:** Well, I can now track buses on my phone.
-- **Why:** You know, I can see when my bus will arrive.
 - **Feeling:** So, I feel much more relaxed while waiting.
+- **Why:** You know, I can see when my bus will arrive.
 
 **본문**
 
@@ -995,8 +995,8 @@ In the past, people just waited at the bus stop. They did not know exactly when 
 **한글 문장**
 
 - 이제 휴대폰으로 버스 위치를 확인할 수 있어요.
-- 버스가 언제 도착할지 알 수 있거든요.
 - 그래서 기다릴 때 훨씬 편안해요.
+- 버스가 언제 도착할지 알 수 있거든요.
 - 과거에는 사람들이 정류장에서 그냥 기다렸어요.
 - 버스가 정확히 언제 도착할지 몰랐어요.
 - 그래서 기다리는 동안 불안했어요.
@@ -1017,9 +1017,9 @@ In the past, people just waited at the bus stop. They did not know exactly when 
 
 **What:** My favorite [대상] is [이름/구체적 대상].
 
-**Why:** The main reason is [좋아하는 특징과 이유].
-
 **Feeling:** It makes me feel [실제 감정].
+
+**Why:** The main reason is [좋아하는 특징과 이유].
 
 **본문:** The main thing is [핵심 특징]. For example, [구체적인 모습/기능]. [같은 특징을 보여 주는 설명].
 
@@ -1029,9 +1029,9 @@ In the past, people just waited at the bus stop. They did not know exactly when 
 
 **What:** I usually [행동] [언제/어디서].
 
-**Why:** I do that because [이유].
-
 **Feeling:** I feel [감정] when I do it.
+
+**Why:** I do that because [이유].
 
 **본문:** First, I [첫 행동]. Then, I [다음 행동]. What matters most to me is [과정 중 중요점].
 
@@ -1039,13 +1039,13 @@ In the past, people just waited at the bus stop. They did not know exactly when 
 
 ### P 틀 — 어릴 때·최근·고장·처음 경험 등
 
-**What:** [질문에 맞는 때], [핵심 사건이 일어남].
+**What:** The highlight / worst part was [클라이맥스·결과].
 
-**Why:** [그 사건이 중요하거나 좋고 나빴던 구체적 이유].
+**Feeling:** I felt [그 순간의 실제 감정].
 
-**Feeling:** I felt [당시 감정].
+**Why:** That was because [감정이 생긴 직접적인 이유].
 
-**본문:** [필요한 배경]. [진행/내가 한 행동]. Eventually, [결과].
+**본문:** [필요한 배경]. [진행/내가 한 행동]. Eventually, [처음 말한 클라이맥스·결과].
 
 **마무리:** Looking back, [지금 느끼는 의미].
 
@@ -1053,11 +1053,11 @@ In the past, people just waited at the bus stop. They did not know exactly when 
 
 **What:** These days, [현재 상태]. / The main difference between A and B is [비교 기준].
 
-**Why:** [현재 상태/차이에 대한 이유].
-
 **Feeling:** I feel [내 감정·평가].
 
-**본문:** In the past, [동일 기준의 과거]. Now, [현재]. / Both [공통점], but A [특징], while B [동일 기준의 차이].
+**Why:** [현재 상태/차이에 대한 이유].
+
+**본문:** In the past, [동일 기준의 과거]. Now, [현재로 돌아와 MP의 핵심을 구체화]. / Both [공통점], but A [특징], while B [동일 기준의 차이].
 
 **마무리:** That's why [변화에 대한 생각/선호].
 
@@ -1085,7 +1085,7 @@ In the past, people just waited at the bus stop. They did not know exactly when 
 1. **핵심 경험부터:** P01 이어폰 → P02 하와이 → P03 음악 계기 → P04 예약 변경.
 2. **같은 소재의 유형 바꾸기:** D02 음악 특징 → H01 음악 습관 → P03 시작 계기 → C03 변화.
 3. **질문 맞춤 확인:** 장소·시간·대상·행동 중 질문이 지정한 조건에 밑줄을 긋습니다.
-4. **MP만 먼저 말하기:** What → Why → Feeling을 메모 없이 말하고 본문으로 이어갑니다. 강의의 짧고 명확한 MP 취지를 따르되, 특정 초수를 채우기 위해 말하지 않습니다.
+4. **MP만 먼저 말하기:** What → Feeling → Why를 메모 없이 말하고 본문으로 이어갑니다. 강의의 짧고 명확한 MP 취지를 따르되, 특정 초수를 채우기 위해 말하지 않습니다.
 5. **표현은 필요한 만큼:** 답변당 1~3개부터 사용합니다. 이미 잘 말하고 있으면 필러를 더 넣지 않습니다. 외운 도입부보다 질문에 대한 첫 내용이 먼저 전달되게 합니다.
 
 자기소개와 전화 롤플레이는 이 PDF의 질문 분류 대상이 아니므로 기존 자료에 남겨 두었습니다. PDF에 인쇄된 문항 빈도·등급·출제 번호를 공식 보장으로 사용하지 않습니다.

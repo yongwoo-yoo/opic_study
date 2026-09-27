@@ -127,7 +127,7 @@ function splitEnglishSentences(text) {
 
 async function loadPersonalAnswers() {
   if (personalAnswers) return personalAnswers;
-  const markdown = await fetch('opic-personal-workbook.md?v=10').then(response => {
+  const markdown = await fetch('opic-personal-workbook.md?v=11').then(response => {
     if (!response.ok) throw new Error('답변 자료를 불러오지 못했습니다.');
     return response.text();
   });
@@ -248,9 +248,9 @@ function renderAnswerDetail(id) {
   if (!answer) return;
   const category = ANSWER_CATEGORY[answer.category];
   const progress = loadAnswerProgress();
-  const mpText = [answer.what, answer.why, answer.feeling].join(' ');
+  const mpText = [answer.what, answer.feeling, answer.why].join(' ');
   const mpWordCount = mpText.split(/\s+/).length;
-  const englishSentences = splitEnglishSentences([answer.what, answer.why, answer.feeling, answer.body, answer.ending].join(' '));
+  const englishSentences = splitEnglishSentences([answer.what, answer.feeling, answer.why, answer.body, answer.ending].join(' '));
   setView('answer-detail-view', category.name, true);
   document.getElementById('back-btn').onclick = renderAnswerList;
   if (answer.koreanSentences.length !== englishSentences.length || !englishSentences.length) {
@@ -274,9 +274,9 @@ function renderAnswerDetail(id) {
     </div>
     <button class="reveal-button" data-target="mp-section">MP 힌트 보기</button>
     <section class="answer-reveal hidden" id="mp-section">
-      <h3>MP · What → Why → Feeling <small>${mpWordCount}단어 · 20초 목표</small></h3>
+      <h3>MP · What → Feeling → Why <small>${mpWordCount}단어 · 20초 목표</small></h3>
       <p class="answer-script-guide">한글을 보고 영어로 말한 뒤, 문장별로 눌러 확인하세요.</p>
-      ${renderSentenceList(answer.koreanSentences, englishSentences, 0, 3, ['What', 'Why', 'Feeling'])}
+      ${renderSentenceList(answer.koreanSentences, englishSentences, 0, 3, ['What', 'Feeling', 'Why'])}
       <button class="speak-button" data-speak="mp">▶ MP 듣기</button>
     </section>
     <button class="reveal-button" data-target="full-section">전체 답변 보기</button>
@@ -317,8 +317,8 @@ function renderAnswerDetail(id) {
     const speak = event.target.closest('[data-speak]');
     if (speak) {
       const text = speak.dataset.speak === 'mp'
-        ? [answer.what, answer.why, answer.feeling].join(' ')
-        : [answer.what, answer.why, answer.feeling, answer.body, answer.ending].join(' ');
+        ? [answer.what, answer.feeling, answer.why].join(' ')
+        : [answer.what, answer.feeling, answer.why, answer.body, answer.ending].join(' ');
       speakEnglish(text, speak);
     }
   };
