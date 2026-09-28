@@ -294,7 +294,7 @@ Chuseok is a traditional holiday with many family rituals. My family gets togeth
 
 **본문**
 
-I'm **such a coffee person**, so good beans matter to me. The café uses beans from famous roasters. Some are from Korea, and others are from abroad. Each cup has a different taste and aroma. I go there so often that I became friends with the owner. Sometimes, you know, he even gives me beans to enjoy at home. I enjoy discovering new flavors whenever I visit. That makes every visit interesting to me.
+I'm **such a coffee person**, so good beans matter to me. The café uses beans from famous roasters. Some are from Korea, and others are from abroad. Each cup has a different taste and aroma. I go there so often that I became friends with the owner. Sometimes, you know, he even gives me beans to enjoy at home. I enjoy discovering new flavors whenever I visit. The coffee is so addictive that I sometimes joke, “They probably put some crack in it.”
 
 **마무리**
 
@@ -312,10 +312,10 @@ I'm **such a coffee person**, so good beans matter to me. The café uses beans f
 - 너무 자주 가서 사장님과 친구가 되었어요.
 - 가끔은 집에서 마시라며 원두를 주시기도 해요.
 - 갈 때마다 새로운 맛을 발견하는 게 즐거워요.
-- 그래서 방문할 때마다 흥미로워요.
+- 커피가 자꾸 생각나서 가끔 “아마 뭔가 중독되는 걸 넣었나 봐”라고 농담해요.
 - 그 카페 덕분에 커피 취미가 더 즐거워요.
 
-**표현:** E04·E03. **수정:** 기존 “coffee beans from Korea”는 한국산 생두처럼 들릴 수 있어 국내외 **로스터리** 원두로 바로잡았습니다. 식당 질문에는 음식 제공 여부부터 확인해야 합니다.
+**표현:** E04·E03. `They probably put some crack in it`은 너무 맛있어서 자꾸 생각난다는 과장된 농담입니다. **수정:** 기존 “coffee beans from Korea”는 한국산 생두처럼 들릴 수 있어 국내외 **로스터리** 원두로 바로잡았습니다. 식당 질문에는 음식 제공 여부부터 확인해야 합니다.
 
 <a id="d09"></a>
 ### D09. 국내 여행지 — 제주도 [확인용]
