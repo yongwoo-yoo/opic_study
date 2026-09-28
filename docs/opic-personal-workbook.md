@@ -72,7 +72,7 @@ I'm **such a coffee person**, so I spend a lot of time there. I usually grind my
 
 **MP**
 
-- **What:** Well, I love meditation music.
+- **What:** Meditation music is my favorite music.
 - **Feeling:** So, I feel really calm when I listen to it.
 - **Why:** You know, it helps me **clear my head** after work.
 
@@ -86,7 +86,7 @@ My head gets really busy during the week. I mean, there is always something to t
 
 **한글 문장**
 
-- 저는 명상 음악을 좋아해요.
+- 명상 음악은 제가 가장 좋아하는 음악이에요.
 - 들으면 마음이 정말 차분해져요.
 - 퇴근 후 복잡한 머릿속을 정리하는 데 도움이 돼요.
 - 평일에는 머릿속이 아주 복잡해져요.
@@ -108,9 +108,9 @@ My head gets really busy during the week. I mean, there is always something to t
 
 **MP**
 
-- **What:** Well, a beach in Hawaii really stands out to me.
-- **Feeling:** Honestly, that place still makes me excited.
-- **Why:** You know, I saw sea turtles there.
+- **What:** What I really love about this beach in Hawaii is how close it feels to nature.
+- **Feeling:** Honestly, it still excites me.
+- **Why:** I saw sea turtles there.
 
 **본문**
 
@@ -122,8 +122,8 @@ I went there on a camping trip with my wife. The beach was right near our campsi
 
 **한글 문장**
 
-- 하와이의 한 해변이 특히 기억에 남아요.
-- 지금도 그곳을 생각하면 설레요.
+- 하와이의 이 해변에서 제가 정말 좋아하는 점은 자연이 아주 가깝게 느껴진다는 거예요.
+- 솔직히 지금도 그곳을 생각하면 설레요.
 - 그곳에서 바다거북을 봤거든요.
 - 아내와 함께 캠핑 여행으로 갔어요.
 - 해변은 캠핑장 바로 옆에 있었어요.
@@ -288,7 +288,7 @@ Chuseok is a traditional holiday with many family rituals. My family gets togeth
 
 **MP**
 
-- **What:** Well, my favorite café is Cafe Doan.
+- **What:** What I really love about Cafe Doan is its coffee.
 - **Feeling:** So, every visit is exciting for me.
 - **Why:** You know, its coffee has really clear flavors.
 
@@ -302,7 +302,7 @@ I'm **such a coffee person**, so good beans matter to me. The café uses beans f
 
 **한글 문장**
 
-- 제가 가장 좋아하는 카페는 카페 도안이에요.
+- 카페 도안에서 제가 정말 좋아하는 것은 그곳의 커피예요.
 - 그래서 갈 때마다 설레요.
 - 그곳 커피는 맛이 정말 선명하거든요.
 - 저는 커피를 정말 좋아해서 좋은 원두가 중요해요.
@@ -324,8 +324,8 @@ I'm **such a coffee person**, so good beans matter to me. The café uses beans f
 
 **MP**
 
-- **What:** Well, my favorite place in Korea is Jeju Island.
-- **Feeling:** So, I really feel like I'm on vacation there.
+- **What:** What I really love about Jeju Island is its unique atmosphere.
+- **Feeling:** It always feels like a real vacation.
 - **Why:** You know, it has beautiful beaches and volcanic hills.
 
 **본문**
@@ -338,8 +338,8 @@ Jeju feels very different from the mainland. I rented a car and drove around the
 
 **한글 문장**
 
-- 한국에서 제가 가장 좋아하는 곳은 제주도예요.
-- 그곳에 가면 정말 휴가를 온 기분이에요.
+- 제주도에서 제가 정말 좋아하는 점은 그곳만의 독특한 분위기예요.
+- 그곳에서는 언제나 진짜 휴가를 온 기분이에요.
 - 아름다운 해변과 오름이 있거든요.
 - 제주는 본토와 분위기가 많이 달라요.
 - 렌터카를 빌려 섬을 돌아다녔어요.
@@ -398,8 +398,8 @@ Jeju feels very different from the mainland. I rented a car and drove around the
 
 **MP**
 
-- **What:** Well, I listen to meditation music every weekend.
-- **Feeling:** So, I feel really relaxed while listening to it.
+- **What:** What I really love about my weekends is listening to meditation music.
+- **Feeling:** It makes me so relaxed.
 - **Why:** You know, it helps me **clear my head** after work.
 
 **본문**
@@ -412,8 +412,8 @@ I usually make a cup of tea first. Then I put on some meditation music. I sit qu
 
 **한글 문장**
 
-- 저는 주말마다 명상 음악을 들어요.
-- 들으면서 정말 편안해져요.
+- 제 주말에서 제가 정말 좋아하는 것은 명상 음악을 듣는 일이에요.
+- 들으면 정말 편안해져요.
 - 퇴근 후 복잡한 머릿속을 정리하는 데 도움이 돼요.
 - 보통 먼저 차 한 잔을 만들어요.
 - 그런 다음 명상 음악을 틀어요.
@@ -434,8 +434,8 @@ I usually make a cup of tea first. Then I put on some meditation music. I sit qu
 
 **MP**
 
-- **What:** Well, I make my own coffee every weekend.
-- **Feeling:** The process is so relaxing; I mean, it genuinely makes me happy.
+- **What:** My favorite weekend ritual is making my own coffee.
+- **Feeling:** The process is so relaxing; I mean, it makes me happy.
 - **Why:** You know, I enjoy the whole process.
 
 **본문**
@@ -448,8 +448,8 @@ First, I choose the coffee beans I want to use. Then I grind them in my kitchen.
 
 **한글 문장**
 
-- 저는 주말마다 직접 커피를 내려요.
-- 그 과정이 정말 편안하고요, 그러니까 커피를 만들면 진심으로 행복해져요.
+- 제가 가장 좋아하는 주말 습관은 직접 커피를 내리는 일이에요.
+- 그 과정이 정말 편안하고요, 그러니까 커피를 만들면 행복해져요.
 - 그 과정 전체가 좋거든요.
 - 먼저 사용하고 싶은 원두를 골라요.
 - 그런 다음 부엌에서 원두를 갈아요.
@@ -470,8 +470,8 @@ First, I choose the coffee beans I want to use. Then I grind them in my kitchen.
 
 **MP**
 
-- **What:** Well, I run outside to stay active.
-- **Feeling:** Honestly, running makes me feel free.
+- **What:** What I really love about running outdoors is the sense of freedom.
+- **Feeling:** Honestly, it feels completely refreshing.
 - **Why:** You know, I love the fresh air and the wind.
 
 **본문**
@@ -484,8 +484,8 @@ First, I choose the coffee beans I want to use. Then I grind them in my kitchen.
 
 **한글 문장**
 
-- 저는 건강을 위해 밖에서 달려요.
-- 달리면 자유로운 기분이 들어요.
+- 야외 러닝에서 제가 정말 좋아하는 점은 자유로운 느낌이에요.
+- 솔직히 달리고 나면 완전히 상쾌해져요.
 - 신선한 공기와 바람이 좋거든요.
 - 솔직히 헬스장은 저와 잘 맞지 않아요.
 - 밖에서 운동하는 편이 좋아요.
@@ -1016,6 +1016,8 @@ In the past, people just waited at the bus stop. They did not know exactly when 
 ### D 틀 — 영화·호텔·가구·식당 등
 
 **What:** My favorite [대상] is [이름/구체적 대상].
+
+**What 변형:** What I really love about [대상] is [가장 좋아하는 구체적 특징].
 
 **Feeling:** It makes me feel [실제 감정].
 
