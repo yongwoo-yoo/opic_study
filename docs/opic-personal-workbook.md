@@ -150,7 +150,7 @@ I went there on a camping trip with my wife. The beach was right near our campsi
 
 **본문**
 
-**The main thing is**, he never gives up easily. Once he starts something, he keeps going. He also follows his routine every single day. **If I'm honest**, that kind of consistency is hard for me. I sometimes stop when things get difficult. I guess you can say he pushes me to improve my own habits. I notice the difference when I think about my own routine. He always goes the extra mile to keep his routine.
+What I really find inspiring about my friend is that he never gives up easily. Once he starts something, he keeps going. He also follows his routine every single day. **If I'm honest**, that kind of consistency is hard for me. I sometimes stop when things get difficult. I guess you can say he pushes me to improve my own habits. I notice the difference when I think about my own routine. He always goes the extra mile to keep his routine.
 
 **마무리**
 
@@ -161,7 +161,7 @@ That's what I'd really like to learn from him.
 - 제 친구는 정말 꾸준한 사람이에요.
 - 그런 점이 정말 존경스러워요.
 - 언제나 자기 일과를 지키거든요.
-- 무엇보다 그 친구는 쉽게 포기하지 않아요.
+- 제 친구에게서 정말 인상적인 점은 쉽게 포기하지 않는다는 거예요.
 - 한번 시작하면 계속해요.
 - 매일 자기 일과도 지켜요.
 - 솔직히 그런 꾸준함은 저에게 어려워요.
@@ -222,7 +222,7 @@ The weather is just so cool, you know; I mean, it feels really comfortable. It i
 
 **본문**
 
-I work for a semiconductor company in Korea. My job is to process and analyze data. So, you know, I deal with this industry every day. When it comes to technology, semiconductors are developing rapidly. **The main thing is**, it is part of my real working life. It is much more than just a topic in the news for me. When I read about the industry, I think about my own work. That personal connection keeps me interested.
+I work for a semiconductor company in Korea. My job is to process and analyze data. So, you know, I deal with this industry every day. When it comes to technology, semiconductors are developing rapidly. **The main thing is**, it is part of my real working life. It is much more than just a topic in the news for me. When I read about the industry, I think about my own work. What I really find interesting about this industry is that it connects directly to my work.
 
 **마무리**
 
@@ -240,7 +240,7 @@ I work for a semiconductor company in Korea. My job is to process and analyze da
 - 무엇보다 제 실제 직장 생활의 일부예요.
 - 저에게는 단순한 뉴스 주제 그 이상이에요.
 - 산업 관련 기사를 읽으면 제 업무가 떠올라요.
-- 그런 개인적인 연결 때문에 계속 관심이 가요.
+- 이 산업에서 정말 흥미로운 점은 제 업무와 직접 연결된다는 거예요.
 - 그래서 이 산업과 가깝게 느껴져요.
 
 **표현:** E05. **보충:** 회사명·성공 과정·3년 전과의 산업 비교는 별도 자료가 필요합니다. 기존 메모의 메모리 공급 전망을 현재의 검증된 사실로 옮기지 않았습니다.
@@ -294,7 +294,7 @@ Chuseok is a traditional holiday with many family rituals. My family gets togeth
 
 **본문**
 
-I'm **such a coffee person**, so good beans matter to me. The café uses beans from famous roasters. Some are from Korea, and others are from abroad. Each cup has a different taste and aroma. I go there so often that I became friends with the owner. Sometimes, you know, he even gives me beans to enjoy at home. I enjoy discovering new flavors whenever I visit. The coffee is so addictive that I sometimes joke, “They probably put some crack in it.”
+I'm **such a coffee person**, so good beans matter to me. The café uses beans from famous roasters. Some are from Korea, and others are from abroad. What I really find exciting about Cafe Doan is that every cup tastes different. I go there so often that I became friends with the owner. Sometimes, you know, he even gives me beans to enjoy at home. I enjoy discovering new flavors whenever I visit. The coffee is so addictive that I sometimes joke, “They probably put some crack in it.”
 
 **마무리**
 
@@ -308,7 +308,7 @@ I'm **such a coffee person**, so good beans matter to me. The café uses beans f
 - 저는 커피를 정말 좋아해서 좋은 원두가 중요해요.
 - 그 카페는 유명 로스터리의 원두를 써요.
 - 국내 로스터리 원두도 있고 해외 원두도 있어요.
-- 한 잔 한 잔 맛과 향이 달라요.
+- 카페 도안에서 정말 흥미로운 점은 커피마다 맛이 다르다는 거예요.
 - 너무 자주 가서 사장님과 친구가 되었어요.
 - 가끔은 집에서 마시라며 원두를 주시기도 해요.
 - 갈 때마다 새로운 맛을 발견하는 게 즐거워요.
@@ -512,7 +512,7 @@ First, I choose the coffee beans I want to use. Then I grind them in my kitchen.
 
 **본문**
 
-**These days**, I check stock market news online. I also read about money and investing. If I find something new, I look it up. That helps me understand the news better. I mean, there is always more to learn about this topic. I check financial information on a daily basis. One article often leads me to another question. That is what keeps the topic interesting.
+**These days**, I check stock market news online. I also read about money and investing. If I find something new, I look it up. That helps me understand the news better. I mean, there is always more to learn about this topic. I check financial information on a daily basis. What I really find interesting about financial news is that one article often leads to another question. That curiosity keeps me coming back to it.
 
 **마무리**
 
@@ -529,8 +529,8 @@ First, I choose the coffee beans I want to use. Then I grind them in my kitchen.
 - 그러면 뉴스를 더 잘 이해할 수 있어요.
 - 이 주제는 늘 더 배울 것이 있거든요.
 - 저는 매일 금융 정보를 확인해요.
-- 기사 하나를 읽으면 다른 궁금증이 생길 때가 많아요.
-- 그 점이 이 주제를 계속 흥미롭게 만들어요.
+- 금융 뉴스에서 정말 흥미로운 점은 기사 하나가 또 다른 궁금증으로 이어진다는 거예요.
+- 그런 호기심 때문에 계속 금융 뉴스를 찾아보게 돼요.
 - 인터넷 덕분에 계속 배울 수 있어요.
 
 **표현:** E13. **보충:** 주로 보는 동영상·좋아하는 사이트·어제 한 일은 각각 실제 채널·사이트·행동을 넣어야 합니다.
@@ -730,7 +730,7 @@ I had bought the earphones for running. But they stopped working almost right aw
 
 **본문**
 
-The chickens walked freely around the campsite. That was really unusual to me. In Korea, I usually see chickens inside an enclosure. We also went snorkeling in the ocean. Then, you know, we saw sea turtles in the water. **I couldn't believe** how close all the animals were. I kept thinking about how different it felt from home. I absolutely loved seeing wildlife so close to us.
+The chickens walked freely around the campsite. That was really unusual to me. In Korea, I usually see chickens inside an enclosure. We also went snorkeling in the ocean. Then, you know, we saw sea turtles in the water. **I couldn't believe** how close all the animals were. I kept thinking about how different it felt from home. What I really find amazing about Hawaii is that the wildlife feels so close.
 
 **마무리**
 
@@ -748,7 +748,7 @@ I guess you can say it became one of my favorite trips.
 - 그러다가 물속에서 바다거북을 봤어요.
 - 동물들이 그렇게 가까이 있다는 게 믿기지 않았어요.
 - 집에서 보던 모습과 얼마나 다른지 계속 생각났어요.
-- 야생동물을 그렇게 가까이에서 본 경험이 정말 좋았어요.
+- 하와이에서 정말 놀라운 점은 야생동물이 아주 가깝게 느껴진다는 거예요.
 - 제가 가장 좋아하는 여행 중 하나가 됐다고 할 수 있어요.
 
 **표현:** E12·E03. **선택적 직접화법:** “I thought to myself, ‘This is so different from what I'm used to.’”는 당시 느낌을 재구성한 연습 문장입니다(E11). 실제 기억과 맞을 때만 본문에 넣습니다.
@@ -914,7 +914,7 @@ In the past, I had to visit a bank more often. I even went there to update my ba
 
 **본문**
 
-In the past, we usually ordered directly from a staff member. We also made many reservations in person. Now, we can tap a kiosk at a restaurant. We can also order or make a reservation with an app. So, you know, fewer steps require face-to-face help. **Put simply**, the whole process has become faster. I notice this change whenever I place an order. Most kiosks are pretty self-explanatory, you know; I mean, they are just so easy to use.
+In the past, we usually ordered directly from a staff member. We also made many reservations in person. Now, we can tap a kiosk at a restaurant. We can also order or make a reservation with an app. So, you know, fewer steps require face-to-face help. **Put simply**, the whole process has become faster. What I really find convenient about digital ordering is that I can finish quickly on my own. Most kiosks are pretty self-explanatory, you know; I mean, they are just so easy to use.
 
 **마무리**
 
@@ -931,7 +931,7 @@ In the past, we usually ordered directly from a staff member. We also made many 
 - 앱으로 주문하거나 예약할 수도 있어요.
 - 그래서 직접 도움을 받아야 하는 단계가 줄었어요.
 - 한마디로 전체 과정이 빨라졌어요.
-- 주문할 때마다 이런 변화를 느껴요.
+- 디지털 주문에서 정말 편리한 점은 혼자서도 빠르게 끝낼 수 있다는 거예요.
 - 대부분의 키오스크는 꽤 직관적이고요, 그러니까 정말 사용하기 쉬워요.
 - 화면이 우리의 주문 방식을 바꿨어요.
 
@@ -1017,7 +1017,7 @@ In the past, people just waited at the bus stop. They did not know exactly when 
 
 **What:** My favorite [대상] is [이름/구체적 대상].
 
-**What 변형:** What I really love about [대상] is [가장 좋아하는 구체적 특징].
+**What 변형:** What I really love about [대상] is [가장 좋아하는 구체적 특징]. / What I really find [형용사] about [대상] is that [완전한 문장].
 
 **Feeling:** It makes me feel [실제 감정].
 
