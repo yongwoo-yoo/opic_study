@@ -127,7 +127,7 @@ function splitEnglishSentences(text) {
 
 async function loadPersonalAnswers() {
   if (personalAnswers) return personalAnswers;
-  const markdown = await fetch('opic-personal-workbook.md?v=12').then(response => {
+  const markdown = await fetch('opic-personal-workbook.md?v=13').then(response => {
     if (!response.ok) throw new Error('답변 자료를 불러오지 못했습니다.');
     return response.text();
   });

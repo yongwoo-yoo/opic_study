@@ -37,7 +37,7 @@ MP는 **What → Feeling → Why** 순서로 연습합니다. 아래 **MP 세 �
 **MP**
 
 - **What:** Well, my favorite room is the kitchen.
-- **Feeling:** So, I feel relaxed and happy in that room.
+- **Feeling:** I feel so relaxed there; I mean, that room makes me happy.
 - **Why:** You know, I make coffee and tea there.
 
 **본문**
@@ -51,7 +51,7 @@ I'm **such a coffee person**, so I spend a lot of time there. I usually grind my
 **한글 문장**
 
 - 제가 가장 좋아하는 방은 부엌이에요.
-- 그래서 그 방에 있으면 편안하고 행복해요.
+- 그곳에서는 정말 편안하고요, 그러니까 그 방에 있으면 행복해져요.
 - 거기에서 커피와 차를 만들거든요.
 - 저는 커피를 정말 좋아해서 부엌에서 많은 시간을 보내요.
 - 보통 먼저 원두를 직접 갈아요.
@@ -78,11 +78,11 @@ I'm **such a coffee person**, so I spend a lot of time there. I usually grind my
 
 **본문**
 
-My head gets really busy during the week. I mean, there is always something to think about at work. But this music helps me slow down. It is quiet and very peaceful. I usually enjoy it with a cup of tea. That simple combination helps me fully recharge. I can focus on the music instead of my busy thoughts. After a while, I feel ready to rest.
+My head gets really busy during the week. I mean, there is always something to think about at work. But this music helps me slow down. It's just so quiet, you know; I mean, the whole sound feels peaceful. I usually enjoy it with a cup of tea. That simple combination helps me fully recharge. I can focus on the music instead of my busy thoughts. After a while, I feel ready to rest.
 
 **마무리**
 
-**Overall**, it helps me **wind down and relax**.
+**Overall**, it helps me wind down, you know, just relax.
 
 **한글 문장**
 
@@ -92,12 +92,12 @@ My head gets really busy during the week. I mean, there is always something to t
 - 평일에는 머릿속이 아주 복잡해져요.
 - 직장에서는 늘 생각할 일이 있거든요.
 - 하지만 이 음악은 제가 속도를 늦추게 해 줘요.
-- 조용하고 아주 평화로운 음악이에요.
+- 정말 조용하고요, 그러니까 음악 전체가 평화롭게 느껴져요.
 - 보통 차 한 잔과 함께 즐겨요.
 - 그 간단한 조합 덕분에 에너지를 완전히 충전할 수 있어요.
 - 바쁜 생각 대신 음악에 집중할 수 있어요.
 - 조금 지나면 쉴 준비가 된 기분이에요.
-- 그래서 긴장을 풀고 편안해지는 데 도움이 돼요.
+- 그래서 긴장을 풀고, 있잖아요, 그냥 편안해지는 데 도움이 돼요.
 
 **표현:** E08·E01. **보충:** 가수도 요구하는 문항에는 실제로 듣는 아티스트 한 명을 추가해야 합니다. 장르만으로 가수 부분까지 답했다고 보지 않습니다.
 
@@ -186,7 +186,7 @@ That's what I'd really like to learn from him.
 
 **본문**
 
-The weather is cool and comfortable. It is not as hot as summer. It is not freezing like winter either. I can drink coffee outside and enjoy the fresh air. I can also go camping without worrying about the heat. **The main thing is**, I can really enjoy being outdoors. Those simple outdoor moments help me fully recharge. That is why the season fits my hobbies so well.
+The weather is just so cool, you know; I mean, it feels really comfortable. It is not as hot as summer. It is not freezing like winter either. I can drink coffee outside and enjoy the fresh air. I can also go camping without worrying about the heat. **The main thing is**, I can really enjoy being outdoors. Those simple outdoor moments help me fully recharge. That is why the season fits my hobbies so well.
 
 **마무리**
 
@@ -197,7 +197,7 @@ The weather is cool and comfortable. It is not as hot as summer. It is not freez
 - 한국에서 제가 가장 좋아하는 계절은 가을이에요.
 - 가을이 오면 정말 행복해요.
 - 커피를 마시고 캠핑하기에 딱 좋거든요.
-- 날씨가 선선하고 쾌적해요.
+- 날씨가 정말 선선하고요, 그러니까 아주 쾌적하게 느껴져요.
 - 여름만큼 덥지 않아요.
 - 겨울처럼 춥지도 않아요.
 - 밖에서 커피를 마시며 신선한 공기를 즐길 수 있어요.
@@ -362,7 +362,7 @@ Jeju feels very different from the mainland. I rented a car and drove around the
 
 - **What:** Well, I usually wear T-shirts and jeans.
 - **Feeling:** Honestly, I feel like myself in those clothes.
-- **Why:** You know, they're simple and comfortable.
+- **Why:** They're so simple, you know; I mean, really comfortable.
 
 **본문**
 
@@ -376,7 +376,7 @@ Jeju feels very different from the mainland. I rented a car and drove around the
 
 - 저는 보통 티셔츠와 청바지를 입어요.
 - 그런 옷을 입으면 제 모습 그대로인 것 같아요.
-- 단순하고 편하거든요.
+- 아주 단순하고요, 그러니까 정말 편해요.
 - 솔직히 유행을 많이 따르지는 않아요.
 - 보통 먼저 간단한 티셔츠를 골라요.
 - 그런 다음 편한 청바지를 입어요.
@@ -404,7 +404,7 @@ Jeju feels very different from the mainland. I rented a car and drove around the
 
 **본문**
 
-I usually make a cup of tea first. Then I put on some meditation music. I sit quietly and enjoy both at the same time. My mind is often busy during the week. But, you know, this routine helps me slow down. This quiet ritual helps me wind down and fully recharge. I look forward to that quiet time on weekends. Even a short break like this feels refreshing.
+I usually make a cup of tea first. Then I put on some meditation music. I sit quietly and enjoy both at the same time. My mind is often busy during the week. But, you know, this routine helps me slow down. This quiet ritual helps me wind down; I mean, fully recharge. I look forward to that quiet time on weekends. Even a short break like this feels refreshing.
 
 **마무리**
 
@@ -420,7 +420,7 @@ I usually make a cup of tea first. Then I put on some meditation music. I sit qu
 - 조용히 앉아서 차와 음악을 함께 즐겨요.
 - 평일에는 생각이 많을 때가 많아요.
 - 하지만 이 습관 덕분에 속도를 늦출 수 있어요.
-- 이 조용한 습관 덕분에 긴장을 풀고 에너지를 완전히 충전해요.
+- 이 조용한 습관 덕분에 긴장을 풀어요, 그러니까 에너지를 완전히 충전해요.
 - 주말의 그 조용한 시간이 기다려져요.
 - 이렇게 잠깐만 쉬어도 기분이 상쾌해요.
 - 제가 가장 좋아하는 주말 습관이에요.
@@ -435,7 +435,7 @@ I usually make a cup of tea first. Then I put on some meditation music. I sit qu
 **MP**
 
 - **What:** Well, I make my own coffee every weekend.
-- **Feeling:** So, it makes me feel relaxed and happy.
+- **Feeling:** The process is so relaxing; I mean, it genuinely makes me happy.
 - **Why:** You know, I enjoy the whole process.
 
 **본문**
@@ -449,7 +449,7 @@ First, I choose the coffee beans I want to use. Then I grind them in my kitchen.
 **한글 문장**
 
 - 저는 주말마다 직접 커피를 내려요.
-- 그러면 마음이 편안하고 행복해져요.
+- 그 과정이 정말 편안하고요, 그러니까 커피를 만들면 진심으로 행복해져요.
 - 그 과정 전체가 좋거든요.
 - 먼저 사용하고 싶은 원두를 골라요.
 - 그런 다음 부엌에서 원두를 갈아요.
@@ -689,7 +689,7 @@ Before leaving, I open the bus app on my phone. It shows me where the bus is. It
 **MP**
 
 - **What:** The worst part was that my new earphones broke after only three uses.
-- **Feeling:** So, I was really frustrated and worried.
+- **Feeling:** I was frustrated; I mean, honestly worried.
 - **Why:** You know, I bought them from overseas.
 
 **본문**
@@ -703,7 +703,7 @@ I had bought the earphones for running. But they stopped working almost right aw
 **한글 문장**
 
 - 가장 황당했던 건 새 이어폰이 단 세 번 사용한 뒤 고장 난 일이에요.
-- 그래서 정말 답답하고 걱정됐어요.
+- 정말 답답했고요, 그러니까 솔직히 걱정도 됐어요.
 - 해외에서 산 제품이었거든요.
 - 러닝할 때 쓰려고 이어폰을 샀어요.
 - 그런데 거의 바로 작동을 멈췄어요.
@@ -914,7 +914,7 @@ In the past, I had to visit a bank more often. I even went there to update my ba
 
 **본문**
 
-In the past, we usually ordered directly from a staff member. We also made many reservations in person. Now, we can tap a kiosk at a restaurant. We can also order or make a reservation with an app. So, you know, fewer steps require face-to-face help. **Put simply**, the whole process has become faster. I notice this change whenever I place an order. Most kiosks are self-explanatory and easy to use.
+In the past, we usually ordered directly from a staff member. We also made many reservations in person. Now, we can tap a kiosk at a restaurant. We can also order or make a reservation with an app. So, you know, fewer steps require face-to-face help. **Put simply**, the whole process has become faster. I notice this change whenever I place an order. Most kiosks are pretty self-explanatory, you know; I mean, they are just so easy to use.
 
 **마무리**
 
@@ -932,7 +932,7 @@ In the past, we usually ordered directly from a staff member. We also made many 
 - 그래서 직접 도움을 받아야 하는 단계가 줄었어요.
 - 한마디로 전체 과정이 빨라졌어요.
 - 주문할 때마다 이런 변화를 느껴요.
-- 대부분의 키오스크는 직관적이라 사용하기 쉬워요.
+- 대부분의 키오스크는 꽤 직관적이고요, 그러니까 정말 사용하기 쉬워요.
 - 화면이 우리의 주문 방식을 바꿨어요.
 
 **표현:** E13·E10. **문항별 조정:** 음식점 질문에서는 예약·다른 업종을 줄이고 음식 주문만 설명합니다. 건강식 메뉴 변화·식품 구매의 정확한 20년 변화는 다른 질문입니다.
