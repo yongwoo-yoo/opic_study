@@ -42,7 +42,7 @@ MP는 **What → Feeling → Why** 순서로 연습합니다. 아래 **MP 세 �
 
 **본문**
 
-I'm **such a coffee person**, so I spend a lot of time there. I usually grind my own beans first. Then I slowly make a fresh cup of coffee. Sometimes I make tea instead, you know. The smell of coffee fills the kitchen. **Whenever** that happens, I feel completely at home. Making coffee has become a relaxing ritual for me. Even a simple cup feels special when I make it myself.
+I'm **such a coffee person**, so I spend a lot of time there. I usually grind my own beans first. Then I slowly make a fresh cup of coffee. Sometimes I make tea instead, you know. The smell of coffee fills the kitchen. **Whenever** that happens, I feel completely at home. Making coffee has become a relaxing ritual for me. I guess you can say making it myself turns an ordinary cup into something special.
 
 **마무리**
 
@@ -60,7 +60,7 @@ I'm **such a coffee person**, so I spend a lot of time there. I usually grind my
 - 커피 향이 부엌을 가득 채워요.
 - 그럴 때마다 집에 있다는 느낌이 확 들어요.
 - 커피를 만드는 일은 저에게 편안한 의식 같은 습관이 되었어요.
-- 직접 만들면 평범한 한 잔도 특별하게 느껴져요.
+- 직접 만들면 평범한 한 잔도 특별해진다고 할 수 있어요.
 - 그래서 부엌이 저에게 특별해요.
 
 **표현:** E04·E02·E03. **추가 질문:** 방 개수·구조를 명시적으로 물으면 실제 구조를 첫 문장 뒤에 한 문장 추가합니다.
@@ -150,7 +150,7 @@ I went there on a camping trip with my wife. The beach was right near our campsi
 
 **본문**
 
-**The main thing is**, he never gives up easily. Once he starts something, he keeps going. He also follows his routine every single day. **If I'm honest**, that kind of consistency is hard for me. I sometimes stop when things get difficult. So, you know, he makes me want to improve my own habits. I notice the difference when I think about my own routine. He always goes the extra mile to keep his routine.
+**The main thing is**, he never gives up easily. Once he starts something, he keeps going. He also follows his routine every single day. **If I'm honest**, that kind of consistency is hard for me. I sometimes stop when things get difficult. I guess you can say he pushes me to improve my own habits. I notice the difference when I think about my own routine. He always goes the extra mile to keep his routine.
 
 **마무리**
 
@@ -166,7 +166,7 @@ That's what I'd really like to learn from him.
 - 매일 자기 일과도 지켜요.
 - 솔직히 그런 꾸준함은 저에게 어려워요.
 - 저는 일이 힘들어지면 가끔 멈추거든요.
-- 그래서 그 친구를 보면 제 습관도 고치고 싶어져요.
+- 그 친구가 제 습관을 개선하도록 자극한다고 할 수 있어요.
 - 제 일과를 돌아보면 그 차이를 느껴요.
 - 그 친구는 일과를 지키기 위해 늘 한층 더 노력해요.
 - 제가 그 친구에게서 정말 배우고 싶은 점이에요.
@@ -404,7 +404,7 @@ Jeju feels very different from the mainland. I rented a car and drove around the
 
 **본문**
 
-I usually make a cup of tea first. Then I put on some meditation music. I sit quietly and enjoy both at the same time. My mind is often busy during the week. But, you know, this routine helps me slow down. This quiet ritual helps me wind down; I mean, fully recharge. I look forward to that quiet time on weekends. Even a short break like this feels refreshing.
+I usually make a cup of tea first. Then I put on some meditation music. I sit quietly and enjoy both at the same time. My mind is often busy during the week. But, you know, this routine helps me slow down. This quiet ritual helps me wind down; I mean, fully recharge. I look forward to that quiet time on weekends. I guess you can say this short break resets me for the weekend.
 
 **마무리**
 
@@ -422,7 +422,7 @@ I usually make a cup of tea first. Then I put on some meditation music. I sit qu
 - 하지만 이 습관 덕분에 속도를 늦출 수 있어요.
 - 이 조용한 습관 덕분에 긴장을 풀어요, 그러니까 에너지를 완전히 충전해요.
 - 주말의 그 조용한 시간이 기다려져요.
-- 이렇게 잠깐만 쉬어도 기분이 상쾌해요.
+- 이 짧은 휴식이 주말을 위해 저를 재충전해 준다고 할 수 있어요.
 - 제가 가장 좋아하는 주말 습관이에요.
 
 **표현:** E08·E01. **보충:** 장소·기기를 요구하면 실제 듣는 곳과 기기를 추가합니다. 메모에는 정확한 장소·기기가 없습니다.
@@ -656,7 +656,7 @@ I always look forward to the holiday food. My family sits down and eats together
 
 **본문**
 
-Before leaving, I open the bus app on my phone. It shows me where the bus is. It also tells me when the bus will arrive. So I know when to walk to the bus stop. **Put simply**, I do not have to guess anymore. You know, that makes waiting much easier. I can check the information before I step outside. Real-time bus information is a real game changer for me.
+Before leaving, I open the bus app on my phone. It shows me where the bus is. It also tells me when the bus will arrive. So I know when to walk to the bus stop. **Put simply**, I do not have to guess anymore. You know, that makes waiting much easier. I can check the information before I step outside. I guess you can say real-time bus information is a game changer for me.
 
 **마무리**
 
@@ -674,7 +674,7 @@ Before leaving, I open the bus app on my phone. It shows me where the bus is. It
 - 한마디로 더는 추측하지 않아도 돼요.
 - 그래서 기다리기가 훨씬 쉬워져요.
 - 밖에 나가기 전에 정보를 확인할 수 있어요.
-- 실시간 버스 정보는 저에게 정말 큰 변화를 가져온 기능이에요.
+- 실시간 버스 정보가 저에게 큰 변화를 가져온 기능이라고 할 수 있어요.
 - 이 앱 덕분에 버스 타기가 더 쉬워요.
 
 **표현:** E10. **보충:** ‘매일 가장 자주 쓰는 기술’이라는 빈도를 충족하는지는 확인합니다. ‘가장 좋아하는 기능’으로 쓰려면 첫 문장을 선호 문장으로 바꿉니다.
@@ -734,7 +734,7 @@ The chickens walked freely around the campsite. That was really unusual to me. I
 
 **마무리**
 
-**Overall**, it became one of my favorite trips.
+I guess you can say it became one of my favorite trips.
 
 **한글 문장**
 
@@ -749,7 +749,7 @@ The chickens walked freely around the campsite. That was really unusual to me. I
 - 동물들이 그렇게 가까이 있다는 게 믿기지 않았어요.
 - 집에서 보던 모습과 얼마나 다른지 계속 생각났어요.
 - 야생동물을 그렇게 가까이에서 본 경험이 정말 좋았어요.
-- 제가 가장 좋아하는 여행 중 하나가 됐어요.
+- 제가 가장 좋아하는 여행 중 하나가 됐다고 할 수 있어요.
 
 **표현:** E12·E03. **선택적 직접화법:** “I thought to myself, ‘This is so different from what I'm used to.’”는 당시 느낌을 재구성한 연습 문장입니다(E11). 실제 기억과 맞을 때만 본문에 넣습니다.
 
@@ -878,7 +878,7 @@ I rented a car and drove around the island. First, I went to a beautiful beach. 
 
 **본문**
 
-In the past, I had to visit a bank more often. I even went there to update my bankbook. That took extra time and planning. Now, I can send money in just a few seconds. I only need to open an app on my phone. **The main thing is**, I can do it almost anywhere. Mobile banking has been a real game changer. I no longer have to plan a trip for a quick transfer.
+In the past, I had to visit a bank more often. I even went there to update my bankbook. That took extra time and planning. Now, I can send money in just a few seconds. I only need to open an app on my phone. **The main thing is**, I can do it almost anywhere. I guess you can say mobile banking has been a real game changer. I no longer have to plan a trip for a quick transfer.
 
 **마무리**
 
@@ -895,7 +895,7 @@ In the past, I had to visit a bank more often. I even went there to update my ba
 - 지금은 몇 초 만에 송금할 수 있어요.
 - 휴대폰에서 앱을 열기만 하면 돼요.
 - 무엇보다 거의 어디서나 할 수 있어요.
-- 모바일 뱅킹은 정말 큰 변화를 가져왔어요.
+- 모바일 뱅킹이 정말 큰 변화를 가져왔다고 할 수 있어요.
 - 빠른 송금을 위해 따로 외출을 계획할 필요도 없어요.
 - 모바일 뱅킹이 훨씬 편리해요.
 
