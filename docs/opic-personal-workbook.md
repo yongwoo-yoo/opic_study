@@ -1,10 +1,10 @@
-# 내 이야기로 준비하는 OPIc — 4카테고리 답변집
+# 내 이야기로 준비하는 OPIc — 6카테고리 답변집
 
 기준 자료: [오픽 시험지.pdf](오픽%20시험지.pdf), 기존 `transcripts/answer-worksheet-v2-clustered.md`의 한글 메모, `transcripts/scripts-final.md`의 영어 초안, IH 재생목록 자막 31편.
 
 - [시험지 28쪽 질문 분류표](opic-question-map.md): 질문을 찾은 뒤 아래 답변 번호로 이동합니다.
 - [자막 표현·전략 출처](opic-subtitle-notes.md): E01~E14의 뜻과 영상 시간을 확인합니다.
-- **27개 답변**을 12문장으로 구성했습니다. 앞의 MP 3문장은 20초 안에 말할 수 있게 20~27단어로 유지했습니다. D09·D10·P05는 기존 영어 초안에만 있던 내용을 포함한 **확인용**입니다. 나머지도 감정·평가 표현은 한글 메모를 토대로 다듬은 제안이므로 본인 느낌에 맞춰 바꿉니다.
+- **31개 답변**을 12문장으로 구성했습니다. 앞의 MP 3문장은 20초 안에 말할 수 있게 유지했습니다. D09·D10·P05는 기존 영어 초안에만 있던 내용을 포함한 **확인용**입니다. 롤플레이는 가상 상황 대응이며, 나머지 감정·평가 표현은 한글 메모를 토대로 다듬은 제안이므로 본인 느낌에 맞춰 바꿉니다.
 - 원래 메모와 스크립트는 보존했습니다. 자료가 없는 질문은 분류표에서 **보충**으로 표시했습니다. 별도 사건·인물·날짜를 만들어 경험을 채우지 않았습니다.
 
 ## 이번 답변 보완에 사용한 영상
@@ -24,8 +24,10 @@ MP는 **What → Feeling → Why** 순서로 연습합니다. 아래 **MP 세 �
 | H · 습관 | 반복 행동 → 느낌·평가 → 이유 | MP에서 말한 행동을 언제·어떻게 하는지 설명 → MP 핵심으로 1~2문장 마무리 | 특정 하루의 사건으로 길게 빠지지 않기 |
 | P · 과거 경험 | 클라이맥스·결과 → 당시 감정 → 그 이유 | 필요한 배경 → 사건 진행 → 처음 제시한 클라이맥스·결과 → 의미와 느낌으로 마무리 | 처음·최근·어릴 때 등 질문의 시간 조건 지키기 |
 | C · 비교 | 현재의 핵심 변화 → 현재 느낌·평가 → 이유 | 관련된 과거 모습 → 현재로 복귀 → MP 내용을 이어 설명 → 결론 | 처음부터 끝까지 같은 비교 기준 유지하기 |
+| R · 롤플레이 | 전화 목적·문제 → 감정·사과 → 이유 | Q11은 질문 3~4개, Q12는 대안 2개 → 답변 요청 | 실제 통화처럼 상대에게 직접 말하기 |
+| A · 고난도 | 일상적인 핵심 관찰 → 내 평가 → 이유 | Q14는 한 기준으로 두 그룹 비교, Q15는 내 생활로 개인화 → 결론 | 모르는 사회 현상을 억지로 분석하지 않기 |
 
-27개 답변은 이 구조로 통일했습니다. 묘사와 습관은 MP를 뒷받침하는 설명만 이어지고, 과거 경험은 가장 중요한 장면을 먼저 들려준 뒤 시간 순서로 풀어갑니다. 비교는 현재 MP를 먼저 제시하고 과거를 설명한 다음 다시 현재로 돌아옵니다.
+31개 답변은 이 구조로 통일했습니다. 묘사와 습관은 MP를 뒷받침하는 설명만 이어지고, 과거 경험은 가장 중요한 장면을 먼저 들려준 뒤 시간 순서로 풀어갑니다. 비교는 현재 MP를 먼저 제시하고 과거를 설명한 다음 다시 현재로 돌아옵니다.
 
 ## 2. Description — 묘사
 
@@ -404,7 +406,7 @@ Jeju feels very different from the mainland. I rented a car and drove around the
 
 **본문**
 
-This is very important because my mind is often busy during the week. I usually make a cup of tea first. Then I put on some meditation music. I sit quietly and enjoy both at the same time. But, you know, this routine helps me slow down. This quiet ritual helps me wind down; I mean, fully recharge. I look forward to that quiet time on weekends. I guess you can say this short break resets me for the weekend.
+This is very important because my mind is often busy during the week. I usually make a cup of tea first. Then I put on some meditation music. I sit quietly and enjoy both at the same time. I did not have this kind of routine in the past. But these days, this quiet ritual helps me wind down; I mean, fully recharge. I look forward to that quiet time on weekends. I guess you can say this short break resets me for the weekend.
 
 **마무리**
 
@@ -419,8 +421,8 @@ This is very important because my mind is often busy during the week. I usually 
 - 보통 먼저 차 한 잔을 만들어요.
 - 그런 다음 명상 음악을 틀어요.
 - 조용히 앉아서 차와 음악을 함께 즐겨요.
-- 하지만 이 습관 덕분에 속도를 늦출 수 있어요.
-- 이 조용한 습관 덕분에 긴장을 풀어요, 그러니까 에너지를 완전히 충전해요.
+- 예전에는 이런 습관이 없었어요.
+- 하지만 요즘은 이 조용한 습관 덕분에 긴장을 풀어요, 그러니까 에너지를 완전히 충전해요.
 - 주말의 그 조용한 시간이 기다려져요.
 - 이 짧은 휴식이 주말을 위해 저를 재충전해 준다고 할 수 있어요.
 - 제가 가장 좋아하는 주말 습관이에요.
@@ -694,7 +696,7 @@ This is crucial because I do not want to waste time waiting at the bus stop. Bef
 
 **본문**
 
-I had bought the earphones for running. But they stopped working almost right away. **I couldn't believe** they broke after only three uses. At first, I thought overseas service would be difficult. Luckily, the shopping platform offered a return option. I sent them back and received a full refund. The return process worked seamlessly without any problems. That made a frustrating experience end well.
+I had bought the earphones for running. But they stopped working almost right away. I thought to myself, “Are you kidding me—I only used them three times!” At first, I thought overseas service would be difficult. Luckily, the shopping platform offered a return option. I sent them back and received a full refund. The return process worked seamlessly without any problems. That made a frustrating experience end well.
 
 **마무리**
 
@@ -707,7 +709,7 @@ I had bought the earphones for running. But they stopped working almost right aw
 - 해외에서 산 제품이었거든요.
 - 러닝할 때 쓰려고 이어폰을 샀어요.
 - 그런데 거의 바로 작동을 멈췄어요.
-- 세 번 만에 고장 났다는 게 믿기지 않았어요.
+- 속으로 “말도 안 돼. 세 번밖에 안 썼는데!”라고 생각했어요.
 - 처음에는 해외 제품의 사후 서비스가 어려울 거라고 생각했어요.
 - 다행히 쇼핑 플랫폼에서 반품할 수 있었어요.
 - 제품을 돌려보내고 전액 환불받았어요.
@@ -730,7 +732,7 @@ I had bought the earphones for running. But they stopped working almost right aw
 
 **본문**
 
-The chickens walked freely around the campsite. That was really unusual to me. In Korea, I usually see chickens inside an enclosure. We also went snorkeling in the ocean. Then, you know, we saw sea turtles in the water. **I couldn't believe** how close all the animals were. I kept thinking about how different it felt from home. What I really find amazing about Hawaii is that the wildlife feels so close.
+The chickens walked freely around the campsite. That was really unusual to me. In Korea, I usually see chickens inside an enclosure. We also went snorkeling in the ocean. Then, you know, we saw sea turtles in the water. I was like, “Wow, they're right in front of us!” I kept thinking about how different it felt from home. What I really find amazing about Hawaii is that the wildlife feels so close.
 
 **마무리**
 
@@ -746,12 +748,12 @@ I guess you can say it became one of my favorite trips.
 - 한국에서는 보통 닭을 우리 안에서 보거든요.
 - 바다에서 스노클링도 했어요.
 - 그러다가 물속에서 바다거북을 봤어요.
-- 동물들이 그렇게 가까이 있다는 게 믿기지 않았어요.
+- 저는 “와, 바로 우리 앞에 있잖아!”라고 말했어요.
 - 집에서 보던 모습과 얼마나 다른지 계속 생각났어요.
 - 하와이에서 정말 놀라운 점은 야생동물이 아주 가깝게 느껴진다는 거예요.
 - 제가 가장 좋아하는 여행 중 하나가 됐다고 할 수 있어요.
 
-**표현:** E12·E03. **선택적 직접화법:** “I thought to myself, ‘This is so different from what I'm used to.’”는 당시 느낌을 재구성한 연습 문장입니다(E11). 실제 기억과 맞을 때만 본문에 넣습니다.
+**표현:** E12·E03·E11. 직접화법은 당시 놀라움을 살리는 연습용 재구성이므로 실제 기억과 맞게 억양과 문구를 조정합니다.
 
 **시간 조건:** 첫 해외여행·어릴 때 여행·최근 여행이라고 확인되지 않았습니다. p.26 가족과 특별했던 경험에는 ‘아내와 함께한 캠핑’으로 도입하고 같은 실제 사건을 사용합니다.
 
@@ -768,7 +770,7 @@ I guess you can say it became one of my favorite trips.
 
 **본문**
 
-I stopped and listened to the music for a while. The soft sound filled the whole shop. I really liked the way it made me feel. After that day, I looked for similar music. Then I started playing it while drinking tea on weekends. Now it helps me **wind down and relax** after work. I still remember how calm I felt in that shop. That simple moment turned into a relaxing weekend ritual.
+I stopped and listened to the music for a while. The soft sound filled the whole shop. I thought to myself, “What is this music—it makes me feel so calm.” After that day, I looked for similar music. Then I started playing it while drinking tea on weekends. Now it helps me **wind down and relax** after work. I still remember how calm I felt in that shop. That simple moment turned into a relaxing weekend ritual.
 
 **마무리**
 
@@ -781,7 +783,7 @@ I stopped and listened to the music for a while. The soft sound filled the whole
 - 그 음악이 가게를 평화로운 분위기로 만들었거든요.
 - 잠시 멈춰 음악을 들었어요.
 - 부드러운 음악이 가게 전체에 퍼졌어요.
-- 그 음악을 들을 때의 기분이 정말 좋았어요.
+- 속으로 “이게 무슨 음악이지? 마음이 정말 차분해지네.”라고 생각했어요.
 - 그날 이후 비슷한 음악을 찾아봤어요.
 - 그러다 주말에 차를 마시며 그 음악을 틀기 시작했어요.
 - 지금은 퇴근 후 긴장을 푸는 데 도움이 돼요.
@@ -840,7 +842,7 @@ I called the repair shop as soon as I could. First, I explained that something u
 
 **본문**
 
-I rented a car and drove around the island. First, I went to a beautiful beach. I also climbed an oreum, which is a small volcanic hill. The scenery felt very different from the mainland. Later, I tried Jeju's famous black pork. It was delicious, and it made the trip even better. Driving around gave me panoramic views of the island. The beach and the hill both stayed in my memory.
+I rented a car and drove around the island. First, I went to a beautiful beach. I also climbed an oreum, which is a small volcanic hill. At the top, I was like, “Wow, this view is breathtaking!” Later, I tried Jeju's famous black pork. It was delicious, and it made the trip even better. Driving around gave me panoramic views of the island. The beach and the hill both stayed in my memory.
 
 **마무리**
 
@@ -854,7 +856,7 @@ I rented a car and drove around the island. First, I went to a beautiful beach. 
 - 렌터카를 빌려 섬을 돌아다녔어요.
 - 먼저 아름다운 해변에 갔어요.
 - 작은 화산 언덕인 오름에도 올랐어요.
-- 풍경이 본토와 아주 다르게 느껴졌어요.
+- 정상에서 “와, 이 풍경 정말 숨이 멎을 만큼 멋지다!”라고 말했어요.
 - 나중에는 제주도의 유명한 흑돼지를 먹었어요.
 - 맛있어서 여행이 더 좋아졌어요.
 - 차로 돌아다니며 섬의 탁 트인 전경을 볼 수 있었어요.
@@ -1009,7 +1011,155 @@ In the past, people just waited at the bus stop. They did not know exactly when 
 
 **표현:** E05. **과거 묘사로 변형:** p.19에서는 실제 어린 시절 이용 수단을 먼저 밝히고 과거 모습을 설명합니다. 현재 앱 비교는 마지막 한 문장 정도만 선택적으로 붙입니다. 어린 시절 경험은 별도 확인이 필요합니다.
 
-## 6. 자료가 없는 질문을 준비하는 방법
+## 6. Role-play — 롤플레이
+
+<a id="r01"></a>
+### R01. Q11 캠핑 정보 문의 — 질문 4개
+
+**시험지:** Q11 정보 문의 롤플레이. **상황:** 친구의 주말 캠핑에 함께 가기 위해 필요한 정보를 묻는 가상 통화.
+
+**MP**
+
+- **What:** Hey, Chris, it's me; I'm calling about the camping trip this weekend.
+- **Feeling:** I'm really excited to join you.
+- **Why:** I just need a few details before we go.
+
+**본문**
+
+First off, where exactly are we going? Also, what time should we meet? Oh, by the way, what kind of gear do I need to bring? Do I need my own tent, or can we share one? One more thing: should I bring any food or drinks? I can pick something up on my way. Just text me the details when you have a minute. I want to make sure I am fully prepared.
+
+**마무리**
+
+All right, call me back when you get this; talk to you soon!
+
+**한글 문장**
+
+- 크리스, 나야. 이번 주말 캠핑 때문에 전화했어.
+- 같이 가게 돼서 정말 기대돼.
+- 가기 전에 몇 가지 정보만 필요해.
+- 우선 정확히 어디로 가는 거야?
+- 그리고 몇 시에 만나면 돼?
+- 아, 그런데 어떤 장비를 가져가야 해?
+- 내 텐트가 필요해, 아니면 하나를 같이 써도 돼?
+- 하나만 더, 음식이나 음료도 가져갈까?
+- 가는 길에 뭔가 사 갈 수 있어.
+- 시간 날 때 자세한 내용을 문자로 보내 줘.
+- 제대로 준비하고 싶거든.
+- 그럼 이 메시지 들으면 전화해 줘. 곧 얘기하자!
+
+**표현:** `First off`, `Oh, by the way`, `One more thing`으로 질문 사이를 연결합니다.
+
+<a id="r02"></a>
+### R02. Q12 저녁 약속 변경 — 대안 2개
+
+**시험지:** Q12 문제 해결 롤플레이. **상황:** 급한 업무로 저녁 약속에 갈 수 없어 사과하고 대안을 제시하는 가상 통화.
+
+**MP**
+
+- **What:** Hey, I'm so sorry, but I can't make it to dinner tonight.
+- **Feeling:** I feel terrible about changing our plan so late.
+- **Why:** My boss asked me to finish an urgent report tonight.
+
+**본문**
+
+I know this is really last-minute. How about we push our reservation back to eight? I might be able to finish my work by then. If that doesn't work for you, let me treat you to lunch this Saturday. We can go to the place you mentioned. Lunch is completely on me. Please let me know which option works better for you. Again, I am really sorry about this.
+
+**마무리**
+
+Call me back when you get this, and we will work it out.
+
+**한글 문장**
+
+- 정말 미안한데 오늘 저녁 식사에 못 갈 것 같아.
+- 이렇게 늦게 약속을 바꾸게 돼서 정말 미안해.
+- 상사가 오늘 밤까지 급한 보고서를 끝내 달라고 했어.
+- 정말 갑작스럽다는 거 알아.
+- 예약 시간을 8시로 미루는 건 어때?
+- 그때까지는 일을 끝낼 수도 있을 것 같아.
+- 그게 안 되면 이번 토요일 점심을 내가 살게.
+- 네가 말했던 곳으로 가도 돼.
+- 점심은 전부 내가 낼게.
+- 어떤 방법이 더 좋은지 알려 줘.
+- 다시 한번 정말 미안해.
+- 이 메시지를 들으면 전화해 줘. 같이 방법을 찾아보자.
+
+**표현:** `How about...`, `If that doesn't work...`, `which option works better`로 두 대안을 분명히 제시합니다.
+
+## 7. Advanced — 고난도 Q14·Q15
+
+<a id="a01"></a>
+### A01. Q14 세대별 휴대폰 사용 비교 — 목적의 차이
+
+**시험지:** Q14 인물·그룹 비교. **핵심:** 거창한 세대 분석 대신 휴대폰을 쓰는 목적 하나로 비교.
+
+**MP**
+
+- **What:** The main difference is how younger and older people use their phones.
+- **Feeling:** I find the difference pretty interesting.
+- **Why:** Younger people use many apps, while older people often focus on basic tasks.
+
+**본문**
+
+For example, I check real-time bus information on my phone. I also read financial news and study investing online. People my age use one device for many different things. In contrast, many older people I know mainly call or send messages. Of course, this is changing as apps become easier to use. Still, the biggest difference is the range of tasks. It is not really about who is better with technology. Their daily needs are simply different.
+
+**마무리**
+
+Overall, each group uses phones in the way that works best for them.
+
+**한글 문장**
+
+- 가장 큰 차이는 젊은 사람과 나이 든 사람이 휴대폰을 사용하는 방식이에요.
+- 그 차이가 꽤 흥미로워요.
+- 젊은 사람은 다양한 앱을 쓰는 반면 나이 든 사람은 기본 기능에 집중하는 경우가 많거든요.
+- 예를 들어 저는 휴대폰으로 실시간 버스 정보를 확인해요.
+- 금융 뉴스를 읽고 온라인으로 투자 공부도 해요.
+- 제 또래는 하나의 기기를 여러 용도로 사용해요.
+- 반면 제가 아는 나이 든 분들은 주로 전화하거나 메시지를 보내요.
+- 물론 앱이 쉬워지면서 이런 모습도 바뀌고 있어요.
+- 그래도 가장 큰 차이는 하는 일의 범위예요.
+- 누가 기술을 더 잘 쓰느냐의 문제는 아니에요.
+- 단지 일상에서 필요한 것이 다른 거예요.
+- 전반적으로 각 집단은 자신에게 가장 잘 맞는 방식으로 휴대폰을 사용해요.
+
+**표현:** `In contrast`, `the biggest difference is`로 비교 기준을 하나로 유지합니다.
+
+<a id="a02"></a>
+### A02. Q15 금융 뉴스·트렌드 — 내 일상으로 개인화
+
+**시험지:** Q15 뉴스·트렌드. **핵심:** 거시경제를 억지로 설명하지 않고 실제 금융 뉴스 습관으로 질문을 통제.
+
+**MP**
+
+- **What:** Honestly, I do not follow every major news story, but I regularly check financial news.
+- **Feeling:** I find it useful and interesting.
+- **Why:** It helps me learn more about investing and make better decisions.
+
+**본문**
+
+I usually read stock market news on my phone. If I see a term I do not understand, I look it up. One article often leads me to another question. I do not try to predict the entire economy. Instead, I focus on information that connects to my own finances. That makes a difficult topic much easier to understand. It has also become part of my regular internet routine. I still have a lot to learn, you know.
+
+**마무리**
+
+Overall, financial news matters to me because it affects my everyday decisions.
+
+**한글 문장**
+
+- 솔직히 모든 주요 뉴스를 챙기지는 않지만 금융 뉴스는 정기적으로 확인해요.
+- 유용하고 흥미롭다고 생각해요.
+- 투자에 대해 더 배우고 더 나은 결정을 내리는 데 도움이 되거든요.
+- 보통 휴대폰으로 주식 시장 뉴스를 읽어요.
+- 이해하지 못하는 용어가 보이면 찾아봐요.
+- 기사 하나가 또 다른 질문으로 이어질 때가 많아요.
+- 경제 전체를 예측하려고 하지는 않아요.
+- 대신 제 재정과 연결되는 정보에 집중해요.
+- 그러면 어려운 주제도 훨씬 이해하기 쉬워져요.
+- 이제는 제 평소 인터넷 습관의 일부가 되었어요.
+- 아직 배울 것이 많아요.
+- 전반적으로 금융 뉴스는 제 일상적인 결정에 영향을 주기 때문에 중요해요.
+
+**표현:** `I don't follow every... but...`, `Instead, I focus on...`으로 뉴스 질문을 개인 경험으로 좁힙니다. 자신 없으면 시험에서는 즉시 스킵하는 선택도 가능합니다.
+
+## 8. 자료가 없는 질문을 준비하는 방법
 
 분류표의 **보충**은 스킵 추천이나 점수 판단이 아니라, 현재 메모만으로 완성할 수 없다는 뜻입니다. 다음 틀에서 대괄호를 실제 내용으로 채웁니다. 빈칸이 남은 문장은 완성 답변이 아닙니다.
 

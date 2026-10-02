@@ -4,7 +4,9 @@ const ANSWER_CATEGORY = {
   D: { name: '묘사', className: 'description' },
   H: { name: '습관', className: 'habit' },
   P: { name: '과거 경험', className: 'past' },
-  C: { name: '비교', className: 'comparison' }
+  C: { name: '비교', className: 'comparison' },
+  R: { name: '롤플레이', className: 'roleplay' },
+  A: { name: '고난도', className: 'advanced' }
 };
 
 function loadSRS() {
@@ -127,11 +129,11 @@ function splitEnglishSentences(text) {
 
 async function loadPersonalAnswers() {
   if (personalAnswers) return personalAnswers;
-  const markdown = await fetch('opic-personal-workbook.md?v=17').then(response => {
+  const markdown = await fetch('opic-personal-workbook.md?v=18').then(response => {
     if (!response.ok) throw new Error('답변 자료를 불러오지 못했습니다.');
     return response.text();
   });
-  const blocks = [...markdown.matchAll(/<a id="([dhpc]\d+)"[^>]*><\/a>\n### ([DHPC]\d+)\. ([^\n]+)\n([\s\S]*?)(?=<a id="[dhpc]\d+"|\n## [3-7]\.|$)/g)];
+  const blocks = [...markdown.matchAll(/<a id="([dhpcra]\d+)"[^>]*><\/a>\n### ([DHPCRA]\d+)\. ([^\n]+)\n([\s\S]*?)(?=<a id="[dhpcra]\d+"|\n## \d+\.|$)/g)];
   personalAnswers = blocks.map(match => {
     const id = match[2];
     const body = match[4];
