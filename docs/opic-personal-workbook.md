@@ -398,13 +398,13 @@ Jeju feels very different from the mainland. I rented a car and drove around the
 
 **MP**
 
-- **What:** What I really love about my weekends is listening to meditation music.
+- **What:** No matter what, whenever I get a quiet moment on the weekend, I always make sure to play meditation music.
 - **Feeling:** It makes me so relaxed.
 - **Why:** You know, it helps me **clear my head** after work.
 
 **본문**
 
-I usually make a cup of tea first. Then I put on some meditation music. I sit quietly and enjoy both at the same time. My mind is often busy during the week. But, you know, this routine helps me slow down. This quiet ritual helps me wind down; I mean, fully recharge. I look forward to that quiet time on weekends. I guess you can say this short break resets me for the weekend.
+This is very important because my mind is often busy during the week. I usually make a cup of tea first. Then I put on some meditation music. I sit quietly and enjoy both at the same time. But, you know, this routine helps me slow down. This quiet ritual helps me wind down; I mean, fully recharge. I look forward to that quiet time on weekends. I guess you can say this short break resets me for the weekend.
 
 **마무리**
 
@@ -412,13 +412,13 @@ I usually make a cup of tea first. Then I put on some meditation music. I sit qu
 
 **한글 문장**
 
-- 제 주말에서 제가 정말 좋아하는 것은 명상 음악을 듣는 일이에요.
+- 무슨 일이 있어도 주말에 조용한 시간이 생기면 항상 명상 음악을 틀어요.
 - 들으면 정말 편안해져요.
 - 퇴근 후 복잡한 머릿속을 정리하는 데 도움이 돼요.
+- 이 습관은 매우 중요해요. 평일에는 생각이 많을 때가 많기 때문이에요.
 - 보통 먼저 차 한 잔을 만들어요.
 - 그런 다음 명상 음악을 틀어요.
 - 조용히 앉아서 차와 음악을 함께 즐겨요.
-- 평일에는 생각이 많을 때가 많아요.
 - 하지만 이 습관 덕분에 속도를 늦출 수 있어요.
 - 이 조용한 습관 덕분에 긴장을 풀어요, 그러니까 에너지를 완전히 충전해요.
 - 주말의 그 조용한 시간이 기다려져요.
@@ -434,13 +434,13 @@ I usually make a cup of tea first. Then I put on some meditation music. I sit qu
 
 **MP**
 
-- **What:** My favorite weekend ritual is making my own coffee.
+- **What:** Whenever I have time on the weekend, I always make sure to brew my own coffee.
 - **Feeling:** The process is so relaxing; I mean, it makes me happy.
 - **Why:** You know, I enjoy the whole process.
 
 **본문**
 
-First, I choose the coffee beans I want to use. Then I grind them in my kitchen. I take my time while making the coffee. Sometimes I use beans from my favorite café. The owner occasionally shares some with me, you know. **The main thing is**, I enjoy making the whole drink myself. I like the smell of the beans as I prepare them. This slow process has become my weekend ritual.
+I find this very important to me because it gives me time to slow down. First, I choose the coffee beans I want to use. Then I grind them in my kitchen. Sometimes I use beans from my favorite café. The owner occasionally shares some with me, you know. **The main thing is**, I enjoy making the whole drink myself. I like the smell of the beans as I prepare them. This slow process has become my weekend ritual.
 
 **마무리**
 
@@ -448,12 +448,12 @@ First, I choose the coffee beans I want to use. Then I grind them in my kitchen.
 
 **한글 문장**
 
-- 제가 가장 좋아하는 주말 습관은 직접 커피를 내리는 일이에요.
+- 주말에 시간이 날 때마다 직접 커피를 내리려고 해요.
 - 그 과정이 정말 편안하고요, 그러니까 커피를 만들면 행복해져요.
 - 그 과정 전체가 좋거든요.
+- 이 습관은 저에게 매우 중요해요. 천천히 여유를 가질 수 있기 때문이에요.
 - 먼저 사용하고 싶은 원두를 골라요.
 - 그런 다음 부엌에서 원두를 갈아요.
-- 커피를 만들 때는 서두르지 않아요.
 - 가끔은 좋아하는 카페의 원두를 써요.
 - 사장님이 가끔 원두를 나눠 주시거든요.
 - 무엇보다 커피 한 잔을 전부 직접 만드는 게 좋아요.
@@ -470,13 +470,13 @@ First, I choose the coffee beans I want to use. Then I grind them in my kitchen.
 
 **MP**
 
-- **What:** What I really love about running outdoors is the sense of freedom.
+- **What:** No matter what, I always make sure to go for a run outside regularly.
 - **Feeling:** Honestly, it feels completely refreshing.
 - **Why:** You know, I love the fresh air and the wind.
 
 **본문**
 
-**If I'm honest**, the gym is not really my thing. I would rather exercise outside. I can feel the wind while I am running. I also get to enjoy the fresh morning air. These days, I'm more health-conscious, so I run regularly. So, you know, I get exercise and outdoor time together. Being outside makes the run more enjoyable. Afterward, my mind feels clearer.
+This is crucial because I want to stay healthy and clear my head. **If I'm honest**, the gym is not really my thing. I would rather exercise outside. I can feel the wind while I am running. I also get to enjoy the fresh morning air. So, you know, I get exercise and outdoor time together. Being outside makes the run more enjoyable. Afterward, my mind feels clearer.
 
 **마무리**
 
@@ -484,14 +484,14 @@ First, I choose the coffee beans I want to use. Then I grind them in my kitchen.
 
 **한글 문장**
 
-- 야외 러닝에서 제가 정말 좋아하는 점은 자유로운 느낌이에요.
+- 무슨 일이 있어도 규칙적으로 밖에 나가 달리려고 해요.
 - 솔직히 달리고 나면 완전히 상쾌해져요.
 - 신선한 공기와 바람이 좋거든요.
+- 이 습관은 꼭 필요해요. 건강을 지키고 머릿속을 정리하고 싶기 때문이에요.
 - 솔직히 헬스장은 저와 잘 맞지 않아요.
 - 밖에서 운동하는 편이 좋아요.
 - 달리면서 바람을 느낄 수 있어요.
 - 상쾌한 아침 공기도 즐길 수 있어요.
-- 요즘은 건강을 더 신경 써서 규칙적으로 달려요.
 - 그래서 운동과 야외 시간을 동시에 얻어요.
 - 밖에 있으니 달리기가 더 즐거워요.
 - 달리고 나면 머릿속도 더 맑아져요.
@@ -506,13 +506,13 @@ First, I choose the coffee beans I want to use. Then I grind them in my kitchen.
 
 **MP**
 
-- **What:** Well, I use the internet for financial news.
+- **What:** Every time I go online, I always check to see if there is any new financial news.
 - **Feeling:** So, I find it really interesting.
 - **Why:** You know, I want to learn more about investing.
 
 **본문**
 
-**These days**, I check stock market news online. I also read about money and investing. If I find something new, I look it up. That helps me understand the news better. I mean, there is always more to learn about this topic. I check financial information on a daily basis. What I really find interesting about financial news is that one article often leads to another question. That curiosity keeps me coming back to it.
+This is very important because I want to make smarter financial decisions. **These days**, I check stock market news online. I also read about money and investing. If I find something new, I look it up. That helps me understand the news better. I mean, there is always more to learn about this topic. What I really find interesting about financial news is that one article often leads to another question. That curiosity keeps me coming back to it.
 
 **마무리**
 
@@ -520,15 +520,15 @@ First, I choose the coffee beans I want to use. Then I grind them in my kitchen.
 
 **한글 문장**
 
-- 저는 금융 뉴스를 보려고 인터넷을 써요.
+- 인터넷에 접속할 때마다 새로운 금융 뉴스가 있는지 항상 확인해요.
 - 그래서 이 주제가 정말 흥미로워요.
 - 투자에 대해 더 배우고 싶거든요.
+- 이 습관은 매우 중요해요. 더 현명한 금융 결정을 내리고 싶기 때문이에요.
 - 요즘 온라인으로 주식 시장 소식을 확인해요.
 - 돈과 투자에 관한 글도 읽어요.
 - 새로운 내용을 보면 찾아봐요.
 - 그러면 뉴스를 더 잘 이해할 수 있어요.
 - 이 주제는 늘 더 배울 것이 있거든요.
-- 저는 매일 금융 정보를 확인해요.
 - 금융 뉴스에서 정말 흥미로운 점은 기사 하나가 또 다른 궁금증으로 이어진다는 거예요.
 - 그런 호기심 때문에 계속 금융 뉴스를 찾아보게 돼요.
 - 인터넷 덕분에 계속 배울 수 있어요.
@@ -542,13 +542,13 @@ First, I choose the coffee beans I want to use. Then I grind them in my kitchen.
 
 **MP**
 
-- **What:** Well, I usually make appointments for weekends.
+- **What:** I'll tell you what: whenever I make an appointment, I always make sure to choose a weekend.
 - **Feeling:** So, weekend appointments feel less stressful.
 - **Why:** You know, I'm too busy on weekdays.
 
 **본문**
 
-For example, I sometimes need a car repair appointment. I first check which weekend is free. Then I choose a time that fits my schedule. **The main thing is** finding a time I can actually keep. Of course, something unexpected can still come up. When that happens, I call the shop and change the appointment. I always make sure to let them know as soon as I can. Having a clear plan makes the appointment easier for me.
+This is crucial because I need a time I can actually keep. For example, I sometimes need a car repair appointment. I first check which weekend is free. Then I choose a time that fits my schedule. Of course, something unexpected can still come up. When that happens, I call the shop and change the appointment. I always make sure to let them know as soon as I can. Having a clear plan makes the appointment easier for me.
 
 **마무리**
 
@@ -556,13 +556,13 @@ For example, I sometimes need a car repair appointment. I first check which week
 
 **한글 문장**
 
-- 저는 보통 주말에 약속을 잡아요.
+- 있잖아요, 약속을 잡을 때마다 항상 주말을 고르려고 해요.
 - 그래서 주말 약속이 덜 부담스러워요.
 - 평일에는 너무 바쁘거든요.
+- 이건 꼭 중요해요. 실제로 지킬 수 있는 시간을 잡아야 하기 때문이에요.
 - 예를 들어 자동차 수리 예약이 필요할 때가 있어요.
 - 먼저 어느 주말에 시간이 되는지 확인해요.
 - 그다음 일정에 맞는 시간을 골라요.
-- 중요한 것은 실제로 지킬 수 있는 시간을 찾는 거예요.
 - 물론 예상치 못한 일이 생길 수도 있어요.
 - 그럴 때는 정비소에 전화해서 예약을 바꿔요.
 - 가능한 한 빨리 알리도록 항상 신경 써요.
@@ -578,13 +578,13 @@ For example, I sometimes need a car repair appointment. I first check which week
 
 **MP**
 
-- **What:** Well, my family eats and talks together on Chuseok.
+- **What:** Whenever Chuseok comes around, I always make sure to eat and talk with my family.
 - **Feeling:** So, I feel really happy during the holiday.
 - **Why:** You know, it's a rare chance to be together.
 
 **본문**
 
-I always look forward to the holiday food. My family sits down and eats together. We talk about what has been happening in our lives. Sometimes we stay at the table for a long time. But **the main thing is** spending time together. You know, it is a nice chance for everyone to catch up. I enjoy listening to everyone's stories. Eating and talking together is our favorite holiday ritual.
+I find this very important to me because we do not get together very often. I always look forward to the holiday food. My family sits down and eats together. We talk about what has been happening in our lives. Sometimes we stay at the table for a long time. You know, it is a nice chance for everyone to catch up. I enjoy listening to everyone's stories. Eating and talking together is our favorite holiday ritual.
 
 **마무리**
 
@@ -592,14 +592,14 @@ I always look forward to the holiday food. My family sits down and eats together
 
 **한글 문장**
 
-- 추석에는 가족과 함께 먹고 이야기해요.
+- 추석이 돌아올 때마다 가족과 함께 먹고 이야기하려고 해요.
 - 그래서 명절에 정말 행복해요.
 - 다 같이 모일 수 있는 흔치 않은 기회거든요.
+- 이건 저에게 매우 중요해요. 가족이 자주 모이지 못하기 때문이에요.
 - 명절 음식이 늘 기대돼요.
 - 가족이 둘러앉아 함께 식사해요.
 - 서로 어떻게 지냈는지 이야기해요.
 - 가끔은 식탁에 오래 앉아 있기도 해요.
-- 하지만 가장 중요한 건 함께 시간을 보내는 거예요.
 - 모두의 근황을 나누기 좋은 기회예요.
 - 가족들의 이야기를 듣는 게 좋아요.
 - 함께 먹고 이야기하는 것은 우리가 가장 좋아하는 명절 습관이에요.
@@ -614,13 +614,13 @@ I always look forward to the holiday food. My family sits down and eats together
 
 **MP**
 
-- **What:** Well, I do most of my banking on my phone.
+- **What:** Every time I need to do some banking, I always make sure to use my phone first.
 - **Feeling:** So, banking feels much easier now.
 - **Why:** You know, I can send money in seconds.
 
 **본문**
 
-**These days**, I rarely visit a bank branch. I usually open the banking app on my phone. Then I check my account or send money. The app works seamlessly, so the whole process takes only a few seconds. **The main thing is**, I do not need to make a separate trip. You know, I can handle it wherever I am. That saves me time during a busy day. I like being able to finish a simple task right away.
+This is very important because it saves me a separate trip to the bank. **These days**, I rarely visit a bank branch. I usually open the banking app on my phone. Then I check my account or send money. The app works seamlessly, so the whole process takes only a few seconds. You know, I can handle it wherever I am. That saves me time during a busy day. I like being able to finish a simple task right away.
 
 **마무리**
 
@@ -628,14 +628,14 @@ I always look forward to the holiday food. My family sits down and eats together
 
 **한글 문장**
 
-- 저는 은행 업무를 대부분 휴대폰으로 해요.
+- 은행 업무가 필요할 때마다 항상 휴대폰부터 사용해요.
 - 그래서 이제 은행 업무가 훨씬 쉬워졌어요.
 - 몇 초 만에 송금할 수 있거든요.
+- 이건 매우 중요해요. 은행에 따로 갈 필요가 없기 때문이에요.
 - 요즘은 은행 지점에 거의 가지 않아요.
 - 보통 휴대폰에서 은행 앱을 열어요.
 - 그런 다음 계좌를 확인하거나 돈을 보내요.
 - 앱이 매끄럽게 작동해서 전체 과정이 몇 초밖에 걸리지 않아요.
-- 무엇보다 은행에 따로 갈 필요가 없어요.
 - 어디에 있든 처리할 수 있거든요.
 - 바쁜 날에는 시간을 아낄 수 있어요.
 - 간단한 일을 바로 끝낼 수 있는 게 좋아요.
@@ -650,13 +650,13 @@ I always look forward to the holiday food. My family sits down and eats together
 
 **MP**
 
-- **What:** Well, I check bus times on my phone.
+- **What:** Every time I take the bus, I always check to see if it is arriving soon.
 - **Feeling:** So, I feel much more at ease.
 - **Why:** You know, the app shows the bus in real time.
 
 **본문**
 
-Before leaving, I open the bus app on my phone. It shows me where the bus is. It also tells me when the bus will arrive. So I know when to walk to the bus stop. **Put simply**, I do not have to guess anymore. You know, that makes waiting much easier. I can check the information before I step outside. I guess you can say real-time bus information is a game changer for me.
+This is crucial because I do not want to waste time waiting at the bus stop. Before leaving, I open the bus app on my phone. It shows me where the bus is. It also tells me when the bus will arrive. So I know when to walk to the bus stop. **Put simply**, I do not have to guess anymore. I can check the information before I step outside. I guess you can say real-time bus information is a game changer for me.
 
 **마무리**
 
@@ -664,15 +664,15 @@ Before leaving, I open the bus app on my phone. It shows me where the bus is. It
 
 **한글 문장**
 
-- 저는 휴대폰으로 버스 시간을 확인해요.
+- 버스를 탈 때마다 곧 도착하는지 항상 확인해요.
 - 그래서 마음이 훨씬 놓여요.
 - 앱이 버스 위치를 실시간으로 보여 주거든요.
+- 이건 꼭 중요해요. 정류장에서 기다리며 시간을 낭비하고 싶지 않기 때문이에요.
 - 나가기 전에 휴대폰으로 버스 앱을 열어요.
 - 버스가 어디에 있는지 보여 줘요.
 - 버스가 언제 도착하는지도 알려 줘요.
 - 그래서 언제 정류장으로 걸어갈지 알 수 있어요.
 - 한마디로 더는 추측하지 않아도 돼요.
-- 그래서 기다리기가 훨씬 쉬워져요.
 - 밖에 나가기 전에 정보를 확인할 수 있어요.
 - 실시간 버스 정보가 저에게 큰 변화를 가져온 기능이라고 할 수 있어요.
 - 이 앱 덕분에 버스 타기가 더 쉬워요.
