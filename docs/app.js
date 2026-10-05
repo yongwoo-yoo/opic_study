@@ -1,6 +1,7 @@
 const SRS_KEY = 'opic_srs';
 const CUSTOM_CARDS_KEY = 'opic_custom_cards';
 const COURSE_START_KEY = 'opic_course_start';
+const SELECTED_STUDY_DAY_KEY = 'opic_selected_study_day';
 const BATCH_SIZE = 20;
 const REVIEW_DAYS = [1, 3, 5, 7, 14, 30];
 let lessonCards = [];
@@ -17,14 +18,8 @@ function localDateKey(date = new Date()) {
 }
 
 function courseDayNumber() {
-  let start = localStorage.getItem(COURSE_START_KEY);
-  if (!/^\d{4}-\d{2}-\d{2}$/.test(start || '')) {
-    start = localDateKey();
-    localStorage.setItem(COURSE_START_KEY, start);
-  }
-  const today = new Date(`${localDateKey()}T00:00:00`);
-  const first = new Date(`${start}T00:00:00`);
-  return Math.max(1, Math.floor((today - first) / 86400000) + 1);
+  const selected = Number(localStorage.getItem(SELECTED_STUDY_DAY_KEY));
+  return Number.isInteger(selected) && selected > 0 ? selected : 1;
 }
 
 function calendarDayDifference(later, earlier) {
@@ -57,21 +52,6 @@ function loadReviewLog() {
 }
 
 function recordStudy(id, rating, due, label = '') {
-  const cardIndex = lessonCards.findIndex(card => card.id === id);
-  if (cardIndex >= 0) {
-    const batch = Math.floor(cardIndex / BATCH_SIZE) + 1;
-    const learnedDate = loadLearnedBatches()[batch];
-    if (learnedDate) {
-      const elapsed = calendarDayDifference(localDateKey(), learnedDate);
-      const nextOffset = REVIEW_DAYS.find(offset => offset > elapsed);
-      if (nextOffset) {
-        const planned = new Date(`${learnedDate}T00:00:00`);
-        planned.setDate(planned.getDate() + nextOffset);
-        const plannedAt = planned.getTime();
-        due = due ? Math.min(due, plannedAt) : plannedAt;
-      }
-    }
-  }
   const log = loadReviewLog();
   log.push({ id, at: Date.now(), rating, due, label });
   localStorage.setItem('opic_review_log', JSON.stringify(log.slice(-3000)));
@@ -277,62 +257,54 @@ async function renderHome() {
 
   const srs = loadSRS();
   const customCards = loadCustomCards();
-  let dueCount = customCards.filter(card => isDue(srs, card.id)).length;
+  let dueCount = 0;
 
   lessonCards = [];
 
   for (const lesson of [...index.lessons].sort((a, b) => a.date.localeCompare(b.date) || a.file.localeCompare(b.file))) {
     const data = await fetch(`data/lessons/${lesson.file}`).then(r => r.json());
     lessonCards.push(...data.cards.map(card => ({ ...card, topic: data.title })));
-    for (const card of data.cards) {
-      if (isDue(srs, card.id)) dueCount++;
-    }
   }
 
   const batches = getCourseBatches();
-  const day = courseDayNumber();
-  const learnedBatches = loadLearnedBatches();
-  const nextBatchIndex = batches.findIndex((_, i) => !learnedBatches[i + 1]);
-  const todaysBatch = nextBatchIndex < 0 ? [] : batches[nextBatchIndex];
-  const studiedNewToday = localStorage.getItem('opic_last_batch_date') === localDateKey();
-  const scheduledBatchIndices = Object.entries(learnedBatches)
-    .filter(([, learnedDate]) => REVIEW_DAYS.includes(calendarDayDifference(localDateKey(), learnedDate)))
-    .map(([batch]) => Number(batch) - 1);
+  const dayPicker = document.getElementById('course-day-picker');
+  const maxCourseDay = batches.length + Math.max(...REVIEW_DAYS);
+  dayPicker.innerHTML = Array.from({ length: maxCourseDay }, (_, i) => `<option value="${i + 1}">Day ${i + 1}</option>`).join('');
+  const day = Math.min(maxCourseDay || 1, courseDayNumber());
+  dayPicker.value = String(day);
+  localStorage.setItem(SELECTED_STUDY_DAY_KEY, String(day));
+  dayPicker.onchange = () => {
+    localStorage.setItem(SELECTED_STUDY_DAY_KEY, dayPicker.value);
+    renderHome();
+  };
+  const batchIndex = day - 1;
+  const todaysBatch = batches[batchIndex] || [];
+  const scheduledBatchIndices = REVIEW_DAYS
+    .map(offset => day - offset - 1)
+    .filter(i => i >= 0 && batches[i]);
   const scheduledCards = scheduledBatchIndices.flatMap(i => batches[i] || []);
   scheduledReviewCards = scheduledCards;
   const dueCardIds = new Set(scheduledCards.map(card => card.id));
   customCards.filter(card => isDue(srs, card.id)).forEach(card => dueCardIds.add(card.id));
-  lessonCards.filter(card => isDue(srs, card.id)).forEach(card => dueCardIds.add(card.id));
   dueCount = dueCardIds.size;
   document.getElementById('due-count').textContent = dueCount;
   document.getElementById('study-btn').textContent = dueCount ? '예정 복습 시작' : '예정 복습 없음';
   document.getElementById('study-btn').disabled = dueCount === 0;
   document.getElementById('study-btn').onclick = () => startReview(null);
   const batchButton = document.getElementById('batch-study-btn');
-  batchButton.disabled = todaysBatch.length === 0 || studiedNewToday;
-  batchButton.textContent = studiedNewToday
-    ? '오늘 새 카드 학습을 마쳤어요'
-    : todaysBatch.length ? `Day ${nextBatchIndex + 1} 새 카드 ${todaysBatch.length}장 학습` : '새 카드 과정을 마쳤어요';
-  batchButton.onclick = () => startBatchReview(todaysBatch, nextBatchIndex + 1, day);
+  batchButton.disabled = todaysBatch.length === 0;
+  batchButton.textContent = todaysBatch.length ? `Day ${day} 새 카드 ${todaysBatch.length}장 학습` : '이 일차에는 새 카드가 없어요';
+  batchButton.onclick = () => startBatchReview(todaysBatch, day);
+  document.getElementById('day-review-btn').textContent = scheduledCards.length
+    ? `Day ${day} 복습 ${scheduledCards.length}장 시작` : `Day ${day} 복습 카드 없음`;
+  document.getElementById('day-review-btn').disabled = scheduledCards.length === 0;
+  document.getElementById('day-review-btn').onclick = () => startBatchReview(scheduledCards, day, true);
   const dueBatchNames = scheduledBatchIndices.map(i => `Day ${i + 1}`).join(', ');
-  document.getElementById('course-day').textContent = `학습 ${day}일차 · 시작일 ${localStorage.getItem(COURSE_START_KEY)} · 전체 ${lessonCards.length}장 / 하루 ${BATCH_SIZE}장`;
+  document.getElementById('course-day').textContent = `Day ${day} · 새 카드 ${todaysBatch.length}장${dueBatchNames ? ` · 복습: ${dueBatchNames}` : ' · 복습 카드 없음'} · 새 카드 과정 ${batches.length}일 / 전체 ${lessonCards.length}장`;
   renderStudyHistory();
-  document.getElementById('export-study-data').onclick = exportStudyData;
-  document.getElementById('import-study-data').onchange = async event => {
-    const status = document.getElementById('sync-status');
-    try {
-      if (!event.target.files[0]) return;
-      await importStudyData(event.target.files[0]);
-      status.textContent = '진도와 시작일을 가져왔어요. 이 기기도 같은 일정으로 맞춰졌습니다.';
-      await renderHome();
-    } catch (error) {
-      status.textContent = error.message || '파일을 읽지 못했습니다.';
-    }
-    event.target.value = '';
-  };
   document.getElementById('answer-study-btn').onclick = renderAnswerList;
   const answers = await loadPersonalAnswers();
-  document.getElementById('memory-today').textContent = `오늘 예정 복습 ${dueCount}장${dueBatchNames ? ` · 학습 묶음 ${dueBatchNames}` : ''} · 답변 ${answers.filter(a => isDue(srs, 'answer:' + a.id)).length}개. 새 카드와 복습을 따로 연습하세요.`;
+  document.getElementById('memory-today').textContent = `Day ${day} 고정 복습 ${scheduledCards.length}장${dueBatchNames ? ` · 복습 일차 ${dueBatchNames}` : ''} · 내 답변 복습 ${answers.filter(a => isDue(srs, 'answer:' + a.id)).length}개. 새 카드와 복습을 따로 연습하세요.`;
   document.getElementById('custom-card-form').onsubmit = async event => {
     event.preventDefault();
     const form = event.currentTarget;
@@ -728,9 +700,9 @@ async function startReview(file) {
   activeBatch = null;
   activeCourseDay = null;
   const mode = file ? 'all' : document.getElementById('review-mode').value;
-  const matches = card => mode === 'all' || (mode === 'weak'
-    ? getCardState(srs, card.id).history.length > 0 && !getCardState(srs, card.id).mastered && getCardState(srs, card.id).streak === 0
-    : isDue(srs, card.id));
+  const matches = card => mode === 'all' || (mode === 'due'
+    ? isDue(srs, card.id)
+    : mode === 'weak' && getCardState(srs, card.id).history.length > 0 && !getCardState(srs, card.id).mastered && getCardState(srs, card.id).streak === 0);
   let cards = [];
 
   if (file) {
@@ -743,7 +715,7 @@ async function startReview(file) {
     }
     for (const lesson of index.lessons) {
       const data = await fetch(`data/lessons/${lesson.file}`).then(r => r.json());
-      cards.push(...data.cards.filter(matches).map(c => ({ ...c, topic: data.title })));
+      if (mode !== 'due') cards.push(...data.cards.filter(matches).map(c => ({ ...c, topic: data.title })));
     }
   }
 
@@ -770,10 +742,10 @@ async function startReview(file) {
   renderCard();
 }
 
-function startBatchReview(cards, batchIndex, day) {
-  activeBatch = `Day ${batchIndex} 새 카드`;
-  activeCourseDay = day;
-  activeBatchIndex = batchIndex;
+function startBatchReview(cards, day, isScheduledReview = false) {
+  activeBatch = isScheduledReview ? `Day ${day} 복습` : `Day ${day} 새 카드`;
+  activeCourseDay = null;
+  activeBatchIndex = null;
   reviewQueue = [...cards];
   reviewIdx = 0;
   setView('flashcard-view', activeBatch, true);
@@ -787,14 +759,6 @@ function renderCard() {
 
   if (reviewIdx >= reviewQueue.length) {
     const completedBatch = activeBatch;
-    if (completedBatch && activeCourseDay && activeBatchIndex) {
-      const learned = loadLearnedBatches();
-      learned[activeBatchIndex] = localDateKey();
-      localStorage.setItem('opic_learned_batches', JSON.stringify(learned));
-      localStorage.setItem('opic_last_batch_date', localDateKey());
-      activeCourseDay = null;
-      activeBatchIndex = null;
-    }
     activeBatch = null;
     container.innerHTML = `
       <div class="done-msg">

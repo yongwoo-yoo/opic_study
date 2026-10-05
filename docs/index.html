@@ -9,7 +9,7 @@
   <meta name="apple-mobile-web-app-title" content="OPIC 스터디">
   <title>OPIC 스터디</title>
   <link rel="manifest" href="manifest.json">
-  <link rel="stylesheet" href="style.css?v=23">
+  <link rel="stylesheet" href="style.css?v=24">
 </head>
 <body>
   <div id="app">
@@ -22,15 +22,19 @@
         <div class="due-banner">
           <div>
             <div class="count" id="due-count">…</div>
-            <div class="label">복습 예정 카드</div>
+            <div class="label">선택 일차 복습 카드</div>
           </div>
           <button class="study-btn" id="study-btn">복습 시작</button>
         </div>
         <section class="study-calendar">
-          <h2>20장씩 새로 학습</h2>
+          <h2>고정 일차 학습표</h2>
+          <label class="memory-context">학습할 일차
+            <select id="course-day-picker" aria-label="학습할 일차"></select>
+          </label>
           <p id="course-day" class="memory-context"></p>
           <button id="batch-study-btn" class="note-study-btn">오늘 새 카드 학습</button>
-          <p class="memory-context">새 카드는 하루 20장씩. 학습한 묶음은 1·3·5·7·14·30일 뒤 다시 복습해요. 예를 들어 10일차에는 3일차와 5일차 묶음이 포함돼요.</p>
+          <button id="day-review-btn" class="note-study-btn">이 일차의 복습 시작</button>
+          <p class="memory-context">날짜나 기기별 기록에 따라 진도가 바뀌지 않아요. 내가 끝낸 일차를 골라 이어서 공부하세요. 새 카드는 일차별 20장, 복습은 배운 일차 기준 1·3·5·7·14·30일 간격이에요. 예: Day 10에는 Day 9·7·5·3 복습이 있어요.</p>
         </section>
         <p id="memory-today" class="memory-context" aria-live="polite"></p>
         <label class="memory-context">복습 선택
@@ -54,13 +58,6 @@
         <details class="memory-panel">
           <summary>학습 기록 · 다음 복습일</summary>
           <ul id="today-study-list" class="today-study-list"><li>불러오는 중…</li></ul>
-        </details>
-        <details class="memory-panel">
-          <summary>폰과 PC의 진도 맞추기</summary>
-          <p class="memory-context">이 사이트는 로그인 없이 기기 안에 진도를 저장해요. 한 기기에서 파일로 내보낸 뒤 다른 기기에서 가져오면 같은 일정으로 맞출 수 있어요.</p>
-          <button id="export-study-data" class="reveal-button">진도 파일 내보내기</button>
-          <label class="memory-context">다른 기기의 진도 파일 가져오기<input type="file" id="import-study-data" accept="application/json,.json"></label>
-          <p id="sync-status" class="memory-context" aria-live="polite"></p>
         </details>
         <button class="answer-study-entry" id="answer-study-btn">
           <span class="answer-entry-icon">🎙️</span>
@@ -132,6 +129,6 @@
       <div class="answer-detail-section" id="answer-detail"></div>
     </div>
   </div>
-  <script src="app.js?v=23"></script>
+  <script src="app.js?v=24"></script>
 </body>
 </html>
