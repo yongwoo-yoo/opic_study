@@ -40,11 +40,11 @@ MP는 **What → Feeling → Why** 순서로 연습합니다. 아래 **MP 세 �
 
 - **What:** Well, my favorite room is the kitchen.
 - **Feeling:** I feel so relaxed there; I mean, that room makes me happy.
-- **Why:** You know, I make coffee and tea there.
+- **Why:** You know, I make coffee there.
 
 **본문**
 
-I'm **such a coffee person**, so I spend a lot of time there. I usually grind my own beans first. Then I slowly make a fresh cup of coffee. Sometimes I make tea instead, you know. The smell of coffee fills the kitchen. **Whenever** that happens, I feel completely at home. Making coffee has become a relaxing ritual for me. I guess you can say making it myself turns an ordinary cup into something special.
+I'm **such a coffee person**, so I spend a lot of time there. I usually grind my own beans first. Then I slowly make a fresh cup of coffee. The smell of coffee fills the kitchen. **Whenever** that happens, I feel completely at home. Making coffee has become a relaxing ritual for me. I guess you can say making it myself turns an ordinary cup into something special.
 
 **마무리**
 
@@ -54,11 +54,10 @@ I'm **such a coffee person**, so I spend a lot of time there. I usually grind my
 
 - 제가 가장 좋아하는 방은 부엌이에요.
 - 그곳에서는 정말 편안하고요, 그러니까 그 방에 있으면 행복해져요.
-- 거기에서 커피와 차를 만들거든요.
+- 거기에서 커피를 만들거든요.
 - 저는 커피를 정말 좋아해서 부엌에서 많은 시간을 보내요.
 - 보통 먼저 원두를 직접 갈아요.
 - 그런 다음 천천히 신선한 커피를 한 잔 만들어요.
-- 가끔은 대신 차를 만들기도 해요.
 - 커피 향이 부엌을 가득 채워요.
 - 그럴 때마다 집에 있다는 느낌이 확 들어요.
 - 커피를 만드는 일은 저에게 편안한 의식 같은 습관이 되었어요.

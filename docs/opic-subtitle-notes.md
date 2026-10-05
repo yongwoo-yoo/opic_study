@@ -44,7 +44,7 @@ E11의 직접화법은 기억에 맞는 생각을 짧게 표현하는 장치입�
 
 | 전략 | 확인 구간 | 적용 방식 |
 |---|---|---|
-| 묘사는 한 가지 핵심에 집중하고 그 느낌을 설명 | [04번 02:27~03:07](https://www.youtube.com/watch?v=1HN93-WqAds&t=147s) | D01은 부엌의 커피·차, D04는 친구의 꾸준함에 집중 |
+| 묘사는 한 가지 핵심에 집중하고 그 느낌을 설명 | [04번 02:27~03:07](https://www.youtube.com/watch?v=1HN93-WqAds&t=147s) | D01은 부엌에서 커피를 만드는 경험, D04는 친구의 꾸준함에 집중 |
 | 과거 경험 MP에서 왜 그런 감정인지 초반에 설명 | [19번 02:45~03:53](https://www.youtube.com/watch?v=3eSHVbGMfSQ&t=165s) | P01에서 해외 구매라 수리가 어려울 것 같았다는 이유를 MP에 배치 |
 | Habit은 행동 중심의 간단한 MP도 가능 | [20번 01:52~02:58](https://www.youtube.com/watch?v=RdN-vwCsxIA&t=112s) | 강의와 별개로 이번 자료는 사용자 요청에 따라 What → Why → Feeling으로 통일 |
 | Habit의 Quick Comparison은 짧은 과거·현재 비교 | [20번 06:02~07:54](https://www.youtube.com/watch?v=RdN-vwCsxIA&t=362s) | H01에 필요할 때 C03의 과거·현재를 1~2문장만 덧붙이기 |
