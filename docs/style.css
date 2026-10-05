@@ -21,6 +21,11 @@
 .memory-panel h3 { margin-bottom: 10px; font-size: 1rem; }
 .memory-context textarea { width: 100%; padding: 12px; border: 1px solid var(--border); border-radius: 8px; font: inherit; resize: vertical; }
 .rating-btns button:disabled { opacity: 0.5; cursor: default; }
+.study-calendar, .memory-panel { display: block; padding: 16px; margin: 14px 0; border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface); }
+.study-calendar h2 { margin-bottom: 10px; font-size: 1rem; }
+.today-study-list { list-style: none; display: flex; flex-direction: column; gap: 8px; margin-top: 12px; }
+.today-study-list li:not(.empty) { display: flex; flex-direction: column; gap: 3px; padding: 10px; border-radius: 8px; background: var(--bg); font-size: 0.83rem; }
+.today-study-list span { color: var(--text-muted); }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
 

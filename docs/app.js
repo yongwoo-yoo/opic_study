@@ -1,5 +1,162 @@
 const SRS_KEY = 'opic_srs';
 const CUSTOM_CARDS_KEY = 'opic_custom_cards';
+const COURSE_START_KEY = 'opic_course_start';
+const BATCH_SIZE = 20;
+const REVIEW_DAYS = [1, 3, 5, 7, 14, 30];
+let lessonCards = [];
+let activeBatch = null;
+let activeCourseDay = null;
+let activeBatchIndex = null;
+let scheduledReviewCards = [];
+
+function localDateKey(date = new Date()) {
+  const year = date.getFullYear();
+  const month = String(date.getMonth() + 1).padStart(2, '0');
+  const day = String(date.getDate()).padStart(2, '0');
+  return `${year}-${month}-${day}`;
+}
+
+function courseDayNumber() {
+  let start = localStorage.getItem(COURSE_START_KEY);
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(start || '')) {
+    start = localDateKey();
+    localStorage.setItem(COURSE_START_KEY, start);
+  }
+  const today = new Date(`${localDateKey()}T00:00:00`);
+  const first = new Date(`${start}T00:00:00`);
+  return Math.max(1, Math.floor((today - first) / 86400000) + 1);
+}
+
+function calendarDayDifference(later, earlier) {
+  const a = new Date(`${later}T00:00:00`);
+  const b = new Date(`${earlier}T00:00:00`);
+  return Math.floor((a - b) / 86400000);
+}
+
+function loadLearnedBatches() {
+  try {
+    const value = JSON.parse(localStorage.getItem('opic_learned_batches') || '{}');
+    return value && typeof value === 'object' && !Array.isArray(value) ? value : {};
+  } catch { return {}; }
+}
+
+function getCourseBatches() {
+  const cards = [...lessonCards];
+  const batches = [];
+  for (let i = 0; i < cards.length; i += BATCH_SIZE) {
+    batches.push(cards.slice(i, i + BATCH_SIZE));
+  }
+  return batches;
+}
+
+function loadReviewLog() {
+  try {
+    const log = JSON.parse(localStorage.getItem('opic_review_log') || '[]');
+    return Array.isArray(log) ? log : [];
+  } catch { return []; }
+}
+
+function recordStudy(id, rating, due, label = '') {
+  const cardIndex = lessonCards.findIndex(card => card.id === id);
+  if (cardIndex >= 0) {
+    const batch = Math.floor(cardIndex / BATCH_SIZE) + 1;
+    const learnedDate = loadLearnedBatches()[batch];
+    if (learnedDate) {
+      const elapsed = calendarDayDifference(localDateKey(), learnedDate);
+      const nextOffset = REVIEW_DAYS.find(offset => offset > elapsed);
+      if (nextOffset) {
+        const planned = new Date(`${learnedDate}T00:00:00`);
+        planned.setDate(planned.getDate() + nextOffset);
+        const plannedAt = planned.getTime();
+        due = due ? Math.min(due, plannedAt) : plannedAt;
+      }
+    }
+  }
+  const log = loadReviewLog();
+  log.push({ id, at: Date.now(), rating, due, label });
+  localStorage.setItem('opic_review_log', JSON.stringify(log.slice(-3000)));
+}
+
+function renderStudyHistory() {
+  const grouped = new Map();
+  for (const item of loadReviewLog()) {
+    const date = localDateKey(new Date(item.at));
+    if (!grouped.has(date)) grouped.set(date, []);
+    grouped.get(date).push(item);
+  }
+  const list = document.getElementById('today-study-list');
+  const dates = [...grouped.keys()].sort((a, b) => b.localeCompare(a)).slice(0, 14);
+  list.innerHTML = dates.length ? dates.map(date => {
+    const latest = new Map();
+    grouped.get(date).forEach(item => {
+      const old = latest.get(item.id);
+      if (!old || old.at < item.at) latest.set(item.id, item);
+    });
+    return '<li class="study-day"><strong>' + date + ' · ' + latest.size + '개 학습</strong><ul>' + [...latest.values()].sort((a, b) => b.at - a.at).map(item =>
+      '<li><span>' + escapeHTML(item.label || item.id) + ' · ' + ['못 떠올림', '힌트 필요', '혼자 떠올림'][item.rating] + ' · 다음 ' + (item.due ? new Date(item.due).toLocaleDateString('ko-KR', { month: 'numeric', day: 'numeric' }) : '암기 완료') + '</span></li>'
+    ).join('') + '</ul></li>';
+  }).join('') : '<li class="empty"><p>아직 학습 기록이 없어요.</p></li>';
+}
+
+function exportStudyData() {
+  const payload = {
+    version: 1,
+    exportedAt: Date.now(),
+    courseStart: localStorage.getItem(COURSE_START_KEY),
+    learnedBatches: loadLearnedBatches(),
+    lastBatchDate: localStorage.getItem('opic_last_batch_date'),
+    srs: loadSRS(),
+    customCards: loadCustomCards(),
+    answerProgress: loadAnswerProgress(),
+    reviewLog: loadReviewLog()
+  };
+  const url = URL.createObjectURL(new Blob([JSON.stringify(payload, null, 2)], { type: 'application/json' }));
+  const link = document.createElement('a');
+  link.href = url;
+  link.download = 'opic-study-' + localDateKey() + '.json';
+  link.click();
+  URL.revokeObjectURL(url);
+}
+
+async function importStudyData(file) {
+  const payload = JSON.parse(await file.text());
+  if (payload.version !== 1 || !payload.srs || !Array.isArray(payload.customCards)) throw new Error('OPIC 학습 백업 파일 형식이 맞지 않습니다.');
+  const current = loadSRS();
+  for (const [id, incoming] of Object.entries(payload.srs)) {
+    const local = getCardState(current, id);
+    const history = [...local.history, ...(Array.isArray(incoming.history) ? incoming.history : [])]
+      .filter(item => Number.isFinite(item.at) && Number.isInteger(item.rating))
+      .sort((a, b) => a.at - b.at)
+      .filter((item, i, all) => i === 0 || item.at !== all[i - 1].at)
+      .slice(-50);
+    const incomingAt = incoming.history?.at(-1)?.at || 0;
+    const localAt = local.history.at(-1)?.at || 0;
+    current[id] = { ...(incomingAt > localAt ? incoming : local), history };
+  }
+  saveSRS(current);
+  const cards = new Map([...loadCustomCards(), ...payload.customCards]
+    .filter(card => card && typeof card.id === 'string' && typeof card.front === 'string' && typeof card.back === 'string')
+    .map(card => [card.id, card]));
+  localStorage.setItem(CUSTOM_CARDS_KEY, JSON.stringify([...cards.values()]));
+  localStorage.setItem(ANSWER_PROGRESS_KEY, JSON.stringify({ ...loadAnswerProgress(), ...(payload.answerProgress || {}) }));
+  const logs = [...loadReviewLog(), ...(Array.isArray(payload.reviewLog) ? payload.reviewLog : [])].sort((a, b) => a.at - b.at).slice(-3000);
+  localStorage.setItem('opic_review_log', JSON.stringify(logs));
+  const currentStart = localStorage.getItem(COURSE_START_KEY);
+  if (/^\d{4}-\d{2}-\d{2}$/.test(payload.courseStart || '')) {
+    localStorage.setItem(COURSE_START_KEY, !currentStart || payload.courseStart < currentStart ? payload.courseStart : currentStart);
+  }
+  if (payload.learnedBatches && typeof payload.learnedBatches === 'object') {
+    const learned = loadLearnedBatches();
+    for (const [batch, date] of Object.entries(payload.learnedBatches)) {
+      if (/^\d{4}-\d{2}-\d{2}$/.test(date) && (!learned[batch] || date < learned[batch])) learned[batch] = date;
+    }
+    localStorage.setItem('opic_learned_batches', JSON.stringify(learned));
+  }
+  const currentBatchDate = localStorage.getItem('opic_last_batch_date');
+  if (/^\d{4}-\d{2}-\d{2}$/.test(payload.lastBatchDate || '') && (!currentBatchDate || payload.lastBatchDate > currentBatchDate)) {
+    localStorage.setItem('opic_last_batch_date', payload.lastBatchDate);
+  }
+}
 
 function loadCustomCards() {
   try {
@@ -39,7 +196,7 @@ function rateCard(srs, id, rating) {
   // rating: 0=몰랐음, 1=애매함, 2=알았음
   const s = getCardState(srs, id);
   const day = 86400000;
-  const steps = [1, 3, 7, 14, 30];
+  const steps = REVIEW_DAYS;
   const now = Date.now();
   const last = s.history[s.history.length - 1];
   const spaced = !last || (now >= s.due && new Date(last.at).toDateString() !== new Date(now).toDateString());
@@ -64,7 +221,7 @@ function rateCard(srs, id, rating) {
 
 function isDue(srs, id) {
   const s = srs[id];
-  if (!s) return true;
+  if (!s || !s.history?.length) return false;
   return !s.mastered && (s.due || 0) <= Date.now();
 }
 
@@ -119,20 +276,63 @@ async function renderHome() {
   }
 
   const srs = loadSRS();
-  let dueCount = loadCustomCards().filter(card => isDue(srs, card.id)).length;
+  const customCards = loadCustomCards();
+  let dueCount = customCards.filter(card => isDue(srs, card.id)).length;
 
-  for (const lesson of index.lessons) {
+  lessonCards = [];
+
+  for (const lesson of [...index.lessons].sort((a, b) => a.date.localeCompare(b.date) || a.file.localeCompare(b.file))) {
     const data = await fetch(`data/lessons/${lesson.file}`).then(r => r.json());
+    lessonCards.push(...data.cards.map(card => ({ ...card, topic: data.title })));
     for (const card of data.cards) {
       if (isDue(srs, card.id)) dueCount++;
     }
   }
 
+  const batches = getCourseBatches();
+  const day = courseDayNumber();
+  const learnedBatches = loadLearnedBatches();
+  const nextBatchIndex = batches.findIndex((_, i) => !learnedBatches[i + 1]);
+  const todaysBatch = nextBatchIndex < 0 ? [] : batches[nextBatchIndex];
+  const studiedNewToday = localStorage.getItem('opic_last_batch_date') === localDateKey();
+  const scheduledBatchIndices = Object.entries(learnedBatches)
+    .filter(([, learnedDate]) => REVIEW_DAYS.includes(calendarDayDifference(localDateKey(), learnedDate)))
+    .map(([batch]) => Number(batch) - 1);
+  const scheduledCards = scheduledBatchIndices.flatMap(i => batches[i] || []);
+  scheduledReviewCards = scheduledCards;
+  const dueCardIds = new Set(scheduledCards.map(card => card.id));
+  customCards.filter(card => isDue(srs, card.id)).forEach(card => dueCardIds.add(card.id));
+  lessonCards.filter(card => isDue(srs, card.id)).forEach(card => dueCardIds.add(card.id));
+  dueCount = dueCardIds.size;
   document.getElementById('due-count').textContent = dueCount;
+  document.getElementById('study-btn').textContent = dueCount ? '예정 복습 시작' : '예정 복습 없음';
+  document.getElementById('study-btn').disabled = dueCount === 0;
   document.getElementById('study-btn').onclick = () => startReview(null);
+  const batchButton = document.getElementById('batch-study-btn');
+  batchButton.disabled = todaysBatch.length === 0 || studiedNewToday;
+  batchButton.textContent = studiedNewToday
+    ? '오늘 새 카드 학습을 마쳤어요'
+    : todaysBatch.length ? `Day ${nextBatchIndex + 1} 새 카드 ${todaysBatch.length}장 학습` : '새 카드 과정을 마쳤어요';
+  batchButton.onclick = () => startBatchReview(todaysBatch, nextBatchIndex + 1, day);
+  const dueBatchNames = scheduledBatchIndices.map(i => `Day ${i + 1}`).join(', ');
+  document.getElementById('course-day').textContent = `학습 ${day}일차 · 시작일 ${localStorage.getItem(COURSE_START_KEY)} · 전체 ${lessonCards.length}장 / 하루 ${BATCH_SIZE}장`;
+  renderStudyHistory();
+  document.getElementById('export-study-data').onclick = exportStudyData;
+  document.getElementById('import-study-data').onchange = async event => {
+    const status = document.getElementById('sync-status');
+    try {
+      if (!event.target.files[0]) return;
+      await importStudyData(event.target.files[0]);
+      status.textContent = '진도와 시작일을 가져왔어요. 이 기기도 같은 일정으로 맞춰졌습니다.';
+      await renderHome();
+    } catch (error) {
+      status.textContent = error.message || '파일을 읽지 못했습니다.';
+    }
+    event.target.value = '';
+  };
   document.getElementById('answer-study-btn').onclick = renderAnswerList;
   const answers = await loadPersonalAnswers();
-  document.getElementById('memory-today').textContent = `오늘 떠올릴 답변 ${answers.filter(a => isDue(srs, 'answer:' + a.id)).length}개 · 카드 ${dueCount}개. 하루 10장씩 나눠 연습하세요.`;
+  document.getElementById('memory-today').textContent = `오늘 예정 복습 ${dueCount}장${dueBatchNames ? ` · 학습 묶음 ${dueBatchNames}` : ''} · 답변 ${answers.filter(a => isDue(srs, 'answer:' + a.id)).length}개. 새 카드와 복습을 따로 연습하세요.`;
   document.getElementById('custom-card-form').onsubmit = async event => {
     event.preventDefault();
     const form = event.currentTarget;
@@ -437,7 +637,11 @@ function renderAnswerDetail(id) {
   document.getElementById('answer-memory-rating').onclick = event => {
     const button = event.target.closest('[data-rating]');
     if (!button) return;
-    rateCard(loadSRS(), 'answer:' + id, Number(button.dataset.rating));
+    const memoryId = 'answer:' + id;
+    const saved = loadSRS();
+    const rating = Number(button.dataset.rating);
+    rateCard(saved, memoryId, rating);
+    recordStudy(memoryId, rating, saved[memoryId]?.mastered ? null : saved[memoryId]?.due, answer.title);
     document.getElementById('answer-memory-status').textContent = memoryStatus('answer:' + id);
     document.querySelectorAll('#answer-memory-rating button').forEach(item => { item.disabled = true; });
   };
@@ -521,6 +725,8 @@ async function startReview(file) {
   document.getElementById('back-btn').onclick = renderHome;
 
   const srs = loadSRS();
+  activeBatch = null;
+  activeCourseDay = null;
   const mode = file ? 'all' : document.getElementById('review-mode').value;
   const matches = card => mode === 'all' || (mode === 'weak'
     ? getCardState(srs, card.id).history.length > 0 && !getCardState(srs, card.id).mastered && getCardState(srs, card.id).streak === 0
@@ -541,16 +747,37 @@ async function startReview(file) {
     }
   }
 
+  if (!file && mode === 'due') cards.push(...scheduledReviewCards);
+  const uniqueCards = [...new Map(cards.map(card => [card.id, card])).values()];
+  if (!file && mode === 'due' && scheduledReviewCards.length) {
+    const scheduledIds = new Set(scheduledReviewCards.map(card => card.id));
+    cards = uniqueCards.filter(card => scheduledIds.has(card.id));
+    cards.push(...uniqueCards.filter(card => !scheduledIds.has(card.id)).slice(0, 10));
+  } else {
+    cards = uniqueCards;
+  }
+
   for (let i = cards.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     [cards[i], cards[j]] = [cards[j], cards[i]];
   }
 
-  if (!file && mode !== 'all') cards = cards.slice(0, 10);
+  if (!file && mode !== 'all' && !(mode === 'due' && scheduledReviewCards.length)) cards = cards.slice(0, 10);
   retryCards = new Set();
 
   reviewQueue = cards;
   reviewIdx = 0;
+  renderCard();
+}
+
+function startBatchReview(cards, batchIndex, day) {
+  activeBatch = `Day ${batchIndex} 새 카드`;
+  activeCourseDay = day;
+  activeBatchIndex = batchIndex;
+  reviewQueue = [...cards];
+  reviewIdx = 0;
+  setView('flashcard-view', activeBatch, true);
+  document.getElementById('back-btn').onclick = renderHome;
   renderCard();
 }
 
@@ -559,12 +786,24 @@ function renderCard() {
   const container = document.getElementById('flashcard-container');
 
   if (reviewIdx >= reviewQueue.length) {
+    const completedBatch = activeBatch;
+    if (completedBatch && activeCourseDay && activeBatchIndex) {
+      const learned = loadLearnedBatches();
+      learned[activeBatchIndex] = localDateKey();
+      localStorage.setItem('opic_learned_batches', JSON.stringify(learned));
+      localStorage.setItem('opic_last_batch_date', localDateKey());
+      activeCourseDay = null;
+      activeBatchIndex = null;
+    }
+    activeBatch = null;
     container.innerHTML = `
       <div class="done-msg">
         <div class="icon">&#127881;</div>
         <h2>복습 완료!</h2>
-        <p>선택한 묶음을 마쳤어요. 남은 카드는 홈에서 이어서 연습할 수 있어요.</p>
+        <p>${completedBatch ? `${completedBatch} 묶음을 마쳤어요.` : '예정 복습 묶음을 마쳤어요.'} 홈에서 오늘 학습한 카드와 다음 복습일을 볼 수 있어요.</p>
+        <button class="note-study-btn" id="back-home-btn">홈에서 일정 보기</button>
       </div>`;
+    document.getElementById('back-home-btn').onclick = renderHome;
     return;
   }
 
@@ -650,7 +889,9 @@ function renderCard() {
     const btn = e.target.closest('[data-r]');
     if (!btn) return;
     const rating = hintUsed && btn.dataset.r === '2' ? 1 : Number(btn.dataset.r);
-    rateCard(loadSRS(), card.id, rating);
+    const saved = loadSRS();
+    rateCard(saved, card.id, rating);
+    recordStudy(card.id, rating, saved[card.id]?.mastered ? null : saved[card.id]?.due, card.front);
     if (rating === 0 && !retryCards.has(card.id)) {
       retryCards.add(card.id);
       reviewQueue.push(card);
