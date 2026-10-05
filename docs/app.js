@@ -101,6 +101,7 @@ let retryCards = new Set();
 
 function setView(viewId, title, showBack = false) {
   clearInterval(answerTimerId);
+  answerTimerId = null;
   stopAudio();
   document.getElementById('header-title').textContent = title;
   document.getElementById('back-btn').style.display = showBack ? '' : 'none';
