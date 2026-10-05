@@ -1,4 +1,16 @@
 const SRS_KEY = 'opic_srs';
+const CUSTOM_CARDS_KEY = 'opic_custom_cards';
+
+function loadCustomCards() {
+  try {
+    const cards = JSON.parse(localStorage.getItem(CUSTOM_CARDS_KEY) || '[]');
+    return Array.isArray(cards) ? cards.filter(c => typeof c.id === 'string' && typeof c.front === 'string' && typeof c.back === 'string') : [];
+  } catch { return []; }
+}
+
+function escapeHTML(value) {
+  return String(value).replace(/[&<>"']/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[char]));
+}
 const ANSWER_PROGRESS_KEY = 'opic_answer_progress';
 const ANSWER_CATEGORY = {
   D: { name: '묘사', className: 'description' },
@@ -10,31 +22,42 @@ const ANSWER_CATEGORY = {
 };
 
 function loadSRS() {
-  try { return JSON.parse(localStorage.getItem(SRS_KEY) || '{}'); } catch { return {}; }
+  try {
+    const saved = JSON.parse(localStorage.getItem(SRS_KEY) || '{}');
+    return saved && typeof saved === 'object' && !Array.isArray(saved) ? saved : {};
+  } catch { return {}; }
 }
 function saveSRS(data) {
   localStorage.setItem(SRS_KEY, JSON.stringify(data));
 }
 
 function getCardState(srs, id) {
-  return srs[id] || { interval: 0, ease: 2.5, due: 0 };
+  return { interval: 0, ease: 2.5, due: 0, streak: 0, level: 0, mastered: false, history: [], ...srs[id] };
 }
 
 function rateCard(srs, id, rating) {
   // rating: 0=몰랐음, 1=애매함, 2=알았음
   const s = getCardState(srs, id);
   const day = 86400000;
+  const steps = [1, 3, 7, 14, 30];
+  const now = Date.now();
+  const last = s.history[s.history.length - 1];
+  const spaced = !last || (now >= s.due && new Date(last.at).toDateString() !== new Date(now).toDateString());
+  s.streak = rating === 2 ? s.streak + (spaced ? 1 : 0) : 0;
+  s.level = rating === 2 ? Math.min(4, Math.max(0, s.streak - 1)) : 0;
+  s.mastered = s.streak >= 3;
   if (rating === 0) {
     s.interval = 1;
     s.ease = Math.max(1.3, s.ease - 0.2);
   } else if (rating === 1) {
-    s.interval = Math.max(1, Math.round(s.interval * 1.2));
+    s.interval = 1;
     s.ease = Math.max(1.3, s.ease - 0.15);
   } else {
-    s.interval = s.interval < 1 ? 1 : Math.round(s.interval * s.ease);
+    s.interval = steps[s.level];
     s.ease = Math.min(3.0, s.ease + 0.1);
   }
-  s.due = Date.now() + s.interval * day;
+  if (spaced || rating !== 2) s.due = now + s.interval * day;
+  s.history = [...s.history, { at: Date.now(), rating }].slice(-50);
   srs[id] = s;
   saveSRS(srs);
 }
@@ -42,7 +65,20 @@ function rateCard(srs, id, rating) {
 function isDue(srs, id) {
   const s = srs[id];
   if (!s) return true;
-  return s.due <= Date.now();
+  return !s.mastered && (s.due || 0) <= Date.now();
+}
+
+function memoryStatus(id) {
+  const s = getCardState(loadSRS(), id);
+  if (s.mastered) return '암기 완료 · 전체에서 다시 연습 가능';
+  if (!s.history.length) return '새 항목 · 먼저 안 보고 떠올려 보세요';
+  return `연속 ${s.streak}/3회 · 다음 복습 ${new Date(s.due).toLocaleDateString('ko-KR')}`;
+}
+
+function saveMnemonic(id, value) {
+  const saved = loadSRS();
+  saved[id] = { ...getCardState(saved, id), mnemonic: value };
+  saveSRS(saved);
 }
 
 let index = null;
@@ -52,8 +88,20 @@ let flipped = false;
 let personalAnswers = null;
 let activeAnswerCategory = 'all';
 let activeSpeechButton = null;
+let audioDelay = null;
+
+function stopAudio() {
+  clearTimeout(audioDelay);
+  if (activeSpeechButton) activeSpeechButton.textContent = '▶ 다시 듣기';
+  activeSpeechButton = null;
+  if ('speechSynthesis' in window) window.speechSynthesis.cancel();
+}
+let answerTimerId = null;
+let retryCards = new Set();
 
 function setView(viewId, title, showBack = false) {
+  clearInterval(answerTimerId);
+  stopAudio();
   document.getElementById('header-title').textContent = title;
   document.getElementById('back-btn').style.display = showBack ? '' : 'none';
   ['home-view', 'note-view', 'flashcard-view', 'answer-list-view', 'answer-detail-view'].forEach(id => {
@@ -70,7 +118,7 @@ async function renderHome() {
   }
 
   const srs = loadSRS();
-  let dueCount = 0;
+  let dueCount = loadCustomCards().filter(card => isDue(srs, card.id)).length;
 
   for (const lesson of index.lessons) {
     const data = await fetch(`data/lessons/${lesson.file}`).then(r => r.json());
@@ -82,6 +130,25 @@ async function renderHome() {
   document.getElementById('due-count').textContent = dueCount;
   document.getElementById('study-btn').onclick = () => startReview(null);
   document.getElementById('answer-study-btn').onclick = renderAnswerList;
+  const answers = await loadPersonalAnswers();
+  document.getElementById('memory-today').textContent = `오늘 떠올릴 답변 ${answers.filter(a => isDue(srs, 'answer:' + a.id)).length}개 · 카드 ${dueCount}개. 하루 10장씩 나눠 연습하세요.`;
+  document.getElementById('custom-card-form').onsubmit = async event => {
+    event.preventDefault();
+    const form = event.currentTarget;
+    const question = form.elements.question.value.trim();
+    const answer = form.elements.answer.value.trim();
+    if (!question || !answer) return;
+    const cards = loadCustomCards();
+    cards.push({ id: 'custom:' + crypto.randomUUID(), front: question, back: answer, topic: form.elements.topic.value.trim() || '내 카드' });
+    try {
+      localStorage.setItem(CUSTOM_CARDS_KEY, JSON.stringify(cards));
+      form.reset();
+      await renderHome();
+      document.getElementById('custom-card-status').textContent = '저장했어요. 오늘 복습에 포함됩니다.';
+    } catch {
+      document.getElementById('custom-card-status').textContent = '저장하지 못했어요. 브라우저 저장 공간을 확인해 주세요.';
+    }
+  };
 
   const list = document.getElementById('lesson-list');
   list.innerHTML = '';
@@ -178,6 +245,7 @@ async function renderAnswerList() {
     updateAnswerProgress(answers);
     renderAnswerItems();
     document.getElementById('answer-search-input').oninput = renderAnswerItems;
+    document.getElementById('answer-memory-filter').onchange = renderAnswerItems;
     document.getElementById('category-filters').onclick = event => {
       const button = event.target.closest('[data-category]');
       if (!button) return;
@@ -198,10 +266,15 @@ async function renderAnswerList() {
 
 function getVisibleAnswers() {
   const query = document.getElementById('answer-search-input').value.trim().toLowerCase();
+  const mode = document.getElementById('answer-memory-filter').value;
+  const srs = loadSRS();
   return personalAnswers.filter(answer => {
     const categoryMatches = activeAnswerCategory === 'all' || answer.category === activeAnswerCategory;
     const textMatches = !query || `${answer.title} ${answer.context} ${answer.what}`.toLowerCase().includes(query);
-    return categoryMatches && textMatches;
+    const state = getCardState(srs, 'answer:' + answer.id);
+    const memoryMatches = mode === 'all' || (mode === 'mastered' ? state.mastered : mode === 'weak'
+      ? state.history.length > 0 && !state.mastered && state.streak === 0 : isDue(srs, 'answer:' + answer.id));
+    return categoryMatches && textMatches && memoryMatches;
   });
 }
 
@@ -215,6 +288,7 @@ function renderAnswerItems() {
       <span class="category-badge ${category.className}">${category.name}</span>
       <span class="answer-item-copy">
         <strong>${answer.title}</strong>
+        <small>${memoryStatus('answer:' + answer.id)}</small>
         <small>${answer.context}</small>
       </span>
       <span class="answer-check">${progress[answer.id] ? '✓' : '›'}</span>
@@ -289,6 +363,23 @@ function renderAnswerDetail(id) {
       ${answer.expressions ? `<p class="answer-expression">활용 표현 · ${answer.expressions}</p>` : ''}
       <button class="speak-button" data-speak="full">▶ 전체 답변 듣기</button>
     </section>
+    <section class="memory-panel">
+      <h3>안 보고 말하기 · 기억 점검</h3>
+      <p class="memory-context">답변을 접고 내 말로 말해보세요. 문구가 달라도 핵심·감정·이유를 전달하면 됩니다.</p>
+      <button id="answer-hide" class="reveal-button">답변 모두 가리고 말하기</button>
+      <label class="memory-context">내 장면 / 기억 연결 문장
+        <input id="answer-mnemonic" maxlength="200" placeholder="예: 부엌 → 커피 향 → 편안함">
+      </label>
+      <label class="memory-context">백지 테스트 · 떠오르는 키워드나 영어 쓰기
+        <textarea id="answer-recall" rows="3" placeholder="안 보고 떠올려 쓴 뒤 위 답변과 비교하세요"></textarea>
+      </label>
+      <p id="answer-memory-status" class="memory-context" aria-live="polite">${memoryStatus('answer:' + id)}</p>
+      <div class="rating-btns" id="answer-memory-rating">
+        <button class="btn-miss" data-rating="0">못 떠올림</button>
+        <button class="btn-fuzzy" data-rating="1">힌트 필요</button>
+        <button class="btn-got" data-rating="2">혼자 말함</button>
+      </div>
+    </section>
     <button class="answer-complete-button ${progress[id] ? 'done' : ''}" id="answer-complete-btn">
       ${progress[id] ? '✓ 학습 완료됨' : '오늘 학습 완료'}
     </button>`;
@@ -331,11 +422,28 @@ function renderAnswerDetail(id) {
     event.currentTarget.classList.toggle('done', saved[id]);
     event.currentTarget.textContent = saved[id] ? '✓ 학습 완료됨' : '오늘 학습 완료';
   };
-  let timerId = null;
+  const mnemonic = document.getElementById('answer-mnemonic');
+  mnemonic.value = getCardState(loadSRS(), 'answer:' + id).mnemonic || '';
+  mnemonic.oninput = () => saveMnemonic('answer:' + id, mnemonic.value);
+  document.getElementById('answer-hide').onclick = () => {
+    stopAudio();
+    document.querySelectorAll('#answer-detail [data-target]').forEach(button => {
+      document.getElementById(button.dataset.target).classList.add('hidden');
+      button.textContent = button.dataset.target === 'mp-section' ? 'MP 힌트 보기' : '전체 답변 보기';
+    });
+    document.getElementById('answer-recall').focus();
+  };
+  document.getElementById('answer-memory-rating').onclick = event => {
+    const button = event.target.closest('[data-rating]');
+    if (!button) return;
+    rateCard(loadSRS(), 'answer:' + id, Number(button.dataset.rating));
+    document.getElementById('answer-memory-status').textContent = memoryStatus('answer:' + id);
+    document.querySelectorAll('#answer-memory-rating button').forEach(item => { item.disabled = true; });
+  };
   document.getElementById('answer-timer-btn').onclick = event => {
-    if (timerId) {
-      clearInterval(timerId);
-      timerId = null;
+    if (answerTimerId) {
+      clearInterval(answerTimerId);
+      answerTimerId = null;
       document.getElementById('answer-timer').textContent = '20초';
       document.getElementById('answer-timer').classList.remove('time-up');
       event.currentTarget.textContent = '타이머 시작';
@@ -346,12 +454,12 @@ function renderAnswerDetail(id) {
     timer.classList.remove('time-up');
     event.currentTarget.textContent = '다시 시작';
     timer.textContent = `${seconds}초`;
-    timerId = setInterval(() => {
+    answerTimerId = setInterval(() => {
       seconds--;
       timer.textContent = seconds > 0 ? `${seconds}초` : '시간 끝!';
       if (seconds <= 0) {
-        clearInterval(timerId);
-        timerId = null;
+        clearInterval(answerTimerId);
+        answerTimerId = null;
         timer.classList.add('time-up');
         event.currentTarget.textContent = '다시 시작';
       }
@@ -360,6 +468,7 @@ function renderAnswerDetail(id) {
 }
 
 function speakEnglish(text, button) {
+  clearTimeout(audioDelay);
   if (!('speechSynthesis' in window)) {
     button.textContent = '이 브라우저는 음성 재생을 지원하지 않아요';
     return;
@@ -411,19 +520,23 @@ async function startReview(file) {
   document.getElementById('back-btn').onclick = renderHome;
 
   const srs = loadSRS();
+  const mode = file ? 'all' : document.getElementById('review-mode').value;
+  const matches = card => mode === 'all' || (mode === 'weak'
+    ? getCardState(srs, card.id).history.length > 0 && !getCardState(srs, card.id).mastered && getCardState(srs, card.id).streak === 0
+    : isDue(srs, card.id));
   let cards = [];
 
   if (file) {
     const lesson = await fetch(`data/lessons/${file}`).then(r => r.json());
-    cards = lesson.cards.filter(c => isDue(srs, c.id));
-    if (cards.length === 0) cards = [...lesson.cards];
+    cards = lesson.cards.map(c => ({ ...c, topic: lesson.title }));
   } else {
+    cards.push(...loadCustomCards().filter(matches));
     if (!index) {
       index = await fetch('data/index.json').then(r => r.json());
     }
     for (const lesson of index.lessons) {
       const data = await fetch(`data/lessons/${lesson.file}`).then(r => r.json());
-      cards.push(...data.cards.filter(c => isDue(srs, c.id)));
+      cards.push(...data.cards.filter(matches).map(c => ({ ...c, topic: data.title })));
     }
   }
 
@@ -432,12 +545,16 @@ async function startReview(file) {
     [cards[i], cards[j]] = [cards[j], cards[i]];
   }
 
+  if (!file && mode !== 'all') cards = cards.slice(0, 10);
+  retryCards = new Set();
+
   reviewQueue = cards;
   reviewIdx = 0;
   renderCard();
 }
 
 function renderCard() {
+  stopAudio();
   const container = document.getElementById('flashcard-container');
 
   if (reviewIdx >= reviewQueue.length) {
@@ -445,12 +562,13 @@ function renderCard() {
       <div class="done-msg">
         <div class="icon">&#127881;</div>
         <h2>복습 완료!</h2>
-        <p>오늘 할당량을 모두 마쳤어요.</p>
+        <p>선택한 묶음을 마쳤어요. 남은 카드는 홈에서 이어서 연습할 수 있어요.</p>
       </div>`;
     return;
   }
 
   const card = reviewQueue[reviewIdx];
+  let hintUsed = false;
   const total = reviewQueue.length;
   const pct = (reviewIdx / total * 100).toFixed(0);
   flipped = false;
@@ -458,20 +576,30 @@ function renderCard() {
   container.innerHTML = `
     <div class="progress-bar"><div class="progress-fill" style="width:${pct}%"></div></div>
     <p style="font-size:0.8rem;color:var(--text-muted);margin-bottom:12px;align-self:flex-start">${reviewIdx + 1} / ${total}</p>
-    <div class="card-wrap" id="card-wrap">
+    <p class="memory-context">${escapeHTML(card.topic || '표현 연습')} · 먼저 소리 내어 답하세요</p>
+    <div class="card-wrap" id="card-wrap" role="button" tabindex="0" aria-label="정답 확인">
       <div class="card-inner" id="card-inner">
         <div class="card-face front">
           <div class="card-label">한국어</div>
-          <div class="card-text">${card.front}</div>
+          <div class="card-text">${escapeHTML(card.front)}</div>
           <div class="tap-hint">탭해서 뒤집기</div>
         </div>
         <div class="card-face back">
           <div class="card-label">영어</div>
-          <div class="card-text">${card.back}</div>
-          ${card.example ? `<div class="card-example">${card.example}</div>` : ''}
+          <div class="card-text">${escapeHTML(card.back)}</div>
+          ${card.example ? `<div class="card-example">${escapeHTML(card.example)}</div>` : ''}
         </div>
       </div>
     </div>
+    <div class="memory-tools">
+      <button id="card-hint">첫 단어 힌트</button>
+      <button id="card-listen" hidden>▶ 정답 듣기</button>
+      <button id="card-audio">▶ 질문 → 5초 생각 → 답변</button>
+    </div>
+    <p id="memory-hint" class="memory-context" aria-live="polite"></p>
+    <label class="memory-context">나만의 연결 문장 (내 경험·장면·앞글자)
+      <input id="memory-note" maxlength="200" placeholder="예: 출근길 버스에서 쓰는 표현">
+    </label>
     <div class="rating-btns hidden" id="rating-btns">
       <button class="btn-miss" data-r="0">몰랐음</button>
       <button class="btn-fuzzy" data-r="1">애매함</button>
@@ -482,12 +610,50 @@ function renderCard() {
     flipped = !flipped;
     document.getElementById('card-inner').classList.toggle('flipped', flipped);
     if (flipped) document.getElementById('rating-btns').classList.remove('hidden');
+    document.getElementById('card-listen').hidden = !flipped;
   };
+  document.getElementById('card-wrap').onkeydown = event => {
+    if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); document.getElementById('card-wrap').click(); }
+  };
+  document.getElementById('card-hint').onclick = () => {
+    hintUsed = true;
+    document.getElementById('memory-hint').textContent = `${card.back.split(/\s+/)[0]} … · 힌트로 떠올렸으면 애매함을 선택하세요`;
+  };
+  document.getElementById('card-listen').onclick = event => speakEnglish(card.back, event.currentTarget);
+  document.getElementById('card-audio').onclick = event => {
+    hintUsed = true;
+    const button = event.currentTarget;
+    if (!('speechSynthesis' in window)) { button.textContent = '이 브라우저는 듣기를 지원하지 않아요'; return; }
+    if (activeSpeechButton === button) { stopAudio(); button.textContent = '▶ 질문 → 5초 생각 → 답변'; return; }
+    stopAudio();
+    activeSpeechButton = button;
+    button.textContent = '■ 듣기 중지';
+    const question = new SpeechSynthesisUtterance(card.front);
+    question.lang = 'ko-KR';
+    question.onend = () => {
+      if (activeSpeechButton !== button) return;
+      audioDelay = setTimeout(() => {
+        if (activeSpeechButton !== button) return;
+        activeSpeechButton = null;
+        speakEnglish(card.back, button);
+      }, 5000);
+    };
+    question.onerror = () => { if (activeSpeechButton === button) { stopAudio(); button.textContent = '재생 실패 · 다시 눌러주세요'; } };
+    window.speechSynthesis.speak(question);
+  };
+  const note = document.getElementById('memory-note');
+  note.value = getCardState(loadSRS(), card.id).mnemonic || '';
+  note.oninput = () => saveMnemonic(card.id, note.value);
 
   document.getElementById('rating-btns').onclick = (e) => {
     const btn = e.target.closest('[data-r]');
     if (!btn) return;
-    rateCard(loadSRS(), card.id, parseInt(btn.dataset.r));
+    const rating = hintUsed && btn.dataset.r === '2' ? 1 : Number(btn.dataset.r);
+    rateCard(loadSRS(), card.id, rating);
+    if (rating === 0 && !retryCards.has(card.id)) {
+      retryCards.add(card.id);
+      reviewQueue.push(card);
+    }
     reviewIdx++;
     renderCard();
   };

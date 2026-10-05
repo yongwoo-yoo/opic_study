@@ -13,6 +13,15 @@
   --shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
 
+.memory-context { display: block; width: 100%; color: var(--text-muted); font-size: 0.8rem; line-height: 1.6; margin-bottom: 12px; overflow-wrap: anywhere; }
+.memory-context input, .memory-context select { display: block; width: 100%; padding: 10px; margin-top: 5px; border: 1px solid var(--border); border-radius: 8px; background: var(--surface); color: var(--text); }
+.memory-tools { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 12px; }
+.memory-tools button { padding: 10px; border: 1px solid var(--border); border-radius: 8px; background: var(--surface); color: var(--primary); cursor: pointer; }
+.memory-panel { padding: 16px; margin: 16px 0; border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface); }
+.memory-panel h3 { margin-bottom: 10px; font-size: 1rem; }
+.memory-context textarea { width: 100%; padding: 12px; border: 1px solid var(--border); border-radius: 8px; font: inherit; resize: vertical; }
+.rating-btns button:disabled { opacity: 0.5; cursor: default; }
+
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
 body {
@@ -161,6 +170,7 @@ header h1 { font-size: 1.1rem; font-weight: 700; }
   margin-bottom: 24px;
 }
 .card-inner {
+  display: grid;
   width: 100%;
   min-height: 200px;
   position: relative;
@@ -170,7 +180,8 @@ header h1 { font-size: 1.1rem; font-weight: 700; }
 .card-inner.flipped { transform: rotateY(180deg); }
 
 .card-face {
-  position: absolute;
+  position: relative;
+  grid-area: 1 / 1;
   width: 100%;
   min-height: 200px;
   backface-visibility: hidden;
