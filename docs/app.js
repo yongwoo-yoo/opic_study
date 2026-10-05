@@ -2,6 +2,7 @@ const SRS_KEY = 'opic_srs';
 const CUSTOM_CARDS_KEY = 'opic_custom_cards';
 const COURSE_START_KEY = 'opic_course_start';
 const SELECTED_STUDY_DAY_KEY = 'opic_selected_study_day';
+const STUDY_SESSION_KEY = 'opic_active_study_session';
 const BATCH_SIZE = 20;
 const REVIEW_DAYS = [1, 3, 5, 7, 14, 30];
 let lessonCards = [];
@@ -49,6 +50,26 @@ function loadReviewLog() {
     const log = JSON.parse(localStorage.getItem('opic_review_log') || '[]');
     return Array.isArray(log) ? log : [];
   } catch { return []; }
+}
+
+function saveStudySession() {
+  if (!activeBatch || !reviewQueue.length) {
+    localStorage.removeItem(STUDY_SESSION_KEY);
+    return;
+  }
+  localStorage.setItem(STUDY_SESSION_KEY, JSON.stringify({
+    title: activeBatch,
+    queue: reviewQueue,
+    index: reviewIdx,
+    retryIds: [...retryCards]
+  }));
+}
+
+function loadStudySession() {
+  try {
+    const session = JSON.parse(localStorage.getItem(STUDY_SESSION_KEY) || 'null');
+    return session && Array.isArray(session.queue) && Number.isInteger(session.index) ? session : null;
+  } catch { return null; }
 }
 
 function recordStudy(id, rating, due, label = '') {
@@ -267,6 +288,13 @@ async function renderHome() {
   }
 
   const batches = getCourseBatches();
+  const savedSession = loadStudySession();
+  const resumeButton = document.getElementById('resume-study-btn');
+  resumeButton.hidden = !savedSession || savedSession.index >= savedSession.queue.length;
+  if (!resumeButton.hidden) {
+    resumeButton.textContent = `이어서 학습 · ${savedSession.title} (${Math.min(savedSession.index + 1, savedSession.queue.length)}/${savedSession.queue.length})`;
+    resumeButton.onclick = resumeStudySession;
+  }
   const dayPicker = document.getElementById('course-day-picker');
   const maxCourseDay = batches.length + Math.max(...REVIEW_DAYS);
   dayPicker.innerHTML = Array.from({ length: maxCourseDay }, (_, i) => `<option value="${i + 1}">Day ${i + 1}</option>`).join('');
@@ -697,9 +725,9 @@ async function startReview(file) {
   document.getElementById('back-btn').onclick = renderHome;
 
   const srs = loadSRS();
-  activeBatch = null;
   activeCourseDay = null;
   const mode = file ? 'all' : document.getElementById('review-mode').value;
+  activeBatch = file ? '레슨 복습' : mode === 'due' ? '예정 복습' : mode === 'weak' ? '취약 카드 복습' : '전체 카드 복습';
   const matches = card => mode === 'all' || (mode === 'due'
     ? isDue(srs, card.id)
     : mode === 'weak' && getCardState(srs, card.id).history.length > 0 && !getCardState(srs, card.id).mastered && getCardState(srs, card.id).streak === 0);
@@ -739,6 +767,8 @@ async function startReview(file) {
 
   reviewQueue = cards;
   reviewIdx = 0;
+  retryCards = new Set();
+  saveStudySession();
   renderCard();
 }
 
@@ -748,7 +778,27 @@ function startBatchReview(cards, day, isScheduledReview = false) {
   activeBatchIndex = null;
   reviewQueue = [...cards];
   reviewIdx = 0;
+  retryCards = new Set();
+  saveStudySession();
   setView('flashcard-view', activeBatch, true);
+  document.getElementById('back-btn').onclick = renderHome;
+  renderCard();
+}
+
+function resumeStudySession() {
+  const session = loadStudySession();
+  if (!session) return renderHome();
+  activeBatch = session.title;
+  reviewQueue = session.queue.filter(card => card && typeof card.id === 'string' && typeof card.front === 'string' && typeof card.back === 'string');
+  reviewIdx = Math.min(session.index, reviewQueue.length);
+  retryCards = new Set(Array.isArray(session.retryIds) ? session.retryIds : []);
+  activeCourseDay = null;
+  activeBatchIndex = null;
+  if (reviewIdx >= reviewQueue.length) {
+    localStorage.removeItem(STUDY_SESSION_KEY);
+    return renderHome();
+  }
+  setView('flashcard-view', `${activeBatch} · 이어서`, true);
   document.getElementById('back-btn').onclick = renderHome;
   renderCard();
 }
@@ -759,6 +809,7 @@ function renderCard() {
 
   if (reviewIdx >= reviewQueue.length) {
     const completedBatch = activeBatch;
+    localStorage.removeItem(STUDY_SESSION_KEY);
     activeBatch = null;
     container.innerHTML = `
       <div class="done-msg">
@@ -861,6 +912,7 @@ function renderCard() {
       reviewQueue.push(card);
     }
     reviewIdx++;
+    saveStudySession();
     renderCard();
   };
 }
