@@ -245,6 +245,9 @@ let reviewIdx = 0;
 let flipped = false;
 let personalAnswers = null;
 let activeAnswerCategory = 'all';
+let activeViewId = 'home-view';
+let handlingBrowserBack = false;
+let appBackAction = () => renderHome();
 let activeSpeechButton = null;
 let audioDelay = null;
 
@@ -258,6 +261,10 @@ let answerTimerId = null;
 let retryCards = new Set();
 
 function setView(viewId, title, showBack = false) {
+  if (!handlingBrowserBack && viewId !== activeViewId) {
+    history.pushState({ opicView: viewId }, '', location.href);
+  }
+  activeViewId = viewId;
   clearInterval(answerTimerId);
   answerTimerId = null;
   stopAudio();
@@ -266,6 +273,14 @@ function setView(viewId, title, showBack = false) {
   ['home-view', 'note-view', 'flashcard-view', 'answer-list-view', 'answer-detail-view'].forEach(id => {
     document.getElementById(id).style.display = id === viewId ? '' : 'none';
   });
+}
+
+function setBackAction(action) {
+  appBackAction = action;
+  document.getElementById('back-btn').onclick = () => {
+    if (activeViewId !== 'home-view' && history.state?.opicView) history.back();
+    else action();
+  };
 }
 
 async function renderHome() {
@@ -437,7 +452,7 @@ function updateAnswerProgress(answers) {
 
 async function renderAnswerList() {
   setView('answer-list-view', '내 답변 연습', true);
-  document.getElementById('back-btn').onclick = renderHome;
+  setBackAction(renderHome);
   const list = document.getElementById('answer-list');
   list.innerHTML = '<li class="empty"><p>답변을 불러오는 중…</p></li>';
 
@@ -529,7 +544,7 @@ function renderAnswerDetail(id) {
   const mpWordCount = mpText.split(/\s+/).length;
   const englishSentences = splitEnglishSentences([answer.what, answer.feeling, answer.why, answer.body, answer.ending].join(' '));
   setView('answer-detail-view', category.name, true);
-  document.getElementById('back-btn').onclick = renderAnswerList;
+  setBackAction(renderAnswerList);
   if (answer.koreanSentences.length !== englishSentences.length || !englishSentences.length) {
     document.getElementById('answer-detail').innerHTML = '<p class="empty">답변 파일을 새로 불러와야 합니다. 페이지를 새로고침해 주세요.</p>';
     return;
@@ -702,7 +717,7 @@ function speakEnglish(text, button) {
 
 async function renderNote(file) {
   setView('note-view', '레슨 노트', true);
-  document.getElementById('back-btn').onclick = renderHome;
+  setBackAction(renderHome);
 
   const lesson = await fetch(`data/lessons/${file}`).then(r => r.json());
 
@@ -722,7 +737,7 @@ async function renderNote(file) {
 
 async function startReview(file) {
   setView('flashcard-view', '복습', true);
-  document.getElementById('back-btn').onclick = renderHome;
+  setBackAction(renderHome);
 
   const srs = loadSRS();
   activeCourseDay = null;
@@ -781,7 +796,7 @@ function startBatchReview(cards, day, isScheduledReview = false) {
   retryCards = new Set();
   saveStudySession();
   setView('flashcard-view', activeBatch, true);
-  document.getElementById('back-btn').onclick = renderHome;
+  setBackAction(renderHome);
   renderCard();
 }
 
@@ -799,7 +814,7 @@ function resumeStudySession() {
     return renderHome();
   }
   setView('flashcard-view', `${activeBatch} · 이어서`, true);
-  document.getElementById('back-btn').onclick = renderHome;
+  setBackAction(renderHome);
   renderCard();
 }
 
@@ -917,7 +932,19 @@ function renderCard() {
   };
 }
 
-document.addEventListener('DOMContentLoaded', renderHome);
+document.addEventListener('DOMContentLoaded', () => {
+  history.pushState({ opicRoot: true }, '', location.href);
+  window.addEventListener('popstate', () => {
+    if (activeViewId === 'home-view') {
+      history.pushState({ opicRoot: true }, '', location.href);
+      return;
+    }
+    handlingBrowserBack = true;
+    appBackAction();
+    handlingBrowserBack = false;
+  });
+  renderHome();
+});
 
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('sw.js');
