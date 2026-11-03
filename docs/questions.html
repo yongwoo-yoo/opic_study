@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#2563eb">
+  <title>Olivia 문제은행 · OPIC 스터디</title>
+  <link rel="stylesheet" href="style.css?v=28">
+  <link rel="stylesheet" href="questions.css">
+</head>
+<body>
+  <div id="app">
+    <header><a href="index.html" class="back-btn" aria-label="학습 홈">‹</a><h1>Olivia 문제은행</h1></header>
+    <main class="home-section">
+      <p class="question-eyebrow">OPIC QUESTION BANK</p>
+      <h2>한 문제씩, 내 이야기로.</h2>
+      <p class="memory-context">돌발 · 서베이 · 롤플레이 질문을 골라 소리 내어 답하고, 내 답변을 기록하세요.</p>
+      <section class="question-overview"><strong id="question-progress">문제를 불러오는 중…</strong><p>학습 완료 <span id="question-done">0</span>개</p></section>
+      <div class="category-filters" id="question-categories" aria-label="문제 분류">
+        <button data-category="all" class="active" aria-pressed="true">전체</button><button data-category="돌발" aria-pressed="false">돌발</button><button data-category="서베이" aria-pressed="false">서베이</button><button data-category="롤플레이" aria-pressed="false">롤플레이</button>
+      </div>
+      <label class="memory-context">주제<select id="question-topic"><option value="all">모든 주제</option></select></label>
+      <label class="memory-context">질문 검색<input id="question-search" type="search" placeholder="예: 여행, phone, 과거 vs 현재"></label>
+      <label class="question-check"><input id="question-incomplete" type="checkbox"> 아직 완료하지 않은 문제만</label>
+      <button id="question-random" class="note-study-btn" disabled>랜덤 한 문제 연습</button>
+      <p id="question-count" class="memory-context" aria-live="polite"></p>
+      <section id="question-practice" hidden aria-label="랜덤 연습"></section>
+      <div id="question-list"><p class="memory-context">불러오는 중…</p></div>
+      <details id="question-original"><summary>원본 표 전체 보기</summary><p class="memory-context">원본의 문구·배치·빈칸을 그대로 확인할 수 있어요. 가로로 밀어 보세요.</p><div id="original-tables"></div></details>
+      <p class="memory-context">2026.11.03 가져온 자료 · 자동 동기화되지 않습니다.<br>메모와 완료 표시는 이 브라우저에 저장됩니다.</p>
+      <a href="https://docs.google.com/spreadsheets/d/1R9HYSsVQqwdmyINIgg3rOxoEGLeTHANjG9P4Jgqp1PU/edit" target="_blank" rel="noopener" class="guide-btn">구글 시트 원본 열기 ↗</a>
+    </main>
+  </div>
+  <script src="questions.js"></script>
+</body>
+</html>

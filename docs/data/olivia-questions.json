@@ -1,0 +1,3018 @@
+{
+  "title": "Olivia Opic 문제 리스트",
+  "source": "https://docs.google.com/spreadsheets/d/1R9HYSsVQqwdmyINIgg3rOxoEGLeTHANjG9P4Jgqp1PU/edit",
+  "importedAt": "2026-11-03",
+  "questions": [
+    {
+      "id": "olivia-1769715111-4-2",
+      "category": "돌발",
+      "topic": "phone",
+      "text": "당신 폰에서 좋아하는것 (주로 하는것)",
+      "number": "1",
+      "cell": "B4",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-4-3",
+      "category": "돌발",
+      "topic": "internet",
+      "text": "사람들(지인)이 주로 하는것(people)",
+      "number": "1",
+      "cell": "C4",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-4-4",
+      "category": "돌발",
+      "topic": "tech",
+      "text": "사람들이 많이쓰는기기(people)",
+      "number": "1",
+      "cell": "D4",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-4-5",
+      "category": "돌발",
+      "topic": "phone call",
+      "text": "친구들과 전화통화할때 하는 얘기들",
+      "number": "1",
+      "cell": "E4",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-4-6",
+      "category": "돌발",
+      "topic": "appointment",
+      "text": "당신은 주로 어떤예약을 하는지",
+      "number": "1",
+      "cell": "F4",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-4-7",
+      "category": "돌발",
+      "topic": "hair shop - 신규추가 (완벽복원X)",
+      "text": "한국의 헤어샵",
+      "number": "1",
+      "cell": "G4",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-4-8",
+      "category": "돌발",
+      "topic": "치과-신규추가 (완벽복원X)",
+      "text": "당신이 가는 치과 묘사",
+      "number": "1",
+      "cell": "H4",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-5-2",
+      "category": "돌발",
+      "topic": "phone",
+      "text": "첫 폰(어릴때)vs 지금 폰비교",
+      "number": "2",
+      "cell": "B5",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-5-3",
+      "category": "돌발",
+      "topic": "internet",
+      "text": "당신이 주로 하는것  (you) youtube",
+      "number": "2",
+      "cell": "C5",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-5-4",
+      "category": "돌발",
+      "topic": "tech",
+      "text": "당신이 많이 쓰는기기 (you) cellie",
+      "number": "2",
+      "cell": "D5",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-5-5",
+      "category": "돌발",
+      "topic": "phone call",
+      "text": "지금쓰는 전화기 선택이유  - phone3 고장경험",
+      "number": "2",
+      "cell": "E5",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-5-6",
+      "category": "돌발",
+      "topic": "appointment",
+      "text": "예약하는 방법 절차 -app",
+      "number": "2",
+      "cell": "F5",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-5-7",
+      "category": "돌발",
+      "topic": "hair shop - 신규추가 (완벽복원X)",
+      "text": "좋아하는 헤어스타일  -skip",
+      "number": "2",
+      "cell": "G5",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-5-8",
+      "category": "돌발",
+      "topic": "치과-신규추가 (완벽복원X)",
+      "text": "어떻게 예약하는지 -app",
+      "number": "2",
+      "cell": "H5",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-6-2",
+      "category": "돌발",
+      "topic": "phone",
+      "text": "폰관련 기억에 남는 경험  (phone 3)",
+      "number": "3",
+      "cell": "B6",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-6-3",
+      "category": "돌발",
+      "topic": "internet",
+      "text": "초창기인터넷(phone 14)",
+      "number": "3",
+      "cell": "C6",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-6-4",
+      "category": "돌발",
+      "topic": "tech",
+      "text": "과거 vs 현재 tech 비교 (어릴때(첫폰) vs 지금 폰",
+      "number": "3",
+      "cell": "D6",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-6-5",
+      "category": "돌발",
+      "topic": "phone call",
+      "text": "통화루틴 - skip",
+      "number": "3",
+      "cell": "E6",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-6-6",
+      "category": "돌발",
+      "topic": "appointment",
+      "text": "어릴때 기억에 남는 예약경험 -어릴때 치과경험",
+      "number": "3",
+      "cell": "F6",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-6-7",
+      "category": "돌발",
+      "topic": "hair shop - 신규추가 (완벽복원X)",
+      "text": "헤어디자이너 어떻게 만났는지?",
+      "number": "3",
+      "cell": "G6",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-6-8",
+      "category": "돌발",
+      "topic": "치과-신규추가 (완벽복원X)",
+      "text": "어릴때 경험 - 치과",
+      "number": "3",
+      "cell": "H6",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-7-4",
+      "category": "돌발",
+      "topic": "tech",
+      "text": "tech 기기 사용문제 경험 (phone 3)",
+      "number": "4",
+      "cell": "D7",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-7-5",
+      "category": "돌발",
+      "topic": "phone call",
+      "text": "기억에 남는 통화 - skip",
+      "number": "4",
+      "cell": "E7",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-7-6",
+      "category": "돌발",
+      "topic": "appointment",
+      "text": "최근 기억에 남는 예약관련 경험 -미용실 예약오류",
+      "number": "4",
+      "cell": "F7",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-7-7",
+      "category": "돌발",
+      "topic": "hair shop - 신규추가 (완벽복원X)",
+      "text": "헤어샵갈때 예약 어떻게 하는지 -app",
+      "number": "4",
+      "cell": "G7",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-7-8",
+      "category": "돌발",
+      "topic": "치과-신규추가 (완벽복원X)",
+      "text": "기억에 남는 경험  -예약 오류 활용",
+      "number": "4",
+      "cell": "H7",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-8-3",
+      "category": "돌발",
+      "topic": "internet",
+      "text": "주로 인터넷으로 보는 동영상 -youtube",
+      "number": "5",
+      "cell": "C8",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-8-7",
+      "category": "돌발",
+      "topic": "hair shop - 신규추가 (완벽복원X)",
+      "text": "마지막 헤어샵 같을때 -미용실 예약오류",
+      "number": "5",
+      "cell": "G8",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-9-3",
+      "category": "돌발",
+      "topic": "internet",
+      "text": "인터넷으로 본것중 기억에 남는것 - drama clips / netflix",
+      "number": "6",
+      "cell": "C9",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-10-3",
+      "category": "돌발",
+      "topic": "internet",
+      "text": "어제 인터넷으로 한것 -쿠팡  , car navigation  / searched  something on Google.",
+      "number": "",
+      "cell": "C10",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-12-2",
+      "category": "돌발",
+      "topic": "recycling",
+      "text": "한국의 재활용",
+      "number": "1",
+      "cell": "B12",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-12-3",
+      "category": "돌발",
+      "topic": "geography",
+      "text": "1 한국의 지형",
+      "number": "1",
+      "cell": "C12",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-12-4",
+      "category": "돌발",
+      "topic": "gathering",
+      "text": "한국의 모임, 파티/당신의모임파티",
+      "number": "1",
+      "cell": "D12",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-12-5",
+      "category": "돌발",
+      "topic": "festival",
+      "text": "동네에 어떤 이벤트가 열리는지 , 가본적이 있는지",
+      "number": "1",
+      "cell": "E12",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-12-6",
+      "category": "돌발",
+      "topic": "holiday (명절)",
+      "text": "한국의 홀리데이",
+      "number": "1",
+      "cell": "F12",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-12-7",
+      "category": "돌발",
+      "topic": "family and friend",
+      "text": "자주보는 친구, 가족 (2명)",
+      "number": "1",
+      "cell": "G12",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-12-8",
+      "category": "돌발",
+      "topic": "freetime (여가시간)",
+      "text": "한국사람들이 자유시간 가는장소 - 공원 ,home ,shopping..",
+      "number": "1",
+      "cell": "H12",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-13-2",
+      "category": "돌발",
+      "topic": "recycling",
+      "text": "당신의 재활용 (plastics) - 집 Q6 (routine/ 집안일)",
+      "number": "2",
+      "cell": "B13",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-13-3",
+      "category": "돌발",
+      "topic": "geography",
+      "text": "2 한국사람들의 야외활동 - (공원, 해변.. )",
+      "number": "2",
+      "cell": "C13",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-13-4",
+      "category": "돌발",
+      "topic": "gathering",
+      "text": "최근 모임(도와준것) -case",
+      "number": "2",
+      "cell": "D13",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-13-5",
+      "category": "돌발",
+      "topic": "festival",
+      "text": "커뮤니티 이벤트에서 주로 어떤 activities 를 하는지",
+      "number": "2",
+      "cell": "E13",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-13-6",
+      "category": "돌발",
+      "topic": "holiday (명절)",
+      "text": "홀리데이 하나 자세히 (떡국, 음식) [-보류 skip]",
+      "number": "2",
+      "cell": "F13",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-13-7",
+      "category": "돌발",
+      "topic": "family and friend",
+      "text": "친구 가족과 주로하는 일 (집휴가 활용)",
+      "number": "2",
+      "cell": "G13",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-13-8",
+      "category": "돌발",
+      "topic": "freetime (여가시간)",
+      "text": "한국사람들이 자유시간 하는일 -공원-picnic/shopping",
+      "number": "2",
+      "cell": "H13",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-14-2",
+      "category": "돌발",
+      "topic": "recycling",
+      "text": "기억에 남는 재활용 got a cut or skip",
+      "number": "3",
+      "cell": "B14",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-14-3",
+      "category": "돌발",
+      "topic": "geography",
+      "text": "3 어릴때 갔던 지형이 기억에 남는 장소  (국내Q2 -어릴때)",
+      "number": "3",
+      "cell": "C14",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-14-4",
+      "category": "돌발",
+      "topic": "gathering",
+      "text": "기억에 남는 모임  -case",
+      "number": "3",
+      "cell": "D14",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-14-5",
+      "category": "돌발",
+      "topic": "festival",
+      "text": "기억에 남는 페스티벌",
+      "number": "3",
+      "cell": "E14",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-14-6",
+      "category": "돌발",
+      "topic": "holiday (명절)",
+      "text": "어릴때 홀리데이 -case",
+      "number": "3",
+      "cell": "F14",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-14-7",
+      "category": "돌발",
+      "topic": "family and friend",
+      "text": "최근에 친구,가족과 한일 -case",
+      "number": "3",
+      "cell": "G14",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-14-8",
+      "category": "돌발",
+      "topic": "freetime (여가시간)",
+      "text": "자유시간 과거현재비교(more or less) : 집휴가 14",
+      "number": "3",
+      "cell": "H14",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-15-2",
+      "category": "돌발",
+      "topic": "recycling",
+      "text": "재활용 과거 vs 현재 (systematically]",
+      "number": "4",
+      "cell": "B15",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-15-3",
+      "category": "돌발",
+      "topic": "geography",
+      "text": "4 기억에 남는 장소(natural) -국내 1 / 인경험",
+      "number": "4",
+      "cell": "C15",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-15-6",
+      "category": "돌발",
+      "topic": "holiday (명절)",
+      "text": "기억에 남는 홀리데이 -case",
+      "number": "4",
+      "cell": "F15",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-15-7",
+      "category": "돌발",
+      "topic": "family and friend",
+      "text": "친구,가족 방문기억에 남는일  -case",
+      "number": "4",
+      "cell": "G15",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-15-8",
+      "category": "돌발",
+      "topic": "freetime (여가시간)",
+      "text": "기억에 남는 자유시간 -case",
+      "number": "4",
+      "cell": "H15",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-17-3",
+      "category": "돌발",
+      "topic": "geography",
+      "text": "1-1 이웃국가 묘사 /사람들",
+      "number": "",
+      "cell": "C17",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-18-3",
+      "category": "돌발",
+      "topic": "geography",
+      "text": "2-1 지난 10년간(Decade) 바뀐것 한분야 자세히 - 국내 Q14",
+      "number": "",
+      "cell": "C18",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-19-3",
+      "category": "돌발",
+      "topic": "geography",
+      "text": "3-1 어릴때  갔던 지형이 기억에 남는 장소 (국내 Q2 -활용)",
+      "number": "",
+      "cell": "C19",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-21-2",
+      "category": "돌발",
+      "topic": "health",
+      "text": "건강한 음식, 식습관  / 건강한 사람묘사   (veggies, protein intake, carbs, less sodium.._",
+      "number": "1",
+      "cell": "B21",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-21-3",
+      "category": "돌발",
+      "topic": "food",
+      "text": "한국에서 인기있는 음식  - 치킨",
+      "number": "1",
+      "cell": "C21",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-21-4",
+      "category": "돌발",
+      "topic": "restaurant",
+      "text": "식당1  -치킨",
+      "number": "1",
+      "cell": "D21",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-21-5",
+      "category": "돌발",
+      "topic": "industry",
+      "text": "젊은이들이 가고픈 회사 -삼성 / SK  / semiconductor",
+      "number": "1",
+      "cell": "E21",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-21-6",
+      "category": "돌발",
+      "topic": "work place",
+      "text": "당신나라의 work place 묘사해봐  - 사무실 (분위기)",
+      "number": "1",
+      "cell": "F21",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-21-7",
+      "category": "돌발",
+      "topic": "business",
+      "text": "너희나라 비즈니스는 어떤것들이 있는지 (semi-conductor)",
+      "number": "1",
+      "cell": "G21",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-21-8",
+      "category": "돌발",
+      "topic": "bank",
+      "text": "한국의 은행",
+      "number": "1",
+      "cell": "H21",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-22-2",
+      "category": "돌발",
+      "topic": "health",
+      "text": "건강을 위해서 새롭게 하게된것, 하는것  (계기 - 운동/ 식습관)",
+      "number": "2",
+      "cell": "B22",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-22-3",
+      "category": "돌발",
+      "topic": "food",
+      "text": "당신이 먹는 일상음식  - 건강하게 먹는다 \"건강1 or 2 활용\"",
+      "number": "2",
+      "cell": "C22",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-22-4",
+      "category": "돌발",
+      "topic": "restaurant",
+      "text": "식당2  -외국음식파는 식당 - 메뉴 위주 (선택  )",
+      "number": "2",
+      "cell": "D22",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-22-5",
+      "category": "돌발",
+      "topic": "industry",
+      "text": "attractive 한 회사, 삼성AGAINgrowth journey",
+      "number": "2",
+      "cell": "E22",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-22-6",
+      "category": "돌발",
+      "topic": "work place",
+      "text": "work place 과거 현재 변화 -AI : email.. 등등",
+      "number": "2",
+      "cell": "F22",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-22-7",
+      "category": "돌발",
+      "topic": "business",
+      "text": "그중한가지 자세히  (industry 활용 )- semi-conductor / samsung  - growth journey",
+      "number": "2",
+      "cell": "G22",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-22-8",
+      "category": "돌발",
+      "topic": "bank",
+      "text": "당신이 은행에서 하는일들",
+      "number": "2",
+      "cell": "H22",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-23-2",
+      "category": "돌발",
+      "topic": "health",
+      "text": "건강 과거 vs 현재   (건강신경 X -> health conscious : more options / organic, supplements)",
+      "number": "3",
+      "cell": "B23",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-23-3",
+      "category": "돌발",
+      "topic": "food",
+      "text": "어릴때 먹었던 음식관련 경험  - (식당2 하이디라오 타이레스토랑, 차이니즈, 버거킹,, )",
+      "number": "3",
+      "cell": "C23",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-23-4",
+      "category": "돌발",
+      "topic": "restaurant",
+      "text": "바쁜직장인들 -쿠팡이츠 (feat. Cafeteria)",
+      "number": "3",
+      "cell": "D23",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-23-5",
+      "category": "돌발",
+      "topic": "industry",
+      "text": "커리어를 위해 한것  English /  in person  -> online",
+      "number": "3",
+      "cell": "E23",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-23-6",
+      "category": "돌발",
+      "topic": "work place",
+      "text": "당신의 first job  - 삼성 - 산업1",
+      "number": "3",
+      "cell": "F23",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-23-7",
+      "category": "돌발",
+      "topic": "business",
+      "text": "너희나라 비즈니스 과거 현재 비교 - 쇼핑 /교육(오프라인 -> 온라인)",
+      "number": "3",
+      "cell": "G23",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-23-8",
+      "category": "돌발",
+      "topic": "bank",
+      "text": "은행 과거 vs 현재",
+      "number": "3",
+      "cell": "H23",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-24-2",
+      "category": "돌발",
+      "topic": "health",
+      "text": "식료품점  쿠팡FRESH  or 롯벡",
+      "number": "4",
+      "cell": "B24",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-24-3",
+      "category": "돌발",
+      "topic": "food",
+      "text": "최근 음식관련, 식사관련 경험  case",
+      "number": "4",
+      "cell": "C24",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-24-4",
+      "category": "돌발",
+      "topic": "restaurant",
+      "text": "음식관련 경험 case",
+      "number": "4",
+      "cell": "D24",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-24-8",
+      "category": "돌발",
+      "topic": "bank",
+      "text": "기억에 남는 은행경험(ATM)",
+      "number": "4",
+      "cell": "H24",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-25-2",
+      "category": "돌발",
+      "topic": "health",
+      "text": "음식관련 경험 case",
+      "number": "5",
+      "cell": "B25",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-25-4",
+      "category": "돌발",
+      "topic": "restaurant",
+      "text": "음식점갈때 순서  - research / youtube /app",
+      "number": "5",
+      "cell": "D25",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-25-5",
+      "category": "돌발",
+      "topic": "industry",
+      "text": "한국의 rising 산업 삼성 / SK  / semiconductor",
+      "number": "5",
+      "cell": "E25",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-26-4",
+      "category": "돌발",
+      "topic": "restaurant",
+      "text": "과거 vs 현재 음식점 다른점  - 인트로잡고, 쿠팡이츠",
+      "number": "",
+      "cell": "D26",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-26-5",
+      "category": "돌발",
+      "topic": "industry",
+      "text": "그산업의 유명한 기업 -삼성AGAIN.  growth journey",
+      "number": "",
+      "cell": "E26",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-27-5",
+      "category": "돌발",
+      "topic": "industry",
+      "text": "그 기업의 난관극복, 어려움  - 갤럭시 폴드",
+      "number": "",
+      "cell": "E27",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-28-5",
+      "category": "돌발",
+      "topic": "industry",
+      "text": "그산업이 가져오는 benefit -skip",
+      "number": "5",
+      "cell": "E28",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-30-2",
+      "category": "돌발",
+      "topic": "hotel",
+      "text": "한국의 호텔",
+      "number": "1",
+      "cell": "B30",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-30-3",
+      "category": "돌발",
+      "topic": "transportation",
+      "text": "한국의 교통수단",
+      "number": "1",
+      "cell": "C30",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-30-4",
+      "category": "돌발",
+      "topic": "weather",
+      "text": "한국의 사계절",
+      "number": "1",
+      "cell": "D30",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-30-5",
+      "category": "돌발",
+      "topic": "fashion",
+      "text": "한국의 패션스타일 (  trendy -> SEASONAL :날씨활용)",
+      "number": "1",
+      "cell": "E30",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-30-6",
+      "category": "돌발",
+      "topic": "furniture",
+      "text": "너희집 가구, 좋아하는가구  (가전헷갈리지 않기 TV X)",
+      "number": "1",
+      "cell": "F30",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-31-2",
+      "category": "돌발",
+      "topic": "hotel",
+      "text": "최근호텔경험",
+      "number": "2",
+      "cell": "B31",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-31-3",
+      "category": "돌발",
+      "topic": "transportation",
+      "text": "당신의 교통수단 -commuter bus /bus only lanes",
+      "number": "2",
+      "cell": "C31",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-31-4",
+      "category": "돌발",
+      "topic": "weather",
+      "text": "오늘 날씨",
+      "number": "2",
+      "cell": "D31",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-31-5",
+      "category": "돌발",
+      "topic": "fashion",
+      "text": "당신이 좋아하는 패션스타일",
+      "number": "2",
+      "cell": "E31",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-31-6",
+      "category": "돌발",
+      "topic": "furniture",
+      "text": "각 가구 사용용도 -skip",
+      "number": "2",
+      "cell": "F31",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-32-2",
+      "category": "돌발",
+      "topic": "hotel",
+      "text": "기억에 남는 호텔경험",
+      "number": "3",
+      "cell": "B32",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-32-3",
+      "category": "돌발",
+      "topic": "transportation",
+      "text": "교통수단 과거(어릴때)  vs 현재 (국내여행 14 활용KTX/ phone)",
+      "number": "3",
+      "cell": "C32",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-32-4",
+      "category": "돌발",
+      "topic": "weather",
+      "text": "날씨 과거 vs 현재",
+      "number": "3",
+      "cell": "D32",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-32-5",
+      "category": "돌발",
+      "topic": "fashion",
+      "text": "당신의 옷쇼핑 (where/how)",
+      "number": "3",
+      "cell": "E32",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-32-6",
+      "category": "돌발",
+      "topic": "furniture",
+      "text": "어릴때 가구 vs 지금가구 간단히 ( 본인부분 : 4-5줄)",
+      "number": "3",
+      "cell": "F32",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-33-3",
+      "category": "돌발",
+      "topic": "transportation",
+      "text": "기억에 남는 경험 -case",
+      "number": "",
+      "cell": "C33",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-33-4",
+      "category": "돌발",
+      "topic": "weather",
+      "text": "날씨관련경험 -case",
+      "number": "",
+      "cell": "D33",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-33-5",
+      "category": "돌발",
+      "topic": "fashion",
+      "text": "패션 과거 vs 현재  - 본인예시 꼭 넣어서 연습.",
+      "number": "",
+      "cell": "E33",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-34-2",
+      "category": "돌발",
+      "topic": "hotel",
+      "text": "호텔 갈때 하는것들 - routine, research",
+      "number": "4",
+      "cell": "B34",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-34-5",
+      "category": "돌발",
+      "topic": "fashion",
+      "text": "기억에 남는 쇼핑 경험",
+      "number": "4",
+      "cell": "E34",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-34-6",
+      "category": "돌발",
+      "topic": "furniture",
+      "text": "가구관련 경험 - 쇼핑 white-beige",
+      "number": "4",
+      "cell": "F34",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-37-2",
+      "category": "돌발",
+      "topic": "phone",
+      "text": "1)과거 vs 현재 (5년전과폰비교) :  Tech + AI\n\n2)과거 vs 현재 (phone 검색관련) : Tech + AI",
+      "number": "14",
+      "cell": "B37",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-37-3",
+      "category": "돌발",
+      "topic": "tech",
+      "text": "1)과거 현재 변화 (어릴때 vs 지금 ) - phone Q2 (첫폰)\n\n2)과거 현재 변화 +AI",
+      "number": "14",
+      "cell": "C37",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-37-4",
+      "category": "돌발",
+      "topic": "internet",
+      "text": "1)(14-1)security관련이슈 \n : Tech + AI + downside \n2)초창기 인터넷 vs 지금 -Portal \n(인터넷A 3활용))  +AI",
+      "number": "14",
+      "cell": "D37",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-37-5",
+      "category": "돌발",
+      "topic": "health",
+      "text": "과거 vs 현재 -건강비교  (건강 3활용 )",
+      "number": "14",
+      "cell": "E37",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-37-6",
+      "category": "돌발",
+      "topic": "food",
+      "text": "과거 vs 현재 (food shopping) - 쿠팡\n big supermarket, traditional market \n-> DO online shoppoing / mobile shopping",
+      "number": "14",
+      "cell": "F37",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-37-7",
+      "category": "돌발",
+      "topic": "restaurant",
+      "text": "1)외식문화변화 -health conscious\n2)식당들의 변화\n3)테잌아웃식당의 건강식판매이유",
+      "number": "14",
+      "cell": "G37",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-38-2",
+      "category": "돌발",
+      "topic": "phone",
+      "text": "1)face to face talk -문제 : Tech + AI\n\n2)폰으로 검색했던 최근이슈, 뉴스\nsmombie or Housing market or 후쿠시마,공원이슈",
+      "number": "15",
+      "cell": "B38",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-38-3",
+      "category": "돌발",
+      "topic": "tech",
+      "text": "Tech + AI  : issue - concern",
+      "number": "15",
+      "cell": "C38",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-38-4",
+      "category": "돌발",
+      "topic": "internet",
+      "text": "1)(15-1)세대간 차이  :  부모님과 나의 문제 해결차이 \n\n2)최근 인터넷 관련 이슈, 우려-  Tech + AI",
+      "number": "15",
+      "cell": "D38",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-38-5",
+      "category": "돌발",
+      "topic": "health",
+      "text": "건강이슈(news) -후쿠시마 방사능",
+      "number": "15",
+      "cell": "E38",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-38-6",
+      "category": "돌발",
+      "topic": "food",
+      "text": "식품오염사건(news) - -후쿠시마 방사능)",
+      "number": "15",
+      "cell": "F38",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-38-7",
+      "category": "돌발",
+      "topic": "restaurant",
+      "text": "1)딜리버리방법 - 쿠팡이츠 \n2)식당선택시 중요시characteristic -  taste / atmostphere / waiting. \n3) 체인 vs 로컬  (거의 skip) -youtube-review",
+      "number": "15",
+      "cell": "G38",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-40-2",
+      "category": "돌발",
+      "topic": "gathering",
+      "text": "모임비교 : 둘다 변화없다  - 예시 \n1)큰도시 vs 작은도시 \n2)과거 vs 현재",
+      "number": "14",
+      "cell": "B40",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-40-3",
+      "category": "돌발",
+      "topic": "recycling",
+      "text": "과거vs 현재 (재활용 4 활용)",
+      "number": "14",
+      "cell": "C40",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-40-4",
+      "category": "돌발",
+      "topic": "geography",
+      "text": "14)이웃국가외교관련( visa-free for chinese ) \n14-1)이웃국가 최근 변화 이웃국가외교관련 \n(일본여행 : Japanses Yen )",
+      "number": "14",
+      "cell": "D40",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-40-5",
+      "category": "돌발",
+      "topic": "industry",
+      "text": "1)커리어를 위해 사람들이 하는것 (과거 현재) -Aset Q3 활용 \n2)한국사람들이(you) 관심있는 산업 (3년전 지금 비교)  - tech AI \n3)기대이하 상품 -갤럭시폴드  B set Q3 번활용",
+      "number": "14",
+      "cell": "E40",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-40-6",
+      "category": "돌발",
+      "topic": "business",
+      "text": "너희나라 비즈니스 과거 현재 비교 - 쇼핑 /교육(오프라인 -> 온라인)",
+      "number": "14",
+      "cell": "F40",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-40-7",
+      "category": "돌발",
+      "topic": "work place",
+      "text": "과거 현재 변화   AI",
+      "number": "14",
+      "cell": "G40",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-41-2",
+      "category": "돌발",
+      "topic": "gathering",
+      "text": "모임관련 이슈, 컨선  trash (공원 15 활용)",
+      "number": "15",
+      "cell": "B41",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-41-3",
+      "category": "돌발",
+      "topic": "recycling",
+      "text": "리싸이클링 News - trash (공원 15 활용)",
+      "number": "15",
+      "cell": "C41",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-41-4",
+      "category": "돌발",
+      "topic": "geography",
+      "text": "15) 이웃국가관련 역사적 사건  (후쿠시마 )\n15-1) 이웃국가의 최근 뉴스 (후쿠시마)",
+      "number": "15",
+      "cell": "D41",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-41-6",
+      "category": "돌발",
+      "topic": "business",
+      "text": "부정부패 (지위를 이용한 부당한일 이슈 ) - 보류",
+      "number": "15",
+      "cell": "F41",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-41-7",
+      "category": "돌발",
+      "topic": "work place",
+      "text": "profession의 변화   AI  - 관련 직업들이 늘고 있다.",
+      "number": "15",
+      "cell": "G41",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-43-2",
+      "category": "돌발",
+      "topic": "friends and family",
+      "text": "친구or 가족 2명비교",
+      "number": "14",
+      "cell": "B43",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-43-3",
+      "category": "돌발",
+      "topic": "Festival",
+      "text": "커뮤니티 이벤트 과거 현재 비교",
+      "number": "14",
+      "cell": "C43",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-43-4",
+      "category": "돌발",
+      "topic": "weather",
+      "text": "과거 현재 날씨비교",
+      "number": "14",
+      "cell": "D43",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-43-5",
+      "category": "돌발",
+      "topic": "free time",
+      "text": "과거 현재 프리타임 비교 : 집 휴가 14번 활용",
+      "number": "14",
+      "cell": "E43",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-44-2",
+      "category": "돌발",
+      "topic": "friends and family",
+      "text": "친구or 가족과 하는얘기 \ninvestments, stock market /netflix \nsocial issues - housing market / 후쿠시마",
+      "number": "15",
+      "cell": "B44",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-44-3",
+      "category": "돌발",
+      "topic": "Festival",
+      "text": "커뮤티니 이벤트 -social media \nyoutube/instant",
+      "number": "15",
+      "cell": "C44",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-44-4",
+      "category": "돌발",
+      "topic": "weather",
+      "text": "날씨관련 뉴스 - 강릉 water outage",
+      "number": "15",
+      "cell": "D44",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-44-5",
+      "category": "돌발",
+      "topic": "free time",
+      "text": "테크놀로지발전과 프리타임 변화 \nAl 1415 활용가능",
+      "number": "15",
+      "cell": "E44",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-60-4",
+      "category": "돌발",
+      "topic": "freetime",
+      "text": "한국사람들이 자유시간 가는장소 - 공원 ,home ,shopping..",
+      "number": "",
+      "cell": "D60",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-60-5",
+      "category": "돌발",
+      "topic": "gathering",
+      "text": "한국의 모임, 파티/당신의모임파티",
+      "number": "",
+      "cell": "E60",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-60-6",
+      "category": "돌발",
+      "topic": "holiday (명절)",
+      "text": "한국의 홀리데이",
+      "number": "",
+      "cell": "F60",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-60-7",
+      "category": "돌발",
+      "topic": "family and friend",
+      "text": "자주보는 친구, 가족 (2명)",
+      "number": "",
+      "cell": "G60",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-61-4",
+      "category": "돌발",
+      "topic": "freetime",
+      "text": "한국사람들이 자유시간 하는일 -공원-picnic/shopping",
+      "number": "",
+      "cell": "D61",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-61-5",
+      "category": "돌발",
+      "topic": "gathering",
+      "text": "최근 모임(도와준것) -case",
+      "number": "",
+      "cell": "E61",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-61-6",
+      "category": "돌발",
+      "topic": "holiday (명절)",
+      "text": "홀리데이 하나 자세히 (떡국, 음식) [-보류",
+      "number": "",
+      "cell": "F61",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-61-7",
+      "category": "돌발",
+      "topic": "family and friend",
+      "text": "친구 가족과 주로하는 일 (집휴가 활용)",
+      "number": "",
+      "cell": "G61",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-62-4",
+      "category": "돌발",
+      "topic": "freetime",
+      "text": "자유시간 과거현재비교(more or less) : 집휴가 14",
+      "number": "",
+      "cell": "D62",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-62-5",
+      "category": "돌발",
+      "topic": "gathering",
+      "text": "기억에 남는 모임  -case",
+      "number": "",
+      "cell": "E62",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-62-6",
+      "category": "돌발",
+      "topic": "holiday (명절)",
+      "text": "어릴때 홀리데이 -case",
+      "number": "",
+      "cell": "F62",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-62-7",
+      "category": "돌발",
+      "topic": "family and friend",
+      "text": "최근에 친구,가족과 한일 -case",
+      "number": "",
+      "cell": "G62",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-63-4",
+      "category": "돌발",
+      "topic": "freetime",
+      "text": "기억에 남는 자유시간 -case",
+      "number": "",
+      "cell": "D63",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-63-6",
+      "category": "돌발",
+      "topic": "holiday (명절)",
+      "text": "기억에 남는 홀리데이 -case",
+      "number": "",
+      "cell": "F63",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1769715111-63-7",
+      "category": "돌발",
+      "topic": "family and friend",
+      "text": "친구,가족 방문기억에 남는일  -case",
+      "number": "",
+      "cell": "G63",
+      "gid": 1769715111
+    },
+    {
+      "id": "olivia-1802694767-2-2",
+      "category": "서베이",
+      "topic": "음악",
+      "text": "좋아하는장르+가수",
+      "number": "1",
+      "cell": "B2",
+      "gid": 1802694767
+    },
+    {
+      "id": "olivia-1802694767-2-3",
+      "category": "서베이",
+      "topic": "집",
+      "text": "집소개, 좋아하는 공간",
+      "number": "1",
+      "cell": "C2",
+      "gid": 1802694767
+    },
+    {
+      "id": "olivia-1802694767-2-4",
+      "category": "서베이",
+      "topic": "집휴가",
+      "text": "집휴가때 만나고싶은사람들 - family, myself (유툽채널)",
+      "number": "1",
+      "cell": "D2",
+      "gid": 1802694767
+    },
+    {
+      "id": "olivia-1802694767-2-5",
+      "category": "서베이",
+      "topic": "국내여행",
+      "text": "좋아하는 국내여행지",
+      "number": "1",
+      "cell": "E2",
+      "gid": 1802694767
+    },
+    {
+      "id": "olivia-1802694767-2-6",
+      "category": "서베이",
+      "topic": "해외여행",
+      "text": "해외여행지가본곳 + 현지인\n(한국사람들이 좋아하는여행지1-1)",
+      "number": "1",
+      "cell": "F2",
+      "gid": 1802694767
+    },
+    {
+      "id": "olivia-1802694767-2-7",
+      "category": "서베이",
+      "topic": "해변",
+      "text": "좋아하는 해변 (서해)",
+      "number": "1",
+      "cell": "G2",
+      "gid": 1802694767
+    },
+    {
+      "id": "olivia-1802694767-2-8",
+      "category": "서베이",
+      "topic": "쇼핑",
+      "text": "한국사람의 쇼핑몰 -롯데",
+      "number": "1",
+      "cell": "H2",
+      "gid": 1802694767
+    },
+    {
+      "id": "olivia-1802694767-2-9",
+      "category": "서베이",
+      "topic": "공원",
+      "text": "자주가는 공원묘사",
+      "number": "1",
+      "cell": "I2",
+      "gid": 1802694767
+    },
+    {
+      "id": "olivia-1802694767-3-2",
+      "category": "서베이",
+      "topic": "음악",
+      "text": "어릴때-현재 취향변화",
+      "number": "2",
+      "cell": "B3",
+      "gid": 1802694767
+    },
+    {
+      "id": "olivia-1802694767-3-3",
+      "category": "서베이",
+      "topic": "집",
+      "text": "어릴때-현재 집변화",
+      "number": "2",
+      "cell": "C3",
+      "gid": 1802694767
+    },
+    {
+      "id": "olivia-1802694767-3-4",
+      "category": "서베이",
+      "topic": "집휴가",
+      "text": "만나는 사람들이랑 하고 싶은 것 - 친구수다",
+      "number": "2",
+      "cell": "D3",
+      "gid": 1802694767
+    },
+    {
+      "id": "olivia-1802694767-3-5",
+      "category": "서베이",
+      "topic": "국내여행",
+      "text": "어릴때 여행경험",
+      "number": "2",
+      "cell": "E3",
+      "gid": 1802694767
+    },
+    {
+      "id": "olivia-1802694767-3-6",
+      "category": "서베이",
+      "topic": "해외여행",
+      "text": "첫해외여행 (국내Q2 활용)",
+      "number": "2",
+      "cell": "F3",
+      "gid": 1802694767
+    },
+    {
+      "id": "olivia-1802694767-3-7",
+      "category": "서베이",
+      "topic": "해변",
+      "text": "해변에서하는 activities",
+      "number": "2",
+      "cell": "G3",
+      "gid": 1802694767
+    },
+    {
+      "id": "olivia-1802694767-3-8",
+      "category": "서베이",
+      "topic": "쇼핑",
+      "text": "당신은언제어디서 주로 쇼핑\n쿠팡 ( online)",
+      "number": "2",
+      "cell": "H3",
+      "gid": 1802694767
+    },
+    {
+      "id": "olivia-1802694767-3-9",
+      "category": "서베이",
+      "topic": "공원",
+      "text": "당신이공원가면 하는것들",
+      "number": "2",
+      "cell": "I3",
+      "gid": 1802694767
+    },
+    {
+      "id": "olivia-1802694767-4-2",
+      "category": "서베이",
+      "topic": "음악",
+      "text": "라이브뮤직경험",
+      "number": "3",
+      "cell": "B4",
+      "gid": 1802694767
+    },
+    {
+      "id": "olivia-1802694767-4-3",
+      "category": "서베이",
+      "topic": "집",
+      "text": "집에변화준것 한가지자세히",
+      "number": "3",
+      "cell": "C4",
+      "gid": 1802694767
+    },
+    {
+      "id": "olivia-1802694767-4-4",
+      "category": "서베이",
+      "topic": "집휴가",
+      "text": "지난휴가 첫날-마지막날 - 넷플릭스 영화 , tv show",
+      "number": "3",
+      "cell": "D4",
+      "gid": 1802694767
+    },
+    {
+      "id": "olivia-1802694767-4-5",
+      "category": "서베이",
+      "topic": "국내여행",
+      "text": "기억에 남는 여행경험  case",
+      "number": "3",
+      "cell": "E4",
+      "gid": 1802694767
+    },
+    {
+      "id": "olivia-1802694767-4-6",
+      "category": "서베이",
+      "topic": "해외여행",
+      "text": "기억에 남는 해외여행 - case",
+      "number": "3",
+      "cell": "F4",
+      "gid": 1802694767
+    },
+    {
+      "id": "olivia-1802694767-4-7",
+      "category": "서베이",
+      "topic": "해변",
+      "text": "아름다운 해변 경험",
+      "number": "3",
+      "cell": "G4",
+      "gid": 1802694767
+    },
+    {
+      "id": "olivia-1802694767-4-8",
+      "category": "서베이",
+      "topic": "쇼핑",
+      "text": "쇼핑하기전후루틴(typical)\nresearch -> shop -> get a bite",
+      "number": "3",
+      "cell": "H4",
+      "gid": 1802694767
+    },
+    {
+      "id": "olivia-1802694767-4-9",
+      "category": "서베이",
+      "topic": "공원",
+      "text": "최근공원갔던경험 case",
+      "number": "3",
+      "cell": "I4",
+      "gid": 1802694767
+    },
+    {
+      "id": "olivia-1802694767-5-2",
+      "category": "서베이",
+      "topic": "음악",
+      "text": "언제어디서 무엇으로 듣는지",
+      "number": "4",
+      "cell": "B5",
+      "gid": 1802694767
+    },
+    {
+      "id": "olivia-1802694767-5-3",
+      "category": "서베이",
+      "topic": "집",
+      "text": "집에있었던 여러가지 문제들",
+      "number": "4",
+      "cell": "C5",
+      "gid": 1802694767
+    },
+    {
+      "id": "olivia-1802694767-5-4",
+      "category": "서베이",
+      "topic": "집휴가",
+      "text": "기억에남는 집휴가 - case",
+      "number": "4",
+      "cell": "D5",
+      "gid": 1802694767
+    },
+    {
+      "id": "olivia-1802694767-5-5",
+      "category": "서베이",
+      "topic": "국내여행",
+      "text": "여행가기전 준비",
+      "number": "4",
+      "cell": "E5",
+      "gid": 1802694767
+    },
+    {
+      "id": "olivia-1802694767-5-6",
+      "category": "서베이",
+      "topic": "해외여행",
+      "text": "해외여행지에서 하는일들 \n(activities / doing~)",
+      "number": "4",
+      "cell": "F5",
+      "gid": 1802694767
+    },
+    {
+      "id": "olivia-1802694767-5-7",
+      "category": "서베이",
+      "topic": "해변",
+      "text": "기억에 남는 해변 경험 Case",
+      "number": "4",
+      "cell": "G5",
+      "gid": 1802694767
+    },
+    {
+      "id": "olivia-1802694767-5-8",
+      "category": "서베이",
+      "topic": "쇼핑",
+      "text": "어릴때 쇼핑경험 - 본인것 ( 시장, 이마트 )",
+      "number": "4",
+      "cell": "H5",
+      "gid": 1802694767
+    },
+    {
+      "id": "olivia-1802694767-5-9",
+      "category": "서베이",
+      "topic": "공원",
+      "text": "기억에남는 공원경험 case",
+      "number": "4",
+      "cell": "I5",
+      "gid": 1802694767
+    },
+    {
+      "id": "olivia-1802694767-6-3",
+      "category": "서베이",
+      "topic": "집",
+      "text": "문제한가지 골라서 자세히",
+      "number": "5",
+      "cell": "C6",
+      "gid": 1802694767
+    },
+    {
+      "id": "olivia-1802694767-6-8",
+      "category": "서베이",
+      "topic": "쇼핑",
+      "text": "기억에 남는 쇼핑경험 \n구매, 문제, 해결",
+      "number": "5",
+      "cell": "H6",
+      "gid": 1802694767
+    },
+    {
+      "id": "olivia-1802694767-7-3",
+      "category": "서베이",
+      "topic": "집",
+      "text": "집에서 하는것 루틴 / 집안일 (정리전)",
+      "number": "6",
+      "cell": "C7",
+      "gid": 1802694767
+    },
+    {
+      "id": "olivia-1802694767-9-2",
+      "category": "서베이",
+      "topic": "음악",
+      "text": "음악 2가지비교",
+      "number": "14",
+      "cell": "B9",
+      "gid": 1802694767
+    },
+    {
+      "id": "olivia-1802694767-9-3",
+      "category": "서베이",
+      "topic": "집",
+      "text": "부모님vs 나 문제해결방법차이",
+      "number": "14",
+      "cell": "C9",
+      "gid": 1802694767
+    },
+    {
+      "id": "olivia-1802694767-9-4",
+      "category": "서베이",
+      "topic": "집휴가",
+      "text": "집휴가보내는 법 과거 vs 현재",
+      "number": "14",
+      "cell": "D9",
+      "gid": 1802694767
+    },
+    {
+      "id": "olivia-1802694767-9-5",
+      "category": "서베이",
+      "topic": "국내여행",
+      "text": "여행이 지난 5년간어려워진점",
+      "number": "14",
+      "cell": "E9",
+      "gid": 1802694767
+    },
+    {
+      "id": "olivia-1802694767-9-6",
+      "category": "서베이",
+      "topic": "해외여행",
+      "text": "해외여행 과거 vs 현재 비교",
+      "number": "14",
+      "cell": "F9",
+      "gid": 1802694767
+    },
+    {
+      "id": "olivia-1802694767-9-8",
+      "category": "서베이",
+      "topic": "쇼핑",
+      "text": "쇼핑 과거 vs 현재 비교 (온라인)",
+      "number": "14",
+      "cell": "H9",
+      "gid": 1802694767
+    },
+    {
+      "id": "olivia-1802694767-9-9",
+      "category": "서베이",
+      "topic": "공원",
+      "text": "공원2가지 비교",
+      "number": "14",
+      "cell": "I9",
+      "gid": 1802694767
+    },
+    {
+      "id": "olivia-1802694767-10-2",
+      "category": "서베이",
+      "topic": "음악",
+      "text": "사람들이 관심있는music gadet",
+      "number": "15",
+      "cell": "B10",
+      "gid": 1802694767
+    },
+    {
+      "id": "olivia-1802694767-10-3",
+      "category": "서베이",
+      "topic": "집",
+      "text": "housing market problem",
+      "number": "15",
+      "cell": "C10",
+      "gid": 1802694767
+    },
+    {
+      "id": "olivia-1802694767-10-4",
+      "category": "서베이",
+      "topic": "집휴가",
+      "text": "휴가가 중요한 이유",
+      "number": "15",
+      "cell": "D10",
+      "gid": 1802694767
+    },
+    {
+      "id": "olivia-1802694767-10-5",
+      "category": "서베이",
+      "topic": "국내여행",
+      "text": "여행관련 사람들의 컨선, 이슈  (money / overcrowding )",
+      "number": "15",
+      "cell": "E10",
+      "gid": 1802694767
+    },
+    {
+      "id": "olivia-1802694767-10-6",
+      "category": "서베이",
+      "topic": "해외여행",
+      "text": "해외여행때 사람들이 관심있는것들",
+      "number": "15",
+      "cell": "F10",
+      "gid": 1802694767
+    },
+    {
+      "id": "olivia-1802694767-10-8",
+      "category": "서베이",
+      "topic": "쇼핑",
+      "text": "사람들이 관심갖는 상품, 서비스",
+      "number": "15",
+      "cell": "H10",
+      "gid": 1802694767
+    },
+    {
+      "id": "olivia-1802694767-10-9",
+      "category": "서베이",
+      "topic": "공원",
+      "text": "public park issue",
+      "number": "15",
+      "cell": "I10",
+      "gid": 1802694767
+    },
+    {
+      "id": "olivia-1802694767-12-3",
+      "category": "서베이",
+      "topic": "집",
+      "text": "home style 과거-현재 비교",
+      "number": "14-1",
+      "cell": "C12",
+      "gid": 1802694767
+    },
+    {
+      "id": "olivia-1802694767-12-8",
+      "category": "서베이",
+      "topic": "가전",
+      "text": "가전-집안일에 도움된것",
+      "number": "14-1",
+      "cell": "H12",
+      "gid": 1802694767
+    },
+    {
+      "id": "olivia-1802694767-12-9",
+      "category": "서베이",
+      "topic": "공원",
+      "text": "공원에서 어린이vs 어른 비교",
+      "number": "14-1",
+      "cell": "I12",
+      "gid": 1802694767
+    },
+    {
+      "id": "olivia-1802694767-13-3",
+      "category": "서베이",
+      "topic": "집",
+      "text": "housing 관련 이슈",
+      "number": "15-1",
+      "cell": "C13",
+      "gid": 1802694767
+    },
+    {
+      "id": "olivia-1802694767-13-8",
+      "category": "서베이",
+      "topic": "가전",
+      "text": "가전 -modern appliance",
+      "number": "15-1",
+      "cell": "H13",
+      "gid": 1802694767
+    },
+    {
+      "id": "olivia-1802694767-13-9",
+      "category": "서베이",
+      "topic": "공원",
+      "text": "public park issue",
+      "number": "15-1",
+      "cell": "I13",
+      "gid": 1802694767
+    },
+    {
+      "id": "olivia-1802694767-15-9",
+      "category": "서베이",
+      "topic": "공원",
+      "text": "공원 과거 vs 현재",
+      "number": "",
+      "cell": "I15",
+      "gid": 1802694767
+    },
+    {
+      "id": "olivia-329939628-2-1",
+      "category": "롤플레이",
+      "topic": "가구",
+      "text": "11. 가구점방문 3-4개 질문\n12. 가구에 문제있음. 전화해서 상황설명 대안제시",
+      "number": "",
+      "cell": "A2",
+      "gid": 329939628
+    },
+    {
+      "id": "olivia-329939628-2-5",
+      "category": "롤플레이",
+      "topic": "에바여행",
+      "text": "원본에 주제만 등록되어 있습니다.",
+      "number": "",
+      "cell": "E2",
+      "gid": 329939628
+    },
+    {
+      "id": "olivia-329939628-3-1",
+      "category": "롤플레이",
+      "topic": "옷가게",
+      "text": "11. 옷가게방문 3-4개 질문\n12. 셔츠하나 잘못옴, 전화해서 상황설명 대안제시",
+      "number": "",
+      "cell": "A3",
+      "gid": 329939628
+    },
+    {
+      "id": "olivia-329939628-3-5",
+      "category": "롤플레이",
+      "topic": "재활용",
+      "text": "원본에 주제만 등록되어 있습니다.",
+      "number": "",
+      "cell": "E3",
+      "gid": 329939628
+    },
+    {
+      "id": "olivia-329939628-4-1",
+      "category": "롤플레이",
+      "topic": "상점세일",
+      "text": "11. 상점세일 사인봄 , 들어가서 세일관련 질문하기 \n12. 구매한 상품에 문제있음, 전화해서 상황설명 대안제시",
+      "number": "",
+      "cell": "A4",
+      "gid": 329939628
+    },
+    {
+      "id": "olivia-329939628-4-5",
+      "category": "롤플레이",
+      "topic": "은행",
+      "text": "원본에 주제만 등록되어 있습니다.",
+      "number": "",
+      "cell": "E4",
+      "gid": 329939628
+    },
+    {
+      "id": "olivia-329939628-5-1",
+      "category": "롤플레이",
+      "topic": "폰구매",
+      "text": "11. 폰 가게에 전화해서 새로운 폰 구매를 위한 3-4개 질문 \n12. 폰이 배송왔는데, features 가 다르다, 전화해서 상황설명 해결",
+      "number": "",
+      "cell": "A5",
+      "gid": 329939628
+    },
+    {
+      "id": "olivia-329939628-5-5",
+      "category": "롤플레이",
+      "topic": "인터넷웹싸이트",
+      "text": "원본에 주제만 등록되어 있습니다.",
+      "number": "",
+      "cell": "E5",
+      "gid": 329939628
+    },
+    {
+      "id": "olivia-329939628-6-1",
+      "category": "롤플레이",
+      "topic": "상점(친구)",
+      "text": "11. 새로운 상점오픈, 잘아는 친구에게 전화해서 3-4개 질문\n12. 상점에 구입한 물건을 두고옴, 전화해서 상황설명 대안제시",
+      "number": "",
+      "cell": "A6",
+      "gid": 329939628
+    },
+    {
+      "id": "olivia-329939628-6-5",
+      "category": "롤플레이",
+      "topic": "이웃(신규)",
+      "text": "원본에 주제만 등록되어 있습니다.",
+      "number": "",
+      "cell": "E6",
+      "gid": 329939628
+    },
+    {
+      "id": "olivia-329939628-7-1",
+      "category": "롤플레이",
+      "topic": "식당",
+      "text": "11. 새로생긴 식당에 가기전에 전화해서 3-4개질문\n12. 식사후 지갑을 집에 두고온걸 알게됨. 식당직원에게 상황설명 대안제시",
+      "number": "",
+      "cell": "A7",
+      "gid": 329939628
+    },
+    {
+      "id": "olivia-329939628-7-5",
+      "category": "롤플레이",
+      "topic": "ID (신규)",
+      "text": "원본에 주제만 등록되어 있습니다. (원본 체크: v)",
+      "number": "",
+      "cell": "E7",
+      "gid": 329939628
+    },
+    {
+      "id": "olivia-329939628-8-1",
+      "category": "롤플레이",
+      "topic": "상점 minor",
+      "text": "#1 store direction  /#2  healthy foodstore /#3 food store",
+      "number": "",
+      "cell": "A8",
+      "gid": 329939628
+    },
+    {
+      "id": "olivia-329939628-8-5",
+      "category": "롤플레이",
+      "topic": "잡지사 셀러브리티",
+      "text": "원본에 주제만 등록되어 있습니다. (원본 체크: v)",
+      "number": "",
+      "cell": "E8",
+      "gid": 329939628
+    },
+    {
+      "id": "olivia-329939628-10-1",
+      "category": "롤플레이",
+      "topic": "MP3player",
+      "text": "11. MP3 구매하기전, 이것에 대해 잘아는 친구에게 전화해서 질문 3-4개 \n12. 친구 MP3 고장냄, 친구에게 전화해서 상황자세히 설명, 대안제시",
+      "number": "",
+      "cell": "A10",
+      "gid": 329939628
+    },
+    {
+      "id": "olivia-329939628-10-5",
+      "category": "롤플레이",
+      "topic": "병원",
+      "text": "원본에 주제만 등록되어 있습니다.",
+      "number": "",
+      "cell": "E10",
+      "gid": 329939628
+    },
+    {
+      "id": "olivia-329939628-11-1",
+      "category": "롤플레이",
+      "topic": "부동산",
+      "text": "11. 집을 구하기 위해 부동산에 전화해서 3-4개 질문\n12. 입주한집에 창문이 깨져있음, 창문수리점에 전화해서 상황설명, 오늘 꼭 고쳐야하는 이유",
+      "number": "",
+      "cell": "A11",
+      "gid": 329939628
+    },
+    {
+      "id": "olivia-329939628-11-5",
+      "category": "롤플레이",
+      "topic": "영양사",
+      "text": "원본에 주제만 등록되어 있습니다.",
+      "number": "",
+      "cell": "E11",
+      "gid": 329939628
+    },
+    {
+      "id": "olivia-329939628-12-1",
+      "category": "롤플레이",
+      "topic": "친척집",
+      "text": "11. 친척이 여행을가는 동안 그집을 봐주기로함, 전화해서 관련 질문 3-4개 하기 \n12. 친척집에 도착했는데, 있어야할곳 에 key가 없음, (호텔에 머물고 있는) 친척에게 전화해서 메시지 남기기",
+      "number": "",
+      "cell": "A12",
+      "gid": 329939628
+    },
+    {
+      "id": "olivia-329939628-12-5",
+      "category": "롤플레이",
+      "topic": "헬스장",
+      "text": "원본에 주제만 등록되어 있습니다.",
+      "number": "",
+      "cell": "E12",
+      "gid": 329939628
+    },
+    {
+      "id": "olivia-329939628-13-5",
+      "category": "롤플레이",
+      "topic": "헤어샵",
+      "text": "원본에 주제만 등록되어 있습니다.",
+      "number": "",
+      "cell": "E13",
+      "gid": 329939628
+    },
+    {
+      "id": "olivia-329939628-14-1",
+      "category": "롤플레이",
+      "topic": "여행",
+      "text": "11. 여행사에 전화해서 여행관련 3-4개 질문\n12-1. 비행기 캔슬, 다른비행기들 fully booked 여행사에 전화해서 상황설명 대안제시 \n12-2. Non-refundable 티켓인데, 못갈거 같음. 여행사에 전화해서 상황설명 대안제시 \n12-3. 원하는 날짜에 여행불가하다함, 친구에게 전화해서 상황설명 대안제시 메시지남기기",
+      "number": "",
+      "cell": "A14",
+      "gid": 329939628
+    },
+    {
+      "id": "olivia-329939628-14-5",
+      "category": "롤플레이",
+      "topic": "면접",
+      "text": "원본에 주제만 등록되어 있습니다.",
+      "number": "",
+      "cell": "E14",
+      "gid": 329939628
+    },
+    {
+      "id": "olivia-329939628-15-1",
+      "category": "롤플레이",
+      "topic": "호텔",
+      "text": "#1. 호텔현장예약  - 방없음 일행에게 전화해서 상황설명 대안제시 메시지 \n#2. 호텔전화예약 - 방이 좁고 더러움, 프론트데스크에 전화해서 상황설명 대안제시 \n#3. 외국호텔전화해서 날씨묻기 - 여행지 날씨가 예상과다름. 옷구매위해 옷가게 전화\n#4. 프리타임에 할것에 대해 호텔 프론트에가서문의  - 택시에 가방두고 내림, 전화 상황설명 대안제시\n#5. 비지니스트립위해 호텔예약전화  - 일이생겨 출장못갈거같은, Boss에게 전화 상황설명 대안제시",
+      "number": "",
+      "cell": "A15",
+      "gid": 329939628
+    },
+    {
+      "id": "olivia-329939628-15-5",
+      "category": "롤플레이",
+      "topic": "신규(출근첫날)",
+      "text": "원본에 주제만 등록되어 있습니다.",
+      "number": "",
+      "cell": "E15",
+      "gid": 329939628
+    },
+    {
+      "id": "olivia-329939628-16-1",
+      "category": "롤플레이",
+      "topic": "렌터카",
+      "text": "#1. 뉴욕방문중, 렌터카회사방문 3-4개 질문 - Non-us 면허증, valid함 설명 \n#2. 렌트하게 위해 전화 3-4개질문 - 받은차에 문제가 많음. 렌터카회사 전화해서 상황설명 대안제시\n#3. 렌트하게 위해 전화 3-4개질문 - 원하는차가 불가하다함, 렌터카회사 전화해서그차가 꼭 필요하다고 말하고 대안제시",
+      "number": "",
+      "cell": "A16",
+      "gid": 329939628
+    },
+    {
+      "id": "olivia-329939628-17-1",
+      "category": "롤플레이",
+      "topic": "여행(minor)",
+      "text": "#1 외국사는친구(지형묻기)-못감 / #2 항공지연 - 미팅못감 / #3 차량고장 - 미팅못감 /#4미국여행다녀온친구 -약속",
+      "number": "",
+      "cell": "A17",
+      "gid": 329939628
+    },
+    {
+      "id": "olivia-329939628-17-5",
+      "category": "롤플레이",
+      "topic": "기차표예매",
+      "text": "원본에 주제만 등록되어 있습니다.",
+      "number": "",
+      "cell": "E17",
+      "gid": 329939628
+    },
+    {
+      "id": "olivia-329939628-18-5",
+      "category": "롤플레이",
+      "topic": "해외 폰사용",
+      "text": "원본에 주제만 등록되어 있습니다.",
+      "number": "",
+      "cell": "E18",
+      "gid": 329939628
+    },
+    {
+      "id": "olivia-329939628-19-1",
+      "category": "롤플레이",
+      "topic": "공연",
+      "text": "11. 공연예매위해 box office 전화 3-4개질문\n12. 공연 당일날 아파서 못갈거같음, 친구에게 전화해서 상황설명 대안제시",
+      "number": "",
+      "cell": "A19",
+      "gid": 329939628
+    },
+    {
+      "id": "olivia-329939628-19-5",
+      "category": "롤플레이",
+      "topic": "식당(친구)",
+      "text": "원본에 주제만 등록되어 있습니다.",
+      "number": "",
+      "cell": "E19",
+      "gid": 329939628
+    },
+    {
+      "id": "olivia-329939628-20-1",
+      "category": "롤플레이",
+      "topic": "친구약속",
+      "text": "11. 친구와 주말에 만날약속잡기위해 전화, 3-4개질문\n12. 약속에 못갈거 같음,  친구에게 전화해서 상황설명 대안제시",
+      "number": "",
+      "cell": "A20",
+      "gid": 329939628
+    },
+    {
+      "id": "olivia-329939628-20-5",
+      "category": "롤플레이",
+      "topic": "자전거빌리기",
+      "text": "원본에 주제만 등록되어 있습니다. (원본 체크: v)",
+      "number": "",
+      "cell": "E20",
+      "gid": 329939628
+    },
+    {
+      "id": "olivia-329939628-21-1",
+      "category": "롤플레이",
+      "topic": "공원",
+      "text": "11. 친구가공원가고 싶어함, 전화해서 3-4개 질문\n12-1. 그 공원이 주말에 공사로 문닫음, 친구에게 전화해서 상황설명 대안제시 \n12-2. 1시간후에 친구 픽업해서 공원가기로 했는데, 못감. 친구에게 전화해서 상황설명 대안제시",
+      "number": "",
+      "cell": "A21",
+      "gid": 329939628
+    },
+    {
+      "id": "olivia-329939628-21-5",
+      "category": "롤플레이",
+      "topic": "산업리포트",
+      "text": "원본에 주제만 등록되어 있습니다.",
+      "number": "",
+      "cell": "E21",
+      "gid": 329939628
+    },
+    {
+      "id": "olivia-329939628-22-1",
+      "category": "롤플레이",
+      "topic": "해변",
+      "text": "11. 친구에게 해변가자고 얘기하고 3-4개 질문\n12. 당일 날씨가 안좋아서 못갈것같음, 친구에게 전화해서 상황설명 대안제시",
+      "number": "",
+      "cell": "A22",
+      "gid": 329939628
+    },
+    {
+      "id": "olivia-329939628-23-1",
+      "category": "롤플레이",
+      "topic": "파티",
+      "text": "11. 친구파티 (holiday meal , party 등 )초대받음, 전화해서 3-4개질문\n12. 차사고나서 못감, 전화해서 상황설명 대안제시 \n\n11. 친구동네 celebration 초대받음 전화해서 3-4개질문\n12. 수도관파열, 못감, 다른때로 약속다시잡기 \n\n11. 친구가 파티준비 도와달라함, 전화해서 3-4개질문\n12. 파티 전 주에 바쁠예정, 친구에게 전화해서 상황설명 대안제시 \n\n11. 내가 파티 열 예정, 가족에게 전화해서  3-4개 질문 (동의 구하고 도움요청 )\n11. 내가 파티 열 예정, 친구커플 초대하기 위해 일정기등 3-4개 질문 \n12. 파티 전 가족한명이 아픔, 친구에게 전화해서 상황설명 대안제시",
+      "number": "",
+      "cell": "A23",
+      "gid": 329939628
+    },
+    {
+      "id": "olivia-329939628-24-1",
+      "category": "롤플레이",
+      "topic": "신규 (free time, hobby)",
+      "text": "11. 친구에게 프리타임에 어떤 hobby를 하는지 묻기 \n12. 약속에 못갈거 같음,  친구에게 전화해서 상황설명 대안제시",
+      "number": "",
+      "cell": "A24",
+      "gid": 329939628
+    }
+  ],
+  "sheets": [
+    {
+      "title": "돌발 ",
+      "gid": 1769715111,
+      "rows": [
+        [
+          "돌발 (일반 콤보세트 ) "
+        ],
+        [],
+        [
+          "돌발",
+          "phone ",
+          "internet ",
+          "tech",
+          "phone call ",
+          "appointment",
+          "hair shop - 신규추가 (완벽복원X) ",
+          " 치과-신규추가 (완벽복원X) "
+        ],
+        [
+          "1",
+          "당신 폰에서 좋아하는것 (주로 하는것) ",
+          "사람들(지인)이 주로 하는것(people)  ",
+          "사람들이 많이쓰는기기(people)",
+          "친구들과 전화통화할때 하는 얘기들  ",
+          "당신은 주로 어떤예약을 하는지",
+          "한국의 헤어샵 ",
+          "당신이 가는 치과 묘사 "
+        ],
+        [
+          "2",
+          "첫 폰(어릴때)vs 지금 폰비교",
+          "당신이 주로 하는것  (you) youtube ",
+          "당신이 많이 쓰는기기 (you) cellie",
+          "지금쓰는 전화기 선택이유  - phone3 고장경험 ",
+          "예약하는 방법 절차 -app",
+          "좋아하는 헤어스타일  -skip ",
+          "어떻게 예약하는지 -app "
+        ],
+        [
+          "3",
+          "폰관련 기억에 남는 경험  (phone 3) ",
+          "초창기인터넷(phone 14) ",
+          "과거 vs 현재 tech 비교 (어릴때(첫폰) vs 지금 폰 ",
+          "통화루틴 - skip",
+          "어릴때 기억에 남는 예약경험 -어릴때 치과경험",
+          "헤어디자이너 어떻게 만났는지? ",
+          "어릴때 경험 - 치과 "
+        ],
+        [
+          "4",
+          "",
+          "",
+          "tech 기기 사용문제 경험 (phone 3) ",
+          "기억에 남는 통화 - skip ",
+          "최근 기억에 남는 예약관련 경험 -미용실 예약오류",
+          "헤어샵갈때 예약 어떻게 하는지 -app",
+          "기억에 남는 경험  -예약 오류 활용 "
+        ],
+        [
+          "5",
+          "",
+          "주로 인터넷으로 보는 동영상 -youtube",
+          "",
+          "",
+          "",
+          "마지막 헤어샵 같을때 -미용실 예약오류"
+        ],
+        [
+          "6",
+          "",
+          "인터넷으로 본것중 기억에 남는것 - drama clips / netflix",
+          "."
+        ],
+        [
+          "",
+          "",
+          "어제 인터넷으로 한것 -쿠팡  , car navigation  / searched  something on Google. ",
+          "."
+        ],
+        [
+          "돌발",
+          "recycling",
+          "geography ",
+          "gathering",
+          "festival ",
+          "holiday (명절)",
+          "family and friend",
+          "freetime (여가시간) "
+        ],
+        [
+          "1",
+          "한국의 재활용",
+          "1 한국의 지형",
+          "한국의 모임, 파티/당신의모임파티",
+          "동네에 어떤 이벤트가 열리는지 , 가본적이 있는지 ",
+          "한국의 홀리데이",
+          "자주보는 친구, 가족 (2명) ",
+          "한국사람들이 자유시간 가는장소 - 공원 ,home ,shopping.."
+        ],
+        [
+          "2",
+          "당신의 재활용 (plastics) - 집 Q6 (routine/ 집안일) ",
+          "2 한국사람들의 야외활동 - (공원, 해변.. ) ",
+          "최근 모임(도와준것) -case",
+          "커뮤니티 이벤트에서 주로 어떤 activities 를 하는지 ",
+          "홀리데이 하나 자세히 (떡국, 음식) [-보류 skip] ",
+          "친구 가족과 주로하는 일 (집휴가 활용) ",
+          "한국사람들이 자유시간 하는일 -공원-picnic/shopping"
+        ],
+        [
+          "3",
+          "기억에 남는 재활용 got a cut or skip",
+          "3 어릴때 갔던 지형이 기억에 남는 장소  (국내Q2 -어릴때)",
+          "기억에 남는 모임  -case",
+          "기억에 남는 페스티벌 ",
+          "어릴때 홀리데이 -case",
+          "최근에 친구,가족과 한일 -case",
+          "자유시간 과거현재비교(more or less) : 집휴가 14 "
+        ],
+        [
+          "4",
+          "재활용 과거 vs 현재 (systematically]",
+          "4 기억에 남는 장소(natural) -국내 1 / 인경험 ",
+          "",
+          "",
+          "기억에 남는 홀리데이 -case",
+          "친구,가족 방문기억에 남는일  -case",
+          "기억에 남는 자유시간 -case"
+        ],
+        [],
+        [
+          "",
+          "",
+          "1-1 이웃국가 묘사 /사람들"
+        ],
+        [
+          "",
+          "",
+          "2-1 지난 10년간(Decade) 바뀐것 한분야 자세히 - 국내 Q14 "
+        ],
+        [
+          "",
+          "",
+          "3-1 어릴때  갔던 지형이 기억에 남는 장소 (국내 Q2 -활용) "
+        ],
+        [
+          "돌발",
+          " health",
+          "food",
+          "restaurant ",
+          "industry ",
+          "work place",
+          "business ",
+          "bank"
+        ],
+        [
+          "1",
+          "건강한 음식, 식습관  / 건강한 사람묘사   (veggies, protein intake, carbs, less sodium.._",
+          "한국에서 인기있는 음식  - 치킨 ",
+          "식당1  -치킨",
+          "젊은이들이 가고픈 회사 -삼성 / SK  / semiconductor",
+          "당신나라의 work place 묘사해봐  - 사무실 (분위기) ",
+          "너희나라 비즈니스는 어떤것들이 있는지 (semi-conductor)",
+          "한국의 은행 "
+        ],
+        [
+          "2",
+          "건강을 위해서 새롭게 하게된것, 하는것  (계기 - 운동/ 식습관) ",
+          "당신이 먹는 일상음식  - 건강하게 먹는다 \"건강1 or 2 활용\"",
+          "식당2  -외국음식파는 식당 - 메뉴 위주 (선택  ) ",
+          "attractive 한 회사, 삼성AGAINgrowth journey ",
+          "work place 과거 현재 변화 -AI : email.. 등등 ",
+          "그중한가지 자세히  (industry 활용 )- semi-conductor / samsung  - growth journey ",
+          "당신이 은행에서 하는일들"
+        ],
+        [
+          "3",
+          "건강 과거 vs 현재   (건강신경 X -> health conscious : more options / organic, supplements) ",
+          "어릴때 먹었던 음식관련 경험  - (식당2 하이디라오 타이레스토랑, 차이니즈, 버거킹,, ) ",
+          "바쁜직장인들 -쿠팡이츠 (feat. Cafeteria) ",
+          "커리어를 위해 한것  English /  in person  -> online",
+          "당신의 first job  - 삼성 - 산업1 ",
+          "너희나라 비즈니스 과거 현재 비교 - 쇼핑 /교육(오프라인 -> 온라인)",
+          "은행 과거 vs 현재"
+        ],
+        [
+          "4",
+          "식료품점  쿠팡FRESH  or 롯벡 ",
+          "최근 음식관련, 식사관련 경험  case",
+          "음식관련 경험 case",
+          "",
+          "",
+          "",
+          "기억에 남는 은행경험(ATM)"
+        ],
+        [
+          "5",
+          "음식관련 경험 case",
+          "",
+          "음식점갈때 순서  - research / youtube /app",
+          "한국의 rising 산업 삼성 / SK  / semiconductor"
+        ],
+        [
+          "",
+          "",
+          "",
+          "과거 vs 현재 음식점 다른점  - 인트로잡고, 쿠팡이츠 ",
+          "그산업의 유명한 기업 -삼성AGAIN.  growth journey "
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "그 기업의 난관극복, 어려움  - 갤럭시 폴드 "
+        ],
+        [
+          "5",
+          "",
+          "",
+          "",
+          "그산업이 가져오는 benefit -skip"
+        ],
+        [
+          "돌발",
+          "hotel ",
+          "transportation ",
+          "weather ",
+          "fashion ",
+          "furniture "
+        ],
+        [
+          "1",
+          "한국의 호텔 ",
+          "한국의 교통수단",
+          "한국의 사계절 ",
+          "한국의 패션스타일 (  trendy -> SEASONAL :날씨활용) ",
+          "너희집 가구, 좋아하는가구  (가전헷갈리지 않기 TV X) "
+        ],
+        [
+          "2",
+          "최근호텔경험",
+          "당신의 교통수단 -commuter bus /bus only lanes ",
+          "오늘 날씨 ",
+          "당신이 좋아하는 패션스타일",
+          "각 가구 사용용도 -skip"
+        ],
+        [
+          "3",
+          "기억에 남는 호텔경험 ",
+          "교통수단 과거(어릴때)  vs 현재 (국내여행 14 활용KTX/ phone)",
+          "날씨 과거 vs 현재",
+          "당신의 옷쇼핑 (where/how)",
+          "어릴때 가구 vs 지금가구 간단히 ( 본인부분 : 4-5줄) "
+        ],
+        [
+          "",
+          "",
+          "기억에 남는 경험 -case",
+          "날씨관련경험 -case",
+          "패션 과거 vs 현재  - 본인예시 꼭 넣어서 연습. "
+        ],
+        [
+          "4",
+          "호텔 갈때 하는것들 - routine, research ",
+          "",
+          "",
+          "기억에 남는 쇼핑 경험 ",
+          "가구관련 경험 - 쇼핑 white-beige "
+        ],
+        [
+          "돌발 1415 issue 문제 "
+        ],
+        [
+          "",
+          "phone ",
+          "tech",
+          "internet",
+          "health",
+          "food",
+          "restaurant"
+        ],
+        [
+          "14",
+          "1)과거 vs 현재 (5년전과폰비교) :  Tech + AI\n\n2)과거 vs 현재 (phone 검색관련) : Tech + AI\n",
+          "1)과거 현재 변화 (어릴때 vs 지금 ) - phone Q2 (첫폰)\n\n2)과거 현재 변화 +AI ",
+          "1)(14-1)security관련이슈 \n : Tech + AI + downside \n2)초창기 인터넷 vs 지금 -Portal \n(인터넷A 3활용))  +AI",
+          "\n과거 vs 현재 -건강비교  (건강 3활용 )",
+          "\n과거 vs 현재 (food shopping) - 쿠팡\n big supermarket, traditional market \n-> DO online shoppoing / mobile shopping ",
+          "1)외식문화변화 -health conscious\n2)식당들의 변화\n3)테잌아웃식당의 건강식판매이유"
+        ],
+        [
+          "15",
+          "1)face to face talk -문제 : Tech + AI\n\n2)폰으로 검색했던 최근이슈, 뉴스\nsmombie or Housing market or 후쿠시마,공원이슈 ",
+          "Tech + AI  : issue - concern ",
+          "1)(15-1)세대간 차이  :  부모님과 나의 문제 해결차이 \n\n2)최근 인터넷 관련 이슈, 우려-  Tech + AI",
+          "건강이슈(news) -후쿠시마 방사능 ",
+          "식품오염사건(news) - -후쿠시마 방사능)",
+          "1)딜리버리방법 - 쿠팡이츠 \n2)식당선택시 중요시characteristic -  taste / atmostphere / waiting. \n3) 체인 vs 로컬  (거의 skip) -youtube-review"
+        ],
+        [
+          "",
+          "gathering ",
+          "recycling",
+          "geography ",
+          "industry ",
+          "business",
+          "work place "
+        ],
+        [
+          "14",
+          "모임비교 : 둘다 변화없다  - 예시 \n1)큰도시 vs 작은도시 \n2)과거 vs 현재 ",
+          "\n과거vs 현재 (재활용 4 활용) ",
+          "14)이웃국가외교관련( visa-free for chinese ) \n14-1)이웃국가 최근 변화 이웃국가외교관련 \n(일본여행 : Japanses Yen ) ",
+          "\n1)커리어를 위해 사람들이 하는것 (과거 현재) -Aset Q3 활용 \n2)한국사람들이(you) 관심있는 산업 (3년전 지금 비교)  - tech AI \n3)기대이하 상품 -갤럭시폴드  B set Q3 번활용 ",
+          "너희나라 비즈니스 과거 현재 비교 - 쇼핑 /교육(오프라인 -> 온라인)",
+          "과거 현재 변화   AI "
+        ],
+        [
+          "15",
+          "모임관련 이슈, 컨선  trash (공원 15 활용) ",
+          "리싸이클링 News - trash (공원 15 활용) ",
+          "15) 이웃국가관련 역사적 사건  (후쿠시마 )\n15-1) 이웃국가의 최근 뉴스 (후쿠시마) ",
+          "",
+          "부정부패 (지위를 이용한 부당한일 이슈 ) - 보류 ",
+          "profession의 변화   AI  - 관련 직업들이 늘고 있다. "
+        ],
+        [
+          "신규 ",
+          "friends and family ",
+          "Festival ",
+          "weather ",
+          "free time "
+        ],
+        [
+          "14",
+          "친구or 가족 2명비교",
+          "커뮤니티 이벤트 과거 현재 비교",
+          "과거 현재 날씨비교 ",
+          "과거 현재 프리타임 비교 : 집 휴가 14번 활용 "
+        ],
+        [
+          "15",
+          "친구or 가족과 하는얘기 \ninvestments, stock market /netflix \nsocial issues - housing market / 후쿠시마",
+          "커뮤티니 이벤트 -social media \nyoutube/instant",
+          "날씨관련 뉴스 - 강릉 water outage ",
+          "테크놀로지발전과 프리타임 변화 \nAl 1415 활용가능 "
+        ],
+        [
+          "",
+          "",
+          "",
+          " "
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+          "",
+          "",
+          "",
+          "freetime ",
+          "gathering",
+          "holiday (명절)",
+          "family and friend"
+        ],
+        [
+          "",
+          "",
+          "",
+          "한국사람들이 자유시간 가는장소 - 공원 ,home ,shopping..",
+          "한국의 모임, 파티/당신의모임파티",
+          "한국의 홀리데이",
+          "자주보는 친구, 가족 (2명) "
+        ],
+        [
+          "",
+          "",
+          "",
+          "한국사람들이 자유시간 하는일 -공원-picnic/shopping",
+          "최근 모임(도와준것) -case",
+          "홀리데이 하나 자세히 (떡국, 음식) [-보류",
+          "친구 가족과 주로하는 일 (집휴가 활용) "
+        ],
+        [
+          "",
+          "",
+          "",
+          "자유시간 과거현재비교(more or less) : 집휴가 14 ",
+          "기억에 남는 모임  -case",
+          "어릴때 홀리데이 -case",
+          "최근에 친구,가족과 한일 -case"
+        ],
+        [
+          "",
+          "",
+          "",
+          "기억에 남는 자유시간 -case",
+          "",
+          "기억에 남는 홀리데이 -case",
+          "친구,가족 방문기억에 남는일  -case"
+        ]
+      ]
+    },
+    {
+      "title": "서베이 ",
+      "gid": 1802694767,
+      "rows": [
+        [
+          "",
+          "음악 123 /142",
+          "집 123/145/162(3,4)",
+          "집휴가 123/ 134",
+          "국내여행 123/142",
+          "해외여행 123/142",
+          "해변 123 /134",
+          "쇼핑124/145/234/245",
+          "공원 123/134",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "해외여행 123/142/1-1/4/2"
+        ],
+        [
+          "1",
+          "좋아하는장르+가수",
+          "집소개, 좋아하는 공간",
+          "집휴가때 만나고싶은사람들 - family, myself (유툽채널)",
+          "좋아하는 국내여행지",
+          "해외여행지가본곳 + 현지인\n(한국사람들이 좋아하는여행지1-1)",
+          "좋아하는 해변 (서해) ",
+          "한국사람의 쇼핑몰 -롯데",
+          "자주가는 공원묘사 "
+        ],
+        [
+          "2",
+          "어릴때-현재 취향변화",
+          "어릴때-현재 집변화",
+          "만나는 사람들이랑 하고 싶은 것 - 친구수다",
+          "어릴때 여행경험",
+          "첫해외여행 (국내Q2 활용) ",
+          "해변에서하는 activities",
+          "당신은언제어디서 주로 쇼핑\n쿠팡 ( online)",
+          "당신이공원가면 하는것들"
+        ],
+        [
+          "3",
+          "라이브뮤직경험",
+          "집에변화준것 한가지자세히",
+          "지난휴가 첫날-마지막날 - 넷플릭스 영화 , tv show ",
+          "기억에 남는 여행경험  case ",
+          "기억에 남는 해외여행 - case ",
+          "아름다운 해변 경험",
+          "쇼핑하기전후루틴(typical)\nresearch -> shop -> get a bite",
+          "최근공원갔던경험 case "
+        ],
+        [
+          "4",
+          "언제어디서 무엇으로 듣는지",
+          "집에있었던 여러가지 문제들 ",
+          "기억에남는 집휴가 - case ",
+          "여행가기전 준비",
+          "해외여행지에서 하는일들 \n(activities / doing~) ",
+          "기억에 남는 해변 경험 Case",
+          "어릴때 쇼핑경험 - 본인것 ( 시장, 이마트 ) ",
+          "기억에남는 공원경험 case"
+        ],
+        [
+          "5",
+          "",
+          "문제한가지 골라서 자세히",
+          "",
+          "",
+          "",
+          "",
+          "기억에 남는 쇼핑경험 \n구매, 문제, 해결 "
+        ],
+        [
+          "6",
+          "",
+          "집에서 하는것 루틴 / 집안일 (정리전)"
+        ],
+        [
+          "",
+          "음악 ",
+          "집",
+          "집휴가",
+          "국내여행",
+          "해외여행",
+          "없음",
+          "쇼핑",
+          "공원 "
+        ],
+        [
+          "14",
+          "음악 2가지비교",
+          "부모님vs 나 문제해결방법차이",
+          "집휴가보내는 법 과거 vs 현재 ",
+          "여행이 지난 5년간어려워진점 ",
+          "해외여행 과거 vs 현재 비교 ",
+          "",
+          "쇼핑 과거 vs 현재 비교 (온라인)",
+          "공원2가지 비교 "
+        ],
+        [
+          "15",
+          "사람들이 관심있는music gadet",
+          "housing market problem ",
+          "휴가가 중요한 이유",
+          "여행관련 사람들의 컨선, 이슈  (money / overcrowding ) ",
+          "해외여행때 사람들이 관심있는것들",
+          "",
+          "사람들이 관심갖는 상품, 서비스",
+          "public park issue"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "가전"
+        ],
+        [
+          "14-1",
+          "",
+          "home style 과거-현재 비교",
+          "",
+          "",
+          "",
+          "",
+          "가전-집안일에 도움된것",
+          "공원에서 어린이vs 어른 비교 "
+        ],
+        [
+          "15-1",
+          "",
+          "housing 관련 이슈",
+          "",
+          "",
+          "",
+          "",
+          "가전 -modern appliance ",
+          "public park issue"
+        ],
+        [],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "공원 과거 vs 현재 "
+        ]
+      ]
+    },
+    {
+      "title": "롤플레이 ",
+      "gid": 329939628,
+      "rows": [
+        [
+          "Role play topic (중요) ",
+          "",
+          "",
+          "check ",
+          "Role play topic ",
+          "check "
+        ],
+        [
+          "가구",
+          "11. 가구점방문 3-4개 질문\n12. 가구에 문제있음. 전화해서 상황설명 대안제시 ",
+          "",
+          "",
+          "에바여행 "
+        ],
+        [
+          "옷가게 ",
+          "11. 옷가게방문 3-4개 질문\n12. 셔츠하나 잘못옴, 전화해서 상황설명 대안제시 ",
+          "",
+          "",
+          "재활용"
+        ],
+        [
+          "상점세일",
+          "11. 상점세일 사인봄 , 들어가서 세일관련 질문하기 \n12. 구매한 상품에 문제있음, 전화해서 상황설명 대안제시 ",
+          "",
+          "",
+          "은행"
+        ],
+        [
+          "폰구매",
+          "11. 폰 가게에 전화해서 새로운 폰 구매를 위한 3-4개 질문 \n12. 폰이 배송왔는데, features 가 다르다, 전화해서 상황설명 해결 ",
+          "",
+          "",
+          "인터넷웹싸이트 "
+        ],
+        [
+          "상점(친구)",
+          "11. 새로운 상점오픈, 잘아는 친구에게 전화해서 3-4개 질문\n12. 상점에 구입한 물건을 두고옴, 전화해서 상황설명 대안제시 ",
+          "",
+          "",
+          "이웃(신규)"
+        ],
+        [
+          "식당",
+          "11. 새로생긴 식당에 가기전에 전화해서 3-4개질문\n12. 식사후 지갑을 집에 두고온걸 알게됨. 식당직원에게 상황설명 대안제시 ",
+          "",
+          "",
+          "ID (신규)",
+          "v"
+        ],
+        [
+          "상점 minor",
+          "#1 store direction  /#2  healthy foodstore /#3 food store",
+          "",
+          "",
+          "잡지사 셀러브리티",
+          "v"
+        ],
+        [],
+        [
+          "MP3player",
+          "11. MP3 구매하기전, 이것에 대해 잘아는 친구에게 전화해서 질문 3-4개 \n12. 친구 MP3 고장냄, 친구에게 전화해서 상황자세히 설명, 대안제시 ",
+          "",
+          "",
+          "병원 "
+        ],
+        [
+          "부동산",
+          "11. 집을 구하기 위해 부동산에 전화해서 3-4개 질문\n12. 입주한집에 창문이 깨져있음, 창문수리점에 전화해서 상황설명, 오늘 꼭 고쳐야하는 이유 ",
+          "",
+          "",
+          "영양사"
+        ],
+        [
+          "친척집 ",
+          "11. 친척이 여행을가는 동안 그집을 봐주기로함, 전화해서 관련 질문 3-4개 하기 \n12. 친척집에 도착했는데, 있어야할곳 에 key가 없음, (호텔에 머물고 있는) 친척에게 전화해서 메시지 남기기",
+          "",
+          "",
+          "헬스장 "
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "헤어샵 "
+        ],
+        [
+          "여행",
+          "11. 여행사에 전화해서 여행관련 3-4개 질문\n12-1. 비행기 캔슬, 다른비행기들 fully booked 여행사에 전화해서 상황설명 대안제시 \n12-2. Non-refundable 티켓인데, 못갈거 같음. 여행사에 전화해서 상황설명 대안제시 \n12-3. 원하는 날짜에 여행불가하다함, 친구에게 전화해서 상황설명 대안제시 메시지남기기",
+          "",
+          "",
+          "면접 "
+        ],
+        [
+          "호텔",
+          "#1. 호텔현장예약  - 방없음 일행에게 전화해서 상황설명 대안제시 메시지 \n#2. 호텔전화예약 - 방이 좁고 더러움, 프론트데스크에 전화해서 상황설명 대안제시 \n#3. 외국호텔전화해서 날씨묻기 - 여행지 날씨가 예상과다름. 옷구매위해 옷가게 전화\n#4. 프리타임에 할것에 대해 호텔 프론트에가서문의  - 택시에 가방두고 내림, 전화 상황설명 대안제시\n#5. 비지니스트립위해 호텔예약전화  - 일이생겨 출장못갈거같은, Boss에게 전화 상황설명 대안제시  ",
+          "",
+          "",
+          "신규(출근첫날)"
+        ],
+        [
+          "렌터카",
+          "#1. 뉴욕방문중, 렌터카회사방문 3-4개 질문 - Non-us 면허증, valid함 설명 \n#2. 렌트하게 위해 전화 3-4개질문 - 받은차에 문제가 많음. 렌터카회사 전화해서 상황설명 대안제시\n#3. 렌트하게 위해 전화 3-4개질문 - 원하는차가 불가하다함, 렌터카회사 전화해서그차가 꼭 필요하다고 말하고 대안제시 "
+        ],
+        [
+          "여행(minor)",
+          "#1 외국사는친구(지형묻기)-못감 / #2 항공지연 - 미팅못감 / #3 차량고장 - 미팅못감 /#4미국여행다녀온친구 -약속",
+          "",
+          "",
+          "기차표예매"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "해외 폰사용"
+        ],
+        [
+          "공연",
+          "11. 공연예매위해 box office 전화 3-4개질문\n12. 공연 당일날 아파서 못갈거같음, 친구에게 전화해서 상황설명 대안제시 ",
+          "",
+          "",
+          "식당(친구)"
+        ],
+        [
+          "친구약속",
+          "11. 친구와 주말에 만날약속잡기위해 전화, 3-4개질문\n12. 약속에 못갈거 같음,  친구에게 전화해서 상황설명 대안제시 ",
+          "",
+          "",
+          "자전거빌리기",
+          "v"
+        ],
+        [
+          "공원",
+          "11. 친구가공원가고 싶어함, 전화해서 3-4개 질문\n12-1. 그 공원이 주말에 공사로 문닫음, 친구에게 전화해서 상황설명 대안제시 \n12-2. 1시간후에 친구 픽업해서 공원가기로 했는데, 못감. 친구에게 전화해서 상황설명 대안제시 ",
+          "",
+          "",
+          "산업리포트"
+        ],
+        [
+          "해변 ",
+          "11. 친구에게 해변가자고 얘기하고 3-4개 질문\n12. 당일 날씨가 안좋아서 못갈것같음, 친구에게 전화해서 상황설명 대안제시 "
+        ],
+        [
+          "파티",
+          "11. 친구파티 (holiday meal , party 등 )초대받음, 전화해서 3-4개질문\n12. 차사고나서 못감, 전화해서 상황설명 대안제시 \n\n11. 친구동네 celebration 초대받음 전화해서 3-4개질문\n12. 수도관파열, 못감, 다른때로 약속다시잡기 \n\n11. 친구가 파티준비 도와달라함, 전화해서 3-4개질문\n12. 파티 전 주에 바쁠예정, 친구에게 전화해서 상황설명 대안제시 \n\n11. 내가 파티 열 예정, 가족에게 전화해서  3-4개 질문 (동의 구하고 도움요청 )\n11. 내가 파티 열 예정, 친구커플 초대하기 위해 일정기등 3-4개 질문 \n12. 파티 전 가족한명이 아픔, 친구에게 전화해서 상황설명 대안제시 "
+        ],
+        [
+          "신규 (free time, hobby)",
+          "11. 친구에게 프리타임에 어떤 hobby를 하는지 묻기 \n12. 약속에 못갈거 같음,  친구에게 전화해서 상황설명 대안제시 "
+        ]
+      ]
+    }
+  ]
+}

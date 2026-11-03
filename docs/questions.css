@@ -1,0 +1,24 @@
+.question-eyebrow { color: var(--primary); font-size: .7rem; letter-spacing: .12em; font-weight: 700; margin-bottom: 10px; }
+main h2 { font-size: 1.55rem; margin-bottom: 12px; }
+.question-overview { background: var(--primary); color: white; padding: 20px; border-radius: var(--radius); margin: 20px 0; }
+.question-overview strong { font-size: 1.15rem; }
+.question-overview p { margin-top: 8px; font-size: .85rem; }
+.question-check { display: flex; gap: 8px; align-items: center; font-size: .85rem; margin: 14px 0; }
+.question-card { border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface); padding: 16px; margin-bottom: 12px; scroll-margin-top: 76px; }
+.question-meta { color: var(--primary); font-size: .75rem; margin-bottom: 10px; overflow-wrap: anywhere; }
+.question-text { white-space: pre-wrap; overflow-wrap: anywhere; font-size: .95rem; line-height: 1.7; }
+.question-card summary { cursor: pointer; color: var(--primary); font-size: .85rem; padding: 14px 0; }
+.question-card textarea { min-height: 110px; }
+.question-card .question-check { margin-bottom: 0; }
+.question-card:has(input:checked) { border-color: var(--green); }
+#question-practice { padding: 14px; background: #eff6ff; border-radius: var(--radius); margin-bottom: 20px; }
+#question-practice h3 { margin-bottom: 12px; font-size: 1rem; }
+#question-original { border-top: 1px solid var(--border); padding: 20px 0; margin-top: 28px; }
+#question-original summary { cursor: pointer; margin-bottom: 15px; }
+.original-scroll { overflow: auto; max-height: 420px; margin: 12px 0 24px; }
+.original-scroll table { border-collapse: collapse; font-size: .75rem; }
+.original-scroll td, .original-scroll th { border: 1px solid var(--border); padding: 8px; min-width: 150px; white-space: pre-wrap; vertical-align: top; }
+.original-scroll th { min-width: 36px; background: var(--bg); }
+.question-source { display: inline-block; font-size: .75rem; margin-top: 12px; color: var(--text-muted); }
+.question-storage-status { color: var(--red); }
+button:disabled { opacity: .5; cursor: default; }

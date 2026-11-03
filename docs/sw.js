@@ -1,5 +1,5 @@
-const SHELL_CACHE = 'opic-shell-v27';
-const SHELL = ['./', 'index.html', 'app.js', 'style.css', 'manifest.json', 'icon.svg', 'opic-personal-workbook.md'];
+const SHELL_CACHE = 'opic-shell-v28';
+const SHELL = ['./', 'index.html', 'app.js', 'style.css', 'manifest.json', 'icon.svg', 'opic-personal-workbook.md', 'questions.html', 'questions.js', 'questions.css', 'data/olivia-questions.json'];
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(SHELL_CACHE).then(cache => Promise.all(SHELL.map(async path => {
@@ -14,8 +14,6 @@ self.addEventListener('activate', e => {
   e.waitUntil(
     caches.keys().then(keys => Promise.all(keys.filter(k => k !== SHELL_CACHE).map(k => caches.delete(k))))
       .then(() => self.clients.claim())
-      .then(() => self.clients.matchAll({ type: 'window' }))
-      .then(clients => Promise.all(clients.map(client => client.navigate(client.url))))
   );
 });
 

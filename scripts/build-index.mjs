@@ -1,8 +1,9 @@
 import { readdir, readFile, writeFile } from 'fs/promises';
 import { join } from 'path';
+import { fileURLToPath } from 'url';
 
-const LESSONS_DIR = new URL('../docs/data/lessons', import.meta.url).pathname;
-const INDEX_FILE = new URL('../docs/data/index.json', import.meta.url).pathname;
+const LESSONS_DIR = fileURLToPath(new URL('../docs/data/lessons', import.meta.url));
+const INDEX_FILE = fileURLToPath(new URL('../docs/data/index.json', import.meta.url));
 
 const files = (await readdir(LESSONS_DIR)).filter(f => f.endsWith('.json')).sort().reverse();
 
